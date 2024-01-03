@@ -20,26 +20,39 @@
                 </div>
                 <div class="row justify-content-center">
                     <div class="col-10 col-sm-8 col-md-7">
+
                         <div class="text-center mb-5 radio-box-wrap billingCycle">
+
                             <div class="single-radio-box">
                                 <input name="billingPlan" id="monthly-plan" value="monthly" class="radio" type="radio" checked>
-                                <label for="monthly-plan"><span class="custom-check"></span> Monthly</label>
+                                <label for="monthly-plan"><span class="custom-check"></span>1 Month</label>
                             </div>
                             <div class="single-radio-box">
                                 <input name="billingPlan" id="yearly-plan" value="yearly" class="radio" type="radio">
-                                <label for="yearly-plan"><span class="custom-check"></span> Yearly</label>
+                                <label for="yearly-plan"><span class="custom-check"></span>3 Month</label>
                             </div>
                             <div class="single-radio-box">
                                 <input name="billingPlan" id="biannual-plan" value="biannual" class="radio" type="radio">
-                                <label for="biannual-plan"><span class="custom-check"></span> Biannual</label>
+                                <label for="biannual-plan"><span class="custom-check"></span>6 Month</label>
+                            </div>
+
+                            <div class="single-radio-box">
+                                <input name="billingPlan" id="yearly-plan" value="monthly" class="radio" type="radio" checked>
+                                <label for="monthly-plan"><span class="custom-check"></span>Yearly</label>
                             </div>
                             <div class="single-radio-box">
-                                <input name="billingPlan" id="triennial-plan" value="triennial" class="radio" type="radio">
-                                <label for="triennial-plan"><span class="custom-check"></span> Triennial</label>
+                                <input name="billingPlan" id="monthly-plan" value="yearly" class="radio" type="radio">
+                                <label for="yearly-plan"><span class="custom-check"></span>2 Year</label>
+                            </div>
+                            <div class="single-radio-box">
+                                <input name="billingPlan" id="biannual-plan" value="biannual" class="radio" type="radio">
+                                <label for="biannual-plan"><span class="custom-check"></span>3 Year</label>
                             </div>
                         </div>
                     </div>
                 </div>
+
+                
                 <div class="row align-items-center justify-content-between">
                     <div class="col-lg-4 col-md-4 col-12">
                         <div class="card text-center single-pricing-pack">
@@ -131,6 +144,263 @@
             </div>
         </section>
         <!--pricing with switch section end-->
+
+         <!--compare provider table start-->
+         <section class="compare-provider-table ptb-100 gray-light-bg">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-9 col-lg-8">
+                        <div class="section-heading text-center mb-5">
+                            <h2>HostLar head to head comparison</h2>
+                            <p class="lead">
+                                Globally incubate next-generation e-services via state of the art technology. Appropriately
+                                iterate quality.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 col-lg-12">
+                        <div class="table-responsive">
+                            <table class="table w-100 table-hover table-bordered table-striped comparision-table text-center">
+                                <thead class="comparision-table-head">
+                                    <tr>
+                                        <td class="td-blank"></td>
+                                        <th class="primary-bg text-white provider-logo">
+                                            <img alt="hostlar-logo" src="@/assets/img/logo-white.png" class="img-fluid" />
+                                        </th>
+                                        <th class="provider-logo">
+                                            <img alt="hostlar-logo" src="@/assets/img/clients-logo-01.png" class="img-fluid" />
+                                        </th>
+                                        <th class="provider-logo">
+                                            <img alt="hostlar-logo" src="@/assets/img/clients-logo-02.png" class="img-fluid" />
+                                        </th>
+                                        <th class="provider-logo">
+                                            <img alt="hostlar-logo" src="@/assets/img/clients-logo-03.png" class="img-fluid" />
+                                        </th>
+                                        <th class="provider-logo">
+                                            <img alt="hostlar-logo" src="@/assets/img/clients-logo-04.png" class="img-fluid" />
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody class="comparision-table-body">
+                                    <tr>
+                                        <td>
+                                            <p class="text-left">Starting From</p>
+                                        </td>
+                                        <td class="primary-bg text-white">
+                                            <strong>$2.95</strong>
+                                            <small>/month</small>
+                                        </td>
+                                        <td>
+                                            <strong>$5.99</strong>
+                                            <small>/month</small>
+                                        </td>
+                                        <td>
+                                            <strong>$6.99</strong>
+                                            <small>/month</small>
+                                        </td>
+                                        <td>
+                                            <strong>$9.99</strong>
+                                            <small>/month</small>
+                                        </td>
+                                        <td>
+                                            <strong>$7.99</strong>
+                                            <small>/month</small>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p class="text-left">SSD Only servers</p>
+                                        </td>
+                                        <td class="primary-bg text-white">
+                                            <span class="ti-check"></span>
+                                        </td>
+                                        <td>
+                                            <span class="ti-close text-danger"></span>
+                                        </td>
+                                        <td>
+                                            <span class="ti-close text-danger"></span>
+                                        </td>
+                                        <td>
+                                            <span class="ti-close text-danger"></span>
+                                        </td>
+                                        <td>
+                                            <span class="ti-check"></span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p class="text-left">RocketBooster</p>
+                                        </td>
+                                        <td class="primary-bg text-white">
+                                            <span class="ti-check"></span>
+                                        </td>
+                                        <td>
+                                            <span class="ti-close text-danger"></span>
+                                        </td>
+                                        <td>
+                                            <span class="ti-close text-danger"></span>
+                                        </td>
+                                        <td>
+                                            <span class="ti-close text-danger"></span>
+                                        </td>
+                                        <td>
+                                            <span class="ti-close text-danger"></span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p class="text-left">Let's Encrypt</p>
+                                        </td>
+                                        <td class="primary-bg text-white">
+                                            <span class="ti-check"></span>
+                                        </td>
+                                        <td>
+                                            <span class="ti-close text-danger"></span>
+                                        </td>
+                                        <td>
+                                            <span class="ti-close text-danger"></span>
+                                        </td>
+                                        <td>
+                                            <span class="ti-close text-danger"></span>
+                                        </td>
+                                        <td>
+                                            <span class="ti-close text-danger"></span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p class="text-left"> Cloudflare CDN Caching</p>
+                                        </td>
+                                        <td class="primary-bg text-white">
+                                            <span class="ti-check"></span>
+                                        </td>
+                                        <td>
+                                            <span class="ti-close text-danger"></span>
+                                        </td>
+                                        <td>
+                                            <span class="ti-close text-danger"></span>
+                                        </td>
+                                        <td>
+                                            <span class="ti-close text-danger"></span>
+                                        </td>
+                                        <td>
+                                            <span class="ti-close text-danger"></span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p class="text-left">SpamExperts</p>
+                                        </td>
+                                        <td class="primary-bg text-white">
+                                            <span class="ti-check"></span>
+                                        </td>
+                                        <td>
+                                            <span class="ti-close text-danger"></span>
+                                        </td>
+                                        <td>
+                                            <span class="ti-close text-danger"></span>
+                                        </td>
+                                        <td>
+                                            <span class="ti-close text-danger"></span>
+                                        </td>
+                                        <td>
+                                            <span class="ti-close text-danger"></span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p class="text-left">Web Application Firewall</p>
+                                        </td>
+                                        <td class="primary-bg text-white">
+                                            <span class="ti-check"></span>
+                                        </td>
+                                        <td> Paid</td>
+                                        <td> Paid</td>
+                                        <td> Paid</td>
+                                        <td>
+                                            <span class="ti-close text-danger"></span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p class="text-left">RocketBooster</p>
+                                        </td>
+                                        <td class="primary-bg text-white">
+                                            <span class="ti-check"></span>
+                                        </td>
+                                        <td>
+                                            <span class="ti-close text-danger"></span>
+                                        </td>
+                                        <td>
+                                            <span class="ti-close text-danger"></span>
+                                        </td>
+                                        <td>
+                                            <span class="ti-close text-danger"></span>
+                                        </td>
+                                        <td>
+                                            <span class="ti-close text-danger"></span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p class="text-left">Free Daily Backups</p>
+                                        </td>
+                                        <td class="primary-bg text-white">
+                                            <span class="ti-check"></span>
+                                        </td>
+                                        <td class="">
+                                            <span class="ti-close text-danger"></span>
+                                        </td>
+                                        <td> Paid</td>
+                                        <td>
+                                            <span class="ti-close text-danger"></span>
+                                        </td>
+                                        <td>
+                                            <span class="ti-close text-danger"></span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p class="text-left">Instant chat response</p>
+                                        </td>
+                                        <td class="primary-bg text-white">
+                                            <span class="ti-check"></span>
+                                        </td>
+                                        <td>
+                                            <span class="ti-close text-danger"></span>
+                                        </td>
+                                        <td>
+                                            <span class="ti-close text-danger"></span>
+                                        </td>
+                                        <td>
+                                            <span class="ti-close text-danger"></span>
+                                        </td>
+                                        <td>
+                                            <span class="ti-close text-danger"></span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p class="text-left">Multiple server location</p>
+                                        </td>
+                                        <td class="primary-bg text-white">
+                                            <strong>10</strong>
+                                        </td>
+                                        <td>2</td>
+                                        <td>3</td>
+                                        <td>2</td>
+                                        <td>2</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--compare provider table end-->
 
 </template>
 
