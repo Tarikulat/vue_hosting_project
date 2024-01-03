@@ -3,7 +3,7 @@
 </script>
 
 <template>
- <!-- <section class="promo-section ptb-80">
+  <section class="promo-section ptb-80">
             <div class="container">
 
                 <div class="row">
@@ -57,7 +57,7 @@
 
                 </div>
             </div>
-        </section> -->
+        </section> 
 
         <!--promo-section section end-->
 

@@ -1,4 +1,7 @@
-<script>
+<script setup>
+import { ref } from 'vue';
+
+const monthlyAmount = ref();
 
 </script>
 
@@ -37,12 +40,12 @@
                             </div>
 
                             <div class="single-radio-box">
-                                <input name="billingPlan" id="yearly-plan" value="monthly" class="radio" type="radio" checked>
-                                <label for="monthly-plan"><span class="custom-check"></span>Yearly</label>
+                                <input name="billingPlan" id="yearly-plan" value="yearly" class="radio" type="radio" checked>
+                                <label for="yearly-plan"><span class="custom-check"></span>Yearly</label>
                             </div>
                             <div class="single-radio-box">
-                                <input name="billingPlan" id="monthly-plan" value="yearly" class="radio" type="radio">
-                                <label for="yearly-plan"><span class="custom-check"></span>2 Year</label>
+                                <input name="billingPlan" id="monthly-plan" value="monthly" class="radio" type="radio">
+                                <label for="monthly-plan"><span class="custom-check"></span>2 Year</label>
                             </div>
                             <div class="single-radio-box">
                                 <input name="billingPlan" id="biannual-plan" value="biannual" class="radio" type="radio">
@@ -52,7 +55,7 @@
                     </div>
                 </div>
 
-                
+
                 <div class="row align-items-center justify-content-between">
                     <div class="col-lg-4 col-md-4 col-12">
                         <div class="card text-center single-pricing-pack">

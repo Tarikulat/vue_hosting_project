@@ -16,17 +16,17 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-6 col-lg-4">
+
+                   <div class="col-md-6 col-lg-4">
                         <div class="single-service-plane text-center rounded white-bg shadow-sm p-5 mt-md-4 mt-lg-4">
                             <img src="@/assets/img/icon-shared-hosting.svg" alt="shared hosting" class="img-fluid mb-4" width="45" />
                             <div class="service-plane-content">
-                                <h3 class="h5">Landing Page Hosting</h3>
-                                <p>Our most popular product! Shared Web Hosting gives you a fast SSD
-                                    storage hosting.</p>
+                                <h1 class="h5">Web Hosting</h1>
+                                <p>Enter your required specifications, and when the moment is right, snap up your offer!</p>
                             </div>
                             <div class="action-wrap mt-3">
-                                <p>Starting at: <strong>$2.59/mo</strong></p>
-                                <a href="#" class="btn-link">View Details <span class="fas fa-long-arrow-alt-right"></span></a>
+                                <p>Starting at<strong>$2.59/mo</strong></p>
+                                <a href="#" class="btn-link">LE'TS STARTED <span class="fas fa-long-arrow-alt-right"></span></a>
                             </div>
                         </div>
                     </div>
@@ -201,3 +201,10 @@
         </section>
         <!--technical specifications end-->
 </template>
+
+
+
+<style>
+
+
+</style>
