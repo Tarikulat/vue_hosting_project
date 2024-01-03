@@ -95,6 +95,92 @@
             </div>
         </section>
         <!--hero section with video backgroun page end-->
+
+        
+        <!--domain name block start-->
+        <div class="domain-name-block pt-100 mt--165">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-lg-12">
+                        <ul class="list-inline domain-list">
+                            <li class="list-inline-item white-bg custom-shadow">
+                                <a href="#">
+                                    <div class="single-domain">
+                                        <img src="@/assets/img/com.png" alt="domain" class="img-fluid" />
+                                        <div class="domain-price">
+                                            <h6 class="sell-price">$2.56 <span
+                                                    class="badge badge-danger text-uppercase">Sell</span></h6>
+                                            <span class="old-price">$29.95</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="list-inline-item white-bg custom-shadow">
+                                <a href="#">
+                                    <div class="single-domain">
+                                        <img src="@/assets/img/net.png" alt="domain" class="img-fluid" />
+                                        <div class="domain-price">
+                                            <h6 class="sell-price">$5.56 <span
+                                                    class="badge badge-danger text-uppercase">Sell</span></h6>
+                                            <span class="old-price">$49.99</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="list-inline-item white-bg custom-shadow">
+                                <a href="#">
+                                    <div class="single-domain">
+                                        <img src="@/assets/img/club.png" alt="domain" class="img-fluid" />
+                                        <div class="domain-price">
+                                            <h6 class="sell-price">$1.56 <span
+                                                    class="badge badge-danger text-uppercase">Sell</span></h6>
+                                            <span class="old-price">$19.00</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="list-inline-item white-bg custom-shadow">
+                                <a href="#">
+                                    <div class="single-domain">
+                                        <img src="@/assets/img/org.png" alt="domain" class="img-fluid" />
+                                        <div class="domain-price">
+                                            <h6 class="sell-price">$6.99 <span
+                                                    class="badge badge-danger text-uppercase">Sell</span></h6>
+                                            <span class="old-price">$59.95</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="list-inline-item white-bg custom-shadow">
+                                <a href="#">
+                                    <div class="single-domain">
+                                        <img src="@/assets/img/store.png" alt="domain" class="img-fluid" />
+                                        <div class="domain-price">
+                                            <h6 class="sell-price">$0.99 <span
+                                                    class="badge badge-danger text-uppercase">Sell</span></h6>
+                                            <span class="old-price">$4.99</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="list-inline-item white-bg custom-shadow">
+                                <a href="#">
+                                    <div class="single-domain">
+                                        <img src="@/assets/img/online.png" alt="domain" class="img-fluid" />
+                                        <div class="domain-price">
+                                            <h6 class="sell-price">$2.56 <span
+                                                    class="badge badge-danger text-uppercase">Sell</span></h6>
+                                            <span class="old-price">$29.95</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--domain name block end-->
 </template>
 
 <style>
