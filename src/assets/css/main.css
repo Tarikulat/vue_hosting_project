@@ -42,6 +42,10 @@ Author: https://themeforest.net/user/themetags
   --font-family-monospace:SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
 }
 
+.close:hover {
+  color: black;
+}
+
 .block-5-btm a {
   background: #000;
   color: #fff;
@@ -557,7 +561,7 @@ hr {
 
 /* line 6, src/assets/scss/vendors/bootstrap.min.css */
 .img-fluid {
-  max-width: 100%;
+  max-width: 90%;
   height: auto;
 }
 
@@ -51134,7 +51138,7 @@ strong, b {
 
 /* line 179, src/assets/scss/custom/_style.scss */
 .color-primary {
-  color: #035ded;
+  color: #f64f00;
 }
 
 /* line 183, src/assets/scss/custom/_style.scss */
@@ -51487,7 +51491,8 @@ select.form-control.has-value {
       -ms-flex-align: center;
           align-items: center;
   color: #575757;
-  font-size: 13px;
+  font-size: 16px;
+  font-weight: bold;
   line-height: 15px;
   font-family: Poppins, sans-serif;
 }
@@ -51639,10 +51644,11 @@ select.form-control.has-value {
 
 /* line 572, src/assets/scss/custom/_style.scss */
 .custom-nav-link {
-  font-size: 14px;
-  line-height: 16px;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 13px;
   font-family: 'Poppins', sans-serif;
-  font-weight: 500;
+  /* font-weight: 500; */
   color: #575757;
   position: relative;
 }
@@ -52091,10 +52097,11 @@ select.form-control.has-value {
 /* line 946, src/assets/scss/custom/_style.scss */
 .u-header__promo-title {
   display: block;
-  font-weight: 600;
+  /* font-weight: 600; */
   font-family: 'Poppins', sans-serif;
-  font-size: 14px;
-  line-height: 24px;
+  font-size: 17px;
+  line-height: 22px;
+  font-weight: bold;
 }
 
 /* line 954, src/assets/scss/custom/_style.scss */
@@ -52622,7 +52629,7 @@ svg.shape-bg, svg.promo-bg {
 /* line 1449, src/assets/scss/custom/_style.scss */
 .background-video-overly {
   /* background-image: -webkit-gradient(linear, left top, right top, from(rgba(3, 25, 116, 0.45)), to(rgba(25, 52, 167, 0.4))); */
-  background-image: linear-gradient(90deg, #bf2f11a8, rgb(198 19 19 / 43%));
+  background-image: linear-gradient(90deg, #f64f00e6, rgb(246 79 0 / 88%));
 }
 
 /*background bg slider*/
@@ -53209,7 +53216,7 @@ svg.shape-bg, svg.promo-bg {
   font-size: 35px;
   font-weight: 700;
   font-family: 'Poppins', sans-serif;
-  color: #035ded;
+  color: #f64f00;
 }
 
 /* line 1918, src/assets/scss/custom/_style.scss */
@@ -55814,7 +55821,7 @@ button.scroll-top:focus {
   color: #ffffff;
   text-align: center;
   cursor: pointer;
-  background: #035ded;
+  background: #f64f00;
   -webkit-transition: 1s ease;
   transition: 1s ease;
   border: none;

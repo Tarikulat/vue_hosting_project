@@ -1,6 +1,11 @@
 
-<script>
+<script setup>
+import { ref } from 'vue';
 
+const isOpen = ref();
+const isOpenModal = () =>{
+    isOpen.value = !isOpen.value;
+}
 </script>
 
 <template>
@@ -91,8 +96,7 @@
                                                     <div class="media">
                                                         <div class="menu-item-icon"><i class="fas fa-box"></i></div>
                                                         <div class="media-body">
-                                                            <span class="u-header__promo-title">Website Shared Hosting<span
-                                                                    class="badge badge-success ml-1">Popular</span></span>
+                                                            <span class="u-header__promo-title">Website Shared Hosting</span>
                                                             <small class="u-header__promo-text">Pefficiently maintain
                                                                 Starting at <strong>$11.99</strong></small>
                                                         </div>
@@ -106,47 +110,17 @@
                                                     <div class="media">
                                                         <div class="menu-item-icon"><i class="fas fa-tachometer-alt"></i></div>
                                                         <div class="media-body">
-                                                            <span class="u-header__promo-title">Advance E-commerce Hosting</span>
+                                                            <span class="u-header__promo-title">E-commerce Hosting<span
+                                                                    class="badge badge-success ml-1">Popular</span></span>
                                                             <small class="u-header__promo-text">Quickly build Starting at
                                                                 <strong>$150.99/mo</strong></small>
                                                         </div>
                                                     </div>
                                                 </a>
                                             </div>
-                                            <!--menu title with subtitle and icon item end-->
-                                            <!--menu title with subtitle and icon item start-->
-                                            <!-- <div class="title-with-icon-item">
-                                                <a class="title-with-icon-link" href="cloud-hosting.html">
-                                                    <div class="media">
-                                                        <div class="menu-item-icon"><i class="fas fa-cloud"></i></div>
-                                                        <div class="media-body">
-                                                            <span class="u-header__promo-title">VPS Server <span
-                                                                    class="badge badge-danger ml-1">Hot</span></span>
-                                                            <small class="u-header__promo-text">Conveniently cloud Starting
-                                                                at <strong>$5.99/mo</strong></small>
-                                                        </div>
-                                                    </div>
-                                                </a>
-                                            </div> -->
-                                            <!--menu title with subtitle and icon item end-->
                                         </div>
 
                                         <div class="col-md-6">
-                                            <!--menu title with subtitle and icon item start-->
-                                            <!-- <div class="title-with-icon-item">
-                                                <a class="title-with-icon-link" href="email-hosting.html">
-                                                    <div class="media">
-                                                        <div class="menu-item-icon"><i class="fas fa-atlas"></i></div>
-                                                        <div class="media-body">
-                                                            <span class="u-header__promo-title">Dedicated Server</span>
-                                                            <small class="u-header__promo-text">First Starting at <strong>$0.99/mo
-                                                                per mailbox</strong></small>
-                                                        </div>
-                                                    </div>
-                                                </a>
-                                            </div> -->
-                                            <!--menu title with subtitle and icon item end-->
-                                            <!--menu title with subtitle and icon item start-->
                                             <div class="title-with-icon-item">
                                                 <a class="title-with-icon-link" href="shared-wp-hosting.html">
                                                     <div class="media">
@@ -216,23 +190,48 @@
                                 <a id="aboutMegaMenu" class="nav-link custom-nav-link " href="JavaScript:Void(0);" aria-haspopup="true" aria-expanded="false">Contact</a>
                             </li>
 
-                            <!--for search button-->
-                            <!-- <li class="nav-item header-nav-last-item d-flex align-items-center">
-                                <a href="#" class="nav-link" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <i class="fa fa-search"></i> Domain Search</a>
-                            </li> -->
-
                             <li class="nav-item hs-has-mega-menu custom-nav-item" data-max-width="250px" data-position="right">
-                                <router-link :to="{name:'nav-search'}" id="aboutMegaMenu" class="nav-link custom-nav-link " aria-haspopup="true" aria-expanded="false"><i class="fa fa-search"></i> Domain Search</router-link>
+                                <!-- <router-link :to="{name:'nav-search'}" id="aboutMegaMenu" class="nav-link custom-nav-link " aria-haspopup="true" aria-expanded="false"><i class="fa fa-search"></i> Domain Search</router-link> -->
+                                <a href="javascript::void(0)" id="aboutMegaMenu" class="nav-link custom-nav-link " @click.prevent="isOpenModal"><i class="fa fa-search"></i> Domain Search</a>
+                                
                             </li>
-                            <!--button end-->
+>
                         </ul>
                     </div>
-                    <!--main menu end-->
+                    <!--main menu end-->  
                 </nav>
+            </div>
+        </div>
+        <div id="myModal" class="searchDomainModal" :class="{'is-open' : isOpen}" @click.prevent="isOpenModal">
+            <div class="d-flex justify-content-center align-items-center">
+                <div class="modal-content" style="width:400px; margin-top:50px;">
+                    <span class="close" id="closeModalBtn" @click.prevent="isOpenModal">&times;</span> 
+                    <p>This is a modal! You can add your content here.</p>
+                </div>
             </div>
         </div>
         <!--main header menu end-->
     </header>
     </div>
 </template>
+
+<style>
+.searchDomainModal{
+
+    font-family: Arial, sans-serif;
+    position: fixed;
+    width: 100%;
+    top:0;
+    left:0;
+    height: 100vh;
+    /* background-color: #691414c3; */
+    z-index:999;
+    display: none;
+}
+
+.is-open{
+    display:block;
+
+}
+
+</style>
