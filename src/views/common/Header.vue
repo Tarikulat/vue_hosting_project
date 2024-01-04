@@ -115,7 +115,7 @@
                                             </div>
                                             <!--menu title with subtitle and icon item end-->
                                             <!--menu title with subtitle and icon item start-->
-                                            <div class="title-with-icon-item">
+                                            <!-- <div class="title-with-icon-item">
                                                 <a class="title-with-icon-link" href="cloud-hosting.html">
                                                     <div class="media">
                                                         <div class="menu-item-icon"><i class="fas fa-cloud"></i></div>
@@ -127,13 +127,13 @@
                                                         </div>
                                                     </div>
                                                 </a>
-                                            </div>
+                                            </div> -->
                                             <!--menu title with subtitle and icon item end-->
                                         </div>
 
                                         <div class="col-md-6">
                                             <!--menu title with subtitle and icon item start-->
-                                            <div class="title-with-icon-item">
+                                            <!-- <div class="title-with-icon-item">
                                                 <a class="title-with-icon-link" href="email-hosting.html">
                                                     <div class="media">
                                                         <div class="menu-item-icon"><i class="fas fa-atlas"></i></div>
@@ -144,7 +144,7 @@
                                                         </div>
                                                     </div>
                                                 </a>
-                                            </div>
+                                            </div> -->
                                             <!--menu title with subtitle and icon item end-->
                                             <!--menu title with subtitle and icon item start-->
                                             <div class="title-with-icon-item">
@@ -216,11 +216,14 @@
                                 <a id="aboutMegaMenu" class="nav-link custom-nav-link " href="JavaScript:Void(0);" aria-haspopup="true" aria-expanded="false">Contact</a>
                             </li>
 
-                            <!--button start-->
-                            <li class="nav-item header-nav-last-item d-flex align-items-center">
-                                <a class="btn primary-solid-btn animated-btn" href="#" target="_blank">
-                                    Login
-                                </a>
+                            <!--for search button-->
+                            <!-- <li class="nav-item header-nav-last-item d-flex align-items-center">
+                                <a href="#" class="nav-link" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="fa fa-search"></i> Domain Search</a>
+                            </li> -->
+
+                            <li class="nav-item hs-has-mega-menu custom-nav-item" data-max-width="250px" data-position="right">
+                                <a id="aboutMegaMenu" class="nav-link custom-nav-link " href="@/views/common/Nav_search" aria-haspopup="true" aria-expanded="false"><i class="fa fa-search"></i> Domain Search</a>
                             </li>
                             <!--button end-->
                         </ul>

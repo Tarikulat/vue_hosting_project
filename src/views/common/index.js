@@ -8,3 +8,9 @@ export { default as Testimonial } from '@/views/common/Testimonial.vue';
 export { default as HeroSection } from '@/views/common/HeroSection.vue';
 export { default as PromoSection } from '@/views/common/PromoSection.vue';
 
+
+
+
+
+
+

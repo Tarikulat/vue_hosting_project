@@ -19,84 +19,90 @@
 
                    <div class="col-md-6 col-lg-4">
                         <div class="single-service-plane text-center rounded white-bg shadow-sm p-5 mt-md-4 mt-lg-4">
-                            <img src="@/assets/img/icon-shared-hosting.svg" alt="shared hosting" class="img-fluid mb-4" width="45" />
+                            <img src="@/assets/img/h1.png" alt="shared hosting" class="img-fluid mb-4" width="45" />
                             <div class="service-plane-content">
                                 <h1 class="h5">Web Hosting</h1>
                                 <p>Enter your required specifications, and when the moment is right, snap up your offer!</p>
                             </div>
-                            <div class="action-wrap mt-3">
-                                <p>Starting at<strong>$2.59/mo</strong></p>
-                                <a href="#" class="btn-link">LE'TS STARTED <span class="fas fa-long-arrow-alt-right"></span></a>
-                            </div>
+                            <div class="block-5-btm">
+                            <h4><small>Starting at </small>$2.49</h4>
+                                <a href="../store/web-hosting" class="elementor-button-link elementor-button elementor-size-sm"
+                                 role="button"><span class="elementor-button-content-wrapper"><span class="elementor-button-text">Order Now</span></span></a>
+                                 </div>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4">
                         <div class="single-service-plane text-center rounded white-bg shadow-sm p-5 mt-md-4 mt-lg-4">
-                            <img src="@/assets/img/icon-wordpress-hosting.svg" alt="shared hosting" class="img-fluid mb-4" width="45" />
+                            <img src="@/assets/img/h2.png" alt="shared hosting" class="img-fluid mb-4" width="45" />
                             <div class="service-plane-content">
                                 <h3 class="h5">Website Shared Hosting</h3>
                                 <p>Get up and running fast with Optimized performance easy
                                     maintenance hosting.</p>
                             </div>
-                            <div class="action-wrap mt-3">
-                                <p>Starting at: <strong>$2.59/mo</strong></p>
-                                <a href="#" class="btn-link">View Details <span class="fas fa-long-arrow-alt-right"></span></a>
-                            </div>
+                            <div class="block-5-btm">
+                            <h4><small>Starting at </small>$15.49</h4>
+                                <a href="../store/web-hosting" class="elementor-button-link elementor-button elementor-size-sm"
+                                 role="button"><span class="elementor-button-content-wrapper"><span class="elementor-button-text">Order Now</span></span></a>
+                                 </div>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4">
                         <div class="single-service-plane text-center rounded white-bg shadow-sm p-5 mt-md-4 mt-lg-4">
-                            <img src="@/assets/img/icon-vps-hosting.svg" alt="shared hosting" class="img-fluid mb-4" width="45" />
+                            <img src="@/assets/img/h3.png" alt="shared hosting" class="img-fluid mb-4" width="45" />
                             <div class="service-plane-content">
-                                <h3 class="h5">Advance E-commerce Hosting</h3>
-                                <p>Virtual Private Servers with ultra-fast SSDs and flexibility, Ubuntu, IPv6,
+                                <h3 class="h5">E-commerce Hosting</h3>
+                                <p>Virtual Private Servers and flexibility, Ubuntu, IPv6,
                                     Nginx and more.</p>
                             </div>
-                            <div class="action-wrap mt-3">
-                                <p>Starting at: <strong>$12.00/mo</strong></p>
-                                <a href="#" class="btn-link">View Details <span class="fas fa-long-arrow-alt-right"></span></a>
-                            </div>
+                            <div class="block-5-btm">
+                            <h4><small>Starting at </small>$30.49</h4>
+                                <a href="../store/web-hosting" class="elementor-button-link elementor-button elementor-size-sm"
+                                 role="button"><span class="elementor-button-content-wrapper"><span class="elementor-button-text">Order Now</span></span></a>
+                                 </div>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4">
                         <div class="single-service-plane text-center rounded white-bg shadow-sm p-5 mt-md-4 mt-lg-4">
-                            <img src="@/assets/img/icon-website-builder.svg" alt="shared hosting" class="img-fluid mb-4" width="45" />
+                            <img src="@/assets/img/h4.png" alt="shared hosting" class="img-fluid mb-4" width="45" />
                             <div class="service-plane-content">
                                 <h3 class="h5">VPS Server</h3>
                                 <p>No code required! Build your site confidently with design tools that WordPress
                                     website build.</p>
                             </div>
-                            <div class="action-wrap mt-3">
-                                <p>Starting at: <strong>$2.59/mo</strong></p>
-                                <a href="#" class="btn-link">View Details <span class="fas fa-long-arrow-alt-right"></span></a>
-                            </div>
+                            <div class="block-5-btm">
+                            <h4><small>Starting at </small>$50.49</h4>
+                                <a href="../store/web-hosting" class="elementor-button-link elementor-button elementor-size-sm"
+                                 role="button"><span class="elementor-button-content-wrapper"><span class="elementor-button-text">Order Now</span></span></a>
+                                 </div>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4">
                         <div class="single-service-plane text-center rounded white-bg shadow-sm p-5 mt-md-4 mt-lg-4">
-                            <img src="@/assets/img/icon-dadicate-hosting.svg" alt="shared hosting" class="img-fluid mb-4" width="45" />
+                            <img src="@/assets/img/h5.png" alt="shared hosting" class="img-fluid mb-4" width="45" />
                             <div class="service-plane-content">
                                 <h3 class="h5">Dedicated Server</h3>
                                 <p>Fast web servers to run your applications with root and a 100% Guarantee
                                     our hosting.</p>
                             </div>
-                            <div class="action-wrap mt-3">
-                                <p>Starting at: <strong>$145.59/mo</strong></p>
-                                <a href="#" class="btn-link">View Details <span class="fas fa-long-arrow-alt-right"></span></a>
-                            </div>
+                            <div class="block-5-btm">
+                            <h4><small>Starting at </small>$70.49</h4>
+                                <a href="../store/web-hosting" class="elementor-button-link elementor-button elementor-size-sm"
+                                 role="button"><span class="elementor-button-content-wrapper"><span class="elementor-button-text">Order Now</span></span></a>
+                                 </div>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4">
                         <div class="single-service-plane text-center rounded white-bg shadow-sm p-5 mt-md-4 mt-lg-4">
-                            <img src="@/assets/img/icon-cloud-hosting.svg" alt="shared hosting" class="img-fluid mb-4" width="45" />
+                            <img src="@/assets/img/h6.png" alt="shared hosting" class="img-fluid mb-4" width="45" />
                             <div class="service-plane-content">
                                 <h3 class="h5">Reseller Hosting</h3>
                                 <p>Lightning-fast servers with root access, SSD storage and blazing-fast networking hosting.</p>
                             </div>
-                            <div class="action-wrap mt-3">
-                                <p>Starting at: <strong>$0.0059/mo</strong></p>
-                                <a href="#" class="btn-link">View Details <span class="fas fa-long-arrow-alt-right"></span></a>
-                            </div>
+                            <div class="block-5-btm">
+                            <h4><small>Starting at </small>$65.49</h4>
+                                <a href="../store/web-hosting" class="elementor-button-link elementor-button elementor-size-sm"
+                                 role="button"><span class="elementor-button-content-wrapper"><span class="elementor-button-text">Order Now</span></span></a>
+                                 </div>
                         </div>
                     </div>
 

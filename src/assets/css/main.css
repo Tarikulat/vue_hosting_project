@@ -42,6 +42,35 @@ Author: https://themeforest.net/user/themetags
   --font-family-monospace:SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
 }
 
+.block-5-btm a {
+  background: #000;
+  color: #fff;
+  padding: 7px 23px;
+  display: inline-block;
+  margin: 5px 0;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: .1em;
+  border-radius: 0; }
+
+  .block-5-btm {
+    margin: 0;
+    padding: 18px 0;
+    width: 100%;
+    background: #f7f7f7;
+}
+
+.block-5 .img-blc {
+  background: #ededed;
+  padding: 13px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+}
+
 /* line 6, src/assets/scss/vendors/bootstrap.min.css */
 *, ::after, ::before {
   -webkit-box-sizing: border-box;
