@@ -1,4 +1,5 @@
-<script>
+<script setup>
+import { PromoSection, Service, Pricing, Faq, Testimonial } from '@/views/common'
 
 </script>
 
@@ -72,11 +73,11 @@
                             </form>
                             <div class="domain-list-wrap mt-4">
                                 <ul class="list-inline domain-search-list text-white">
-                                    <li class="list-inline-item"><a href="#"><img src="@/assets/img/b1.png" alt="com" width="75" class="img-fluid" /> <span>$8.99</span></a></li>
-                                    <li class="list-inline-item"><a href="#"><img src="@/assets/img/b2.png" alt="com" width="75" class="img-fluid" /> <span>$4.99</span></a></li>
-                                    <li class="list-inline-item"><a href="#"><img src="@/assets/img/b3.png" alt="com" width="75" class="img-fluid" /> <span>$2.99</span></a></li>
-                                    <li class="list-inline-item"><a href="#"><img src="@/assets/img/b4.png" alt="com" width="75" class="img-fluid" /> <span>$0.99</span></a></li>
-                                    <li class="list-inline-item"><a href="#"><img src="@/assets/img/b5.png" alt="com" width="75" class="img-fluid" /> <span>$0.99</span></a></li>
+                                    <li class="list-inline-item"><a href="#"><img src="@/assets/img/lg1.png" alt="com" width="75" class="img-fluid" /> <span>$8.99</span></a></li>
+                                    <li class="list-inline-item"><a href="#"><img src="@/assets/img/lg2.png" alt="com" width="75" class="img-fluid" /> <span>$4.99</span></a></li>
+                                    <li class="list-inline-item"><a href="#"><img src="@/assets/img/lg3.png" alt="com" width="75" class="img-fluid" /> <span>$2.99</span></a></li>
+                                    <li class="list-inline-item"><a href="#"><img src="@/assets/img/lg4.png" alt="com" width="75" class="img-fluid" /> <span>$0.99</span></a></li>
+                                    <li class="list-inline-item"><a href="#"><img src="@/assets/img/lg5.png" alt="com" width="75" class="img-fluid" /> <span>$0.99</span></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -181,6 +182,16 @@
             </div>
         </div>
         <!--domain name block end-->
+
+        <PromoSection/>
+
+    <Service/>
+
+    <Pricing/>
+
+    <Faq/>
+
+    <Testimonial/>
 </template>
 
 <style>

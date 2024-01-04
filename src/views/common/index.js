@@ -7,6 +7,7 @@ export { default as Pricing } from '@/views/common/Pricing.vue';
 export { default as Testimonial } from '@/views/common/Testimonial.vue';
 export { default as HeroSection } from '@/views/common/HeroSection.vue';
 export { default as PromoSection } from '@/views/common/PromoSection.vue';
+export { default as NavSearch } from '@/views/common/Nav_search.vue';
 
 
 

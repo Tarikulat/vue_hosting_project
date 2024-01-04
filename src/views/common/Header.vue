@@ -27,7 +27,7 @@
                         <ul class="navbar-nav ml-auto main-navbar-nav">
                             <!--home start-->
                             <li class="nav-item hs-has-mega-menu custom-nav-item" data-max-width="250px" data-position="right">
-                                <a id="aboutMegaMenu" class="nav-link custom-nav-link " href="JavaScript:Void(0);" aria-haspopup="true" aria-expanded="false">Home</a>
+                                <router-link :to="{name:'home'}" id="aboutMegaMenu" class="nav-link custom-nav-link " aria-haspopup="true" aria-expanded="false">Home</router-link>
                             </li>
                             <!--home end-->
                             <!--pages start-->
@@ -223,7 +223,7 @@
                             </li> -->
 
                             <li class="nav-item hs-has-mega-menu custom-nav-item" data-max-width="250px" data-position="right">
-                                <a id="aboutMegaMenu" class="nav-link custom-nav-link " href="@/views/common/Nav_search" aria-haspopup="true" aria-expanded="false"><i class="fa fa-search"></i> Domain Search</a>
+                                <router-link :to="{name:'nav-search'}" id="aboutMegaMenu" class="nav-link custom-nav-link " aria-haspopup="true" aria-expanded="false"><i class="fa fa-search"></i> Domain Search</router-link>
                             </li>
                             <!--button end-->
                         </ul>

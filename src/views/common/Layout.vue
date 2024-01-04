@@ -11,17 +11,7 @@ import { Topbar, Header, HeroSection, PromoSection, Service, Pricing, Faq, Testi
 
         <Header/>
 
-        <HeroSection/>
-
-        <PromoSection/>
-
-        <Service/>
-
-        <Pricing/>
-
-        <Faq/>
-
-        <Testimonial/>
+        <RouterView/>
 
         <Footer/>
 
