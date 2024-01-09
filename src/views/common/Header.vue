@@ -14,7 +14,6 @@ const isOpenModal = () =>{
         <div id="logoAndNav" class="main-header-menu-wrap white-bg border-bottom">
             <div class="container">
                 <nav class="js-mega-menu navbar navbar-expand-md header-nav">
-
                     <!--logo start-->
                     <a class="navbar-brand" href="index.html"><img src="@/assets/img/logo_host.png" width="180" alt="logo" class="img-fluid" /></a>
                     <!--logo end-->
@@ -50,7 +49,7 @@ const isOpenModal = () =>{
                                                         </div>
                                                     </div>
                                                 </a>
-                                     </div>
+                                    </div>
 
                                      <div class="title-with-icon-item">
                                                 <a class="title-with-icon-link" href="">
@@ -66,7 +65,6 @@ const isOpenModal = () =>{
                                 <!-- End Pages - Submenu -->
                             </li>
                             <!--pages end-->
-
 
                             <!--hosting start-->
                             <li class="nav-item hs-has-mega-menu custom-nav-item" data-max-width="700px" data-position="right">
@@ -142,8 +140,7 @@ const isOpenModal = () =>{
                             <!--hosting end-->
 
                             <li class="nav-item hs-has-sub-menu custom-nav-item">
-                                <a id="pagesMegaMenu" class="nav-link custom-nav-link main-link-toggle" href="javascript:void(0);" aria-haspopup="true" aria-expanded="false" aria-labelledby="pagesSubMenu">Server</a>
-                                
+                                <a id="pagesMegaMenu" class="nav-link custom-nav-link main-link-toggle" href="javascript:void(0);" aria-haspopup="true" aria-expanded="false" aria-labelledby="pagesSubMenu">Server</a>                            
                                 <!-- Pages - Submenu -->
                                 <ul id="pagesSubMenu" class="hs-sub-menu main-sub-menu" aria-labelledby="pagesMegaMenu" style="min-width: 330px;">
                                     <div class="title-with-icon-item">
@@ -173,8 +170,7 @@ const isOpenModal = () =>{
                                 <!-- End Pages - Submenu -->
                             </li>
                             <!--pages end-->
-                            <!--support end-->
-
+                           
                             <!--about start-->
                             <li class="nav-item hs-has-mega-menu custom-nav-item" data-max-width="250px" data-position="right">
                                 <a id="aboutMegaMenu" class="nav-link custom-nav-link " href="JavaScript:Void(0);" aria-haspopup="true" aria-expanded="false">About</a>
@@ -248,45 +244,39 @@ const isOpenModal = () =>{
 
 <style>
 .searchDomainModal{
-
-    font-family: Arial, sans-serif;
-    position: fixed;
-    box-sizing: border-box;
-    display: flex;
-    justify-content: center;
-    clear: both;
-    
- 
-    padding-bottom: 40px;
+    top: 0;
+    left: 0;
     margin: 0;
-
-    height: 100vh;
+    clear: both;
     width: 100%;
-    top:0;
-    left:0;
-  
-    background-color: #691414c3; 
     z-index:999;
+    height: 100vh;
+    display: flex;
+    position: fixed;
+    padding-bottom: 40px;
+    box-sizing: border-box;
+    justify-content: center;
+    background-color: #691414c3; 
+    font-family: Arial, sans-serif;
+   
 }
 
 .close {
-    float: right;
-    font-size: 3.5rem;
-    font-weight: 700;
-    line-height: 1;
-    color: #000;
-    text-shadow: 0 1px 0 #fff;
     opacity: .5;
+    float: right;
+    color: #000;
+    line-height: 1;
+    font-weight: 700;
     margin: 0px 13px;
+    font-size: 3.5rem;
+    text-shadow: 0 1px 0 #fff;
 }
 
 .is-open{
     display:block;
-
 }
 .is-close{
     display:none;
-
 }
 
 </style>

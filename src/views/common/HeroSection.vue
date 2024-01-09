@@ -57,8 +57,8 @@ import { PromoSection, Service, Pricing, Faq, Testimonial } from '@/views/common
             <div class="container">
                 <div class="row align-items-center justify-content-center">
                     <div class="col-lg-6 col-12">
-                        <div class="hero-content-left text-white text-center">
-                            <h1 class="text-white">Choose Best Domain Name and Create Your Website</h1>
+                        <div class="hero-content-left text-center">
+                            <h1 class="text-white testing">Choose Best Domain Name and Create Your Website</h1>
                             <p class="lead">Up to 50% Off domain and hosting, Starting from $2.99/month, free SSL certificate, 24/7/365 support, money back guarantee.</p>
                             <form action="domain-search-result.php" class="domain-search-form mt-3 w-75  mx-auto">
                                 <div class="input-group">
@@ -194,5 +194,6 @@ import { PromoSection, Service, Pricing, Faq, Testimonial } from '@/views/common
 </template>
 
 <style>
+
 
 </style>

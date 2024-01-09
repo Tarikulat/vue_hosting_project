@@ -1,0 +1,17 @@
+@media (max-width: 426px) {
+    .hero-content-left h1{
+        font-size: 20px;
+        
+    }
+    .hero-content-left p{
+        font-size: 15px;
+    }
+  }
+  
+  @media (max-width: 375px) {
+    
+  }
+  
+  @media (max-width: 320px) {
+    
+  }
