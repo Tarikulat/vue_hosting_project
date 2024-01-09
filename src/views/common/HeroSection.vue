@@ -48,8 +48,7 @@ import { PromoSection, Service, Pricing, Faq, Testimonial } from '@/views/common
                 </div>
             </div>
         </section>  -->
-       
-
+    
          <!--hero section start home main page-->
          <section class="hero-equal-height section-xl section-header background-video-overly text-white flex-column d-flex justify-content-center">
             <video class="fit-cover w-100 h-100 position-absolute z--1" autoplay muted loop id="myVideo">

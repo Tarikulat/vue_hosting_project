@@ -2,9 +2,9 @@
 <script setup>
 import { ref } from 'vue';
 
-const isOpen = ref();
+const isOpen = ref(false);
 const isOpenModal = () =>{
-    isOpen.value = !isOpen.value;
+    isOpen.value =  !isOpen.value
 }
 </script>
 
@@ -69,11 +69,11 @@ const isOpenModal = () =>{
 
 
                             <!--hosting start-->
-                            <li class="nav-item hs-has-mega-menu custom-nav-item" data-max-width="720px" data-position="right">
+                            <li class="nav-item hs-has-mega-menu custom-nav-item" data-max-width="700px" data-position="right">
                                 <a id="hostingMegaMenu" class="nav-link custom-nav-link main-link-toggle" href="JavaScript:Void(0);" aria-haspopup="true" aria-expanded="false">Hosting</a>
 
                                 <!-- Demos - Mega Menu -->
-                                <div class="hs-mega-menu w-100 main-sub-menu" aria-labelledby="hostingMegaMenu">
+                                <div class="hs-mega-menu w-65 main-sub-menu" aria-labelledby="hostingMegaMenu">
                                     <div class="row no-gutters">
                                         <div class="col-md-6">
                                             <!--menu title with subtitle and icon item start-->
@@ -141,44 +141,38 @@ const isOpenModal = () =>{
                             </li>
                             <!--hosting end-->
 
-                            <!--support start-->
-                            <li class="nav-item hs-has-mega-menu custom-nav-item" data-max-width="360px" data-position="right">
-                                <a id="supportMegaMenu" class="nav-link custom-nav-link main-link-toggle" href="JavaScript:Void(0);" aria-haspopup="true" aria-expanded="false">Server</a>
-                                <!--support submenu start-->
-                                <div class="hs-mega-menu main-sub-menu" aria-labelledby="supportMegaMenu" style="min-width: 330px;">
-
-                                    <!--menu title with subtitle and icon item start-->
+                            <li class="nav-item hs-has-sub-menu custom-nav-item">
+                                <a id="pagesMegaMenu" class="nav-link custom-nav-link main-link-toggle" href="javascript:void(0);" aria-haspopup="true" aria-expanded="false" aria-labelledby="pagesSubMenu">Server</a>
+                                
+                                <!-- Pages - Submenu -->
+                                <ul id="pagesSubMenu" class="hs-sub-menu main-sub-menu" aria-labelledby="pagesMegaMenu" style="min-width: 330px;">
                                     <div class="title-with-icon-item">
-                                        <a class="title-with-icon-link" href="">
-                                            <div class="media align-items-center">
-                                                <img class="menu-titile-icon" src="@/assets/img/chat.svg" alt="SVG">
-                                                <div class="media-body">
-                                                    <span class="u-header__promo-title">VPS Server</span>
-                                                    <small class="u-header__promo-text">Support team quickly response
-                                                    </small>
-                                                </div>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <!--menu title with subtitle and icon item end-->
-                
-                                    <!--menu title with subtitle and icon item start-->
-                                    <div class="title-with-icon-item">
-                                        <a class="title-with-icon-link" href="network.html">
-                                            <div class="media align-items-center">
-                                                <img class="menu-titile-icon" src="@/assets/img/data-services.svg" alt="SVG">
-                                                <div class="media-body">
-                                                    <span class="u-header__promo-title">Dedicated Server</span>
-                                                    <small class="u-header__promo-text">24 Data center globally</small>
-                                                </div>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <!--menu title with subtitle and icon item end-->
+                                                <a class="title-with-icon-link" href="">
+                                                    <div class="media">
+                                                        <img class="menu-titile-icon" src="@/assets/img/chat.svg" alt="SVG">
+                                                        <div class="media-body">
+                                                            <span class="u-header__promo-title">VPS Server</span>
+                                                            <small class="u-header__promo-text">Support team quickly response </small>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                     </div>
 
-                                </div>
-                                <!--support submenu end-->
+                                     <div class="title-with-icon-item">
+                                                <a class="title-with-icon-link" href="">
+                                                    <div class="media">
+                                                        <img class="menu-titile-icon" src="@/assets/img/data-services.svg" alt="SVG">
+                                                        <div class="media-body">
+                                                            <span class="u-header__promo-title">Dedicated Server</span>
+                                                            <small class="u-header__promo-text">24 Data center globally</small>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                     </div>
+                                </ul>
+                                <!-- End Pages - Submenu -->
                             </li>
+                            <!--pages end-->
                             <!--support end-->
 
                             <!--about start-->
@@ -195,18 +189,55 @@ const isOpenModal = () =>{
                                 <a href="javascript::void(0)" id="aboutMegaMenu" class="nav-link custom-nav-link " @click.prevent="isOpenModal"><i class="fa fa-search"></i> Domain Search</a>
                                 
                             </li>
->
                         </ul>
                     </div>
                     <!--main menu end-->  
                 </nav>
             </div>
         </div>
-        <div id="myModal" class="searchDomainModal" :class="{'is-open' : isOpen}" @click.prevent="isOpenModal">
+        <div id="myModal" class="searchDomainModal" :class="{ 'is-open': isOpen == true, 'is-close': isOpen == false }"  >
             <div class="d-flex justify-content-center align-items-center">
-                <div class="modal-content" style="width:400px; margin-top:50px;">
-                    <span class="close" id="closeModalBtn" @click.prevent="isOpenModal">&times;</span> 
-                    <p>This is a modal! You can add your content here.</p>
+                <div class="modal-content" style="width:1050px; margin-top:100px;">
+                    <span class="close" @click.prevent="isOpenModal"  id="closeModalBtn" >&times;</span> 
+                    <div class="domain-search-cta-type ptb-100" style="background: url('@/assets/img/map-bg.png')no-repeat center center">
+                        <div class="container">
+                            <div class="row align-items-center justify-content-center">
+                                <div class="col-md-6 col-lg-6">
+                                    <div class="domain-search-content text-center mb-4">
+                                        <h2>Search Unique Domain!</h2>
+                                        <p>Get your perfect domain name starting from <strong>9.99$ </strong> for the first year and
+                                            free domain privacy included build.</p>
+                                    </div>
+                                    <div class="domain-search-wrap text-center">
+                                        <form action="domain-search-result.php" class="domain-search-form">
+                                            <div class="input-group shadow">
+                                                <input type="text" name="domain" id="domain" class="form-control" placeholder="example.com" />
+                                                <div class="input-group-append">
+                                                    <button class="btn search-btn btn-hover d-flex align-items-center" type="submit">
+                                                        <span class="ti-search mr-2"></span> Search
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </form>
+                                        <div class="domain-list-wrap mt-4">
+                                            <ul class="list-inline domain-search-list">
+                                                <li class="list-inline-item"><a href="#"><img src="@/assets/img/lg1.png" alt="com" width="70" class="img-fluid" /> <span>$8.99</span></a>
+                                                </li>
+                                                <li class="list-inline-item"><a href="#"><img src="@/assets/img/lg2.png" alt="com" width="70" class="img-fluid" /> <span>$0.99</span></a>
+                                                </li>
+                                                <li class="list-inline-item"><a href="#"><img src="@/assets/img/lg3.png" alt="com" width="70" class="img-fluid" /> <span>$4.99</span></a>
+                                                </li>
+                                                <li class="list-inline-item"><a href="#"><img src="@/assets/img/lg4.png" alt="com" width="70" class="img-fluid" /> <span>$2.99</span></a>
+                                                </li>
+                                                <li class="list-inline-item"><a href="#"><img src="@/assets/img/lg5.png" alt="com" width="70" class="img-fluid" /> <span>$0.99</span></a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
                 </div>
             </div>
         </div>
@@ -220,17 +251,41 @@ const isOpenModal = () =>{
 
     font-family: Arial, sans-serif;
     position: fixed;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    clear: both;
+    
+ 
+    padding-bottom: 40px;
+    margin: 0;
+
+    height: 100vh;
     width: 100%;
     top:0;
     left:0;
-    height: 100vh;
-    /* background-color: #691414c3; */
+  
+    background-color: #691414c3; 
     z-index:999;
-    display: none;
+}
+
+.close {
+    float: right;
+    font-size: 3.5rem;
+    font-weight: 700;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    opacity: .5;
+    margin: 0px 13px;
 }
 
 .is-open{
     display:block;
+
+}
+.is-close{
+    display:none;
 
 }
 
