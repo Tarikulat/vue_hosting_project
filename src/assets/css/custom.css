@@ -4,8 +4,19 @@
         
     }
     .hero-content-left p{
-        font-size: 15px;
+        font-size: 13px;
     }
+    .search-btn{
+        font-weight: 5%;
+        font-size: 10px;
+       
+    }
+  .input-group{
+    width: 127%;
+  }
+  .domain-search-form{
+  
+  }
   }
   
   @media (max-width: 375px) {
