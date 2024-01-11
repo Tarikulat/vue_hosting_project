@@ -4,6 +4,10 @@ import {
   NavSearch,
  } from '@/views/common'
 
+ import { 
+  domainRegister
+ } from '@/views/pages/domain'
+
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
@@ -17,6 +21,13 @@ const router = createRouter({
       name: 'nav-search',
       component: NavSearch,
     },
+    {
+      path: '/domain-register',
+      name: 'domainRegister',
+      component: domainRegister,
+    },
+
+  
   ]
 })
 

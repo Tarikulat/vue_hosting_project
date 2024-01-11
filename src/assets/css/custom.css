@@ -1,4 +1,10 @@
 @media (max-width: 426px) {
+    /* .img-fluid{
+        width: 101%;
+    } */
+    .w-75 {
+        width: 80% !important;
+    }
     .hero-content-left h1{
         font-size: 20px;
         
@@ -12,11 +18,10 @@
        
     }
   .input-group{
-    width: 127%;
+    width: 101%
+    
   }
-  .domain-search-form{
-  
-  }
+
   }
   
   @media (max-width: 375px) {
@@ -26,3 +31,15 @@
   @media (max-width: 320px) {
     
   }
+  @media (max-width: 780px) {
+
+  .navbar-collapse {
+      padding: 20px;
+  }
+  
+  .collapse:not(.show) {
+      display: none;
+  }
+}
+    
+  

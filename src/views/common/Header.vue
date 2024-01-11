@@ -41,14 +41,14 @@ const isOpenModal = () =>{
                                 <!-- Pages - Submenu -->
                                 <ul id="pagesSubMenu" class="hs-sub-menu main-sub-menu" aria-labelledby="pagesMegaMenu" style="min-width: 260px;">
                                     <div class="title-with-icon-item">
-                                                <a class="title-with-icon-link" href="">
+                                                <router-link class="title-with-icon-link" :to="{ name: 'domainRegister' }">
                                                     <div class="media">
                                                         <div class="menu-item-icon"><i class="fab fa-artstation"></i></div>
                                                         <div class="media-body">
                                                             <span class="u-header__promo-title">Domain Register</span>
                                                         </div>
                                                     </div>
-                                                </a>
+                                                </router-link>
                                     </div>
 
                                      <div class="title-with-icon-item">
