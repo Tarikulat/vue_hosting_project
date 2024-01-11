@@ -76,7 +76,7 @@ const isOpenModal = () =>{
                                         <div class="col-md-6">
                                             <!--menu title with subtitle and icon item start-->
                                             <div class="title-with-icon-item">
-                                                <a class="title-with-icon-link" href="shared-hosting.html">
+                                                <router-link class="title-with-icon-link" :to="{ name: 'LandingPage' }">
                                                     <div class="media">
                                                         <div class="menu-item-icon"><i class="fas fa-server"></i></div>
                                                         <div class="media-body">
@@ -85,12 +85,12 @@ const isOpenModal = () =>{
                                                                 Starting at <strong>$2.99</strong></small>
                                                         </div>
                                                     </div>
-                                                </a>
+                                                </router-link>
                                             </div>
                                             <!--menu title with subtitle and icon item end-->
                                             <!--menu title with subtitle and icon item start-->
                                             <div class="title-with-icon-item">
-                                                <a class="title-with-icon-link" href="vps-hosting.html">
+                                                <router-link class="title-with-icon-link" :to="{ name: 'WebsiteShared' }">
                                                     <div class="media">
                                                         <div class="menu-item-icon"><i class="fas fa-box"></i></div>
                                                         <div class="media-body">
@@ -99,12 +99,12 @@ const isOpenModal = () =>{
                                                                 Starting at <strong>$11.99</strong></small>
                                                         </div>
                                                     </div>
-                                                </a>
+                                                </router-link>
                                             </div>
                                             <!--menu title with subtitle and icon item end-->
                                             <!--menu title with subtitle and icon item start-->
                                             <div class="title-with-icon-item">
-                                                <a class="title-with-icon-link" href="dedicated-server-hosting.html">
+                                                <router-link class="title-with-icon-link" :to="{ name: 'EcommerceHost' }">
                                                     <div class="media">
                                                         <div class="menu-item-icon"><i class="fas fa-tachometer-alt"></i></div>
                                                         <div class="media-body">
@@ -114,13 +114,13 @@ const isOpenModal = () =>{
                                                                 <strong>$150.99/mo</strong></small>
                                                         </div>
                                                     </div>
-                                                </a>
+                                                </router-link>
                                             </div>
                                         </div>
 
                                         <div class="col-md-6">
                                             <div class="title-with-icon-item">
-                                                <a class="title-with-icon-link" href="shared-wp-hosting.html">
+                                                <router-link class="title-with-icon-link" :to="{ name: 'ResellerHost' }">
                                                     <div class="media">
                                                         <div class="menu-item-icon"><i class="fab fa-asymmetrik"></i></div>
                                                         <div class="media-body">
@@ -129,7 +129,7 @@ const isOpenModal = () =>{
                                                                 <strong>$9.99/mo</strong></small>
                                                         </div>
                                                     </div>
-                                                </a>
+                                                </router-link>
                                             </div>
                                         </div>
 
@@ -144,7 +144,7 @@ const isOpenModal = () =>{
                                 <!-- Pages - Submenu -->
                                 <ul id="pagesSubMenu" class="hs-sub-menu main-sub-menu" aria-labelledby="pagesMegaMenu" style="min-width: 330px;">
                                     <div class="title-with-icon-item">
-                                                <a class="title-with-icon-link" href="">
+                                                <router-link class="title-with-icon-link" :to="{ name: 'VpsServer' }">
                                                     <div class="media">
                                                         <img class="menu-titile-icon" src="@/assets/img/chat.svg" alt="SVG">
                                                         <div class="media-body">
@@ -152,11 +152,11 @@ const isOpenModal = () =>{
                                                             <small class="u-header__promo-text">Support team quickly response </small>
                                                         </div>
                                                     </div>
-                                                </a>
+                                                </router-link>
                                      </div>
 
                                      <div class="title-with-icon-item">
-                                                <a class="title-with-icon-link" href="">
+                                                <router-link class="title-with-icon-link" :to="{ name: 'DedicatedServer' }">
                                                     <div class="media">
                                                         <img class="menu-titile-icon" src="@/assets/img/data-services.svg" alt="SVG">
                                                         <div class="media-body">
@@ -164,7 +164,7 @@ const isOpenModal = () =>{
                                                             <small class="u-header__promo-text">24 Data center globally</small>
                                                         </div>
                                                     </div>
-                                                </a>
+                                                </router-link>
                                      </div>
                                 </ul>
                                 <!-- End Pages - Submenu -->
