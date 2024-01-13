@@ -1,0 +1,15 @@
+//......export file start......
+export { default as About } from '@/views/pages/login/About.vue';
+export { default as Login } from '@/views/pages/login/login.vue';
+export { default as Signup } from '@/views/pages/login/signup.vue';
+export { default as Contact } from '@/views/pages/login/Contact.vue';
+export { default as VpsServer } from '@/views/pages/server/VpsServer.vue';
+export { default as LandingPage } from '@/views/pages/hosting/LandingPage.vue';
+export { default as ResellerHost } from '@/views/pages/hosting/ResellerHost.vue';
+export { default as WebsiteShared } from '@/views/pages/hosting/WebsiteShared.vue';
+export { default as EcommerceHost } from '@/views/pages/hosting/EcommerceHost.vue';
+export { default as domainRegister } from '@/views/pages/domain/domain_register.vue';
+export { default as domainTransfer } from '@/views/pages/domain/domain_transfer.vue';
+export { default as DedicatedServer } from '@/views/pages/server/DedicatedServer.vue';
+//......export file end......
+

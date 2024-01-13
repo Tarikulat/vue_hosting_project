@@ -4,35 +4,20 @@ import {
   NavSearch,
  } from '@/views/common'
 
-//....views page start hosting.....
  import { 
-  domainRegister
- } from '@/views/pages/domain'
-
- import { 
-  LandingPage
- } from '@/views/pages/hosting'
-
- import { 
-  WebsiteShared
- } from '@/views/pages/hosting'
-
- import { 
-  EcommerceHost
- } from '@/views/pages/hosting'
-
- import { 
-  ResellerHost
- } from '@/views/pages/hosting'
-//...server start........
- import { 
-  VpsServer
- } from '@/views/pages/server'
- import { 
-  DedicatedServer
- } from '@/views/pages/server'
- //....views page end.....
-
+  domainRegister,
+  domainTransfer,
+  LandingPage,
+  WebsiteShared,
+  EcommerceHost,
+  ResellerHost,
+  VpsServer,
+  DedicatedServer,
+  Contact,
+  About,
+  Login,
+  Signup
+ } from '@/views/pages'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -49,34 +34,39 @@ const router = createRouter({
     },
     {
       path: '/domain-register',  //..url key or path
-      name: 'domainRegister',    //..name id name
+      name: 'domain-register',    //..name id name
       component: domainRegister, 
+    },
+    {
+      path: '/domain-transfer',  //..url key or path
+      name: 'domain-transfer',    //..name id name
+      component: domainTransfer, 
     },
     //...hosting......
     {
-      path: '/Landingpage-hosting',  
-      name: 'LandingPage',   
+      path: '/landing-page',  
+      name: 'landing-page',   
       component: LandingPage, 
     },
     {
       path: '/share-hosting',  
-      name: 'WebsiteShared',   
+      name: 'website-shared',   
       component: WebsiteShared, 
     },
     {
       path: '/ecommerce-hosting',  
-      name: 'EcommerceHost',   
+      name: 'ecommerce-host',   
       component: EcommerceHost, 
     },
     {
       path: '/reseller-hosting',  
-      name: 'ResellerHost',   
+      name: 'reseller-host',   
       component: ResellerHost, 
     },
     //...server.....
     {
       path: '/vps-server',  
-      name: 'VpsServer',   
+      name: 'vps-server',   
       component: VpsServer, 
     },
     {
@@ -84,8 +74,28 @@ const router = createRouter({
       name: 'DedicatedServer',   
       component: DedicatedServer, 
     },
-
-  
+    //...login file.....
+    {
+      path: '/contact',  
+      name: 'contact',   
+      component: Contact, 
+    },
+    {
+      path: '/about',  
+      name: 'about',   
+      component: About, 
+    },
+    {
+      path: '/login',  
+      name: 'login',   
+      component: Login, 
+    },
+    {
+      path: '/signup',  
+      name: 'signup',   
+      component: Signup, 
+    },
+   
   ]
 })
 

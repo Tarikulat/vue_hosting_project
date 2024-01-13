@@ -4,7 +4,7 @@
 
 <template>
  <!--hero section start-->
- <section class="hero-equal-height pt-165 ptb-100 gradient-overly-bottom" style="background: url('assets/img/bg.png')no-repeat center center / cover">
+ <section class="hero-equal-height gradient-overly-bottom" style="background: url('assets/img/bg.png')no-repeat center center / cover">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-9 col-lg-7">

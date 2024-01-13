@@ -15,7 +15,7 @@ const isOpenModal = () =>{
             <div class="container">
                 <nav class="js-mega-menu navbar navbar-expand-md header-nav">
                     <!--logo start-->
-                    <a class="navbar-brand" href="index.html"><img src="@/assets/img/logo_host.png" width="180" alt="logo" class="img-fluid" /></a>
+                    <a class="navbar-brand" href=""><img src="@/assets/img/logo_host.png" width="180" alt="logo" class="img-fluid" /></a>
                     <!--logo end-->
 
                     <!--responsive toggle button start-->
@@ -41,7 +41,7 @@ const isOpenModal = () =>{
                                 <!-- Pages - Submenu -->
                                 <ul id="pagesSubMenu" class="hs-sub-menu main-sub-menu" aria-labelledby="pagesMegaMenu" style="min-width: 260px;">
                                     <div class="title-with-icon-item">
-                                                <router-link class="title-with-icon-link" :to="{ name: 'domainRegister' }">
+                                                <router-link class="title-with-icon-link" :to="{ name: 'domain-register' }">
                                                     <div class="media">
                                                         <div class="menu-item-icon"><i class="fab fa-artstation"></i></div>
                                                         <div class="media-body">
@@ -52,14 +52,14 @@ const isOpenModal = () =>{
                                     </div>
 
                                      <div class="title-with-icon-item">
-                                                <a class="title-with-icon-link" href="">
+                                                <router-link class="title-with-icon-link" :to="{ name: 'domain-transfer' }">
                                                     <div class="media">
                                                         <div class="menu-item-icon"><i class="fas fa-arrows-alt"></i></div>
                                                         <div class="media-body">
                                                             <span class="u-header__promo-title">Domain Transfer</span>
                                                         </div>
                                                     </div>
-                                                </a>
+                                                </router-link>
                                      </div>
                                 </ul>
                                 <!-- End Pages - Submenu -->
@@ -76,7 +76,7 @@ const isOpenModal = () =>{
                                         <div class="col-md-6">
                                             <!--menu title with subtitle and icon item start-->
                                             <div class="title-with-icon-item">
-                                                <router-link class="title-with-icon-link" :to="{ name: 'LandingPage' }">
+                                                <router-link class="title-with-icon-link" :to="{ name: 'landing-page' }">
                                                     <div class="media">
                                                         <div class="menu-item-icon"><i class="fas fa-server"></i></div>
                                                         <div class="media-body">
@@ -90,7 +90,7 @@ const isOpenModal = () =>{
                                             <!--menu title with subtitle and icon item end-->
                                             <!--menu title with subtitle and icon item start-->
                                             <div class="title-with-icon-item">
-                                                <router-link class="title-with-icon-link" :to="{ name: 'WebsiteShared' }">
+                                                <router-link class="title-with-icon-link" :to="{ name: 'website-shared' }">
                                                     <div class="media">
                                                         <div class="menu-item-icon"><i class="fas fa-box"></i></div>
                                                         <div class="media-body">
@@ -104,7 +104,7 @@ const isOpenModal = () =>{
                                             <!--menu title with subtitle and icon item end-->
                                             <!--menu title with subtitle and icon item start-->
                                             <div class="title-with-icon-item">
-                                                <router-link class="title-with-icon-link" :to="{ name: 'EcommerceHost' }">
+                                                <router-link class="title-with-icon-link" :to="{ name: 'ecommerce-host' }">
                                                     <div class="media">
                                                         <div class="menu-item-icon"><i class="fas fa-tachometer-alt"></i></div>
                                                         <div class="media-body">
@@ -120,7 +120,7 @@ const isOpenModal = () =>{
 
                                         <div class="col-md-6">
                                             <div class="title-with-icon-item">
-                                                <router-link class="title-with-icon-link" :to="{ name: 'ResellerHost' }">
+                                                <router-link class="title-with-icon-link" :to="{ name: 'reseller-host' }">
                                                     <div class="media">
                                                         <div class="menu-item-icon"><i class="fab fa-asymmetrik"></i></div>
                                                         <div class="media-body">
@@ -144,7 +144,7 @@ const isOpenModal = () =>{
                                 <!-- Pages - Submenu -->
                                 <ul id="pagesSubMenu" class="hs-sub-menu main-sub-menu" aria-labelledby="pagesMegaMenu" style="min-width: 330px;">
                                     <div class="title-with-icon-item">
-                                                <router-link class="title-with-icon-link" :to="{ name: 'VpsServer' }">
+                                                <router-link class="title-with-icon-link" :to="{ name: 'vps-server' }">
                                                     <div class="media">
                                                         <img class="menu-titile-icon" src="@/assets/img/chat.svg" alt="SVG">
                                                         <div class="media-body">
@@ -173,11 +173,13 @@ const isOpenModal = () =>{
                            
                             <!--about start-->
                             <li class="nav-item hs-has-mega-menu custom-nav-item" data-max-width="250px" data-position="right">
-                                <a id="aboutMegaMenu" class="nav-link custom-nav-link " href="JavaScript:Void(0);" aria-haspopup="true" aria-expanded="false">About</a>
+                                <router-link id="aboutMegaMenu" class="nav-link custom-nav-link " 
+                                :to="{ name: 'about' }" aria-haspopup="true" aria-expanded="false">About</router-link>
                             </li>
 
                             <li class="nav-item hs-has-mega-menu custom-nav-item" data-max-width="250px" data-position="right">
-                                <a id="aboutMegaMenu" class="nav-link custom-nav-link " href="JavaScript:Void(0);" aria-haspopup="true" aria-expanded="false">Contact</a>
+                                <router-link id="aboutMegaMenu" class="nav-link custom-nav-link " 
+                                :to="{ name: 'contact' }" aria-haspopup="true" aria-expanded="false">Contact</router-link>
                             </li>
 
                             <li class="nav-item hs-has-mega-menu custom-nav-item" data-max-width="250px" data-position="right">
