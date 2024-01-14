@@ -30,6 +30,14 @@
   --font-family-monospace:SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
 }
 
+.elementor-4658 .elementor-element.elementor-element-713b771c .elementor-icon-list-icon i {
+  color: var(--e-global-color-25a6ee0);
+  transition: color 0.3s;
+}
+.checkbox{
+  color: #00f68d;
+}
+
 .close:hover {
   color: black;
 }
@@ -9873,7 +9881,7 @@ a.bg-dark:focus, a.bg-dark:hover, button.bg-dark:focus, button.bg-dark:hover {
 
 /* line 6, src/assets/scss/vendors/bootstrap.min.css */
 .w-75 {
-  width: 75% !important;
+  /* width: 75% !important; */
 }
 
 /* line 6, src/assets/scss/vendors/bootstrap.min.css */
@@ -53365,7 +53373,7 @@ background: linear-gradient(to bottom, rgb(246 79 0), rgb(246 79 0));
 /*compare pricing table*/
 /* line 2028, src/assets/scss/custom/_style.scss */
 .table-bordered.comparision-table thead td, .comparision-table.table-bordered thead th {
-  border-bottom-width: 1px;
+  border-bottom-width: 2px;
 }
 
 /* line 2032, src/assets/scss/custom/_style.scss */
@@ -53397,7 +53405,7 @@ background: linear-gradient(to bottom, rgb(246 79 0), rgb(246 79 0));
 /*domain hosting provider compare table*/
 /* line 2055, src/assets/scss/custom/_style.scss */
 td.td-blank {
-  border: none !important;
+  border: 1px solid !important;
 }
 
 /* line 2059, src/assets/scss/custom/_style.scss */
@@ -56246,13 +56254,12 @@ button.scroll-top:focus {
   width: 25px;
   left: 50%;
   -webkit-transform: translate(-50%);
-          transform: translate(-50%);
+  transform: translate(-50%);
   top: -30%;
   z-index: 5;
   transition: border 0.25s linear;
   -webkit-transition: border 0.25s linear;
 }
-
 /* line 4359, src/assets/scss/custom/_style.scss */
 .single-radio-box label .custom-check:before {
   display: block;
@@ -56263,7 +56270,7 @@ button.scroll-top:focus {
   width: 11px;
   left: 40%;
   -webkit-transform: translate(-50%);
-          transform: translate(-50%);
+  transform: translate(-50%);
   top: 0;
   right: 0;
   bottom: 60%;
@@ -56291,6 +56298,7 @@ button.scroll-top:focus {
   color: #fff;
   background: #F64F00;
   border-radius: 4px;
+  text-align: center;
 }
 
 /* line 4391, src/assets/scss/custom/_style.scss */

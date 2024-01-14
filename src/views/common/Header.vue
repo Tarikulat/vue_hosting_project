@@ -102,23 +102,25 @@ const isOpenModal = () =>{
                                                 </router-link>
                                             </div>
                                             <!--menu title with subtitle and icon item end-->
-                                            <!--menu title with subtitle and icon item start-->
-                                            <div class="title-with-icon-item">
-                                                <router-link class="title-with-icon-link" :to="{ name: 'ecommerce-host' }">
-                                                    <div class="media">
-                                                        <div class="menu-item-icon"><i class="fas fa-tachometer-alt"></i></div>
-                                                        <div class="media-body">
-                                                            <span class="u-header__promo-title">E-commerce Hosting<span
-                                                                    class="badge badge-success ml-1">Popular</span></span>
-                                                            <small class="u-header__promo-text">Quickly build Starting at
-                                                                <strong>$150.99/mo</strong></small>
-                                                        </div>
-                                                    </div>
-                                                </router-link>
-                                            </div>
                                         </div>
 
                                         <div class="col-md-6">
+                                         <!--menu title with subtitle and icon item start-->
+                                        <div class="title-with-icon-item">
+                                            <router-link class="title-with-icon-link" :to="{ name: 'ecommerce-host' }">
+                                                <div class="media">
+                                                    <div class="menu-item-icon"><i class="fas fa-tachometer-alt"></i></div>
+                                                    <div class="media-body">
+                                                        <span class="u-header__promo-title">E-commerce Hosting<span
+                                                                class="badge bgcolour ml-1">Advance</span></span>
+                                                        <small class="u-header__promo-text">Quickly build Starting at
+                                                            <strong>$150.99/mo</strong></small>
+                                                    </div>
+                                                </div>
+                                            </router-link>
+                                        </div>
+
+                                       
                                             <div class="title-with-icon-item">
                                                 <router-link class="title-with-icon-link" :to="{ name: 'reseller-host' }">
                                                     <div class="media">
@@ -245,6 +247,12 @@ const isOpenModal = () =>{
 </template>
 
 <style>
+.bgcolour{
+    color: #fff;
+background-color: #f64f00;
+}
+
+
 .searchDomainModal{
     top: 0;
     left: 0;

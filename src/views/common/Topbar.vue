@@ -16,7 +16,6 @@
                                 <li class="list-inline-item">
                                     <a href="tell:888-1234567"><span class="fas fa-phone mr-2"></span>Host Service, Support 01793--------</a>
                                 </li>
-                                <li class="list-inline-item"><a href="#"><span class="fas fa-comments mr-2"></span> Live Chat</a></li>
                             </ul>
                         </div>
                     </div>

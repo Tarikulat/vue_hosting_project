@@ -16,6 +16,9 @@
             </div>
         </div>
     </div>
+    <div class="shape-bottom">
+        <img src="@/assets/img/curve-shape-top.svg" alt="shape" class="bottom-shape img-fluid">
+    </div>
 </section>
 <!--page header section end-->
 

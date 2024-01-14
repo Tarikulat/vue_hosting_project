@@ -1,5 +1,5 @@
 <script setup>
-import { PromoSection, Service, Pricing, Faq, Testimonial } from '@/views/common'
+import { Service, Testimonial } from '@/views/common'
 
 </script>
 

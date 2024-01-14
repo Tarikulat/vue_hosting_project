@@ -1,5 +1,5 @@
 <script setup>
-import { Topbar, Header, HeroSection, PromoSection, Service, Pricing, Faq, Testimonial, Footer } from '@/views/common'
+import { Topbar, Header, HeroSection, Service, Testimonial, Footer } from '@/views/common'
 
 </script>
 

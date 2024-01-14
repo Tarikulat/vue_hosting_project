@@ -15,6 +15,9 @@
                 </div>
             </div>
         </div>
+        <div class="shape-bottom">
+            <img src="@/assets/img/curve-shape-top.svg" alt="shape" class="bottom-shape img-fluid">
+        </div>
     </section>
     <!--page header section end-->
 <!--pricing with switch section start-->
@@ -50,15 +53,15 @@
 
                     <div class="single-radio-box">
                         <input name="billingPlan" id="yearly-plan" value="yearly" class="radio" type="radio" checked>
-                        <label for="yearly-plan"><span class="custom-check"></span>Yearly</label>
+                        <label for="yearly-plan"><span class="custom-check"></span>1 Year</label>
                     </div>
                     <div class="single-radio-box">
                         <input name="billingPlan" id="monthly-plan" value="monthly" class="radio" type="radio">
-                        <label for="monthly-plan"><span class="custom-check"></span>2 Year</label>
+                        <label for="monthly-plan"><span class="custom-check"></span>2 Years</label>
                     </div>
                     <div class="single-radio-box">
                         <input name="billingPlan" id="biannual-plan" value="biannual" class="radio" type="radio">
-                        <label for="biannual-plan"><span class="custom-check"></span>3 Year</label>
+                        <label for="biannual-plan"><span class="custom-check"></span>3 Years</label>
                     </div>
                 </div>
             </div>
@@ -67,10 +70,10 @@
 
         <div class="row align-items-center justify-content-between">
             <div class="col-lg-4 col-md-4 col-12">
-                <div class="card text-center single-pricing-pack">
+                <div class="card text-center align-items-center single-pricing-pack">
                     <div class="pt-5">
                         <h5 class="mb-0">Cloud Starter</h5>
-                        <p class="mb-0">Medium traffic personal sites</p>
+                        <p class="mb-0">1 Month Price</p>
                     </div>
                     <div class="card-header pb-4 border-0 pricing-header">
                         <div class="price text-center mb-0 monthly-price">$19<span>/month</span></div>
@@ -80,24 +83,31 @@
                     </div>
                     <div class="card-body">
                         <ul class="list-unstyled mb-4 pricing-feature-list">
-                            <li><span>10</span> Hosted Domains</li>
-                            <li><span>25 GB</span> RAID 10 Storage</li>
-                            <li><span>200 GB</span> Bandwidth</li>
-                            <li><span>1 Free</span> Domain included</li>
-                            <li><span>Super Fast</span> SSD Storage</li>
-                            <li><span>Free</span> SSL Certificate</li>
-                            <li>99.95% Uptime</li>
-                            <li>24/7 Phone Support</li>
+                            <li > 20 GB SSD Storage</li>
+                            <li > Unlimited Bandwidth</li>
+                            <li > Unlimited Website</li>
+                            <li > Free SSL Certificate</li>
+                            <li > 2x7 Days Backup</li>
+                            <li > 2 Core CPU</li>
+                            <li > 4 GB Physical Memory</li>
+                            <li > 1 GB Virtual Memory</li>
+                            <li > I/O Speed 50 MBs</li>
+                            <li > IOPS 1024</li>
+                            <li > Entry Process 50</li>
+                            <li > Number of Process 130</li>
+                            <li > LiteSpeed with LSCache</li>
+                            <li > cPanel Control Panel</li>
+                            <li > 24/7 Regular Support</li>
                         </ul>
                         <a href="#" class="btn outline-btn mb-3" target="_blank">Purchase now</a>
                     </div>
                 </div>
             </div>
             <div class="col-lg-4 col-md-4 col-12">
-                <div class="card popular-price text-center single-pricing-pack">
+                <div class="card popular-price align-items-center text-center single-pricing-pack">
                     <div class="pt-5">
                         <h5 class="mb-0">Cloud Business <span class="badge color-1 color-1-bg">Popular</span></h5>
-                        <p class="mb-0">High traffic corporate sites</p>
+                        <p class="mb-0">3 Month Price</p>
                     </div>
                     <div class="card-header pb-4 border-0 pricing-header">
                         <div class="price text-center mb-0 monthly-price">$49<span>/month</span></div>
@@ -107,24 +117,31 @@
                     </div>
                     <div class="card-body">
                         <ul class="list-unstyled mb-4 pricing-feature-list">
-                            <li><span>30</span> Hosted Domains</li>
-                            <li><span>75 GB</span> RAID 10 Storage</li>
-                            <li><span>700 GB</span> Bandwidth</li>
-                            <li><span>3 Free</span> Domain included</li>
-                            <li><span>Super Fast</span> SSD Storage</li>
-                            <li><span>Free</span> SSL Certificate</li>
-                            <li>99.95% Uptime</li>
-                            <li>24/7 Phone Support</li>
+                            <li > 40 GB NVMe Storage</li>
+                            <li > Unlimited Bandwidth</li>
+                            <li > Unlimited Website</li>
+                            <li > Free SSL Certificate</li>
+                            <li > 2x7 Days Backup</li>
+                            <li > 4 Core CPU</li>
+                            <li > 6 GB Physical Memory</li>
+                            <li > 2 GB Virtual Memory</li>
+                            <li > I/O Speed 100 MBs</li>
+                            <li > IOPS 2000</li>
+                            <li > Entry Process 50</li>
+                            <li > Number of Process 150</li>
+                            <li > LiteSpeed with LSCache</li>
+                            <li > cPanel Control Panel</li>
+                            <li > 24/7 Regular Support</li>
                         </ul>
                         <a href="#" class="btn primary-solid-btn mb-3" target="_blank">Purchase now</a>
                     </div>
                 </div>
             </div>
             <div class="col-lg-4 col-md-4 col-12">
-                <div class="card text-center single-pricing-pack">
+                <div class="card text-center align-items-center single-pricing-pack">
                     <div class="pt-5">
                         <h5 class="mb-0">Cloud Enterprise</h5>
-                        <p class="mb-0">Enterprise content management</p>
+                        <p class="mb-0">6 Month Price</p>
                     </div>
                     <div class="card-header pb-4 border-0 pricing-header">
                         <div class="price text-center mb-0 monthly-price">$69<span>/month</span></div>
@@ -134,22 +151,135 @@
                     </div>
                     <div class="card-body">
                         <ul class="list-unstyled mb-4 pricing-feature-list">
-                            <li><span>60</span> Hosted Domains</li>
-                            <li><span>175 GB</span> RAID 10 Storage</li>
-                            <li><span>1500 GB</span> Bandwidth</li>
-                            <li><span>6 Free</span> Domain included</li>
-                            <li><span>Super Fast</span> SSD Storage</li>
-                            <li><span>Free</span> SSL Certificate</li>
-                            <li>99.95% Uptime</li>
-                            <li>24/7 Phone Support</li>
+                            <li > 60 GB NVMe Storage</li>
+                            <li > Unlimited Bandwidth</li>
+                            <li > Unlimited Website</li>
+                            <li > Free SSL Certificate</li>
+                            <li > 2x7 Days Backup</li>
+                            <li > 4 Core CPU</li>
+                            <li > 8 GB Physical Memory</li>
+                            <li > 2 GB Virtual Memory</li>
+                            <li > I/O Speed 150 MBs</li>
+                            <li > IOPS 2500</li>
+                            <li > Entry Process 80</li>
+                            <li > Number of Process 180</li>
+                            <li > LiteSpeed with LSCache</li>
+                            <li > cPanel Control Panel</li>
+                            <li > 24/7 Regular Support</li>
                         </ul>
                         <a href="#" class="btn outline-btn mb-3" target="_blank">Purchase now</a>
                     </div>
                 </div>
             </div>
-            <div class="col-12">
-                <div class="support-cta mt-5">
-                    <h5 class="mb-1 d-flex align-items-center justify-content-center"><span class="ti-loop color-primary mr-3 icon-sm"></span>Choose Your <a href="pricing-comparison.html" class="ml-2">Compare Hosting Plans</a></h5>
+            <br>
+            
+            <div class="row align-items-center justify-content-between">
+                <div class="col-lg-4 col-md-4 col-12">
+                    <div class="card text-center align-items-center single-pricing-pack">
+                        <div class="pt-5">
+                            <h5 class="mb-0">Cloud Cheetah</h5>
+                            <p class="mb-0">1 Year</p>
+                        </div>
+                        <div class="card-header pb-4 border-0 pricing-header">
+                            <div class="price text-center mb-0 monthly-price">$19<span>/month</span></div>
+                            <div class="price text-center mb-0 yearly-price">$69<span>/yearly</span></div>
+                            <div class="price text-center mb-0 biannual-price">$130<span>/biannual</span></div>
+                            <div class="price text-center mb-0 triennial-price">$199<span>/triennial</span></div>
+                        </div>
+                        <div class="card-body">
+                            <ul class="list-unstyled mb-4 pricing-feature-list">
+                            <li > 80 GB SSD Storage</li>
+                            <li > Unlimited Bandwidth</li>
+                            <li > Unlimited Website</li>
+                            <li > Free SSL Certificate</li>
+                            <li > 2x7 Days Backup</li>
+                            <li > 5 Core CPU</li>
+                            <li > 10 GB Physical Memory</li>
+                            <li > 2 GB Virtual Memory</li>
+                            <li > I/O Speed 200 MBs</li>
+                            <li > IOPS 3000</li>
+                            <li > Entry Process 100</li>
+                            <li > Number of Process 200</li>
+                            <li > LiteSpeed with LSCache</li>
+                            <li > cPanel Control Panel</li>
+                            <li > 24/7 Regular Support</li>
+                            </ul>
+                            <a href="#" class="btn outline-btn mb-3" target="_blank">Purchase now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12">
+                    <div class="card popular-price align-items-center text-center single-pricing-pack">
+                        <div class="pt-5">
+                            <h5 class="mb-0">Cloud Blackbird <span class="badge color-1 color-1-bg">Popular</span></h5>
+                            <p class="mb-0">2 Year</p>
+                        </div>
+                        <div class="card-header pb-4 border-0 pricing-header">
+                            <div class="price text-center mb-0 monthly-price">$49<span>/month</span></div>
+                            <div class="price text-center mb-0 yearly-price">$159<span>/yearly</span></div>
+                            <div class="price text-center mb-0 biannual-price">$299<span>/biannual</span></div>
+                            <div class="price text-center mb-0 triennial-price">$429<span>/triennial</span></div>
+                        </div>
+                        <div class="card-body">
+                            <ul class="list-unstyled mb-4 pricing-feature-list">
+                                <li > 80 GB SSD Storage</li>
+                            <li > Unlimited Bandwidth</li>
+                            <li > Unlimited Website</li>
+                            <li > Free SSL Certificate</li>
+                            <li > 2x7 Days Backup</li>
+                            <li > 5 Core CPU</li>
+                            <li > 10 GB Physical Memory</li>
+                            <li > 2 GB Virtual Memory</li>
+                            <li > I/O Speed 200 MBs</li>
+                            <li > IOPS 3000</li>
+                            <li > Entry Process 100</li>
+                            <li > Number of Process 200</li>
+                            <li > LiteSpeed with LSCache</li>
+                            <li > cPanel Control Panel</li>
+                            <li > 24/7 Regular Support</li>
+                            </ul>
+                            <a href="#" class="btn primary-solid-btn mb-3" target="_blank">Purchase now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12">
+                    <div class="card text-center align-items-center single-pricing-pack">
+                        <div class="pt-5">
+                            <h5 class="mb-0">Cloud Borak</h5>
+                            <p class="mb-0">3 Year</p>
+                        </div>
+                        <div class="card-header pb-4 border-0 pricing-header">
+                            <div class="price text-center mb-0 monthly-price">$69<span>/month</span></div>
+                            <div class="price text-center mb-0 yearly-price">$259<span>/yearly</span></div>
+                            <div class="price text-center mb-0 biannual-price">$499<span>/biannual</span></div>
+                            <div class="price text-center mb-0 triennial-price">$739<span>/triennial</span></div>
+                        </div>
+                        <div class="card-body">
+                            <ul class="list-unstyled mb-4 pricing-feature-list">
+                            <li > 80 GB SSD Storage</li>
+                            <li > Unlimited Bandwidth</li>
+                            <li > Unlimited Website</li>
+                            <li > Free SSL Certificate</li>
+                            <li > 2x7 Days Backup</li>
+                            <li > 5 Core CPU</li>
+                            <li > 10 GB Physical Memory</li>
+                            <li > 2 GB Virtual Memory</li>
+                            <li > I/O Speed 200 MBs</li>
+                            <li > IOPS 3000</li>
+                            <li > Entry Process 100</li>
+                            <li > Number of Process 200</li>
+                            <li > LiteSpeed with LSCache</li>
+                            <li > cPanel Control Panel</li>
+                            <li > 24/7 Regular Support</li>
+                            </ul>
+                            <a href="#" class="btn outline-btn mb-3" target="_blank">Purchase now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="support-cta mt-5">
+                        <h5 class="mb-1 d-flex align-items-center justify-content-center"><span class="ti-loop color-primary mr-3 icon-sm"></span>Choose Your <a href="pricing-comparison.html" class="ml-2">Compare Hosting Plans</a></h5>
+                    </div>
                 </div>
             </div>
         </div>
@@ -163,7 +293,7 @@
         <div class="row justify-content-center">
             <div class="col-md-9 col-lg-8">
                 <div class="section-heading text-center mb-5">
-                    <h2>Host Service head to head comparison</h2>
+                    <h2>Web Hosting Resource Details</h2>
                     <p class="lead">
                         Globally incubate next-generation e-services via state of the art technology. Appropriately
                         iterate quality.
@@ -177,31 +307,23 @@
                     <table class="table w-100 table-hover table-bordered table-striped comparision-table text-center">
                         <thead class="comparision-table-head">
                             <tr>
-                                <td class="td-blank"></td>
-                                <th class="primary-bg text-white provider-logo">
-                                    <img alt="hostlar-logo" src="@/assets/img/logo-white.png" class="img-fluid" />
-                                </th>
-                                <th class="provider-logo">
-                                    <img alt="hostlar-logo" src="@/assets/img/clients-logo-01.png" class="img-fluid" />
-                                </th>
-                                <th class="provider-logo">
-                                    <img alt="hostlar-logo" src="@/assets/img/clients-logo-02.png" class="img-fluid" />
-                                </th>
-                                <th class="provider-logo">
-                                    <img alt="hostlar-logo" src="@/assets/img/clients-logo-03.png" class="img-fluid" />
-                                </th>
-                                <th class="provider-logo">
-                                    <img alt="hostlar-logo" src="@/assets/img/clients-logo-04.png" class="img-fluid" />
-                                </th>
+                                <tr>
+                                    <td style="width: 20%; text-align: center"><h5>Resource Type</h5></td>
+                                    <td style="width: 20%; text-align: center;"><h5>Bronze</h5></td>
+                                    <td style="width: 20%; text-align: center;"><h5>Silver</h5></td>
+                                    <td style="width: 20%; text-align: center;"><h5>Gold</h5></td>
+                                    <td style="width: 20%; text-align: center;"><h5>Platinum</h5></td>
+                                    <td style="width: 20%; text-align: center;"><h5>Advance</h5></td>
+                                    </tr>
                             </tr>
                         </thead>
                         <tbody class="comparision-table-body">
                             <tr>
                                 <td>
-                                    <p class="text-left">Starting From</p>
+                                    <h6 class="text-left">CPU Core Limit %</h6>
                                 </td>
                                 <td class="primary-bg text-white">
-                                    <strong>$2.95</strong>
+                                    <strong>0.5 core 50%</strong>
                                     <small>/month</small>
                                 </td>
                                 <td>
