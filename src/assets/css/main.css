@@ -53661,7 +53661,7 @@ td.td-blank {
 /* line 2267, src/assets/scss/custom/_style.scss */
 .accordion-faq .card-header {
   padding: 20px 0;
-  background: transparent;
+  background: #eee;
   border-bottom: 1px solid #ebebeb;
   cursor: pointer;
   margin-bottom: 0 !important;
