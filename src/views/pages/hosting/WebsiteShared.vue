@@ -305,6 +305,193 @@
     </div>
 </section>
 <!--pricing with switch section end-->
+<!--compare provider table start-->
+<section class="compare-provider-table ptb-100 gray-light-bg">
+    <div class="container">
+        <div class="row justify-content-center">
+        
+            <div class="text-center mb-5">
+                <h2>Web Hosting Resource Details</h2>
+             
+            </div>
+        <div class="row">
+            <div class="col-md-12 col-lg-12">
+                <div class="table-responsive">
+                    <table class="table w-100 table-hover table-bordered table-striped comparision-table text-center">
+                        <thead class="comparision-table-head">
+                            <tr>
+                                <tr>
+                                    <td style="width: 20%; text-align: center"><h5>Resource Type</h5></td>
+                                    <td class="primary-bg" style="width: 20%; text-align: center;"><h5 class="text-white">Bronze</h5></td>
+                                    <td style="width: 20%; text-align: center;"><h5>Silver</h5></td>
+                                    <td style="width: 20%; text-align: center;"><h5>Gold</h5></td>
+                                    <td style="width: 20%; text-align: center;"><h5>Platinum</h5></td>
+                                    </tr>
+                            </tr>
+                        </thead>
+                        <tbody class="comparision-table-body">
+                            <tr style="width: 20%; text-align: center">
+                                <td>
+                                    <h6 class="text-left">CPU Core Limit %</h6>
+                                </td>
+                                <td class="primary-bg">
+                                    <h6 class="text-white">0.5 core 50%</h6>
+                                </td>
+                                <td>
+                                    <h6>1 core 100%</h6>
+                                </td>
+                                <td>
+                                    <h6>1.5 core 150%</h6>
+                                </td>
+                                <td>
+                                    <h6>2 core 200%</h6>
+                                </td>
+                            </tr>
+                            <tr style="width: 20%; text-align: center">
+                                <td>
+                                    <h6 class="text-left">Physical Memory</h6>
+                                </td>
+                                <td class="primary-bg">
+                                    <h6 class="text-white">1 GB</h6>
+                                </td>
+                                <td>
+                                    <h6>2 GB</h6>
+                                </td>
+                                <td>
+                                    <h6>3 GB</h6>
+                                </td>
+                                <td>
+                                    <h6>4 GB</h6>
+                                </td>
+                            </tr>
+                           
+                            <tr style="width: 20%; text-align: center">
+                                <td>
+                                    <h6 class="text-left">Virtual Memory</h6>
+                                </td>
+                                <td class="primary-bg">
+                                    <h6 class="text-white">1 GB</h6>
+                                </td>
+                                <td>
+                                    <h6>1 GB</h6>
+                                </td>
+                                <td>
+                                    <h6>1 GB</h6>
+                                </td>
+                                <td>
+                                    <h6>1 GB</h6>
+                                </td>
+                            </tr>
+                            <tr style="width: 20%; text-align: center">
+                                <td>
+                                    <h6 class="text-left">I/O Speed</h6>
+                                </td>
+                                <td class="primary-bg">
+                                    <h6 class="text-white">20 MBs</h6>
+                                </td>
+                                <td>
+                                    <h6>30 MBs</h6>
+                                </td>
+                                <td>
+                                    <h6>40 MBs</h6>
+                                </td>
+                                <td>
+                                    <h6>50 MBs</h6>
+                                </td>
+                            </tr>
+                            <tr style="width: 20%; text-align: center">
+                                <td>
+                                    <h6 class="text-left">IOPS</h6>
+                                </td>
+                                <td class="primary-bg">
+                                    <h6 class="text-white">1024</h6>
+                                </td>
+                                <td>
+                                    <h6>1024</h6>
+                                </td>
+                                <td>
+                                    <h6>1024</h6>
+                                </td>
+                                <td>
+                                    <h6>1024</h6>
+                                </td>
+                            </tr>
+                            <tr style="width: 20%; text-align: center">
+                                <td>
+                                    <h6 class="text-left">Entry Process</h6>
+                                </td>
+                                <td class="primary-bg">
+                                    <h6 class="text-white">20</h6>
+                                </td>
+                                <td>
+                                    <h6>30</h6>
+                                </td>
+                                <td>
+                                    <h6>40</h6>
+                                </td>
+                                <td>
+                                    <h6>50</h6>
+                                </td>
+                            </tr>
+                            <tr style="width: 20%; text-align: center">
+                                <td>
+                                    <h6 class="text-left">Number of Process</h6>
+                                </td>
+                                <td class="primary-bg">
+                                    <h6 class="text-white">100</h6>
+                                </td>
+                                <td>
+                                    <h6>110</h6>
+                                </td>
+                                <td>
+                                    <h6>120</h6>
+                                </td>
+                                <td>
+                                    <h6>130</h6>
+                                </td>
+                            </tr>
+                            <tr style="width: 20%; text-align: center">
+                                <td>
+                                    <h6 class="text-left">INODES/File Limit</h6>
+                                </td>
+                                <td class="primary-bg">
+                                    <h6 class="text-white">No File Limit</h6>
+                                </td>
+                                <td>
+                                    <h6>No File Limit</h6>
+                                </td>
+                                <td>
+                                    <h6>No File Limit</h6>
+                                </td>
+                                <td>
+                                    <h6>No File Limit</h6>
+                                </td>
+                            </tr>
+                            <tr style="width: 20%; text-align: center">
+                                <td>
+                                    <h6 class="text-left">Bandwidth Network</h6>
+                                </td>
+                                <td class="primary-bg">
+                                    <h6 class="text-white"></h6>
+                                </td>
+                                <td class="col-12">
+                                    <h6>1Gbps Global </h6>
+                                </td>
+                                <td class="col-12">
+                                    <h6>10Gbps Special </h6>
+                                </td>
+                                <td class="col-12">
+                                    <h6>Bandwidth Port</h6>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
 
 <!--promo-section feature section start-->
 <section class="promo-feature ptb-100 gradient-overlay" style="background: url('')no-repeat center center / cover fixed">

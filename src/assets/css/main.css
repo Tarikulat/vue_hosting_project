@@ -51105,12 +51105,12 @@ strong, b {
 
 /* line 147, src/assets/scss/custom/_style.scss */
 .ptb-100 {
-  padding: 100px 0;
+  padding: 60px 0;
 }
 
 /* line 151, src/assets/scss/custom/_style.scss */
 .pt-100 {
-  padding-top: 100px;
+  padding-top: 50px;
 }
 
 /* line 155, src/assets/scss/custom/_style.scss */
@@ -51268,8 +51268,8 @@ a:hover {
 /* line 277, src/assets/scss/custom/_style.scss */
 .secondary-solid-btn {
   color: #fff;
-  background: #031974;
-  border: 1px solid #031974;
+  background: #f64f00;
+  border: 1px solid #f64f01;
 }
 
 /* line 283, src/assets/scss/custom/_style.scss */
@@ -51297,14 +51297,14 @@ a:hover {
 .outline-btn {
   position: relative;
   display: inline-block;
-  color: #035ded;
-  border: 1px solid #035ded;
+  color: #f65204;
+    border: 1px solid #f65508;
 }
 
 /* line 305, src/assets/scss/custom/_style.scss */
 .outline-btn:hover {
   color: #ffffff;
-  background: #035ded;
+  background: #f65204;
 }
 
 /* line 309, src/assets/scss/custom/_style.scss */
@@ -54177,7 +54177,7 @@ ul.disc-style li {
 ============================================*/
 /* line 2698, src/assets/scss/custom/_style.scss */
 .domain-search-cta-type {
-  background-color: #00f68d !important;
+  background-color: #035ded  !important;
 }
 
 /* line 2702, src/assets/scss/custom/_style.scss */

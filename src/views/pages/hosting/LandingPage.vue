@@ -14,7 +14,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div><br>
         <div class="shape-bottom">
             <img src="@/assets/img/curve-shape-top.svg" alt="shape" class="bottom-shape img-fluid">
         </div>
@@ -291,15 +291,11 @@
  <section class="compare-provider-table ptb-100 gray-light-bg">
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-md-9 col-lg-8">
-                <div class="section-heading text-center mb-5">
-                    <h1>Web Hosting Resource Details</h1>
-                    <p class="lead">
-                        Globally incubate next-generation e-services via state of the art technology.
-                    </p>
-                </div>
+        
+            <div class="text-center mb-5">
+                <h2>Web Hosting Resource Details</h2>
+             
             </div>
-        </div>
         <div class="row">
             <div class="col-md-12 col-lg-12">
                 <div class="table-responsive">
@@ -458,10 +454,16 @@
                                     <h6 class="text-left">Bandwidth Network</h6>
                                 </td>
                                 <td class="primary-bg">
-                                    <h6 class="text-white">No File Limit</h6>
+                                    <h6 class="text-white"></h6>
                                 </td>
-                                <td>
-                                    <h6>1Gbps Global & 10Gbps Special Bandwidth Port</h6>
+                                <td class="col-12">
+                                    <h6>1Gbps Global </h6>
+                                </td>
+                                <td class="col-12">
+                                    <h6>10Gbps Special </h6>
+                                </td>
+                                <td class="col-12">
+                                    <h6>Bandwidth Port</h6>
                                 </td>
                             </tr>
                         </tbody>
@@ -470,88 +472,8 @@
             </div>
         </div>
     </div>
-
-</section>
-
-    <section>
-    <div class="row justify-content-center">
-        
-            <div class="text-center mb-5">
-                <h2>Web Hosting Resource Details</h2>
-             
-            </div>
-        
-    <table border="2" style="width: 85%; border-collapse: collapse; margin-left: auto; margin-right: auto;">
-        <tbody>
-        <tr>
-        <td style="width: 20%; text-align: center"><h5>Resource Type</h5></td>
-        <td style="width: 20%; text-align: center;"><h5>Bronze</h5></td>
-        <td style="width: 20%; text-align: center;"><h5>Silver</h5></td>
-        <td style="width: 20%; text-align: center;"><h5>Gold</h5></td>
-        <td style="width: 20%; text-align: center;"><h5>Platinum</h5></td>
-        </tr>
-        <tr>
-        <td style="width: 20%;"><h6>CPU Core Limit %</h6></td>
-        <td style="width: 20%; text-align: center;">0.5 core 50%</td>
-        <td style="width: 20%; text-align: center;">1 core 100%</td>
-        <td style="width: 20%; text-align: center;">1.5 core 150%</td>
-        <td style="width: 20%; text-align: center;">2 core 200%</td>
-        </tr>
-        <tr>
-        <td style="width: 20%;"><h6>Physical Memory</h6></td>
-        <td style="width: 20%; text-align: center;">1 GB</td>
-        <td style="width: 20%; text-align: center;">2 GB</td>
-        <td style="width: 20%; text-align: center;">3 GB</td>
-        <td style="width: 20%; text-align: center;">4 GB</td>
-        </tr>
-        <tr>
-        <td style="width: 20%;"><h6>Virtual Memory</h6></td>
-        <td style="width: 20%; text-align: center;">1 GB</td>
-        <td style="width: 20%; text-align: center;">1 GB</td>
-        <td style="width: 20%; text-align: center;">1 GB</td>
-        <td style="width: 20%; text-align: center;">1 GB</td>
-        </tr>
-        <tr>
-        <td style="width: 20%;"><h6>I/O Speed</h6></td>
-        <td style="width: 20%; text-align: center;">20 MBs</td>
-        <td style="width: 20%; text-align: center;">30 MBs</td>
-        <td style="width: 20%; text-align: center;">40 MBs</td>
-        <td style="width: 20%; text-align: center;">50 MBs</td>
-        </tr>
-        <tr>
-        <td style="width: 20%;"><h6>IOPS</h6></td>
-        <td style="width: 20%; text-align: center;">1024</td>
-        <td style="width: 20%; text-align: center;">1024</td>
-        <td style="width: 20%; text-align: center;">1024</td>
-        <td style="width: 20%; text-align: center;">1024</td>
-        </tr>
-        <tr>
-        <td style="width: 20%;"><h6>Entry Process</h6></td>
-        <td style="width: 20%; text-align: center;">20</td>
-        <td style="width: 20%; text-align: center;">30</td>
-        <td style="width: 20%; text-align: center;">40</td>
-        <td style="width: 20%; text-align: center;">50</td>
-        </tr>
-        <tr>
-        <td style="width: 20%;"><h6>Number of Process</h6></td>
-        <td style="width: 20%; text-align: center;">100</td>
-        <td style="width: 20%; text-align: center;">110</td>
-        <td style="width: 20%; text-align: center;">120</td>
-        <td style="width: 20%; text-align: center;">130</td>
-        </tr>
-        <tr>
-        <td style="width: 20%;"><h6>INODES/File Limit</h6></td>
-        <td style="width: 20%; text-align: center;">No File Limit</td>
-        <td style="width: 20%; text-align: center;">No File Limit</td>
-        <td style="width: 20%; text-align: center;">No File Limit</td>
-        <td style="width: 20%; text-align: center;">No File Limit</td>
-        </tr>
-        </tbody>
-        </table>
     </div>
-<hr>
 </section>
-<!--compare provider table end-->
 
 </template>
 

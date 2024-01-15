@@ -16,7 +16,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div><br>
         <div class="shape-bottom">
             <img src="@/assets/img/curve-shape-top.svg" alt="shape" class="bottom-shape img-fluid">
         </div>
