@@ -25,11 +25,11 @@
                     </form>
                     <div class="domain-list-wrap mt-4">
                         <ul class="list-inline domain-search-list text-white">
-                            <li class="list-inline-item"><a href="#"><img src="@/assets/img/com-w.png" alt="com" width="70" class="img-fluid"> <span>$8.99</span></a></li>
-                            <li class="list-inline-item"><a href="#"><img src="@/assets/img/net-w.png" alt="com" width="70" class="img-fluid"> <span>$4.99</span></a></li>
-                            <li class="list-inline-item"><a href="#"><img src="@/assets/img/org-w.png" alt="com" width="70" class="img-fluid"> <span>$2.99</span></a></li>
-                            <li class="list-inline-item"><a href="#"><img src="@/assets/img/store-w.png" alt="com" width="70" class="img-fluid"> <span>$0.99</span></a></li>
-                            <li class="list-inline-item"><a href="#"><img src="@/assets/img/online-w.png" alt="com" width="70" class="img-fluid"> <span>$0.99</span></a></li>
+                            <li class="list-inline-item"><a href="#"><img src="@/assets/img/s5.png" alt="com" width="70" class="img-fluid"> <span>$8.99</span></a></li>
+                            <li class="list-inline-item"><a href="#"><img src="@/assets/img/s4.png" alt="com" width="70" class="img-fluid"> <span>$4.99</span></a></li>
+                            <li class="list-inline-item"><a href="#"><img src="@/assets/img/s3.png" alt="com" width="70" class="img-fluid"> <span>$2.99</span></a></li>
+                            <li class="list-inline-item"><a href="#"><img src="@/assets/img/s2.png" alt="com" width="70" class="img-fluid"> <span>$0.99</span></a></li>
+                            <li class="list-inline-item"><a href="#"><img src="@/assets/img/s1.png" alt="com" width="70" class="img-fluid"> <span>$0.99</span></a></li>
                         </ul>
                     </div>
                 </div>

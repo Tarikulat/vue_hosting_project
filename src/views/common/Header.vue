@@ -15,7 +15,7 @@ const isOpenModal = () =>{
             <div class="container">
                 <nav class="js-mega-menu navbar navbar-expand-md header-nav">
                     <!--logo start-->
-                    <a class="navbar-brand" href=""><img src="@/assets/img/logo_host.png" width="180" alt="logo" class="img-fluid" /></a>
+                    <a class="navbar-brand" href=""><img src="@/assets/img/logo_host.png" width="235" alt="logo" class="img-fluid" /></a>
                     <!--logo end-->
 
                     <!--responsive toggle button start-->
@@ -197,7 +197,7 @@ const isOpenModal = () =>{
         </div>
         <div id="myModal" class="searchDomainModal" :class="{ 'is-open': isOpen == true, 'is-close': isOpen == false }"  >
             <div class="d-flex justify-content-center align-items-center">
-                <div class="modal-content" style="width:1050px; margin-top:100px;">
+                <div class="modal-content" style="width:1050px; margin-top:100px; height: 500px;">
                     <span class="close" @click.prevent="isOpenModal"  id="closeModalBtn" >&times;</span> 
                     <div class="domain-search-cta-type ptb-100" style="background: url('@/assets/img/map-bg.png')no-repeat center center">
                         <div class="container">
@@ -221,15 +221,15 @@ const isOpenModal = () =>{
                                         </form>
                                         <div class="domain-list-wrap mt-4">
                                             <ul class="list-inline domain-search-list">
-                                                <li class="list-inline-item"><a href="#"><img src="@/assets/img/lg1.png" alt="com" width="70" class="img-fluid" /> <span>$8.99</span></a>
+                                                <li class="list-inline-item"><a href="#"><img src="@/assets/img/s5.png" alt="com" width="70" class="img-fluid" /> <span>$8.99</span></a>
                                                 </li>
-                                                <li class="list-inline-item"><a href="#"><img src="@/assets/img/lg2.png" alt="com" width="70" class="img-fluid" /> <span>$0.99</span></a>
+                                                <li class="list-inline-item"><a href="#"><img src="@/assets/img/s4.png" alt="com" width="70" class="img-fluid" /> <span>$0.99</span></a>
                                                 </li>
-                                                <li class="list-inline-item"><a href="#"><img src="@/assets/img/lg3.png" alt="com" width="70" class="img-fluid" /> <span>$4.99</span></a>
+                                                <li class="list-inline-item"><a href="#"><img src="@/assets/img/s3.png" alt="com" width="70" class="img-fluid" /> <span>$4.99</span></a>
                                                 </li>
-                                                <li class="list-inline-item"><a href="#"><img src="@/assets/img/lg4.png" alt="com" width="70" class="img-fluid" /> <span>$2.99</span></a>
+                                                <li class="list-inline-item"><a href="#"><img src="@/assets/img/s2.png" alt="com" width="70" class="img-fluid" /> <span>$2.99</span></a>
                                                 </li>
-                                                <li class="list-inline-item"><a href="#"><img src="@/assets/img/lg5.png" alt="com" width="70" class="img-fluid" /> <span>$0.99</span></a>
+                                                <li class="list-inline-item"><a href="#"><img src="@/assets/img/s1.png" alt="com" width="70" class="img-fluid" /> <span>$0.99</span></a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -280,6 +280,7 @@ background-color: #f64f00;
     margin: 0px 13px;
     font-size: 3.5rem;
     text-shadow: 0 1px 0 #fff;
+    text-align: end;
 }
 
 .is-open{

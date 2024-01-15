@@ -30,6 +30,7 @@
   --font-family-monospace:SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
 }
 
+
 .elementor-4658 .elementor-element.elementor-element-713b771c .elementor-icon-list-icon i {
   color: var(--e-global-color-25a6ee0);
   transition: color 0.3s;
@@ -566,7 +567,7 @@ hr {
 
 /* line 6, src/assets/scss/vendors/bootstrap.min.css */
 .img-fluid {
-  max-width: 90%;
+  max-width: 75%;
   height: auto;
 }
 
@@ -51105,7 +51106,7 @@ strong, b {
 
 /* line 147, src/assets/scss/custom/_style.scss */
 .ptb-100 {
-  padding: 60px 0;
+  padding: 85px 0;
 }
 
 /* line 151, src/assets/scss/custom/_style.scss */
@@ -52484,14 +52485,14 @@ svg.shape-bg, svg.promo-bg {
 
 /* line 1318, src/assets/scss/custom/_style.scss */
 .animation-icon-img.animation-icon-1 {
-  left: 15%;
+  left: 11%;
   top: 30%;
 }
 
 /* line 1323, src/assets/scss/custom/_style.scss */
 .animation-icon-img.animation-icon-2 {
   left: inherit;
-  right: 45%;
+  right: 59%;
   top: 0;
   -webkit-animation-delay: .4s;
   animation-delay: .4s;
@@ -52500,7 +52501,7 @@ svg.shape-bg, svg.promo-bg {
 /* line 1331, src/assets/scss/custom/_style.scss */
 .animation-icon-img.animation-icon-3 {
   top: 30%;
-  left: 75%;
+  left: 56%;
   -webkit-animation-delay: .6s;
   animation-delay: .6s;
 }
@@ -52508,8 +52509,8 @@ svg.shape-bg, svg.promo-bg {
 /* line 1338, src/assets/scss/custom/_style.scss */
 .animation-icon-img.animation-icon-4 {
   left: inherit;
-  right: 45%;
-  top: 60%;
+  right: 58%;
+  top: 58%;
   -webkit-animation-delay: .8s;
   animation-delay: .8s;
 }
@@ -54177,7 +54178,7 @@ ul.disc-style li {
 ============================================*/
 /* line 2698, src/assets/scss/custom/_style.scss */
 .domain-search-cta-type {
-  background-color: #035ded  !important;
+  background-color: #f3f3f3  !important;
 }
 
 /* line 2702, src/assets/scss/custom/_style.scss */

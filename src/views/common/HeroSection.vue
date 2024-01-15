@@ -40,10 +40,10 @@ import { Service, Testimonial } from '@/views/common'
                       <div class="col-lg-5 col-12">
                         <div class="animation-image-wrap">
                             <img src="@/assets/img/servers.svg" alt="wp hosting" class="img-fluid" />
-                            <img src="@/assets/img/animated-icon-1.png" alt="wp hosting" class="animation-icon-img animation-icon-1" />
-                            <img src="@/assets/img/animated-icon-2.png" alt="wp hosting" class="animation-icon-img animation-icon-2" />
-                            <img src="@/assets/img/animated-icon-3.png" alt="wp hosting" class="animation-icon-img animation-icon-3" />
-                            <img src="@/assets/img/animated-icon-4.png" alt="wp hosting" class="animation-icon-img animation-icon-4" />
+                            <img src="@/assets/img/an1.png" alt="wp hosting" class="animation-icon-img animation-icon-1" />
+                            <img src="@/assets/img/an2.png" alt="wp hosting" class="animation-icon-img animation-icon-2" />
+                            <img src="@/assets/img/an3.png" alt="wp hosting" class="animation-icon-img animation-icon-3" />
+                            <img src="@/assets/img/an4.png" alt="wp hosting" class="animation-icon-img animation-icon-4" />
                         </div>
                     </div>
                 </div>

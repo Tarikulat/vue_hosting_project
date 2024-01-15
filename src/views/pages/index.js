@@ -13,3 +13,4 @@ export { default as domainTransfer } from '@/views/pages/domain/domain_transfer.
 export { default as DedicatedServer } from '@/views/pages/server/DedicatedServer.vue';
 //......export file end......
 
+
