@@ -390,19 +390,17 @@ export default {
   </swiper>
 </section>
 
-
- <!--compare provider table start-->
+ <!--compare provider table start (new1)-->
  <section class="compare-provider-table ptb-100 gray-light-bg">
     <div class="container">
-        <div class="row justify-content-center">
-        
-            <div class="text-center mb-5">
-                <h2>Web Hosting Resource Details</h2>
-             
-            </div>
-        <div class="row">
+        <div class="row table">
             <div class="col-md-12 col-lg-12">
+                <div class="text-center table-title mb-5">
+                    <h2>Web Hosting Resource Details</h2>
+                 
+                </div>
                 <div class="table-responsive">
+                 
                     <table class="table w-100 table-hover table-bordered table-striped comparision-table text-center">
                         <thead class="comparision-table-head">
                             <tr>
@@ -569,6 +567,7 @@ export default {
                                 <td class="col-12">
                                     <h6>Bandwidth Port</h6>
                                 </td>
+                             
                             </tr>
                         </tbody>
                     </table>
@@ -576,12 +575,218 @@ export default {
             </div>
         </div>
     </div>
+</section>
+
+ <!--feature section start(1add)-->
+ <section class="feature-section ptb-100 gray-light-bg">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-9 col-lg-8">
+          <div class="section-heading text-center mb-5">
+            <h2>Hosting Features For Your Big Ideas</h2>
+            <p class="lead">
+              These features come standard in all of our hosting plans. Dynamically extend
+              imperatives through open-source quickly niche markets.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 col-lg-4">
+          <div class="features-box p-4">
+            <div class="features-box-icon">
+              <span class="ti-panel icon-sm color-primary"></span>
+            </div>
+            <div class="features-box-content">
+              <h5>Custom Control Panel</h5>
+              <p>
+                Our intuitive control panel gives you admin access to all of your
+                DreamHost products easily.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="features-box p-4">
+            <div class="features-box-icon">
+              <span class="ti-thumb-up icon-sm color-primary"></span>
+            </div>
+            <div class="features-box-content">
+              <h5>Real-Life Human Beings</h5>
+              <p>
+                Tech veterans, geeks, and nerds are all standing by to optimize your
+                experience whether.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="features-box p-4">
+            <div class="features-box-icon">
+              <span class="ti-mouse-alt icon-sm color-primary"></span>
+            </div>
+            <div class="features-box-content">
+              <h5>1-Click Installer</h5>
+              <p>
+                No need to dig into a bunch of documentation. Simply install web apps like
+                WordPress, Joomla!.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="features-box p-4">
+            <div class="features-box-icon">
+              <span class="ti-timer icon-sm color-primary"></span>
+            </div>
+            <div class="features-box-content">
+              <h5>100% Uptime Guarantee</h5>
+              <p>
+                With multiple datacenter locations, redundant cooling, emergency
+                generators and monitoring.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="features-box p-4">
+            <div class="features-box-icon">
+              <span class="ti-harddrives icon-sm color-primary"></span>
+            </div>
+            <div class="features-box-content">
+              <h5>Solid State Drives (SSD)</h5>
+              <p>
+                With SSDs, your website, caching, and database queries are faster by our
+                calculations.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="features-box p-4">
+            <div class="features-box-icon">
+              <span class="ti-cup icon-sm color-primary"></span>
+            </div>
+            <div class="features-box-content">
+              <h5>Award-Winning Support</h5>
+              <p>
+                No question is too simple, or too complex for our team of experts.
+                Synergistically synergize.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--feature section end-->
+
+  <!--call to action new section start (add2)-->
+<section class="call-to-action ptb-100 gradient-overlay " style="background: url('@/@/assets/img/hero-bg-4.jpg')no-repeat center center / cover">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-9 col-lg-8">
+                <div class="cta-new-wrap text-white text-center">
+                    <h2 class="text-white">30-day Money-back Guarantee</h2>
+                    <p class="lead">Globally parallel task granular alignments through excellent intellectual capital. Globally deploy vertical leadership.</p>
+                    <div class="action-btns mt-4">
+                        <a href="#" class="btn solid-white-btn animated-btn mr-lg-3">Get
+                            Started Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </section>
+<!--call to action new section end-->
+
+ <!--faq new style start (3add)-->
+ <section class="ptb-100">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-9 col-lg-8">
+          <div class="section-heading mb-3 text-center">
+            <h2>Frequently Asked Questions</h2>
+            <p class="lead">
+              Quickly morph client-centric results through performance based applications.
+              Proactively facilitate professional human capital for cutting-edge.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="single-faq pt-4">
+            <h5>How can I pay for this?</h5>
+            <p>
+              Intrinsicly implement high standards in strategic theme areas via
+              inexpensive solutions. Assertively conceptualize prospective bandwidth
+              whereas client-based imperatives.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="single-faq pt-4">
+            <h5>Is it possible to pay yearly?</h5>
+            <p>
+              Assertively iterate user friendly innovation without open-source markets.
+              Monotonectally extend resource sucking manufactured products without
+              high-payoff paradigms. Objectively customize ubiquitous information before
+              economically sound relationships.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="single-faq pt-4">
+            <h5>Do you offer discounts on multiple items?</h5>
+            <p>
+              Dramatically target focused testing procedures after holistic ideas.
+              Collaboratively maximize high-payoff ROI and value-added products.
+              Distinctively deliver cooperative collaboration and idea-sharing whereas
+              customized
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="single-faq pt-4">
+            <h5>Is VAT included in plan prices?</h5>
+            <p>
+              Distinctively simplify high-quality initiatives for highly efficient
+              applications. Monotonectally repurpose integrated customer service after
+              magnetic e-services.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="single-faq pt-4">
+            <h5>Will I pay more for some features?</h5>
+            <p>
+              Enthusiastically pontificate resource-leveling supply chains whereas
+              scalable markets. Authoritatively streamline resource maximizing methods of
+              empowerment
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="single-faq pt-4">
+            <h5>Why are there no limits on the number of messages?</h5>
+            <p>
+              Assertively target turnkey ideas for market-driven portals. Appropriately
+              e-enable world-class intellectual capital whereas 2.0 mindshare.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--faq new style end-->
 
 </template>
 
 <style>
+
+
+
 #app {
     height: 100%;
   }

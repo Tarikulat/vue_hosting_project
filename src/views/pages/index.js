@@ -8,8 +8,8 @@ export { default as LandingPage } from '@/views/pages/hosting/LandingPage.vue';
 export { default as ResellerHost } from '@/views/pages/hosting/ResellerHost.vue';
 export { default as WebsiteShared } from '@/views/pages/hosting/WebsiteShared.vue';
 export { default as EcommerceHost } from '@/views/pages/hosting/EcommerceHost.vue';
-export { default as domainRegister } from '@/views/pages/domain/domain_register.vue';
-export { default as domainTransfer } from '@/views/pages/domain/domain_transfer.vue';
+export { default as domainRegister } from '@/views/pages/domain/domainRegister.vue';
+export { default as domainTransfer } from '@/views/pages/domain/DomainTransfer.vue';    
 export { default as DedicatedServer } from '@/views/pages/server/DedicatedServer.vue';
 //......export file end......
 

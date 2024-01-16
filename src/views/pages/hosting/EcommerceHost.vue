@@ -408,19 +408,17 @@ export default {
   </swiper>
 </section>
 
-
- <!--compare provider table start-->
+ <!--compare provider table start (new1)-->
  <section class="compare-provider-table ptb-100 gray-light-bg">
     <div class="container">
-        <div class="row justify-content-center">
-        
-            <div class="text-center mb-5">
-                <h2>Web Hosting Resource Details</h2>
-             
-            </div>
-        <div class="row">
+        <div class="row table">
             <div class="col-md-12 col-lg-12">
+                <div class="text-center table-title mb-5">
+                    <h2>Web Hosting Resource Details</h2>
+                 
+                </div>
                 <div class="table-responsive">
+                 
                     <table class="table w-100 table-hover table-bordered table-striped comparision-table text-center">
                         <thead class="comparision-table-head">
                             <tr>
@@ -587,13 +585,13 @@ export default {
                                 <td class="col-12">
                                     <h6>Bandwidth Port</h6>
                                 </td>
+                             
                             </tr>
                         </tbody>
                     </table>
                 </div>
             </div>
         </div>
-    </div>
     </div>
 </section>
 

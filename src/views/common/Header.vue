@@ -202,38 +202,46 @@ const isOpenModal = () =>{
                     <div class="domain-search-cta-type ptb-100" style="background: url('@/assets/img/map-bg.png')no-repeat center center">
                         <div class="container">
                             <div class="row align-items-center justify-content-center">
-                                <div class="col-md-6 col-lg-6">
-                                    <div class="domain-search-content text-center mb-4">
-                                        <h2>Search Unique Domain!</h2>
-                                        <p>Get your perfect domain name starting from <strong>9.99$ </strong> for the first year and
-                                            free domain privacy included build.</p>
-                                    </div>
-                                    <div class="domain-search-wrap text-center">
-                                        <form action="domain-search-result.php" class="domain-search-form">
-                                            <div class="input-group shadow">
-                                                <input type="text" name="domain" id="domain" class="form-control" placeholder="example.com" />
-                                                <div class="input-group-append">
-                                                    <button class="btn search-btn btn-hover d-flex align-items-center" type="submit">
-                                                        <span class="ti-search mr-2"></span> Search
-                                                    </button>
+                                <div class="col-md-8 col-lg-8">
+                                    <div class="d-flex justify-content-between">
+                                        <div>
+                                            <div class="domain-search-content text-center mb-4">
+                                                <h2>Find Your <span class="text-colour">Domain</span> Name</h2>
+                                            </div>
+                                            <div class="domain-search-wrap text-center">
+                                                <form action="domain-search-result.php" class="domain-search-form">
+                                                    <div class="input-group shadow">
+                                                        <input type="text" name="domain" id="domain" class="form-control" placeholder="Enter your domain name here" />
+                                                        <div class="input-group-append">
+                                                            <button class="btn search-btn btn-hover d-flex align-items-center" type="submit">
+                                                                <span class="ti-search mr-2"></span> Search
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </form>
+                                    
+                                                <div class="domain-list-wrap mt-4">
+                                                    <ul class="list-inline domain-search-list">
+                                                        <li class="list-inline-item"><a href="#"><img src="@/assets/img/s5.png" alt="com" width="70" class="img-fluid" /> <span>$8.99</span></a>
+                                                        </li>
+                                                        <li class="list-inline-item"><a href="#"><img src="@/assets/img/s4.png" alt="com" width="70" class="img-fluid" /> <span>$0.99</span></a>
+                                                        </li>
+                                                        <li class="list-inline-item"><a href="#"><img src="@/assets/img/s3.png" alt="com" width="70" class="img-fluid" /> <span>$4.99</span></a>
+                                                        </li>
+                                                        <li class="list-inline-item"><a href="#"><img src="@/assets/img/s2.png" alt="com" width="70" class="img-fluid" /> <span>$2.99</span></a>
+                                                        </li>
+                                                        <li class="list-inline-item"><a href="#"><img src="@/assets/img/s1.png" alt="com" width="70" class="img-fluid" /> <span>$0.99</span></a>
+                                                        </li>
+                                                    </ul>
                                                 </div>
                                             </div>
-                                        </form>
-                                        <div class="domain-list-wrap mt-4">
-                                            <ul class="list-inline domain-search-list">
-                                                <li class="list-inline-item"><a href="#"><img src="@/assets/img/s5.png" alt="com" width="70" class="img-fluid" /> <span>$8.99</span></a>
-                                                </li>
-                                                <li class="list-inline-item"><a href="#"><img src="@/assets/img/s4.png" alt="com" width="70" class="img-fluid" /> <span>$0.99</span></a>
-                                                </li>
-                                                <li class="list-inline-item"><a href="#"><img src="@/assets/img/s3.png" alt="com" width="70" class="img-fluid" /> <span>$4.99</span></a>
-                                                </li>
-                                                <li class="list-inline-item"><a href="#"><img src="@/assets/img/s2.png" alt="com" width="70" class="img-fluid" /> <span>$2.99</span></a>
-                                                </li>
-                                                <li class="list-inline-item"><a href="#"><img src="@/assets/img/s1.png" alt="com" width="70" class="img-fluid" /> <span>$0.99</span></a>
-                                                </li>
-                                            </ul>
+                                        </div>
+                                        <div>
+                                            <label><img src="@/assets/img/logod.png" alt="ser"></label>
+
                                         </div>
                                     </div>
+                                   
                                 </div>
                             </div>
                         </div>
@@ -247,12 +255,13 @@ const isOpenModal = () =>{
 </template>
 
 <style>
+.text-colour{
+    color: #f64f00;
+}
 .bgcolour{
     color: #fff;
 background-color: #f64f00;
 }
-
-
 .searchDomainModal{
     top: 0;
     left: 0;
@@ -274,11 +283,11 @@ background-color: #f64f00;
 .close {
     opacity: .5;
     float: right;
-    color: #000;
-    line-height: 1;
+    color: #f64f00;
+    line-height: 58px;
     font-weight: 700;
     margin: 0px 13px;
-    font-size: 3.5rem;
+    font-size: 4.5rem;
     text-shadow: 0 1px 0 #fff;
     text-align: end;
 }

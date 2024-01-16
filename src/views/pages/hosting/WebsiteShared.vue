@@ -386,195 +386,192 @@ export default {
         <!-- <swiper-slide>Slide 3</swiper-slide> -->
       </swiper>
     </section>
-    
-    
-     <!--compare provider table start-->
-     <section class="compare-provider-table ptb-100 gray-light-bg">
-        <div class="container">
-            <div class="row justify-content-center">
-            
-                <div class="text-center mb-5">
+   
+      <!--compare provider table start (new1)-->
+ <section class="compare-provider-table ptb-100 gray-light-bg">
+    <div class="container">
+        <div class="row table">
+            <div class="col-md-12 col-lg-12">
+                <div class="text-center table-title mb-5">
                     <h2>Web Hosting Resource Details</h2>
-                 
                 </div>
-            <div class="row">
-                <div class="col-md-12 col-lg-12">
-                    <div class="table-responsive">
-                        <table class="table w-100 table-hover table-bordered table-striped comparision-table text-center">
-                            <thead class="comparision-table-head">
-                                <tr>
+                <div class="table-responsive">
+                    <table class="table w-100 table-hover table-bordered table-striped comparision-table text-center">
+                        <thead class="comparision-table-head">
+                            <tr>
                                     <tr>
-                                        <td style="width: 20%; text-align: center"><h5>Resource Type</h5></td>
-                                        <td class="primary-bg" style="width: 20%; text-align: center;"><h5 class="text-white">Bronze</h5></td>
-                                        <td style="width: 20%; text-align: center;"><h5>Silver</h5></td>
-                                        <td style="width: 20%; text-align: center;"><h5>Gold</h5></td>
-                                        <td style="width: 20%; text-align: center;"><h5>Platinum</h5></td>
-                                        </tr>
-                                </tr>
-                            </thead>
-                            <tbody class="comparision-table-body">
-                                <tr style="width: 20%; text-align: center">
-                                    <td>
-                                        <h6 class="text-left">CPU Core Limit %</h6>
-                                    </td>
-                                    <td class="primary-bg">
-                                        <h6 class="text-white">0.5 core 50%</h6>
-                                    </td>
-                                    <td>
-                                        <h6>1 core 100%</h6>
-                                    </td>
-                                    <td>
-                                        <h6>1.5 core 150%</h6>
-                                    </td>
-                                    <td>
-                                        <h6>2 core 200%</h6>
-                                    </td>
-                                </tr>
-                                <tr style="width: 20%; text-align: center">
-                                    <td>
-                                        <h6 class="text-left">Physical Memory</h6>
-                                    </td>
-                                    <td class="primary-bg">
-                                        <h6 class="text-white">1 GB</h6>
-                                    </td>
-                                    <td>
-                                        <h6>2 GB</h6>
-                                    </td>
-                                    <td>
-                                        <h6>3 GB</h6>
-                                    </td>
-                                    <td>
-                                        <h6>4 GB</h6>
-                                    </td>
-                                </tr>
-                               
-                                <tr style="width: 20%; text-align: center">
-                                    <td>
-                                        <h6 class="text-left">Virtual Memory</h6>
-                                    </td>
-                                    <td class="primary-bg">
-                                        <h6 class="text-white">1 GB</h6>
-                                    </td>
-                                    <td>
-                                        <h6>1 GB</h6>
-                                    </td>
-                                    <td>
-                                        <h6>1 GB</h6>
-                                    </td>
-                                    <td>
-                                        <h6>1 GB</h6>
-                                    </td>
-                                </tr>
-                                <tr style="width: 20%; text-align: center">
-                                    <td>
-                                        <h6 class="text-left">I/O Speed</h6>
-                                    </td>
-                                    <td class="primary-bg">
-                                        <h6 class="text-white">20 MBs</h6>
-                                    </td>
-                                    <td>
-                                        <h6>30 MBs</h6>
-                                    </td>
-                                    <td>
-                                        <h6>40 MBs</h6>
-                                    </td>
-                                    <td>
-                                        <h6>50 MBs</h6>
-                                    </td>
-                                </tr>
-                                <tr style="width: 20%; text-align: center">
-                                    <td>
-                                        <h6 class="text-left">IOPS</h6>
-                                    </td>
-                                    <td class="primary-bg">
-                                        <h6 class="text-white">1024</h6>
-                                    </td>
-                                    <td>
-                                        <h6>1024</h6>
-                                    </td>
-                                    <td>
-                                        <h6>1024</h6>
-                                    </td>
-                                    <td>
-                                        <h6>1024</h6>
-                                    </td>
-                                </tr>
-                                <tr style="width: 20%; text-align: center">
-                                    <td>
-                                        <h6 class="text-left">Entry Process</h6>
-                                    </td>
-                                    <td class="primary-bg">
-                                        <h6 class="text-white">20</h6>
-                                    </td>
-                                    <td>
-                                        <h6>30</h6>
-                                    </td>
-                                    <td>
-                                        <h6>40</h6>
-                                    </td>
-                                    <td>
-                                        <h6>50</h6>
-                                    </td>
-                                </tr>
-                                <tr style="width: 20%; text-align: center">
-                                    <td>
-                                        <h6 class="text-left">Number of Process</h6>
-                                    </td>
-                                    <td class="primary-bg">
-                                        <h6 class="text-white">100</h6>
-                                    </td>
-                                    <td>
-                                        <h6>110</h6>
-                                    </td>
-                                    <td>
-                                        <h6>120</h6>
-                                    </td>
-                                    <td>
-                                        <h6>130</h6>
-                                    </td>
-                                </tr>
-                                <tr style="width: 20%; text-align: center">
-                                    <td>
-                                        <h6 class="text-left">INODES/File Limit</h6>
-                                    </td>
-                                    <td class="primary-bg">
-                                        <h6 class="text-white">No File Limit</h6>
-                                    </td>
-                                    <td>
-                                        <h6>No File Limit</h6>
-                                    </td>
-                                    <td>
-                                        <h6>No File Limit</h6>
-                                    </td>
-                                    <td>
-                                        <h6>No File Limit</h6>
-                                    </td>
-                                </tr>
-                                <tr style="width: 20%; text-align: center">
-                                    <td>
-                                        <h6 class="text-left">Bandwidth Network</h6>
-                                    </td>
-                                    <td class="primary-bg">
-                                        <h6 class="text-white"></h6>
-                                    </td>
-                                    <td class="col-12">
-                                        <h6>1Gbps Global </h6>
-                                    </td>
-                                    <td class="col-12">
-                                        <h6>10Gbps Special </h6>
-                                    </td>
-                                    <td class="col-12">
-                                        <h6>Bandwidth Port</h6>
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
+                                    <td style="width: 20%; text-align: center"><h5>Resource Type</h5></td>
+                                    <td class="primary-bg" style="width: 20%; text-align: center;"><h5 class="text-white">Bronze</h5></td>
+                                    <td style="width: 20%; text-align: center;"><h5>Silver</h5></td>
+                                    <td style="width: 20%; text-align: center;"><h5>Gold</h5></td>
+                                    <td style="width: 20%; text-align: center;"><h5>Platinum</h5></td>
+                                    </tr>
+                            </tr>
+                        </thead>
+                        <tbody class="comparision-table-body">
+                            <tr style="width: 20%; text-align: center">
+                                <td>
+                                    <h6 class="text-left">CPU Core Limit %</h6>
+                                </td>
+                                <td class="primary-bg">
+                                    <h6 class="text-white">0.5 core 50%</h6>
+                                </td>
+                                <td>
+                                    <h6>1 core 100%</h6>
+                                </td>
+                                <td>
+                                    <h6>1.5 core 150%</h6>
+                                </td>
+                                <td>
+                                    <h6>2 core 200%</h6>
+                                </td>
+                            </tr>
+                            <tr style="width: 20%; text-align: center">
+                                <td>
+                                    <h6 class="text-left">Physical Memory</h6>
+                                </td>
+                                <td class="primary-bg">
+                                    <h6 class="text-white">1 GB</h6>
+                                </td>
+                                <td>
+                                    <h6>2 GB</h6>
+                                </td>
+                                <td>
+                                    <h6>3 GB</h6>
+                                </td>
+                                <td>
+                                    <h6>4 GB</h6>
+                                </td>
+                            </tr>
+                           
+                            <tr style="width: 20%; text-align: center">
+                                <td>
+                                    <h6 class="text-left">Virtual Memory</h6>
+                                </td>
+                                <td class="primary-bg">
+                                    <h6 class="text-white">1 GB</h6>
+                                </td>
+                                <td>
+                                    <h6>1 GB</h6>
+                                </td>
+                                <td>
+                                    <h6>1 GB</h6>
+                                </td>
+                                <td>
+                                    <h6>1 GB</h6>
+                                </td>
+                            </tr>
+                            <tr style="width: 20%; text-align: center">
+                                <td>
+                                    <h6 class="text-left">I/O Speed</h6>
+                                </td>
+                                <td class="primary-bg">
+                                    <h6 class="text-white">20 MBs</h6>
+                                </td>
+                                <td>
+                                    <h6>30 MBs</h6>
+                                </td>
+                                <td>
+                                    <h6>40 MBs</h6>
+                                </td>
+                                <td>
+                                    <h6>50 MBs</h6>
+                                </td>
+                            </tr>
+                            <tr style="width: 20%; text-align: center">
+                                <td>
+                                    <h6 class="text-left">IOPS</h6>
+                                </td>
+                                <td class="primary-bg">
+                                    <h6 class="text-white">1024</h6>
+                                </td>
+                                <td>
+                                    <h6>1024</h6>
+                                </td>
+                                <td>
+                                    <h6>1024</h6>
+                                </td>
+                                <td>
+                                    <h6>1024</h6>
+                                </td>
+                            </tr>
+                            <tr style="width: 20%; text-align: center">
+                                <td>
+                                    <h6 class="text-left">Entry Process</h6>
+                                </td>
+                                <td class="primary-bg">
+                                    <h6 class="text-white">20</h6>
+                                </td>
+                                <td>
+                                    <h6>30</h6>
+                                </td>
+                                <td>
+                                    <h6>40</h6>
+                                </td>
+                                <td>
+                                    <h6>50</h6>
+                                </td>
+                            </tr>
+                            <tr style="width: 20%; text-align: center">
+                                <td>
+                                    <h6 class="text-left">Number of Process</h6>
+                                </td>
+                                <td class="primary-bg">
+                                    <h6 class="text-white">100</h6>
+                                </td>
+                                <td>
+                                    <h6>110</h6>
+                                </td>
+                                <td>
+                                    <h6>120</h6>
+                                </td>
+                                <td>
+                                    <h6>130</h6>
+                                </td>
+                            </tr>
+                            <tr style="width: 20%; text-align: center">
+                                <td>
+                                    <h6 class="text-left">INODES/File Limit</h6>
+                                </td>
+                                <td class="primary-bg">
+                                    <h6 class="text-white">No File Limit</h6>
+                                </td>
+                                <td>
+                                    <h6>No File Limit</h6>
+                                </td>
+                                <td>
+                                    <h6>No File Limit</h6>
+                                </td>
+                                <td>
+                                    <h6>No File Limit</h6>
+                                </td>
+                            </tr>
+                            <tr style="width: 20%; text-align: center">
+                                <td>
+                                    <h6 class="text-left">Bandwidth Network</h6>
+                                </td>
+                                <td class="primary-bg">
+                                    <h6 class="text-white"></h6>
+                                </td>
+                                <td class="col-12">
+                                    <h6>1Gbps Global </h6>
+                                </td>
+                                <td class="col-12">
+                                    <h6>10Gbps Special </h6>
+                                </td>
+                                <td class="col-12">
+                                    <h6>Bandwidth Port</h6>
+                                </td>
+                             
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
             </div>
         </div>
-        </div>
-    </section>
+    </div>
+</section>
+
 <!--promo-section feature section start-->
 <section class="promo-feature ptb-100 gradient-overlay" style="background: url('')no-repeat center center / cover fixed">
     <div class="container">
@@ -623,6 +620,111 @@ export default {
 </section>
 <!--promo-section feature section end-->
 
+<!--feature section start(1add)-->
+<section class="feature-section ptb-100 gray-light-bg">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-9 col-lg-8">
+          <div class="section-heading text-center mb-5">
+            <h2>Hosting Features For Your Big Ideas</h2>
+            <p class="lead">
+              These features come standard in all of our hosting plans. Dynamically extend
+              imperatives through open-source quickly niche markets.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 col-lg-4">
+          <div class="features-box p-4">
+            <div class="features-box-icon">
+              <span class="ti-panel icon-sm color-primary"></span>
+            </div>
+            <div class="features-box-content">
+              <h5>Custom Control Panel</h5>
+              <p>
+                Our intuitive control panel gives you admin access to all of your
+                DreamHost products easily.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="features-box p-4">
+            <div class="features-box-icon">
+              <span class="ti-thumb-up icon-sm color-primary"></span>
+            </div>
+            <div class="features-box-content">
+              <h5>Real-Life Human Beings</h5>
+              <p>
+                Tech veterans, geeks, and nerds are all standing by to optimize your
+                experience whether.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="features-box p-4">
+            <div class="features-box-icon">
+              <span class="ti-mouse-alt icon-sm color-primary"></span>
+            </div>
+            <div class="features-box-content">
+              <h5>1-Click Installer</h5>
+              <p>
+                No need to dig into a bunch of documentation. Simply install web apps like
+                WordPress, Joomla!.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="features-box p-4">
+            <div class="features-box-icon">
+              <span class="ti-timer icon-sm color-primary"></span>
+            </div>
+            <div class="features-box-content">
+              <h5>100% Uptime Guarantee</h5>
+              <p>
+                With multiple datacenter locations, redundant cooling, emergency
+                generators and monitoring.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="features-box p-4">
+            <div class="features-box-icon">
+              <span class="ti-harddrives icon-sm color-primary"></span>
+            </div>
+            <div class="features-box-content">
+              <h5>Solid State Drives (SSD)</h5>
+              <p>
+                With SSDs, your website, caching, and database queries are faster by our
+                calculations.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="features-box p-4">
+            <div class="features-box-icon">
+              <span class="ti-cup icon-sm color-primary"></span>
+            </div>
+            <div class="features-box-content">
+              <h5>Award-Winning Support</h5>
+              <p>
+                No question is too simple, or too complex for our team of experts.
+                Synergistically synergize.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--feature section end-->
+
+
 <!--feature section tab style start-->
 <section id="features" class="feature-tab-section ptb-100">
     <div class="container">
@@ -665,6 +767,7 @@ export default {
         </div>
     </div>
 </section>
+
 <section class="cta-new pb-100">
     <div class="container">
         <div class="row justify-content-between">
@@ -707,26 +810,6 @@ export default {
     </div>
 </section>
 <!--feature section tab style end-->
-
-<!--call to action new style start-->
-<section class="call-to-action ptb-100 gradient-overly-bottom" style="background: url('@/assets/img/hero-bg-4.jpg')no-repeat center center / cover fixed">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-md-9 col-lg-8">
-                <div class="call-to-action-content text-white text-center">
-                    <h2 class="text-white">Already have a domain that you love?</h2>
-                    <p>No problem! It's quick and painless to transfer your hosting, domain registrations, or both
-                        to HostLar maximize market positioning solutions and enterprise services.</p>
-                    <div class="action-btns mt-3">
-                        <a href="#" class="btn solid-white-btn mr-3">Existing Customers</a>
-                        <a href="#" class="btn outline-white-btn">New Customers</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!--call to action new style end-->
 
 <!--testimonial and review section start-->
 <section class="client-review-section ptb-100 gray-light-bg">

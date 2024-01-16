@@ -28,8 +28,7 @@
   --breakpoint-xl:1200px;
   --font-family-sans-serif:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
   --font-family-monospace:SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
-}
-
+}  
 
 .elementor-4658 .elementor-element.elementor-element-713b771c .elementor-icon-list-icon i {
   color: var(--e-global-color-25a6ee0);
@@ -690,8 +689,8 @@ pre code {
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  margin-right: -15px;
-  margin-left: -15px;
+  margin-right: -95px;
+  margin-left: -45px;
 }
 
 /* line 6, src/assets/scss/vendors/bootstrap.min.css */
@@ -52595,6 +52594,9 @@ svg.shape-bg, svg.promo-bg {
   z-index: 0;
   width: 100%;
   margin: 0 auto;
+  color: #f8f9fa;
+  /* background: #f8f9fa; */
+
 }
 
 /*hero offer section*/

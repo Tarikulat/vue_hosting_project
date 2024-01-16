@@ -211,12 +211,12 @@
                     </div>
                   </div>
                 </div>
-                <div class="text-center">
+                
+                <!-- <div class="text-center">
                   <h2 class="font-size-30">Transfer your domain to us</h2>
                   <p>Transfer now to extend your domain by 1 year!*</p>
-                </div>
-                <br />
-
+                </div> -->
+                
                 <form method="post" action="" id="frmDomainTransfer">
                   <input
                     type="hidden"
@@ -307,6 +307,7 @@
       <div class="clearfix"></div>
     </div>
   </section>
+
   <section class="call-to-action ptb-100 gradient-overly-right" style="background: url('@/assets/img/hero-bg-4.jpg')no-repeat center center / cover fixed">
     <div class="container">
         <div class="row justify-content-center">
@@ -487,6 +488,7 @@
         </div>
     </div>
 </section>
+
  <!--faq new style start-->
  <section class="ptb-100 ">
     <div class="container">
@@ -549,10 +551,12 @@
         </div>
     </div>
 </section>
-<!--faq new style end-->
+<!--faq new style end--> 
+
 </template>
 
 <style>
+
 #order-standard_cart .cart-body {
     float: right;
     width: 75%;
@@ -560,9 +564,149 @@
     min-height: 1px;
     padding-right: 100px;
     padding-left: 100px;
-    margin-top: 50px;
-    background-color: bisque;
+    margin-top: 50px;  
+    background-color: rgb(0 115 236 / 0%);
 }
+
+
+@media (max-width: 1440px) {
+  .card-sidebar {
+    margin: 16px 0px;
+  }
+  .card-sidebar {
+    width: 900px;
+    left: 50px;
+    margin-left: 35px;
+  }
+}
+@media (max-width: 1024px) {
+  .card-sidebar {
+    margin: 16px 0px;
+    margin-left: 5px;
+  }
+  .card-sidebar {
+    width: 700px;
+    left: 75px;
+    margin-left: 20px;
+  }
+}
+@media (max-width: 768px) {
+  .card-sidebar {
+    margin: 16px 0px;
+  }
+  .card-sidebar {
+    width: 570px;
+    left: 50px;
+    margin-left: 35px;
+  }
+}
+
+
+
+
+@media (max-width: 655px) {
+  .card-sidebar {
+    margin: 16px 0px;
+    margin-left: 5px;
+  }
+  .card-sidebar {
+    width: 350px;
+    left: 75px;
+    margin-left: 20px;
+  }
+}
+
+@media (max-width: 425px) {
+  .card-sidebar {
+    margin: 16px 0px;
+  }
+  .card-sidebar {
+    width: 330px;
+    left: 50px;
+    margin-left: 35px;
+  }
+}
+
+@media (max-width: 375px) {
+  .card-sidebar {
+    margin: 16px 0px;
+  }
+  .card-sidebar{
+    width: 200px;
+    left: 55px;
+    margin-left: 20px;
+  }
+}
+
+@media (max-width: 320px) {
+  .card-sidebar{
+    margin: 16px 0px;
+  }
+  .card-sidebar {
+    width: 290px;
+    left: 55px;
+    margin-left: 20px;
+  }
+}
+
+
+
+
+@media (max-width: 320px) {
+  .sidebar-collapsed {
+    margin: 16px 0px;
+  }
+  .sidebar-collapsed {
+    width: 295px;
+    left: 50px;
+    margin-left: 5px;
+  }
+}
+
+
+
+@media (max-width: 655px) {
+  #order-standard_cart .cart-body {
+    margin: 16px 0px;
+  }
+  #order-standard_cart .cart-body {
+    width: 450px;
+  }
+}
+@media (max-width: 425px) {
+  #order-standard_cart .cart-body {
+    margin: 16px 0px;
+  }
+  #order-standard_cart .cart-body {
+    width: 350px;
+  }
+}
+
+@media (max-width: 375px) {
+  #order-standard_cart .cart-body {
+    margin: 16px 0px;
+  }
+  #order-standard_cart .cart-body{
+    width: 200px;
+  }
+}
+
+@media (max-width: 320px) {
+  #order-standard_cart .cart-body {
+    margin: 16px 0px;
+  }
+  #order-standard_cart .cart-body {
+    width: 350px;
+  }
+}
+
+
+
+
+
+
+
+
 .panel{
     margin-top: 30px;
 }

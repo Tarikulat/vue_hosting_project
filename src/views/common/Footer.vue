@@ -15,10 +15,10 @@
                                 <div class="footer-nav-wrap text-white">
                                     <h4 class="text-white">SECURED BY</h4>
                                     <ul class="list-inline security-icon-list">
-                                        <li class="list-inline-item"><img src="@/assets/img/an1.png" width="110" alt="security" class="img-fluid" /></li>
-                                        <li class="list-inline-item"><img src="@/assets/img/an2.png" width="110" alt="security" class="img-fluid" /></li>
-                                        <li class="list-inline-item"><img src="@/assets/img/an3.png" width="110" alt="security" class="img-fluid" /></li>
-                                        <li class="list-inline-item"><img src="@/assets/img/an4.png" width="110" alt="security" class="img-fluid" /></li>
+                                        <li class="list-inline-item"><img src="@/assets/img/ff1.png" width="110" alt="security" class="img-fluid" /></li>
+                                        <li class="list-inline-item"><img src="@/assets/img/ff2.png" width="110" alt="security" class="img-fluid" /></li>
+                                        <li class="list-inline-item"><img src="@/assets/img/ff3.png" width="110" alt="security" class="img-fluid" /></li>
+                                        <li class="list-inline-item"><img src="@/assets/img/ff4.png" width="110" alt="security" class="img-fluid" /></li>
                                     </ul>
                                 </div>
                             </div>
