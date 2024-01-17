@@ -30,6 +30,12 @@
   --font-family-monospace:SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
 }  
 
+.head{
+padding-top: 30px;
+
+}
+
+
 .elementor-4658 .elementor-element.elementor-element-713b771c .elementor-icon-list-icon i {
   color: var(--e-global-color-25a6ee0);
   transition: color 0.3s;
@@ -10091,7 +10097,7 @@ a.bg-dark:focus, a.bg-dark:hover, button.bg-dark:focus, button.bg-dark:hover {
 
 /* line 6, src/assets/scss/vendors/bootstrap.min.css */
 .mb-5, .my-5 {
-  margin-bottom: 3rem !important;
+  /* margin-bottom: 3rem !important; */
 }
 
 /* line 6, src/assets/scss/vendors/bootstrap.min.css */
@@ -51435,8 +51441,8 @@ select.form-control.has-value {
 .gradient-overlay:before {
   position: absolute;
   content: '';
-  background-image: -webkit-gradient(linear, left top, right top, from(#F64F00), to(#F64F00));
-  background-image: linear-gradient(90deg, #F64F00, #F64F00);
+  /* background-image: -webkit-gradient(linear, left top, right top, from(#F64F00), to(#F64F00));
+  background-image: linear-gradient(90deg, #F64F00, #F64F00); */
   width: 100%;
   height: 100%;
   top: 0;
@@ -52679,8 +52685,8 @@ svg.shape-bg, svg.promo-bg {
 
 /* line 1483, src/assets/scss/custom/_style.scss */
 .gradient-overly-right:before {
-  background: -webkit-gradient(linear, left top, right top, from(#031974), to(rgba(25, 52, 167, 0.5)));
-  background: linear-gradient(to bottom, rgb(246 79 0), rgb(246 79 0));
+  /* background: -webkit-gradient(linear, left top, right top, from(#031974), to(rgba(25, 52, 167, 0.5)));
+  background: linear-gradient(to bottom, rgb(246 79 0), rgb(246 79 0)); */
 }
 
 /* line 1486, src/assets/scss/custom/_style.scss */
@@ -52691,8 +52697,8 @@ svg.shape-bg, svg.promo-bg {
 
 /* line 1489, src/assets/scss/custom/_style.scss */
 .gradient-overly-bottom:before {
-background: -webkit-gradient(linear, left top, left bottom, from(rgba(3, 25, 116, 0.5)), to(rgba(25, 52, 167, 0.85)));
-background: linear-gradient(to bottom, rgb(246 79 0), rgb(246 79 0));
+/* background: -webkit-gradient(linear, left top, left bottom, from(rgba(3, 25, 116, 0.5)), to(rgba(25, 52, 167, 0.85)));
+background: linear-gradient(to bottom, rgb(246 79 0), rgb(246 79 0)); */
 }
 
 /* line 1492, src/assets/scss/custom/_style.scss */

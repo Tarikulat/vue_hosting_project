@@ -308,7 +308,7 @@
     </div>
   </section>
 
-  <section class="call-to-action ptb-100 gradient-overly-right" style="background: url('@/assets/img/hero-bg-4.jpg')no-repeat center center / cover fixed">
+  <section class="call-to-action ptb-100 gradient-overly-right" style="background: url('http://localhost:5174/src/assets/img/z2.jpg')">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-9 col-lg-6">

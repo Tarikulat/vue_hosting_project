@@ -4,15 +4,15 @@
 
 <template>
  <!--hero section start-->
- <section class="hero-equal-height gradient-overly-bottom" style="background: url('assets/img/bg.png')no-repeat center center / cover">
+ <section class="hero-equal-height gradient-overly-bottom" style="background: url('http://localhost:5174/src/assets/img/z2.jpg')">
     <div class="container">
-        <div class="row justify-content-center">
+        <div class="row justify-content-center back">
             <div class="col-md-9 col-lg-7">
+                <!-- <img src="@/assets/img/z1.jpg" alt="com" width="100%" class=" back-img"> -->
                 <div class="hero-content-left text-white text-center">
                     <p>REGISTER</p>
                     <h1 class="text-white">Find your ideal Domain Name</h1>
                     <p class="lead">Secure your domain by registering your domain with us!</p>
-
                     <form action="domain-search-result.php" class="domain-search-form mt-3 w-75  mx-auto">
                         <div class="input-group">
                             <input type="text" name="domain" id="domain" class="form-control" placeholder="example.com">
@@ -326,6 +326,7 @@
 </template>
 
 <style>
+
 
 
 </style>

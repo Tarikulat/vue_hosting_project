@@ -4,7 +4,7 @@
 
 <template>
 <!--page header section start-->
-<section class="page-header-section ptb-100 gradient-overly-right" style="background: url('@/assets/img/hero-14.jpg')no-repeat center center / cover">
+<section class="page-header-section ptb-100 gradient-overly-right" style="background: url('http://localhost:5174/src/assets/img/z2.jpg')">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-md-7 col-lg-6">
@@ -17,7 +17,7 @@
         </div>
     </div> <br>
     <div class="shape-bottom">
-        <img src="@/assets/img/curve-shape-top.svg" alt="shape" class="bottom-shape img-fluid">
+        <img src="@/assets/img/jj.png" alt="shape" class="bottom-shape img-fluid">
     </div>
 </section>
 <!--page header section end-->

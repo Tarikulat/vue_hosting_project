@@ -1,11 +1,16 @@
 <script>
+// Import Swiper Vue.js components
 import { Swiper, SwiperSlide } from 'swiper/vue';
-//Import Swiper styles
+
+// Import Swiper styles
 import 'swiper/css';
+
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
-//import required modules
+
+// import required modules
 import { Pagination, Navigation } from 'swiper/modules';
+
 export default {
   components: {
     Swiper,
@@ -21,7 +26,7 @@ export default {
 
 <template>
      
-    <section class="hero-equal-height ptb-100 gradient-overly-right" style="background: url('assets/img/hero-bg4.jpg')no-repeat center center / cover">
+    <section class="hero-equal-height ptb-100 gradient-overly-right" style="background: url('http://localhost:5174/src/assets/img/z2.jpg')">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-md-7 col-lg-8">
@@ -55,352 +60,253 @@ export default {
             </div>
         </div>
         <div class="shape-bottom">
-            <img src="@/assets/img/curve-shape-top.svg" alt="shape" class="bottom-shape img-fluid">
+            <img src="@/assets/img/jj.png" alt="shape" class="bottom-shape img-fluid">
         </div>
     </section>
     <!--page header section end-->
+<!-- packages starting heading -->
+<section>
+  <div class="container">
+    <div class="row justify-content-center head">
+        <div class="col-md-12 col-lg-7 ">
+            <div class="section-heading  text-center mb-5">
+                <h1>Choose the package you need</h1>
+                <p class="lead">
+                    use this code for 25% discount on yearly payment | YEARLY25
+                </p>
+            </div>
+        </div>
+        <div class="col-10 col-sm-8 col-md-7">
 
-<!--pricing with switch section start-->
-<section class="pricing-section ptb-100">
+            <div class="text-center mb-2 radio-box-wrap billingCycle">
 
-    <swiper
+                <div class="single-radio-box">
+                    <input name="billingPlan" id="monthly-plan" value="monthly" class="radio" type="radio" checked>
+                    <label for="monthly-plan"><span class="custom-check"></span>1 Month</label>
+                </div>
+                <div class="single-radio-box">
+                    <input name="billingPlan" id="yearly-plan" value="yearly" class="radio" type="radio">
+                    <label for="yearly-plan"><span class="custom-check"></span>3 Month</label>
+                </div>
+                <div class="single-radio-box">
+                    <input name="billingPlan" id="biannual-plan" value="biannual" class="radio" type="radio">
+                    <label for="biannual-plan"><span class="custom-check"></span>6 Month</label>
+                </div>
+
+                <div class="single-radio-box">
+                    <input name="billingPlan" id="yearly-plan" value="yearly" class="radio" type="radio" checked>
+                    <label for="yearly-plan"><span class="custom-check"></span>1 Year</label>
+                </div>
+                <div class="single-radio-box">
+                    <input name="billingPlan" id="monthly-plan" value="monthly" class="radio" type="radio">
+                    <label for="monthly-plan"><span class="custom-check"></span>2 Years</label>
+                </div>
+                <div class="single-radio-box">
+                    <input name="billingPlan" id="biannual-plan" value="biannual" class="radio" type="radio">
+                    <label for="biannual-plan"><span class="custom-check"></span>3 Years</label>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+</section>
+<!-- main packages below -->
+<section>
+<div class="container">
+
+<swiper
+    :slidesPerView="3"
+    :spaceBetween="50"
+    :loop="true"
     :pagination="{
-      type: 'progressbar',
+      clickable: true,
     }"
     :navigation="true"
     :modules="modules"
-    class="mySwiper" >
+    class="mySwiper"
+  >
+<swiper-slide> 
+<div class="container">
+<div class="row align-items-center justify-content-between">
+  <div class="col-lg-10 col-md-12 col-12">
+   <div class="card text-center align-items-center single-pricing-pack">
+     <div class="pt-5">
+         <h5 class="mb-0">Cloud Starter</h5>
+         <p class="mb-0">1 Month Price</p>
+       </div>
+        <div class="card-header pb-4 border-0 pricing-header">
+            <div class="price text-center mb-0 monthly-price">$19<span>/month</span></div>
+            <div class="price text-center mb-0 yearly-price">$69<span>/yearly</span></div>
+            <div class="price text-center mb-0 biannual-price">$130<span>/biannual</span></div>
+            <div class="price text-center mb-0 triennial-price">$199<span>/triennial</span></div>
+        </div>
+   <div class="card-body">
+       <ul class="list-unstyled mb-4 pricing-feature-list">
+           <li > 20 GB SSD Storage</li>
+           <li > Unlimited Bandwidth</li>
+           <li > Unlimited Website</li>
+           <li > Free SSL Certificate</li>
+           <li > 2x7 Days Backup</li>
+           <li > 2 Core CPU</li>
+           <li > 4 GB Physical Memory</li>
+           <li > 1 GB Virtual Memory</li>
+           <li > I/O Speed 50 MBs</li>
+           <li > IOPS 1024</li>
+           <li > Entry Process 50</li>
+           <li > Number of Process 130</li>
+           <li > LiteSpeed with LSCache</li>
+           <li > cPanel Control Panel</li>
+           <li > 24/7 Regular Support</li>
+       </ul>
+       <a href="#" class="btn outline-btn mb-3" target="_blank">Purchase now</a>
+     </div>
+  </div>
+</div>
+</div>
+</div>
+</swiper-slide>
 
-    <swiper-slide> 
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-md-9 col-lg-8">
-                    <div class="section-heading text-center mb-5">
-                        <h1>Choose the package you need</h1>
-                        <p class="lead">
-                            use this code for 25% discount on yearly payment | YEARLY25
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-10 col-sm-8 col-md-7">
-    
-                    <div class="text-center mb-5 radio-box-wrap billingCycle">
-    
-                        <div class="single-radio-box">
-                            <input name="billingPlan" id="monthly-plan" value="monthly" class="radio" type="radio" checked>
-                            <label for="monthly-plan"><span class="custom-check"></span>1 Month</label>
-                        </div>
-                        <div class="single-radio-box">
-                            <input name="billingPlan" id="yearly-plan" value="yearly" class="radio" type="radio">
-                            <label for="yearly-plan"><span class="custom-check"></span>3 Month</label>
-                        </div>
-                        <div class="single-radio-box">
-                            <input name="billingPlan" id="biannual-plan" value="biannual" class="radio" type="radio">
-                            <label for="biannual-plan"><span class="custom-check"></span>6 Month</label>
-                        </div>
-    
-                        <div class="single-radio-box">
-                            <input name="billingPlan" id="yearly-plan" value="yearly" class="radio" type="radio" checked>
-                            <label for="yearly-plan"><span class="custom-check"></span>1 Year</label>
-                        </div>
-                        <div class="single-radio-box">
-                            <input name="billingPlan" id="monthly-plan" value="monthly" class="radio" type="radio">
-                            <label for="monthly-plan"><span class="custom-check"></span>2 Years</label>
-                        </div>
-                        <div class="single-radio-box">
-                            <input name="billingPlan" id="biannual-plan" value="biannual" class="radio" type="radio">
-                            <label for="biannual-plan"><span class="custom-check"></span>3 Years</label>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-           <div class="row align-items-center justify-content-between">
-             <div class="col-lg-4 col-md-4 col-12">
-            <div class="card text-center align-items-center single-pricing-pack">
-                <div class="pt-5">
-                    <h5 class="mb-0">Cloud Starter</h5>
-                    <p class="mb-0">1 Month Price</p>
-                </div>
-                <div class="card-header pb-4 border-0 pricing-header">
-                    <div class="price text-center mb-0 monthly-price">$19<span>/month</span></div>
-                    <div class="price text-center mb-0 yearly-price">$69<span>/yearly</span></div>
-                    <div class="price text-center mb-0 biannual-price">$130<span>/biannual</span></div>
-                    <div class="price text-center mb-0 triennial-price">$199<span>/triennial</span></div>
-                </div>
-                <div class="card-body">
-                    <ul class="list-unstyled mb-4 pricing-feature-list">
-                        <li > 20 GB SSD Storage</li>
-                        <li > Unlimited Bandwidth</li>
-                        <li > Unlimited Website</li>
-                        <li > Free SSL Certificate</li>
-                        <li > 2x7 Days Backup</li>
-                        <li > 2 Core CPU</li>
-                        <li > 4 GB Physical Memory</li>
-                        <li > 1 GB Virtual Memory</li>
-                        <li > I/O Speed 50 MBs</li>
-                        <li > IOPS 1024</li>
-                        <li > Entry Process 50</li>
-                        <li > Number of Process 130</li>
-                        <li > LiteSpeed with LSCache</li>
-                        <li > cPanel Control Panel</li>
-                        <li > 24/7 Regular Support</li>
-                    </ul>
-                    <a href="#" class="btn outline-btn mb-3" target="_blank">Purchase now</a>
-                </div>
-            </div>
+<swiper-slide> 
+<div class="container">
+<div class="row align-items-center justify-content-between">
+  <div class="col-lg-10 col-md-10 col-10">
+   <div class="card text-center align-items-center single-pricing-pack">
+     <div class="pt-5">
+         <h5 class="mb-0">Cloud Starter</h5>
+         <p class="mb-0">3 Month Price</p>
+       </div>
+        <div class="card-header pb-4 border-0 pricing-header">
+            <div class="price text-center mb-0 monthly-price">$19<span>/month</span></div>
+            <div class="price text-center mb-0 yearly-price">$69<span>/yearly</span></div>
+            <div class="price text-center mb-0 biannual-price">$130<span>/biannual</span></div>
+            <div class="price text-center mb-0 triennial-price">$199<span>/triennial</span></div>
         </div>
-        <div class="col-lg-4 col-md-4 col-12">
-            <div class="card popular-price align-items-center text-center single-pricing-pack">
-                <div class="pt-5">
-                    <h5 class="mb-0">Cloud Business <span class="badge color-1 color-1-bg">Popular</span></h5>
-                    <p class="mb-0">3 Month Price</p>
-                </div>
-                <div class="card-header pb-4 border-0 pricing-header">
-                    <div class="price text-center mb-0 monthly-price">$49<span>/month</span></div>
-                    <div class="price text-center mb-0 yearly-price">$159<span>/yearly</span></div>
-                    <div class="price text-center mb-0 biannual-price">$299<span>/biannual</span></div>
-                    <div class="price text-center mb-0 triennial-price">$429<span>/triennial</span></div>
-                </div>
-                <div class="card-body">
-                    <ul class="list-unstyled mb-4 pricing-feature-list">
-                        <li > 40 GB NVMe Storage</li>
-                        <li > Unlimited Bandwidth</li>
-                        <li > Unlimited Website</li>
-                        <li > Free SSL Certificate</li>
-                        <li > 2x7 Days Backup</li>
-                        <li > 4 Core CPU</li>
-                        <li > 6 GB Physical Memory</li>
-                        <li > 2 GB Virtual Memory</li>
-                        <li > I/O Speed 100 MBs</li>
-                        <li > IOPS 2000</li>
-                        <li > Entry Process 50</li>
-                        <li > Number of Process 150</li>
-                        <li > LiteSpeed with LSCache</li>
-                        <li > cPanel Control Panel</li>
-                        <li > 24/7 Regular Support</li>
-                    </ul>
-                    <a href="#" class="btn primary-solid-btn mb-3" target="_blank">Purchase now</a>
-                </div>
-            </div>
-        </div>
-        <div class="col-lg-4 col-md-4 col-12">
-            <div class="card text-center align-items-center single-pricing-pack">
-                <div class="pt-5">
-                    <h5 class="mb-0">Cloud Enterprise</h5>
-                    <p class="mb-0">6 Month Price</p>
-                </div>
-                <div class="card-header pb-4 border-0 pricing-header">
-                    <div class="price text-center mb-0 monthly-price">$69<span>/month</span></div>
-                    <div class="price text-center mb-0 yearly-price">$259<span>/yearly</span></div>
-                    <div class="price text-center mb-0 biannual-price">$499<span>/biannual</span></div>
-                    <div class="price text-center mb-0 triennial-price">$739<span>/triennial</span></div>
-                </div>
-                <div class="card-body">
-                    <ul class="list-unstyled mb-4 pricing-feature-list">
-                        <li > 60 GB NVMe Storage</li>
-                        <li > Unlimited Bandwidth</li>
-                        <li > Unlimited Website</li>
-                        <li > Free SSL Certificate</li>
-                        <li > 2x7 Days Backup</li>
-                        <li > 4 Core CPU</li>
-                        <li > 8 GB Physical Memory</li>
-                        <li > 2 GB Virtual Memory</li>
-                        <li > I/O Speed 150 MBs</li>
-                        <li > IOPS 2500</li>
-                        <li > Entry Process 80</li>
-                        <li > Number of Process 180</li>
-                        <li > LiteSpeed with LSCache</li>
-                        <li > cPanel Control Panel</li>
-                        <li > 24/7 Regular Support</li>
-                    </ul>
-                    <a href="#" class="btn outline-btn mb-3" target="_blank">Purchase now</a>
-                </div>
-            </div>
-        </div>
-        <br>
-        </div>
-        </div>
-    </swiper-slide>
+   <div class="card-body">
+       <ul class="list-unstyled mb-4 pricing-feature-list">
+          <li > 40 GB NVMe Storage</li>
+          <li > Unlimited Bandwidth</li>
+          <li > Unlimited Website</li>
+          <li > Free SSL Certificate</li>
+          <li > 2x7 Days Backup</li>
+          <li > 4 Core CPU</li>
+          <li > 6 GB Physical Memory</li>
+          <li > 2 GB Virtual Memory</li>
+          <li > I/O Speed 100 MBs</li>
+          <li > IOPS 2000</li>
+          <li > Entry Process 50</li>
+          <li > Number of Process 150</li>
+          <li > LiteSpeed with LSCache</li>
+          <li > cPanel Control Panel</li>
+          <li > 24/7 Regular Support</li>
+       </ul>
+       <a href="#" class="btn outline-btn mb-3" target="_blank">Purchase now</a>
+     </div>
+  </div>
+</div>
+</div>
+</div>
+</swiper-slide>
 
-    <swiper-slide>
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-md-9 col-lg-8">
-                    <div class="section-heading text-center mb-5">
-                        <h1>Choose the package you need</h1>
-                        <p class="lead">
-                            use this code for 25% discount on yearly payment | YEARLY25
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-10 col-sm-8 col-md-7">
-    
-                    <div class="text-center mb-5 radio-box-wrap billingCycle">
-    
-                        <div class="single-radio-box">
-                            <input name="billingPlan" id="monthly-plan" value="monthly" class="radio" type="radio" checked>
-                            <label for="monthly-plan"><span class="custom-check"></span>1 Month</label>
-                        </div>
-                        <div class="single-radio-box">
-                            <input name="billingPlan" id="yearly-plan" value="yearly" class="radio" type="radio">
-                            <label for="yearly-plan"><span class="custom-check"></span>3 Month</label>
-                        </div>
-                        <div class="single-radio-box">
-                            <input name="billingPlan" id="biannual-plan" value="biannual" class="radio" type="radio">
-                            <label for="biannual-plan"><span class="custom-check"></span>6 Month</label>
-                        </div>
-    
-                        <div class="single-radio-box">
-                            <input name="billingPlan" id="yearly-plan" value="yearly" class="radio" type="radio" checked>
-                            <label for="yearly-plan"><span class="custom-check"></span>1 Year</label>
-                        </div>
-                        <div class="single-radio-box">
-                            <input name="billingPlan" id="monthly-plan" value="monthly" class="radio" type="radio">
-                            <label for="monthly-plan"><span class="custom-check"></span>2 Years</label>
-                        </div>
-                        <div class="single-radio-box">
-                            <input name="billingPlan" id="biannual-plan" value="biannual" class="radio" type="radio">
-                            <label for="biannual-plan"><span class="custom-check"></span>3 Years</label>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row align-items-center justify-content-between">
+<swiper-slide> 
+<div class="container">
+<div class="row align-items-center justify-content-between">
+  <div class="col-lg-10 col-md-10 col-10">
+   <div class="card text-center align-items-center single-pricing-pack">
+     <div class="pt-5">
+         <h5 class="mb-0">Cloud Starter</h5>
+         <p class="mb-0">6 Month Price</p>
+       </div>
+        <div class="card-header pb-4 border-0 pricing-header">
+            <div class="price text-center mb-0 monthly-price">$19<span>/month</span></div>
+            <div class="price text-center mb-0 yearly-price">$69<span>/yearly</span></div>
+            <div class="price text-center mb-0 biannual-price">$130<span>/biannual</span></div>
+            <div class="price text-center mb-0 triennial-price">$199<span>/triennial</span></div>
+        </div>
+   <div class="card-body">
+       <ul class="list-unstyled mb-4 pricing-feature-list">
+                      <li > 60 GB NVMe Storage</li>
+                      <li > Unlimited Bandwidth</li>
+                      <li > Unlimited Website</li>
+                      <li > Free SSL Certificate</li>
+                      <li > 2x7 Days Backup</li>
+                      <li > 4 Core CPU</li>
+                      <li > 8 GB Physical Memory</li>
+                      <li > 2 GB Virtual Memory</li>
+                      <li > I/O Speed 150 MBs</li>
+                      <li > IOPS 2500</li>
+                      <li > Entry Process 80</li>
+                      <li > Number of Process 180</li>
+                      <li > LiteSpeed with LSCache</li>
+                      <li > cPanel Control Panel</li>
+                      <li > 24/7 Regular Support</li>
+       </ul>
+       <a href="#" class="btn outline-btn mb-3" target="_blank">Purchase now</a>
+     </div>
+  </div>
+</div>
+</div>
+</div>
+</swiper-slide>
 
-                <div class="row align-items-center justify-content-between">
-                    <div class="col-lg-4 col-md-4 col-12">
-                        <div class="card text-center align-items-center single-pricing-pack">
-                            <div class="pt-5">
-                                <h5 class="mb-0">Cloud Cheetah</h5>
-                                <p class="mb-0">1 Year</p>
-                            </div>
-                            <div class="card-header pb-4 border-0 pricing-header">
-                                <div class="price text-center mb-0 monthly-price">$19<span>/month</span></div>
-                                <div class="price text-center mb-0 yearly-price">$69<span>/yearly</span></div>
-                                <div class="price text-center mb-0 biannual-price">$130<span>/biannual</span></div>
-                                <div class="price text-center mb-0 triennial-price">$199<span>/triennial</span></div>
-                            </div>
-                            <div class="card-body">
-                                <ul class="list-unstyled mb-4 pricing-feature-list">
-                                <li > 80 GB SSD Storage</li>
-                                <li > Unlimited Bandwidth</li>
-                                <li > Unlimited Website</li>
-                                <li > Free SSL Certificate</li>
-                                <li > 2x7 Days Backup</li>
-                                <li > 5 Core CPU</li>
-                                <li > 10 GB Physical Memory</li>
-                                <li > 2 GB Virtual Memory</li>
-                                <li > I/O Speed 200 MBs</li>
-                                <li > IOPS 3000</li>
-                                <li > Entry Process 100</li>
-                                <li > Number of Process 200</li>
-                                <li > LiteSpeed with LSCache</li>
-                                <li > cPanel Control Panel</li>
-                                <li > 24/7 Regular Support</li>
-                                </ul>
-                                <a href="#" class="btn outline-btn mb-3" target="_blank">Purchase now</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-12">
-                        <div class="card popular-price align-items-center text-center single-pricing-pack">
-                            <div class="pt-5">
-                                <h5 class="mb-0">Cloud Blackbird <span class="badge color-1 color-1-bg">Popular</span></h5>
-                                <p class="mb-0">2 Year</p>
-                            </div>
-                            <div class="card-header pb-4 border-0 pricing-header">
-                                <div class="price text-center mb-0 monthly-price">$49<span>/month</span></div>
-                                <div class="price text-center mb-0 yearly-price">$159<span>/yearly</span></div>
-                                <div class="price text-center mb-0 biannual-price">$299<span>/biannual</span></div>
-                                <div class="price text-center mb-0 triennial-price">$429<span>/triennial</span></div>
-                            </div>
-                            <div class="card-body">
-                                <ul class="list-unstyled mb-4 pricing-feature-list">
-                                <li > 80 GB SSD Storage</li>
-                                <li > Unlimited Bandwidth</li>
-                                <li > Unlimited Website</li>
-                                <li > Free SSL Certificate</li>
-                                <li > 2x7 Days Backup</li>
-                                <li > 5 Core CPU</li>
-                                <li > 10 GB Physical Memory</li>
-                                <li > 2 GB Virtual Memory</li>
-                                <li > I/O Speed 200 MBs</li>
-                                <li > IOPS 3000</li>
-                                <li > Entry Process 100</li>
-                                <li > Number of Process 200</li>
-                                <li > LiteSpeed with LSCache</li>
-                                <li > cPanel Control Panel</li>
-                                <li > 24/7 Regular Support</li>
-                                </ul>
-                                <a href="#" class="btn primary-solid-btn mb-3" target="_blank">Purchase now</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-12">
-                        <div class="card text-center align-items-center single-pricing-pack">
-                            <div class="pt-5">
-                                <h5 class="mb-0">Cloud Borak</h5>
-                                <p class="mb-0">3 Year</p>
-                            </div>
-                            <div class="card-header pb-4 border-0 pricing-header">
-                                <div class="price text-center mb-0 monthly-price">$69<span>/month</span></div>
-                                <div class="price text-center mb-0 yearly-price">$259<span>/yearly</span></div>
-                                <div class="price text-center mb-0 biannual-price">$499<span>/biannual</span></div>
-                                <div class="price text-center mb-0 triennial-price">$739<span>/triennial</span></div>
-                            </div>
-                            <div class="card-body">
-                                <ul class="list-unstyled mb-4 pricing-feature-list">
-                                <li > 80 GB SSD Storage</li>
-                                <li > Unlimited Bandwidth</li>
-                                <li > Unlimited Website</li>
-                                <li > Free SSL Certificate</li>
-                                <li > 2x7 Days Backup</li>
-                                <li > 5 Core CPU</li>
-                                <li > 10 GB Physical Memory</li>
-                                <li > 2 GB Virtual Memory</li>
-                                <li > I/O Speed 200 MBs</li>
-                                <li > IOPS 3000</li>
-                                <li > Entry Process 100</li>
-                                <li > Number of Process 200</li>
-                                <li > LiteSpeed with LSCache</li>
-                                <li > cPanel Control Panel</li>
-                                <li > 24/7 Regular Support</li>
-                                </ul>
-                                <a href="#" class="btn outline-btn mb-3" target="_blank">Purchase now</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12">
-                        <div class="support-cta mt-5">
-                            <h5 class="mb-1 d-flex align-items-center justify-content-center"><span class="ti-loop color-primary mr-3 icon-sm"></span>Choose Your <a href="pricing-comparison.html" class="ml-2">Compare Hosting Plans</a></h5>
-                        </div>
-                    </div>
-                </div>
-            
-            </div>
-            </div>
-    </swiper-slide>
-    
-    <!-- <swiper-slide>Slide 3</swiper-slide> -->
-  </swiper>
-</section>
+<swiper-slide> 
+<div class="container">
+<div class="row align-items-center justify-content-between">
+  <div class="col-lg-10 col-md-10 col-10">
+   <div class="card text-center align-items-center single-pricing-pack">
+     <div class="pt-5">
+         <h5 class="mb-0">Cloud Starter</h5>
+         <p class="mb-0">1 Year</p>
+       </div>
+        <div class="card-header pb-4 border-0 pricing-header">
+            <div class="price text-center mb-0 monthly-price">$19<span>/month</span></div>
+            <div class="price text-center mb-0 yearly-price">$69<span>/yearly</span></div>
+            <div class="price text-center mb-0 biannual-price">$130<span>/biannual</span></div>
+            <div class="price text-center mb-0 triennial-price">$199<span>/triennial</span></div>
+        </div>
+   <div class="card-body">
+       <ul class="list-unstyled mb-4 pricing-feature-list">
+          <li > 80 GB SSD Storage</li>
+          <li > Unlimited Bandwidth</li>
+          <li > Unlimited Website</li>
+          <li > Free SSL Certificate</li>
+          <li > 2x7 Days Backup</li>
+          <li > 5 Core CPU</li>
+          <li > 10 GB Physical Memory</li>
+          <li > 2 GB Virtual Memory</li>
+          <li > I/O Speed 200 MBs</li>
+          <li > IOPS 3000</li>
+          <li > Entry Process 100</li>
+          <li > Number of Process 200</li>
+          <li > LiteSpeed with LSCache</li>
+          <li > cPanel Control Panel</li>
+          <li > 24/7 Regular Support</li>
+       </ul>
+       <a href="#" class="btn outline-btn mb-3" target="_blank">Purchase now</a>
+     </div>
+  </div>
+</div>
+</div>
+</div>
+</swiper-slide>
+</swiper> 
+</div>
+</section> <br>
 
  <!--compare provider table start (new1)-->
  <section class="compare-provider-table ptb-100 gray-light-bg">
     <div class="container">
+      <div class="row justify-content-center head">
+        <div class="col-md-12 col-lg-7 ">
+            <div class="section-heading  text-center mb-5">
+              <h1>Web Hosting Resource Details</h1>
+                <p class="lead">
+                    This hosting resource is very exclusive 
+                </p>
+            </div>
+        </div>
         <div class="row table">
             <div class="col-md-12 col-lg-12">
-                <div class="text-center table-title mb-5">
-                    <h2>Web Hosting Resource Details</h2>
-                 
-                </div>
                 <div class="table-responsive">
-                 
                     <table class="table w-100 table-hover table-bordered table-striped comparision-table text-center">
                         <thead class="comparision-table-head">
                             <tr>
@@ -575,7 +481,8 @@ export default {
             </div>
         </div>
     </div>
-</section>
+  </div>
+</section> <br> <br>
 
  <!--feature section start(1add)-->
  <section class="feature-section ptb-100 gray-light-bg">
@@ -678,11 +585,11 @@ export default {
         </div>
       </div>
     </div>
-  </section>
+  </section><br>
   <!--feature section end-->
 
   <!--call to action new section start (add2)-->
-<section class="call-to-action ptb-100 gradient-overlay " style="background: url('@/@/assets/img/hero-bg-4.jpg')no-repeat center center / cover">
+<section class="call-to-action ptb-100 gradient-overlay " style="background: url('http://localhost:5174/src/assets/img/z3.jpg')">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-9 col-lg-8">
@@ -784,49 +691,51 @@ export default {
 </template>
 
 <style>
-
-
-
 #app {
-    height: 100%;
-  }
-  html,
-  body {
-    position: relative;
-    height: 60%;
-  }
-  
-  body {
-    background: #eee;
-    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-    font-size: 14px;
-    color: #000;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .swiper {
-    width: 100%;
-    height: 60%;
-    padding-top: 0px;
-  }
-  
-  .swiper-slide {
-    text-align: center;
-    font-size: 18px;
-    background: #fff;
-  
-    /* Center slide text vertically */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .swiper-slide img {
-    display: block;
-    width: 600%;
-    height: 60%;
-    object-fit: cover;
-  }
+  height: 100%;
+}
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper {
+  margin-left: auto;
+  margin-right: auto;
+}
+
     
 </style>

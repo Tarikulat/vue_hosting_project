@@ -21,7 +21,7 @@ export default {
 
 <template>
   <!--hero section start-->
-  <section class="hero-equal-height pt-165 pb-100 gradient-overlay" style="background: url('@/assets/img/hero-1.jpg')no-repeat center center / cover">
+  <section class="hero-equal-height pt-165 pb-100 gradient-overlay" style="background: url('http://localhost:5174/src/assets/img/z2.jpg')">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-12 col-lg-9">
@@ -354,7 +354,7 @@ export default {
 <!--feature section end-->
 
 <!--call to action new section start (add2)-->
-<section class="call-to-action ptb-100 gradient-overlay " style="background: url('@/@/assets/img/hero-bg-4.jpg')no-repeat center center / cover">
+<section class="call-to-action ptb-100 gradient-overlay " style="background: url('http://localhost:5174/src/assets/img/z2.jpg')">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-9 col-lg-8">
