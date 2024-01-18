@@ -26,7 +26,7 @@ export default {
 
 <template>
 <!--hero section start-->
-<section class="hero-equal-height ptb-100 gradient-overly-right" style="background: url('http://localhost:5174/src/assets/img/z2.jpg')">
+<section class="hero-equal-height ptb-100 backge gradient-overly-right">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-md-7 col-lg-8">
@@ -177,7 +177,7 @@ export default {
              <li > cPanel Control Panel</li>
              <li > 24/7 Regular Support</li>
          </ul>
-         <a href="#" class="btn outline-btn mb-3" target="_blank">Purchase now</a>
+         <a href="https://account.hostservice.com.bd/index.php?rp=/store/ecommerce-hosting" class="btn outline-btn mb-3" target="_blank">Purchase now</a>
        </div>
     </div>
   </div>
@@ -218,7 +218,7 @@ export default {
             <li > cPanel Control Panel</li>
             <li > 24/7 Regular Support</li>
          </ul>
-         <a href="#" class="btn outline-btn mb-3" target="_blank">Purchase now</a>
+         <a href="https://account.hostservice.com.bd/index.php?rp=/store/ecommerce-hosting" class="btn outline-btn mb-3" target="_blank">Purchase now</a>
        </div>
     </div>
   </div>
@@ -259,7 +259,7 @@ export default {
                         <li > cPanel Control Panel</li>
                         <li > 24/7 Regular Support</li>
          </ul>
-         <a href="#" class="btn outline-btn mb-3" target="_blank">Purchase now</a>
+         <a href="https://account.hostservice.com.bd/index.php?rp=/store/ecommerce-hosting" class="btn outline-btn mb-3" target="_blank">Purchase now</a>
        </div>
     </div>
   </div>
@@ -300,7 +300,7 @@ export default {
             <li > cPanel Control Panel</li>
             <li > 24/7 Regular Support</li>
          </ul>
-         <a href="#" class="btn outline-btn mb-3" target="_blank">Purchase now</a>
+         <a href="https://account.hostservice.com.bd/index.php?rp=/store/ecommerce-hosting" class="btn outline-btn mb-3" target="_blank">Purchase now</a>
        </div>
     </div>
   </div>
@@ -646,7 +646,7 @@ export default {
 </section>
 <!--technical specifications end-->
   <!--call to action new style start-->
-  <section class="call-to-action ptb-100 gradient-overly-bottom" style="background: url('http://localhost:5174/src/assets/img/z3.jpg')">
+  <section class="call-to-action ptb-100 backgr gradient-overly-bottom">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-9 col-lg-8">
@@ -899,6 +899,16 @@ export default {
 </template>
 
 <style>
+
+.backge{
+    background-image: url("@/assets/img/z2.jpg");
+  }
+  .backgr{
+    background-image: url("@/assets/img/z3.jpg");
+  }
+
+
+
 #app {
     height: 100%;
   }

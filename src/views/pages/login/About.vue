@@ -4,7 +4,7 @@
 
 <template>
  <!--page header section start-->
- <section class="page-header-section ptb-100 gradient-overly-right" style="background: url('http://localhost:5174/src/assets/img/z2.jpg')">
+ <section class="page-header-section ptb-100 backge gradient-overly-right">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-md-7 col-lg-6">
@@ -66,7 +66,7 @@
 <!--feature section tab style end-->
 
 <!--call to action section start-->
-<section class="call-to-action ptb-100 gradient-overly-bottom" style="background: url('http://localhost:5174/src/assets/img/z2.jpg')">
+<section class="call-to-action ptb-100 backv gradient-overly-bottom">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-9 col-lg-8">
@@ -178,7 +178,7 @@
 <!--feature section end-->
 
 <!--meet our team carousel style start-->
-<section class="our-team-section ptb-100" style="background: url('http://localhost:5174/src/assets/img/z2.jpg')">
+<section class="our-team-section packgr ptb-100">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-8 col-lg-8">
@@ -496,5 +496,14 @@
 </template>
 
 <style>
+.backge{
+    background-image: url("@/assets/img/z2.jpg");
+  }
+  .packgr{
+    background-image: url("@/assets/img/z2.jpg");
+  }
+  .backv{
+    background-image: url("@/assets/img/z2.jpg");
+  }
 
 </style>

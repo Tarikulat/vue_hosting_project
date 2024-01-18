@@ -308,7 +308,7 @@
     </div>
   </section>
 
-  <section class="call-to-action ptb-100 gradient-overly-right" style="background: url('http://localhost:5174/src/assets/img/z2.jpg')">
+  <section class="call-to-action ptb-100 backg gradient-overly-right" >
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-9 col-lg-6">
@@ -556,6 +556,11 @@
 </template>
 
 <style>
+.backg{
+  background-image: url("@/assets/img/z2.jpg");
+}
+
+
 
 #order-standard_cart .cart-body {
     float: right;

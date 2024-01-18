@@ -21,7 +21,7 @@ export default {
 
 <template>
   <!--hero section start-->
-  <section class="hero-equal-height pt-165 pb-100 gradient-overlay" style="background: url('http://localhost:5174/src/assets/img/k1.png')">
+  <section class="hero-equal-height pt-165 pb-100 backgb gradient-overlay">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-8 col-lg-7">
@@ -88,7 +88,7 @@ export default {
                     <p>Flexible hosting platform to deploy your online projects.</p>
                     <div class="price vpsPrice">$20</div>
                     <div class="btn-holder">
-                        <a href="#" class="btn primary-solid-btn vpsWHmcsUrl">Order now</a>
+                        <a href="https://account.hostservice.com.bd/index.php?rp=/store/dedicated-server" class="btn primary-solid-btn vpsWHmcsUrl">Order now</a>
                     </div>
                 </div>
             </div>
@@ -146,7 +146,7 @@ export default {
                                 </p>
                             </td>
                             <td>
-                                <a href="" class="btn primary-solid-btn">Order Now</a>
+                                <a href="https://account.hostservice.com.bd/index.php?rp=/store/dedicated-server" class="btn primary-solid-btn">Order Now</a>
                             </td>
                         </tr>
                         <tr class="vps-pricing-row border-red-themes">
@@ -171,7 +171,7 @@ export default {
                                 </p>
                             </td>
                             <td>
-                                <a href="" class="btn primary-solid-btn">Order Now</a>
+                                <a href="https://account.hostservice.com.bd/index.php?rp=/store/dedicated-server" class="btn primary-solid-btn">Order Now</a>
                             </td>
                         </tr>
                         <tr class="vps-pricing-row border-orange-themes">
@@ -196,7 +196,7 @@ export default {
                                 </p>
                             </td>
                             <td>
-                                <a href="" class="btn primary-solid-btn">Order Now</a>
+                                <a href="https://account.hostservice.com.bd/index.php?rp=/store/dedicated-server" class="btn primary-solid-btn">Order Now</a>
                             </td>
                         </tr>
                         <tr class="vps-pricing-row border-yellow-themes">
@@ -219,7 +219,7 @@ export default {
                                     class="badge color-3 color-3-bg">Save 30%</span></span></p>
                             </td>
                             <td>
-                                <a href="" class="btn primary-solid-btn">Order Now</a>
+                                <a href="https://account.hostservice.com.bd/index.php?rp=/store/dedicated-server" class="btn primary-solid-btn">Order Now</a>
                             </td>
                         </tr>
                         <tr class="vps-pricing-row border-blue-themes">
@@ -242,7 +242,7 @@ export default {
                                     class="badge color-5 color-5-bg">Save 40%</span></span></p>
                             </td>
                             <td>
-                                <a href="" class="btn primary-solid-btn">Order Now</a>
+                                <a href="https://account.hostservice.com.bd/index.php?rp=/store/dedicated-server" class="btn primary-solid-btn">Order Now</a>
                             </td>
                         </tr>
                         <tr class="vps-pricing-row border-lime-themes">
@@ -265,7 +265,7 @@ export default {
                                     class="badge color-3 color-3-bg">Save 10%</span></span></p>
                             </td>
                             <td>
-                                <a href="" class="btn primary-solid-btn">Order Now</a>
+                                <a href="https://account.hostservice.com.bd/index.php?rp=/store/dedicated-server" class="btn primary-solid-btn">Order Now</a>
                             </td>
                         </tr>
                     </tbody>
@@ -361,7 +361,7 @@ export default {
 <!--feature section end-->
 
 <!--call to action new section start (add2)-->
-<section class="call-to-action ptb-100 gradient-overlay " style="background: url('http://localhost:5174/src/assets/img/z2.jpg')">
+<section class="call-to-action backgm ptb-100 gradient-overlay ">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-9 col-lg-8">
@@ -760,6 +760,17 @@ export default {
 </template>
 
 <style>
+
+.backgb{
+  background-image: url("@/assets/img/k1.png");
+}
+.backgm{
+  background-image: url("@/assets/img/z2.jpg");
+}
+
+
+
+
 #app {
   height: 100%;
 }

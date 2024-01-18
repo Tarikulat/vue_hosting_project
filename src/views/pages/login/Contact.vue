@@ -4,7 +4,7 @@
 
 <template>
 <!--page header section start-->
-<section class="page-header-section ptb-100 gradient-overly-right" style="background: url('http://localhost:5174/src/assets/img/z2.jpg')">
+<section class="page-header-section ptb-100 backge gradient-overly-right">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-md-7 col-lg-6">
@@ -21,7 +21,6 @@
     </div> -->
 </section>
 <!--page header section end-->
-
 
 <!--contact us promo-section start-->
 <section class="contact-us-promo pt-100">
@@ -82,7 +81,6 @@
         </div>
     </div>
 </section>
-<!--contact us promo-section end-->
 <!--contact us promo-section end-->
 
 <!--contact us section start-->
@@ -294,5 +292,7 @@
 </template>
 
 <style>
-
+.backge{
+    background-image: url("@/assets/img/z2.jpg");
+  }
 </style>

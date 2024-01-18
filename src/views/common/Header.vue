@@ -41,25 +41,25 @@ const isOpenModal = () =>{
                                 <!-- Pages - Submenu -->
                                 <ul id="pagesSubMenu" class="hs-sub-menu main-sub-menu" aria-labelledby="pagesMegaMenu" style="min-width: 260px;">
                                     <div class="title-with-icon-item">
-                                                <router-link class="title-with-icon-link" :to="{ name: 'domain-register' }">
+                                                <a href="https://account.hostservice.com.bd/register.php">
                                                     <div class="media">
                                                         <div class="menu-item-icon"><i class="fab fa-artstation"></i></div>
                                                         <div class="media-body">
                                                             <span class="u-header__promo-title">Domain Register</span>
                                                         </div>
                                                     </div>
-                                                </router-link>
-                                    </div>
+                                                </a>
+                                    </div> <hr>
 
                                      <div class="title-with-icon-item">
-                                                <router-link class="title-with-icon-link" :to="{ name: 'domain-transfer' }">
+                                                <a href="https://account.hostservice.com.bd/cart.php?a=add&domain=transfer">
                                                     <div class="media">
                                                         <div class="menu-item-icon"><i class="fas fa-arrows-alt"></i></div>
                                                         <div class="media-body">
                                                             <span class="u-header__promo-title">Domain Transfer</span>
                                                         </div>
                                                     </div>
-                                                </router-link>
+                                                </a>
                                      </div>
                                 </ul>
                                 <!-- End Pages - Submenu -->
@@ -209,9 +209,9 @@ const isOpenModal = () =>{
                                                 <h2>Find Your <span class="text-colour">Domain</span> Name</h2>
                                             </div>
                                             <div class="domain-search-wrap text-center">
-                                                <form action="domain-search-result.php" class="domain-search-form">
+                                                <form action="https://account.hostservice.com.bd/cart.php?a=add&domain=register" class="domain-search-form">
                                                     <div class="input-group shadow">
-                                                        <input type="text" name="domain" id="domain" class="form-control" placeholder="Enter your domain name here" />
+                                                        <input type="text" name="domain" id="" class="form-control" placeholder="Enter your domain name here" />
                                                         <div class="input-group-append">
                                                             <button class="btn search-btn btn-hover d-flex align-items-center" type="submit">
                                                                 <span class="ti-search mr-2"></span> Search

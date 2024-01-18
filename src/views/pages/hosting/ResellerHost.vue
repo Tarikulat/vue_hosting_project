@@ -26,7 +26,7 @@ export default {
 
 <template>
   <!--hero section start-->
-  <section class="hero-equal-height pt-165 pb-100 gradient-overly-right" style="background: url('http://localhost:5174/src/assets/img/z2.jpg')">
+  <section class="hero-equal-height pt-165 pb-100 packge backgr gradient-overly-right" >
     <div class="container">
         <div class="row align-items-center">
             <div class="col-md-7 col-lg-8">
@@ -160,7 +160,7 @@ export default {
              <li > cPanel Control Panel</li>
              <li > 24/7 Regular Support</li>
          </ul>
-         <a href="#" class="btn outline-btn mb-3" target="_blank">Purchase now</a>
+         <a href="https://account.hostservice.com.bd/index.php?rp=/store/maintenance" class="btn outline-btn mb-3" target="_blank">Purchase now</a>
        </div>
     </div>
   </div>
@@ -201,7 +201,7 @@ export default {
             <li > cPanel Control Panel</li>
             <li > 24/7 Regular Support</li>
          </ul>
-         <a href="#" class="btn outline-btn mb-3" target="_blank">Purchase now</a>
+         <a href="https://account.hostservice.com.bd/index.php?rp=/store/maintenance" class="btn outline-btn mb-3" target="_blank">Purchase now</a>
        </div>
     </div>
   </div>
@@ -242,7 +242,7 @@ export default {
                         <li > cPanel Control Panel</li>
                         <li > 24/7 Regular Support</li>
          </ul>
-         <a href="#" class="btn outline-btn mb-3" target="_blank">Purchase now</a>
+         <a href="https://account.hostservice.com.bd/index.php?rp=/store/maintenance" class="btn outline-btn mb-3" target="_blank">Purchase now</a>
        </div>
     </div>
   </div>
@@ -283,7 +283,7 @@ export default {
             <li > cPanel Control Panel</li>
             <li > 24/7 Regular Support</li>
          </ul>
-         <a href="#" class="btn outline-btn mb-3" target="_blank">Purchase now</a>
+         <a href="https://account.hostservice.com.bd/index.php?rp=/store/maintenance" class="btn outline-btn mb-3" target="_blank">Purchase now</a>
        </div>
     </div>
   </div>
@@ -744,6 +744,16 @@ export default {
 </template>
 
 <style>
+    .backgr{
+        background-image: url("@/assets/img/z2.jpg");
+      }
+
+      .backge{
+        background-image: url("@/assets/img/z2.jpg");
+      }
+
+
+
 #app {
     height: 100%;
   }

@@ -4,7 +4,7 @@
 
 <template>
  <!--hero section start-->
- <section class="hero-equal-height gradient-overly-bottom" style="background: url('http://localhost:5174/src/assets/img/z2.jpg')">
+ <section class="hero-equal-height backg gradient-overly-bottom">
     <div class="container">
         <div class="row justify-content-center back">
             <div class="col-md-9 col-lg-7">
@@ -326,7 +326,9 @@
 </template>
 
 <style>
-
+.backg{
+    background-image: url("@/assets/img/z2.jpg");
+}
 
 
 </style>

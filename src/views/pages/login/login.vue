@@ -3,7 +3,7 @@
 </script>
 
 <template>
-    <section class="gradient-overly-top ptb-100 height-lg-100vh d-flex align-items-center" style="background: url('http://localhost:5174/src/assets/img/sg1.png')">
+    <section class="gradient-overly-top ptb-100 height-lg-100vh backlog d-flex align-items-center">
         <div class="container">
             <div class="row justify-content-center pt-5 pt-sm-5 pt-md-5 pt-lg-0">
                 <div class="col-md-6 col-lg-5">
@@ -64,5 +64,7 @@
 </template>
 
 <style>
-
+.backlog{
+    background-image: url("@/assets/img/sg1.png");
+  }
 </style>
