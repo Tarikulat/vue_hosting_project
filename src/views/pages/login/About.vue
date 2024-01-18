@@ -66,7 +66,7 @@
 <!--feature section tab style end-->
 
 <!--call to action section start-->
-<section class="call-to-action ptb-100 gradient-overly-bottom" style="background: url('@/assets/img/hero-bg-4.jpg')no-repeat center center / cover fixed">
+<section class="call-to-action ptb-100 gradient-overly-bottom" style="background: url('http://localhost:5174/src/assets/img/z2.jpg')">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-9 col-lg-8">
@@ -178,7 +178,7 @@
 <!--feature section end-->
 
 <!--meet our team carousel style start-->
-<section class="our-team-section ptb-100">
+<section class="our-team-section ptb-100" style="background: url('http://localhost:5174/src/assets/img/z2.jpg')">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-8 col-lg-8">
@@ -190,7 +190,7 @@
                 </div>
             </div>
         </div>
-        <div class="row">
+        <!-- <div class="row">
             <div class="col-md-12 col-lg-12">
                 <div class="owl-carousel owl-theme team-member-carousel custom-dot dot-bottom-center">
                     <div class="item">
@@ -410,7 +410,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
     </div>
 </section>
 <!--meet our team carousel style end-->

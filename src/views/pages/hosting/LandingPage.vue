@@ -128,7 +128,7 @@ export default {
 <swiper-slide> 
 <div class="container">
 <div class="row align-items-center justify-content-between">
-  <div class="col-lg-10 col-md-12 col-12">
+  <div class="col-lg-12 col-md-12 col-12">
    <div class="card text-center align-items-center single-pricing-pack">
      <div class="pt-5">
          <h5 class="mb-0">Cloud Starter</h5>
@@ -169,7 +169,7 @@ export default {
 <swiper-slide> 
 <div class="container">
 <div class="row align-items-center justify-content-between">
-  <div class="col-lg-10 col-md-10 col-10">
+  <div class="col-lg-12 col-md-12 col-12">
    <div class="card text-center align-items-center single-pricing-pack">
      <div class="pt-5">
          <h5 class="mb-0">Cloud Starter</h5>
@@ -210,7 +210,7 @@ export default {
 <swiper-slide> 
 <div class="container">
 <div class="row align-items-center justify-content-between">
-  <div class="col-lg-10 col-md-10 col-10">
+  <div class="col-lg-12 col-md-12 col-12">
    <div class="card text-center align-items-center single-pricing-pack">
      <div class="pt-5">
          <h5 class="mb-0">Cloud Starter</h5>
@@ -251,7 +251,7 @@ export default {
 <swiper-slide> 
 <div class="container">
 <div class="row align-items-center justify-content-between">
-  <div class="col-lg-10 col-md-10 col-10">
+  <div class="col-lg-12 col-md-12 col-12">
    <div class="card text-center align-items-center single-pricing-pack">
      <div class="pt-5">
          <h5 class="mb-0">Cloud Starter</h5>

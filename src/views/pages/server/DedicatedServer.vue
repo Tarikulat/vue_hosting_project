@@ -21,15 +21,22 @@ export default {
 
 <template>
   <!--hero section start-->
-  <section class="hero-equal-height pt-165 pb-100 gradient-overlay" style="background: url('http://localhost:5174/src/assets/img/z2.jpg')">
+  <section class="hero-equal-height pt-165 pb-100 gradient-overlay" style="background: url('http://localhost:5174/src/assets/img/k1.png')">
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-md-12 col-lg-9">
+            <div class="col-md-8 col-lg-7">
                 <div class="hero-content-wrap text-white text-center position-relative z-index">
-                    <h1 class="text-white">Managed Your Dadicated Servers</h1>
-                    <p class="lead">Interactively seize pandemic human capital before web-enabled systems. Dramatically architect web-enabled applications and distinctive e-services.</p>
+                    <h1 class="text-white">DEDICATED SERVERS</h1>
+                    <p class="lead">Discover a full range of web hosting servers. Dedicated servers are the perfect 
+                      solution to accommodate your projects when shared hosting is no longer enough. The complete 
+                      freedom of managing your dedicated server lets you shape it to your own needs.</p>
                 </div>
             </div>
+            <div class="col-md-4 col-lg-5">
+              <div >
+                  <label><img src="@/assets/img/dade1.png" alt="ser"></label>
+              </div>
+      </div>
         </div>
     </div>
 </section>

@@ -11,7 +11,7 @@
                 <div class="row">
                     <div class="col-md-3">
                         <div class="row footer-top-wrap">
-                            <div class="col-12">
+                            <div class="col-6">
                                 <div class="footer-nav-wrap text-white">
                                     <h4 class="text-white">SECURED BY</h4>
                                     <ul class="list-inline security-icon-list">

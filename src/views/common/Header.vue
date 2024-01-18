@@ -202,7 +202,7 @@ const isOpenModal = () =>{
                     <div class="domain-search-cta-type ptb-100" style="background: url('@/assets/img/map-bg.png')no-repeat center center">
                         <div class="container">
                             <div class="row align-items-center justify-content-center">
-                                <div class="col-md-8 col-lg-8">
+                                <div class="col-md-8 col-lg-10">
                                     <div class="d-flex justify-content-between">
                                         <div>
                                             <div class="domain-search-content text-center mb-4">
@@ -237,9 +237,11 @@ const isOpenModal = () =>{
                                             </div>
                                         </div>
                                         <div>
+                                            <div class="col-md-5 col-lg-3">
                                             <label><img src="@/assets/img/logod.png" alt="ser"></label>
-
                                         </div>
+                                       </div>
+
                                     </div>
                                    
                                 </div>

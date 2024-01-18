@@ -126,7 +126,7 @@ export default {
   <swiper-slide> 
     <div class="container">
       <div class="row align-items-center justify-content-between">
-        <div class="col-lg-10 col-md-12 col-12">
+        <div class="col-lg-12 col-md-12 col-12">
          <div class="card text-center align-items-center single-pricing-pack">
            <div class="pt-5">
                <h5 class="mb-0">Cloud Starter</h5>
@@ -167,7 +167,7 @@ export default {
   <swiper-slide> 
     <div class="container">
       <div class="row align-items-center justify-content-between">
-        <div class="col-lg-10 col-md-10 col-10">
+        <div class="col-lg-12 col-md-12 col-12">
          <div class="card text-center align-items-center single-pricing-pack">
            <div class="pt-5">
                <h5 class="mb-0">Cloud Starter</h5>
@@ -208,7 +208,7 @@ export default {
   <swiper-slide> 
     <div class="container">
       <div class="row align-items-center justify-content-between">
-        <div class="col-lg-10 col-md-10 col-10">
+        <div class="col-lg-12 col-md-12 col-12">
          <div class="card text-center align-items-center single-pricing-pack">
            <div class="pt-5">
                <h5 class="mb-0">Cloud Starter</h5>
@@ -249,7 +249,7 @@ export default {
   <swiper-slide> 
     <div class="container">
       <div class="row align-items-center justify-content-between">
-        <div class="col-lg-10 col-md-10 col-10">
+        <div class="col-lg-12 col-md-12 col-12">
          <div class="card text-center align-items-center single-pricing-pack">
            <div class="pt-5">
                <h5 class="mb-0">Cloud Starter</h5>
@@ -288,10 +288,10 @@ export default {
   </swiper-slide>
   </swiper> 
 </div>
-</section> <br>
+</section> <br> <br>
 
    <!--compare provider table start (new1)-->
- <section class="compare-provider-table ptb-100 gray-light-bg">
+ <section class="compare-provider-table ptb-50 gray-light-bg">
     <div class="container">
       <div class="row justify-content-center head">
         <div class="col-md-12 col-lg-7 ">

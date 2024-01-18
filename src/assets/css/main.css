@@ -695,8 +695,8 @@ pre code {
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  margin-right: -95px;
-  margin-left: -45px;
+  /* margin-right: -95px;
+  margin-left: -45px; */
 }
 
 /* line 6, src/assets/scss/vendors/bootstrap.min.css */
@@ -9784,6 +9784,7 @@ a.bg-dark:focus, a.bg-dark:hover, button.bg-dark:focus, button.bg-dark:hover {
 /* line 6, src/assets/scss/vendors/bootstrap.min.css */
 .position-relative {
   position: relative !important;
+  padding: 60px;
 }
 
 /* line 6, src/assets/scss/vendors/bootstrap.min.css */
@@ -52703,8 +52704,8 @@ background: linear-gradient(to bottom, rgb(246 79 0), rgb(246 79 0)); */
 
 /* line 1492, src/assets/scss/custom/_style.scss */
 .gradient-overly-top:before {
-  background: -webkit-gradient(linear, left bottom, left top, from(rgba(3, 25, 116, 0.85)), to(rgba(25, 52, 167, 0.5)));
-  background: linear-gradient(to bottom, rgb(246 79 0), rgb(246 79 0));
+  /* background: -webkit-gradient(linear, left bottom, left top, from(rgba(3, 25, 116, 0.85)), to(rgba(25, 52, 167, 0.5)));
+  background: linear-gradient(to bottom, rgb(246 79 0), rgb(246 79 0)); */
 }
 
 /* line 1495, src/assets/scss/custom/_style.scss */
@@ -53685,7 +53686,7 @@ td.td-blank {
 /* line 2282, src/assets/scss/custom/_style.scss */
 .accordion-faq .card-body {
   padding: 25px 0;
-  background: transparent;
+  background: #eee;
 }
 
 /* line 2287, src/assets/scss/custom/_style.scss */

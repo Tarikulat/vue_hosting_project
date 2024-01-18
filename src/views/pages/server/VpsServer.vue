@@ -21,14 +21,23 @@ export default {
 
 <template>
       <!--hero section start-->
-      <section class="hero-equal-height pt-165 pb-100 gradient-overlay" style="background: url('http://localhost:5174/src/assets/img/z2.jpg')">
+      <section class="hero-equal-height pt-165 pb-100 gradient-overlay" style="background: url('http://localhost:5174/src/assets/img/k1.png')">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-md-12 col-lg-9">
+                <div class="col-md-7 col-lg-7">
                     <div class="hero-content-wrap text-white text-center position-relative z-index">
                         <h1 class="text-white">Managed Your VPS Servers</h1>
-                        <p class="lead">Interactively seize pandemic human capital before web-enabled systems. Dramatically architect web-enabled applications and distinctive e-services.</p>
+                        <p class="lead">Our High-Performance VPS is a powerful virtual server that offers lightning-fast speed,
+                             reliability, and scalability. It's perfect for hosting resource-intensive websites, 
+                             running complex applications, and handling data-heavy tasks with minimal downtime.
+                              Ideal for businesses and developers who demand top-tier performance.</p>
                     </div>
+                </div>
+
+                <div class="col-md-5 col-lg-5">
+                        <div>
+                            <label><img src="@/assets/img/vp1.png" alt="ser"></label>
+                        </div>
                 </div>
             </div>
         </div>

@@ -141,9 +141,9 @@ import { Service, Testimonial } from '@/views/common'
 
     <Service/>
 
-    <Pricing/>
+    <!-- <Pricing/> -->
 
-    <Faq/>
+    <!-- <Faq/> -->
 
     <Testimonial/>
 </template>

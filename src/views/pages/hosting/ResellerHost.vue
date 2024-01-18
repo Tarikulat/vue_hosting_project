@@ -59,6 +59,7 @@ export default {
             </div>
         </div>
     </div>
+    
     <div class="shape-bottom">
         <img src="@/assets/img/jj.png" alt="shape" class="bottom-shape img-fluid">
     </div>
@@ -111,24 +112,25 @@ export default {
       </div>
     </div>
 </section>
+
 <!-- main packages below -->
 <section>
 <div class="container">
-<swiper
-:slidesPerView="3"
-:spaceBetween="50"
-:loop="true"
-:pagination="{
-  clickable: true,
-}"
-:navigation="true"
-:modules="modules"
-class="mySwiper"
->
+    <swiper
+    :slidesPerView="3"
+    :spaceBetween="50"
+    :loop="true"
+    :pagination="{
+      clickable: true,
+    }"
+    :navigation="true"
+    :modules="modules"
+    class="mySwiper"
+  >
 <swiper-slide> 
 <div class="container">
   <div class="row align-items-center justify-content-between">
-    <div class="col-lg-10 col-md-12 col-12">
+    <div class="col-lg-12 col-md-12 col-12">
      <div class="card text-center align-items-center single-pricing-pack">
        <div class="pt-5">
            <h5 class="mb-0">Cloud Starter</h5>
@@ -169,7 +171,7 @@ class="mySwiper"
 <swiper-slide> 
 <div class="container">
   <div class="row align-items-center justify-content-between">
-    <div class="col-lg-10 col-md-10 col-10">
+    <div class="col-lg-12 col-md-12 col-12">
      <div class="card text-center align-items-center single-pricing-pack">
        <div class="pt-5">
            <h5 class="mb-0">Cloud Starter</h5>
@@ -210,7 +212,7 @@ class="mySwiper"
 <swiper-slide> 
 <div class="container">
   <div class="row align-items-center justify-content-between">
-    <div class="col-lg-10 col-md-10 col-10">
+    <div class="col-lg-12 col-md-12 col-12">
      <div class="card text-center align-items-center single-pricing-pack">
        <div class="pt-5">
            <h5 class="mb-0">Cloud Starter</h5>
@@ -251,7 +253,7 @@ class="mySwiper"
 <swiper-slide> 
 <div class="container">
   <div class="row align-items-center justify-content-between">
-    <div class="col-lg-10 col-md-10 col-10">
+    <div class="col-lg-12 col-md-12 col-12">
      <div class="card text-center align-items-center single-pricing-pack">
        <div class="pt-5">
            <h5 class="mb-0">Cloud Starter</h5>
