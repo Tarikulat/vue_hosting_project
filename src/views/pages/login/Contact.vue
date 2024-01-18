@@ -16,9 +16,9 @@
             </div>
         </div>
     </div> <br>
-    <div class="shape-bottom">
+    <!-- <div class="shape-bottom">
         <img src="@/assets/img/jj.png" alt="shape" class="bottom-shape img-fluid">
-    </div>
+    </div> -->
 </section>
 <!--page header section end-->
 

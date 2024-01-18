@@ -68,7 +68,7 @@ export default {
 <section>
   <div class="container">
     <div class="row justify-content-center head">
-        <div class="col-md-12 col-lg-7 ">
+        <div class="col-md-12 col-lg-7 ptb-100">
             <div class="section-heading  text-center mb-5">
                 <h1>Choose the package you need</h1>
                 <p class="lead">
