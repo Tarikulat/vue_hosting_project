@@ -799,11 +799,11 @@ export default {
 <style>
 
 .backge{
-        background-image: url("@/assets/img/z2.jpg");
+        background-image: url("@/assets/img/z2.webp");
      }
 
 .backgr{
-        background-image: url("@/assets/img/z3.jpg");
+        background-image: url("@/assets/img/z3.webp");
      }
 
 #app {

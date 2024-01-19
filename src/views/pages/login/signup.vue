@@ -83,6 +83,6 @@
 
 <style>
 .backge{
-    background-image: url("@/assets/img/sg1.png");
+    background-image: url("@/assets/img/sg1.webp");
   }
 </style>

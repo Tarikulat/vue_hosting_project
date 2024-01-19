@@ -745,11 +745,11 @@ export default {
 
 <style>
     .backgr{
-        background-image: url("@/assets/img/z2.jpg");
+        background-image: url("@/assets/img/z2.webp");
       }
 
       .backge{
-        background-image: url("@/assets/img/z2.jpg");
+        background-image: url("@/assets/img/z2.webp");
       }
 
 

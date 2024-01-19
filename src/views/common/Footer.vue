@@ -31,19 +31,19 @@
                                     <h4 class="text-white">PRODUCTS</h4>
                                     <ul class="nav flex-column">
                                         <li class="nav-item">
-                                            <a class="nav-link" href="#">WordPress Hosting</a>
+                                            <a class="nav-link" href="https://account.hostservice.com.bd/index.php?rp=/store/shared-hosting">Landing Page Hosting</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="#">Shared Hosting</a>
+                                            <a class="nav-link" href="https://account.hostservice.com.bd/index.php?rp=/store/website-shared-hosting">Website Shared Hosting</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="#">Virtual Private Servers</a>
+                                            <a class="nav-link" href="https://account.hostservice.com.bd/index.php?rp=/store/ecommerce-hosting">E-commerce Hosting</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="#">Dedicated Servers</a>
+                                            <a class="nav-link" href="https://account.hostservice.com.bd/index.php?rp=/store/dedicated-server">Dedicated Server</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="#">Domain Names</a>
+                                            <a class="nav-link" href="https://account.hostservice.com.bd/index.php?rp=/store/vps-server">VPS Server</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -53,7 +53,7 @@
                                     <h4 class="text-white">COMPANY</h4>
                                     <ul class="nav flex-column">
                                         <li class="nav-item">
-                                            <a class="nav-link" href="#">About</a>
+                                            <a class="nav-link" href="#">Info</a>
                                         </li>
                                         <li class="nav-item">
                                             <a class="nav-link" href="#">Affiliates</a>
@@ -127,8 +127,7 @@
             <div class="container">
                 <div class="row align-items-center justify-content-between">
                     <div class="col-md-5 col-lg-5">
-                        <p class="copyright-text pb-0 mb-0">Copyrights © 2024. All
-                            rights reserved by
+                        <p class="copyright-text pb-0 mb-0">Copyright © 2024 Host Service. All Rights Reserved.
                             <a href="https://themeforest.net/user/themetags" target="_blank">Service Key</a>
                         </p>
                     </div>

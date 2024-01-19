@@ -293,6 +293,6 @@
 
 <style>
 .backge{
-    background-image: url("@/assets/img/z2.jpg");
+    background-image: url("@/assets/img/z2.webp");
   }
 </style>

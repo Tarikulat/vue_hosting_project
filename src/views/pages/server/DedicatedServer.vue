@@ -762,10 +762,10 @@ export default {
 <style>
 
 .backgb{
-  background-image: url("@/assets/img/k1.png");
+  background-image: url("@/assets/img/k1.webp");
 }
 .backgm{
-  background-image: url("@/assets/img/z2.jpg");
+  background-image: url("@/assets/img/z2.webp");
 }
 
 

@@ -66,6 +66,7 @@ padding-top: 30px;
     width: 100%;
     padding: 18px 0;
     background: #f7f7f7;
+    text-align: center;
 }
 
 .block-5 .img-blc {
@@ -574,6 +575,7 @@ hr {
 .img-fluid {
   max-width: 75%;
   height: auto;
+  
 }
 
 /* line 6, src/assets/scss/vendors/bootstrap.min.css */
@@ -11910,7 +11912,7 @@ a.bg-dark:focus, a.bg-dark:hover, button.bg-dark:focus, button.bg-dark:hover {
 
 /* line 6, src/assets/scss/vendors/bootstrap.min.css */
 .text-center {
-  text-align: left !important;
+  text-align: center !important;
 }
 
 @media (min-width: 576px) {
@@ -55832,7 +55834,7 @@ button.scroll-top:focus {
   line-height: 40px;
   position: fixed;
   bottom: 105%;
-  right: 30px;
+  left: 30px;
   font-size: 16px;
   border-radius: 4px;
   z-index: 999;

@@ -41,7 +41,7 @@ const isOpenModal = () =>{
                                 <!-- Pages - Submenu -->
                                 <ul id="pagesSubMenu" class="hs-sub-menu main-sub-menu" aria-labelledby="pagesMegaMenu" style="min-width: 260px;">
                                     <div class="title-with-icon-item">
-                                                <a href="https://account.hostservice.com.bd/register.php">
+                                                <a href="https://account.hostservice.com.bd/cart.php?a=add&domain=register">
                                                     <div class="media">
                                                         <div class="menu-item-icon"><i class="fab fa-artstation"></i></div>
                                                         <div class="media-body">
@@ -49,7 +49,7 @@ const isOpenModal = () =>{
                                                         </div>
                                                     </div>
                                                 </a>
-                                    </div> <hr>
+                                    </div> <br>
 
                                      <div class="title-with-icon-item">
                                                 <a href="https://account.hostservice.com.bd/cart.php?a=add&domain=transfer">

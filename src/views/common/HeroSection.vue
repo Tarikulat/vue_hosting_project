@@ -14,8 +14,9 @@ import { Service, Testimonial } from '@/views/common'
                     <div class="col-lg-6 col-12">
                         <div class="hero-content-left text-center">
                             <h1 class="text-white testing">Choose Best Domain Name and Create Your Website</h1>
-                            <p class="lead">Up to 50% Off domain and hosting, Starting from $2.99/month, free SSL certificate, 24/7/365 support, money back guarantee.</p>
-                            <form action="domain-search-result.php" class="domain-search-form mt-3  mx-auto">
+                            <p class="lead">Up to 50% Off domain and hosting, Starting from $2.99/month,
+                                 free SSL certificate, 24/7/365 support, money back guarantee.</p>
+                            <form action="" class="domain-search-form mt-3  mx-auto">
                                 <div class="input-group">
                                     <input type="text" name="domain" id="domain" class="form-control" placeholder="example.com" />
                                     <div class="input-group-append">
@@ -39,7 +40,7 @@ import { Service, Testimonial } from '@/views/common'
 
                       <div class="col-lg-5 col-12">
                         <div class="animation-image-wrap">
-                            <img src="@/assets/img/servers.svg" alt="wp hosting" class="img-fluid" />
+                            <img src="@/assets/img/server.webp" alt="wp hosting" class="img-fluid" />
                             <img src="@/assets/img/an1.png" alt="wp hosting" class="animation-icon-img animation-icon-1" />
                             <img src="@/assets/img/an2.png" alt="wp hosting" class="animation-icon-img animation-icon-2" />
                             <img src="@/assets/img/an3.png" alt="wp hosting" class="animation-icon-img animation-icon-3" />
