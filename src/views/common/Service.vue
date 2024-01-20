@@ -112,7 +112,7 @@
         <!--services section end-->
    
     <!--technical specifications start-->
-    <section class="technical-specification ptb-100 ">
+    <section class="technical-specification respons ptb-100 ">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-md-9 col-lg-8">
@@ -211,6 +211,16 @@
 
 
 <style>
+@media (min-width: 320px) and (max-width: 962px) {
+    .respons {
+      padding: 50px 0;
+
+    }
+  }
+
+
+
+
 .images{
     text-align: center;
     max-width: 100%;

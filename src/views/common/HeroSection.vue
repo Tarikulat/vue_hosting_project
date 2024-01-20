@@ -16,7 +16,8 @@ import { Service, Testimonial } from '@/views/common'
                             <h1 class="text-white testing">Choose Best Domain Name and Create Your Website</h1>
                             <p class="lead">Up to 50% Off domain and hosting, Starting from $2.99/month,
                                  free SSL certificate, 24/7/365 support, money back guarantee.</p>
-                            <form action="" class="domain-search-form mt-3  mx-auto">
+                            <form  class="domain-search-form mt-3  mx-auto">
+                                <a href="https://account.hostservice.com.bd/cart.php?a=add&domain=register">
                                 <div class="input-group">
                                     <input type="text" name="domain" id="domain" class="form-control" placeholder="example.com" />
                                     <div class="input-group-append">
@@ -24,9 +25,9 @@ import { Service, Testimonial } from '@/views/common'
                                             <span class="ti-search mr-2"></span> Search
                                         </button>
                                     </div>
-                                </div>
+                                </div> </a>
                             </form>
-                            <div class="domain-list-wrap mt-4">
+                            <div class="domain-list-wrap res mt-4">
                                 <ul class="list-inline domain-search-list text-white">
                                     <li class="list-inline-item"><a href="#"><img src="@/assets/img/lg1.png" alt="com" width="75" class="img-fluid" /> <span>$8.99</span></a></li>
                                     <li class="list-inline-item"><a href="#"><img src="@/assets/img/lg2.png" alt="com" width="75" class="img-fluid" /> <span>$4.99</span></a></li>
@@ -40,7 +41,7 @@ import { Service, Testimonial } from '@/views/common'
 
                       <div class="col-lg-5 col-12">
                         <div class="animation-image-wrap">
-                            <img src="@/assets/img/server.webp" alt="wp hosting" class="img-fluid" />
+                            <img src="@/assets/img/d.webp" alt="wp hosting" class="img-fluid" />
                             <img src="@/assets/img/an1.png" alt="wp hosting" class="animation-icon-img animation-icon-1" />
                             <img src="@/assets/img/an2.png" alt="wp hosting" class="animation-icon-img animation-icon-2" />
                             <img src="@/assets/img/an3.png" alt="wp hosting" class="animation-icon-img animation-icon-3" />
@@ -51,18 +52,17 @@ import { Service, Testimonial } from '@/views/common'
             </div>
         </section>
         <!--hero section with video backgroun page end-->
-
         
         <!--domain name block start-->
         <div class="domain-name-block pt-100 mt--165">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12 col-lg-12">
-                        <ul class="list-inline domain-list">
+                        <ul class="list-inline cart-respons domain-list">
                             <li class="list-inline-item white-bg custom-shadow">
                                 <a href="#">
                                     <div class="single-domain">
-                                        <img src="@/assets/img/com.png" alt="domain" class="img-fluid" />
+                                        <img src="@/assets/img/s5.png" alt="domain" class="img-fluid" />
                                         <div class="domain-price">
                                             <h6 class="sell-price">$2.56 <span
                                                     class="badge badge-danger text-uppercase">Sell</span></h6>
@@ -74,7 +74,7 @@ import { Service, Testimonial } from '@/views/common'
                             <li class="list-inline-item white-bg custom-shadow">
                                 <a href="#">
                                     <div class="single-domain">
-                                        <img src="@/assets/img/net.png" alt="domain" class="img-fluid" />
+                                        <img src="@/assets/img/s4.png" alt="domain" class="img-fluid" />
                                         <div class="domain-price">
                                             <h6 class="sell-price">$5.56 <span
                                                     class="badge badge-danger text-uppercase">Sell</span></h6>
@@ -86,7 +86,7 @@ import { Service, Testimonial } from '@/views/common'
                             <li class="list-inline-item white-bg custom-shadow">
                                 <a href="#">
                                     <div class="single-domain">
-                                        <img src="@/assets/img/club.png" alt="domain" class="img-fluid" />
+                                        <img src="@/assets/img/s3.png" alt="domain" class="img-fluid" />
                                         <div class="domain-price">
                                             <h6 class="sell-price">$1.56 <span
                                                     class="badge badge-danger text-uppercase">Sell</span></h6>
@@ -98,7 +98,7 @@ import { Service, Testimonial } from '@/views/common'
                             <li class="list-inline-item white-bg custom-shadow">
                                 <a href="#">
                                     <div class="single-domain">
-                                        <img src="@/assets/img/org.png" alt="domain" class="img-fluid" />
+                                        <img src="@/assets/img/s2.png" alt="domain" class="img-fluid" />
                                         <div class="domain-price">
                                             <h6 class="sell-price">$6.99 <span
                                                     class="badge badge-danger text-uppercase">Sell</span></h6>
@@ -110,7 +110,7 @@ import { Service, Testimonial } from '@/views/common'
                             <li class="list-inline-item white-bg custom-shadow">
                                 <a href="#">
                                     <div class="single-domain">
-                                        <img src="@/assets/img/store.png" alt="domain" class="img-fluid" />
+                                        <img src="@/assets/img/s1.png" alt="domain" class="img-fluid" />
                                         <div class="domain-price">
                                             <h6 class="sell-price">$0.99 <span
                                                     class="badge badge-danger text-uppercase">Sell</span></h6>
@@ -122,7 +122,7 @@ import { Service, Testimonial } from '@/views/common'
                             <li class="list-inline-item white-bg custom-shadow">
                                 <a href="#">
                                     <div class="single-domain">
-                                        <img src="@/assets/img/online.png" alt="domain" class="img-fluid" />
+                                        <img src="@/assets/img/s3.png" alt="domain" class="img-fluid" />
                                         <div class="domain-price">
                                             <h6 class="sell-price">$2.56 <span
                                                     class="badge badge-danger text-uppercase">Sell</span></h6>
@@ -150,6 +150,11 @@ import { Service, Testimonial } from '@/views/common'
 </template>
 
 <style>
+@media (min-width: 700px) and (max-width: 2560px) {
+    .res {
 
+      display: none;
+    }
+  }
 
 </style>

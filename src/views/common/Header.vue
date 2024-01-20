@@ -37,7 +37,6 @@ const isOpenModal = () =>{
                             <!--pages start-->
                             <li class="nav-item hs-has-sub-menu custom-nav-item">
                                 <a id="pagesMegaMenu" class="nav-link custom-nav-link main-link-toggle" href="javascript:void(0);" aria-haspopup="true" aria-expanded="false" aria-labelledby="pagesSubMenu">Domain</a>
-                                
                                 <!-- Pages - Submenu -->
                                 <ul id="pagesSubMenu" class="hs-sub-menu main-sub-menu" aria-labelledby="pagesMegaMenu" style="min-width: 260px;">
                                     <div class="title-with-icon-item">
@@ -49,14 +48,14 @@ const isOpenModal = () =>{
                                                         </div>
                                                     </div>
                                                 </a>
-                                    </div> <br>
+                                    </div>
 
                                      <div class="title-with-icon-item">
                                                 <a href="https://account.hostservice.com.bd/cart.php?a=add&domain=transfer">
                                                     <div class="media">
                                                         <div class="menu-item-icon"><i class="fas fa-arrows-alt"></i></div>
                                                         <div class="media-body">
-                                                            <span class="u-header__promo-title">Domain Transfer</span>
+                                                            <span class="u-header__promo-title p-3">Domain Transfer</span>
                                                         </div>
                                                     </div>
                                                 </a>
@@ -209,7 +208,8 @@ const isOpenModal = () =>{
                                                 <h2>Find Your <span class="text-colour">Domain</span> Name</h2>
                                             </div>
                                             <div class="domain-search-wrap text-center">
-                                                <form action="https://account.hostservice.com.bd/cart.php?a=add&domain=register" class="domain-search-form">
+                                                <form  class="domain-search-form">
+                                                    <a href="https://account.hostservice.com.bd/cart.php?a=add&domain=register">
                                                     <div class="input-group shadow">
                                                         <input type="text" name="domain" id="" class="form-control" placeholder="Enter your domain name here" />
                                                         <div class="input-group-append">
@@ -218,6 +218,7 @@ const isOpenModal = () =>{
                                                             </button>
                                                         </div>
                                                     </div>
+                                                </a>
                                                 </form>
                                     
                                                 <div class="domain-list-wrap mt-4">
@@ -238,12 +239,10 @@ const isOpenModal = () =>{
                                         </div>
                                         <div>
                                             <div class="col-md-5 col-lg-3">
-                                            <label><img src="@/assets/img/logod.png" alt="ser"></label>
-                                        </div>
+                                               <label><img src="@/assets/img/logod.png" alt="ser"></label>
+                                            </div>
                                        </div>
-
-                                    </div>
-                                   
+                                    </div>                                  
                                 </div>
                             </div>
                         </div>
@@ -257,6 +256,17 @@ const isOpenModal = () =>{
 </template>
 
 <style>
+
+@media (min-width: 320px) and (max-width: 567px) {
+    .cart-respons {
+      padding: 50px 0;
+      display: none;
+    }
+  }
+
+
+
+
 .text-colour{
     color: #f64f00;
 }

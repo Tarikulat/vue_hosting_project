@@ -14,7 +14,8 @@
                         <div class="topbar-text d-none d-md-block d-lg-block">
                             <ul class="list-inline">
                                 <li class="list-inline-item">
-                                    <a href="tell:888-1234567"><span class="fas fa-phone mr-2"></span>Host Service, Support 01793--------</a>
+                                    <a href="tell:888-1234567"><span class="fas fa-phone mr-2">
+                                    </span>Sales - 01839636749 (9AM-9PM)</a>
                                 </li>
                             </ul>
                         </div>
