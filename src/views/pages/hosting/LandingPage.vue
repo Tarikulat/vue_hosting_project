@@ -684,8 +684,15 @@ export default {
 </template>
 
 <style>
+@media (min-width: 320px) {
+  /* line 6, src/assets/scss/vendors/bootstrap.min.css */
+  .sw-response {
+    max-width: 540px;
+  }
+}
+
 .lan{
-  height: 550px;
+  height: 360px;
  
 }
 .backmg{
