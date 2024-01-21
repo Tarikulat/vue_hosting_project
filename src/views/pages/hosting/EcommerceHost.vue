@@ -26,7 +26,7 @@ export default {
 
 <template>
 <!--hero section start-->
-<section class="hero-equal-height ptb-100 backge gradient-overly-right">
+<section class="hero-equal-height ptb-100 backgek gradient-overly-right">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-md-7 col-lg-8">
@@ -65,15 +65,9 @@ export default {
                 </div>
             </div>
             <div class="col-md-5 col-lg-4">
-                <div class="offer-box text-white text-center py-5 px-4">
-                    <span class="h5 text-white">Special intro offer </span>
-                    <h2 class="offer-price text-white">
-                        <span class="currency usa-currency">$</span>10<span class="decimal">.99</span><small>/month</small>
-                    </h2>
-                    <p class="regular-price">Regular Price <strong>$8.99/mo</strong></p>
-                    <div class="action-btns mt-4">
-                        <a class="btn primary-solid-btn animated-btn" href="#">Get Started Now</a>
-                    </div>
+               
+                <div>
+                    <label><img src="@/assets/img/host3.webp" class="eco" alt="ser"></label>
                 </div>
             </div>
         </div>
@@ -177,7 +171,7 @@ export default {
              <li > cPanel Control Panel</li>
              <li > 24/7 Regular Support</li>
          </ul>
-         <a href="https://account.hostservice.com.bd/index.php?rp=/store/ecommerce-hosting" class="btn outline-btn mb-3" target="_blank">Purchase now</a>
+         <a href="https://account.hostservice.com.bd/index.php?rp=/store/ecommerce-hosting/ecommerce-1" class="btn outline-btn mb-3" target="_blank">Purchase now</a>
        </div>
     </div>
   </div>
@@ -218,7 +212,7 @@ export default {
             <li > cPanel Control Panel</li>
             <li > 24/7 Regular Support</li>
          </ul>
-         <a href="https://account.hostservice.com.bd/index.php?rp=/store/ecommerce-hosting" class="btn outline-btn mb-3" target="_blank">Purchase now</a>
+         <a href="https://account.hostservice.com.bd/index.php?rp=/store/ecommerce-hosting/ecommerce-2" class="btn outline-btn mb-3" target="_blank">Purchase now</a>
        </div>
     </div>
   </div>
@@ -259,7 +253,7 @@ export default {
                         <li > cPanel Control Panel</li>
                         <li > 24/7 Regular Support</li>
          </ul>
-         <a href="https://account.hostservice.com.bd/index.php?rp=/store/ecommerce-hosting" class="btn outline-btn mb-3" target="_blank">Purchase now</a>
+         <a href="https://account.hostservice.com.bd/index.php?rp=/store/ecommerce-hosting/ecommerce-3" class="btn outline-btn mb-3" target="_blank">Purchase now</a>
        </div>
     </div>
   </div>
@@ -300,7 +294,7 @@ export default {
             <li > cPanel Control Panel</li>
             <li > 24/7 Regular Support</li>
          </ul>
-         <a href="https://account.hostservice.com.bd/index.php?rp=/store/ecommerce-hosting" class="btn outline-btn mb-3" target="_blank">Purchase now</a>
+         <a href="https://account.hostservice.com.bd/index.php?rp=/store/ecommerce-hosting/ecommerce-4" class="btn outline-btn mb-3" target="_blank">Purchase now</a>
        </div>
     </div>
   </div>
@@ -899,9 +893,13 @@ export default {
 </template>
 
 <style>
+.eco{
+    height: 600px;
+}
 
-.backge{
-    background-image: url("@/assets/img/z2.webp");
+.backgek{
+    background-image: url("@/assets/img/ecom.webp");
+    height: 500px;
   }
   .backgr{
     background-image: url("@/assets/img/z3.webp");

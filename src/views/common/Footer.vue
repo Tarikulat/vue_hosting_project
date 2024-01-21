@@ -135,9 +135,9 @@
                         <div class="payment-method text-right">
                             <ul class="list-inline">
                                 <li class="list-inline-item">
-                                    <img src="@/assets/img/payment-amex.svg" alt="amex" width="50" />
+                                    <img src="@/assets/img/footer-last.webp" alt="amex" width="300px" />
                                 </li>
-                                <li class="list-inline-item">
+                                <!-- <li class="list-inline-item">
                                     <img src="@/assets/img/payment-visa.svg" alt="visa" width="50" />
                                 </li>
                                 <li class="list-inline-item">
@@ -148,7 +148,7 @@
                                 </li>
                                 <li class="list-inline-item">
                                     <img src="@/assets/img/payment-bitcoin.svg" alt="bitcoin" width="50" />
-                                </li>
+                                </li> -->
                             </ul>
                         </div>
                     </div>

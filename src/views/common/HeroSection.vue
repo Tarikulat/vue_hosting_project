@@ -29,11 +29,11 @@ import { Service, Testimonial } from '@/views/common'
                             </form>
                             <div class="domain-list-wrap res mt-4">
                                 <ul class="list-inline domain-search-list text-white">
-                                    <li class="list-inline-item"><a href="#"><img src="@/assets/img/lg1.png" alt="com" width="75" class="img-fluid" /> <span>$8.99</span></a></li>
-                                    <li class="list-inline-item"><a href="#"><img src="@/assets/img/lg2.png" alt="com" width="75" class="img-fluid" /> <span>$4.99</span></a></li>
-                                    <li class="list-inline-item"><a href="#"><img src="@/assets/img/lg3.png" alt="com" width="75" class="img-fluid" /> <span>$2.99</span></a></li>
-                                    <li class="list-inline-item"><a href="#"><img src="@/assets/img/lg4.png" alt="com" width="75" class="img-fluid" /> <span>$0.99</span></a></li>
-                                    <li class="list-inline-item"><a href="#"><img src="@/assets/img/lg5.png" alt="com" width="75" class="img-fluid" /> <span>$0.99</span></a></li>
+                                    <li class="list-inline-item"><a href="#"><img src="@/assets/img/lg1.png" alt="com" width="75" class="img-fluid" /> <span>৳7,00</span></a></li>
+                                    <li class="list-inline-item"><a href="#"><img src="@/assets/img/lg2.png" alt="com" width="75" class="img-fluid" /> <span>৳9,99</span></a></li>
+                                    <li class="list-inline-item"><a href="#"><img src="@/assets/img/lg3.png" alt="com" width="75" class="img-fluid" /> <span>৳8,00</span></a></li>
+                                    <li class="list-inline-item"><a href="#"><img src="@/assets/img/lg4.png" alt="com" width="75" class="img-fluid" /> <span>৳6,99</span></a></li>
+                                    <li class="list-inline-item"><a href="#"><img src="@/assets/img/lg5.png" alt="com" width="75" class="img-fluid" /> <span>৳8,99</span></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -64,9 +64,9 @@ import { Service, Testimonial } from '@/views/common'
                                     <div class="single-domain">
                                         <img src="@/assets/img/s5.png" alt="domain" class="img-fluid" />
                                         <div class="domain-price">
-                                            <h6 class="sell-price">$2.56 <span
+                                            <h6 class="sell-price">৳9,99 <span
                                                     class="badge badge-danger text-uppercase">Sell</span></h6>
-                                            <span class="old-price">$29.95</span>
+                                            <span class="old-price">৳12,99</span>
                                         </div>
                                     </div>
                                 </a>
@@ -76,9 +76,9 @@ import { Service, Testimonial } from '@/views/common'
                                     <div class="single-domain">
                                         <img src="@/assets/img/s4.png" alt="domain" class="img-fluid" />
                                         <div class="domain-price">
-                                            <h6 class="sell-price">$5.56 <span
+                                            <h6 class="sell-price">৳10,50 <span
                                                     class="badge badge-danger text-uppercase">Sell</span></h6>
-                                            <span class="old-price">$49.99</span>
+                                            <span class="old-price">৳11,99</span>
                                         </div>
                                     </div>
                                 </a>
@@ -88,9 +88,9 @@ import { Service, Testimonial } from '@/views/common'
                                     <div class="single-domain">
                                         <img src="@/assets/img/s3.png" alt="domain" class="img-fluid" />
                                         <div class="domain-price">
-                                            <h6 class="sell-price">$1.56 <span
+                                            <h6 class="sell-price">৳9,50<span
                                                     class="badge badge-danger text-uppercase">Sell</span></h6>
-                                            <span class="old-price">$19.00</span>
+                                            <span class="old-price">৳13,50</span>
                                         </div>
                                     </div>
                                 </a>
@@ -100,9 +100,9 @@ import { Service, Testimonial } from '@/views/common'
                                     <div class="single-domain">
                                         <img src="@/assets/img/s2.png" alt="domain" class="img-fluid" />
                                         <div class="domain-price">
-                                            <h6 class="sell-price">$6.99 <span
+                                            <h6 class="sell-price">৳7.99 <span
                                                     class="badge badge-danger text-uppercase">Sell</span></h6>
-                                            <span class="old-price">$59.95</span>
+                                            <span class="old-price">৳9.99</span>
                                         </div>
                                     </div>
                                 </a>
@@ -112,9 +112,9 @@ import { Service, Testimonial } from '@/views/common'
                                     <div class="single-domain">
                                         <img src="@/assets/img/s1.png" alt="domain" class="img-fluid" />
                                         <div class="domain-price">
-                                            <h6 class="sell-price">$0.99 <span
+                                            <h6 class="sell-price">৳7,70 <span
                                                     class="badge badge-danger text-uppercase">Sell</span></h6>
-                                            <span class="old-price">$4.99</span>
+                                            <span class="old-price">৳8,70</span>
                                         </div>
                                     </div>
                                 </a>
@@ -124,9 +124,9 @@ import { Service, Testimonial } from '@/views/common'
                                     <div class="single-domain">
                                         <img src="@/assets/img/s3.png" alt="domain" class="img-fluid" />
                                         <div class="domain-price">
-                                            <h6 class="sell-price">$2.56 <span
+                                            <h6 class="sell-price">৳9,10 <span
                                                     class="badge badge-danger text-uppercase">Sell</span></h6>
-                                            <span class="old-price">$29.95</span>
+                                            <span class="old-price">৳12,50</span>
                                         </div>
                                     </div>
                                 </a>

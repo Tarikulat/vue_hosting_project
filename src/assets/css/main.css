@@ -29,6 +29,11 @@
   --font-family-sans-serif:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
   --font-family-monospace:SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
 }  
+.gradient-overly-right:before {
+  background: -webkit-gradient(linear, left top, right top, from(#031974), to(rgba(25, 52, 167, 0.5)));
+  background: linear-gradient(90deg, #031974, rgba(25, 52, 167, 0.5));
+}
+
 
 .head{
 padding-top: 30px;
@@ -55,7 +60,7 @@ padding-top: 30px;
   border-radius: 0;
   font-weight: 600;
   padding: 7px 23px; 
-  background: #000;
+  background: #f64f00;
   letter-spacing: .1em;
   display: inline-block;
   text-transform: uppercase;
@@ -213,14 +218,14 @@ sup {
 
 /* line 6, src/assets/scss/vendors/bootstrap.min.css */
 a {
-  color: #007bff;
+  color: #f64f00;
   text-decoration: none;
   background-color: transparent;
 }
 
 /* line 6, src/assets/scss/vendors/bootstrap.min.css */
 a:hover {
-  color: #0056b3;
+  color: #f64f00;
   text-decoration: underline;
 }
 
@@ -261,6 +266,7 @@ figure {
 img {
   border-style: none;
   vertical-align: middle;
+ 
 }
 
 /* line 6, src/assets/scss/vendors/bootstrap.min.css */
@@ -51306,8 +51312,9 @@ a:hover {
 .outline-btn {
   position: relative;
   display: inline-block;
-  color: #f65204;
-    border: 1px solid #f65508;
+  color: #fff;
+  border: 1px solid black;
+  background-color: black;
 }
 
 /* line 305, src/assets/scss/custom/_style.scss */
@@ -52896,14 +52903,14 @@ background: linear-gradient(to bottom, rgb(246 79 0), rgb(246 79 0)); */
   border-radius: 1rem;
   margin: 0 auto;
   padding: 15px;
-  background: rgba(26, 42, 112, 0.65);
+  background: #343a40;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
 
 /* line 1635, src/assets/scss/custom/_style.scss */
 .offer-box:hover {
-  background: rgba(3, 25, 116, 0.75);
+  background: #F64F00;
 }
 
 /* line 1638, src/assets/scss/custom/_style.scss */
@@ -54204,8 +54211,8 @@ ul.disc-style li {
   color: #ffffff;
   padding-left: 25px;
   padding-right: 25px;
-  border: 1px solid #1880ed;
-  background: rgba(0, 115, 236, 0.9);
+  border: 1px solid #f64f00;
+  background: #000000e6;
   -webkit-box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.15);
           box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.15);
   font-weight: 500;
@@ -54236,7 +54243,7 @@ ul.disc-style li {
   height: 100%;
   width: 0;
   z-index: -1;
-  background: rgba(0, 115, 236, 0.9);
+  background: #f64f00;
   -webkit-transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
   transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
 }

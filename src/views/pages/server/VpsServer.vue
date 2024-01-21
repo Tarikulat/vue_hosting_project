@@ -44,8 +44,8 @@ export default {
     </section>
     <!--hero section end-->
 
-    <!--custom plan section start-->
-    <section id="custom-plan" class="custom-plan gray-light-bg pt-5 mt--165">
+     <!--custom plan section start-->
+     <section id="custom-plan" class="custom-plan gray-light-bg pt-5 mt--165">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 col-lg-8">

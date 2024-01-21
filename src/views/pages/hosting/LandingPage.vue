@@ -26,10 +26,10 @@ export default {
 
 <template>
      
-    <section class="hero-equal-height ptb-100 backge gradient-overly-right" >
+    <section class="hero-equal-height ptb-100 gradient-overly-right:before backmg gradient-overly-right" >
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-md-7 col-lg-8">
+                <div class="col-md-7 col-lg-7">
                     <div class="hero-content-wrap text-white position-relative">
                         <h1 class="text-white">Landing Page Hosting</h1>
                         <p class="lead">Build and grow the perfect Website Shared Hosting Pro.</p>
@@ -45,23 +45,16 @@ export default {
                         </div>
                     </div>
                 </div>
-                <div class="col-md-5 col-lg-4">
-                    <div class="offer-box text-white text-center py-5 px-4">
-                        <span class="h5 text-white">Special intro offer </span>
-                        <h2 class="offer-price text-white">
-                            <span class="currency usa-currency">$</span>0<span class="decimal">.99</span><small>/month</small>
-                        </h2>
-                        <p class="regular-price">Regular Price <strong>$7.99/mo</strong></p>
-                        <div class="action-btns mt-4">
-                            <a class="btn primary-solid-btn animated-btn" href="#">Get Started Now</a>
-                        </div>
-                    </div>
+                <div class="col-md-5 col-lg-5">
+                  <div >
+                    <label><img src="@/assets/img/bh.webp" class="lan" alt="ser"></label>
+                </div>
                 </div>
             </div>
         </div>
-        <div class="shape-bottom">
+        <!-- <div class="shape-bottom">
             <img src="@/assets/img/jj.png" alt="shape" class="bottom-shape img-fluid">
-        </div>
+        </div> -->
     </section>
     <!--page header section end-->
 <!-- packages starting heading -->
@@ -158,7 +151,7 @@ export default {
            <li > cPanel Control Panel</li>
            <li > 24/7 Regular Support</li>
        </ul>
-       <a href="https://account.hostservice.com.bd/index.php?rp=/store/shared-hosting" class="btn outline-btn mb-3" target="_blank">Purchase now</a>
+       <a href="https://account.hostservice.com.bd/index.php?rp=/store/shared-hosting/starter" class="btn outline-btn mb-3" target="_blank">Purchase now</a>
      </div>
   </div>
 </div>
@@ -199,7 +192,7 @@ export default {
           <li > cPanel Control Panel</li>
           <li > 24/7 Regular Support</li>
        </ul>
-       <a href="https://account.hostservice.com.bd/index.php?rp=/store/shared-hosting" class="btn outline-btn mb-3" target="_blank">Purchase now</a>
+       <a href="https://account.hostservice.com.bd/index.php?rp=/store/shared-hosting/standard" class="btn outline-btn mb-3" target="_blank">Purchase now</a>
      </div>
   </div>
 </div>
@@ -240,7 +233,7 @@ export default {
                       <li > cPanel Control Panel</li>
                       <li > 24/7 Regular Support</li>
        </ul>
-       <a href="https://account.hostservice.com.bd/index.php?rp=/store/shared-hosting" class="btn outline-btn mb-3" target="_blank">Purchase now</a>
+       <a href="https://account.hostservice.com.bd/index.php?rp=/store/shared-hosting/silver" class="btn outline-btn mb-3" target="_blank">Purchase now</a>
      </div>
   </div>
 </div>
@@ -281,7 +274,7 @@ export default {
           <li > cPanel Control Panel</li>
           <li > 24/7 Regular Support</li>
        </ul>
-       <a href="https://account.hostservice.com.bd/index.php?rp=/store/shared-hosting" class="btn outline-btn mb-3" target="_blank">Purchase now</a>
+       <a href="https://account.hostservice.com.bd/index.php?rp=/store/shared-hosting/gold" class="btn outline-btn mb-3" target="_blank">Purchase now</a>
      </div>
   </div>
 </div>
@@ -691,8 +684,12 @@ export default {
 </template>
 
 <style>
-.backge{
-  background-image: url("@/assets/img/z2.webp");
+.lan{
+  height: 550px;
+ 
+}
+.backmg{
+  background-image: url("@/assets/img/landing.webp");
 }
 .backges{
   background-image: url("@/assets/img/z3.webp");

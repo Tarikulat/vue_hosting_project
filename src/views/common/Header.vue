@@ -33,29 +33,30 @@ const isOpenModal = () =>{
                             <li class="nav-item hs-has-mega-menu custom-nav-item" data-max-width="250px" data-position="right">
                                 <router-link :to="{name:'home'}" id="aboutMegaMenu" class="nav-link custom-nav-link " aria-haspopup="true" aria-expanded="false">Home</router-link>
                             </li>
-                            <!--home end-->
-                            <!--pages start-->
+                        
                             <li class="nav-item hs-has-sub-menu custom-nav-item">
-                                <a id="pagesMegaMenu" class="nav-link custom-nav-link main-link-toggle" href="javascript:void(0);" aria-haspopup="true" aria-expanded="false" aria-labelledby="pagesSubMenu">Domain</a>
+                                <a id="pagesMegaMenu" class="nav-link custom-nav-link main-link-toggle" href="javascript:void(0);" aria-haspopup="true" aria-expanded="false" aria-labelledby="pagesSubMenu">Domain</a>                            
                                 <!-- Pages - Submenu -->
-                                <ul id="pagesSubMenu" class="hs-sub-menu main-sub-menu" aria-labelledby="pagesMegaMenu" style="min-width: 260px;">
+                                <ul id="pagesSubMenu" class="hs-sub-menu main-sub-menu" aria-labelledby="pagesMegaMenu" style="min-width: 330px;">
                                     <div class="title-with-icon-item">
-                                                <a href="https://account.hostservice.com.bd/cart.php?a=add&domain=register">
+                                                <a href="https://account.hostservice.com.bd/cart.php?a=add&domain=register" class="title-with-icon-link" >
                                                     <div class="media">
                                                         <div class="menu-item-icon"><i class="fab fa-artstation"></i></div>
                                                         <div class="media-body">
                                                             <span class="u-header__promo-title">Domain Register</span>
+                                                            <small class="u-header__promo-text">quickly response </small>
                                                         </div>
                                                     </div>
                                                 </a>
-                                    </div>
+                                     </div>
 
                                      <div class="title-with-icon-item">
-                                                <a href="https://account.hostservice.com.bd/cart.php?a=add&domain=transfer">
+                                                <a href="https://account.hostservice.com.bd/cart.php?a=add&domain=transfer" class="title-with-icon-link" >
                                                     <div class="media">
                                                         <div class="menu-item-icon"><i class="fas fa-arrows-alt"></i></div>
                                                         <div class="media-body">
-                                                            <span class="u-header__promo-title p-3">Domain Transfer</span>
+                                                            <span class="u-header__promo-title">Domain Transfer</span>
+                                                            <small class="u-header__promo-text">best services</small>
                                                         </div>
                                                     </div>
                                                 </a>
@@ -63,8 +64,6 @@ const isOpenModal = () =>{
                                 </ul>
                                 <!-- End Pages - Submenu -->
                             </li>
-                            <!--pages end-->
-
                             <!--hosting start-->
                             <li class="nav-item hs-has-mega-menu custom-nav-item" data-max-width="700px" data-position="right">
                                 <a id="hostingMegaMenu" class="nav-link custom-nav-link main-link-toggle" href="JavaScript:Void(0);" aria-haspopup="true" aria-expanded="false">Hosting</a>
@@ -186,7 +185,6 @@ const isOpenModal = () =>{
                             <li class="nav-item hs-has-mega-menu custom-nav-item" data-max-width="250px" data-position="right">
                                 <!-- <router-link :to="{name:'nav-search'}" id="aboutMegaMenu" class="nav-link custom-nav-link " aria-haspopup="true" aria-expanded="false"><i class="fa fa-search"></i> Domain Search</router-link> -->
                                 <a href="javascript::void(0)" id="aboutMegaMenu" class="nav-link custom-nav-link " @click.prevent="isOpenModal"><i class="fa fa-search"></i> Domain Search</a>
-                                
                             </li>
                         </ul>
                     </div>

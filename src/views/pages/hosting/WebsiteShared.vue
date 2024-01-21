@@ -45,15 +45,8 @@ export default {
                     </div>
                 </div>
                 <div class="col-md-5 col-lg-4">
-                    <div class="offer-box text-white text-center py-5 px-4">
-                        <span class="h5 text-white">Special intro offer </span>
-                        <h2 class="offer-price text-white">
-                            <span class="currency usa-currency">$</span>0<span class="decimal">.99</span><small>/month</small>
-                        </h2>
-                        <p class="regular-price">Regular Price <strong>$7.99/mo</strong></p>
-                        <div class="action-btns mt-4">
-                            <a class="btn primary-solid-btn animated-btn" href="#">Get Started Now</a>
-                        </div>
+                    <div >
+                        <label><img src="@/assets/img/host5.webp" alt="ser"></label>
                     </div>
                 </div>
             </div>
@@ -156,7 +149,7 @@ export default {
                  <li > cPanel Control Panel</li>
                  <li > 24/7 Regular Support</li>
              </ul>
-             <a href="https://account.hostservice.com.bd/index.php?rp=/store/website-shared-hosting" class="btn outline-btn mb-3" target="_blank">Purchase now</a>
+             <a href="https://account.hostservice.com.bd/index.php?rp=/store/website-shared-hosting/starter" class="btn outline-btn mb-3" target="_blank">Purchase now</a>
            </div>
         </div>
       </div>
@@ -197,7 +190,7 @@ export default {
                 <li > cPanel Control Panel</li>
                 <li > 24/7 Regular Support</li>
              </ul>
-             <a href="https://account.hostservice.com.bd/index.php?rp=/store/website-shared-hosting" class="btn outline-btn mb-3" target="_blank">Purchase now</a>
+             <a href="https://account.hostservice.com.bd/index.php?rp=/store/website-shared-hosting/standard" class="btn outline-btn mb-3" target="_blank">Purchase now</a>
            </div>
         </div>
       </div>
@@ -238,7 +231,7 @@ export default {
                             <li > cPanel Control Panel</li>
                             <li > 24/7 Regular Support</li>
              </ul>
-             <a href="https://account.hostservice.com.bd/index.php?rp=/store/website-shared-hosting" class="btn outline-btn mb-3" target="_blank">Purchase now</a>
+             <a href="https://account.hostservice.com.bd/index.php?rp=/store/website-shared-hosting/silver" class="btn outline-btn mb-3" target="_blank">Purchase now</a>
            </div>
         </div>
       </div>
@@ -279,7 +272,7 @@ export default {
                 <li > cPanel Control Panel</li>
                 <li > 24/7 Regular Support</li>
              </ul>
-             <a href="https://account.hostservice.com.bd/index.php?rp=/store/website-shared-hosting" class="btn outline-btn mb-3" target="_blank">Purchase now</a>
+             <a href="https://account.hostservice.com.bd/index.php?rp=/store/website-shared-hosting/gold" class="btn outline-btn mb-3" target="_blank">Purchase now</a>
            </div>
         </div>
       </div>
@@ -799,7 +792,7 @@ export default {
 <style>
 
 .backge{
-        background-image: url("@/assets/img/z2.webp");
+        background-image: url("@/assets/img/shair.webp");
      }
 
 .backgr{

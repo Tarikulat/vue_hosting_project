@@ -36,7 +36,7 @@ export default {
               <div >
                   <label><img src="@/assets/img/dade1.png" alt="ser"></label>
               </div>
-      </div>
+            </div>
         </div>
     </div>
 </section>

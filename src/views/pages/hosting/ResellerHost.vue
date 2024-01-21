@@ -26,22 +26,41 @@ export default {
 
 <template>
   <!--hero section start-->
-  <section class="hero-equal-height pt-165 pb-100 packge backgr gradient-overly-right" >
+  <section class="hero-equal-height pt-165 backgrs pb-100 packge backgrs gradient-overly-right" >
     <div class="container">
         <div class="row align-items-center">
             <div class="col-md-7 col-lg-8">
                 <div class="hero-content-wrap text-white position-relative z-index">
-                    <h1 class="text-white">Managed Reseller Hosting</h1>
-                    <p class="lead">Synergistically leverage existing robust best practices whereas integrated manufactured products. Intrinsicly evisculate value-added.</p>
-                    <ul class="list-unstyled tech-feature-list text-white">
-                        <li class="py-1"><span class="ti-control-forward mr-2"></span>Flexible, Easy to Use Control Panel</li>
-                        <li class="py-1"><span class="ti-control-forward mr-2"></span><strong>Unmetered</strong> Bandwidth</li>
-                        <li class="py-1"><span class="ti-control-forward mr-2"></span><strong>Unmetered</strong> Sub Domains, FTP Accounts</li>
-                        <li class="py-1"><span class="ti-control-forward mr-2"></span><strong>99%</strong> Uptime Guarantee</li>
-                        <li class="py-1"><span class="ti-control-forward mr-2"></span><strong>45-Day</strong> Money-Back Guarantee</li>
+                    <h1 class="text-white">Reseller Hosting Management</h1>
+                    <p class="lead">Sell anything, anywhere, anytime on the world's biggest eCommerce platform. Up to 50% Off domain and hosting, Starting from $2.99/month.</p>
+                    <ul class="list-unstyled">
+                        <li class="py-1">
+                            <div class="d-flex align-items-center">
+                                <span class="ti-check mr-2"></span>
+                                <p class="mb-0">Great for selling online</p>
+                            </div>
+                        </li>
+                        <li class="py-1">
+                            <div class="d-flex align-items-center">
+                                <span class="ti-check mr-2"></span>
+                                <p class="mb-0">Secure payment gateways provided</p>
+                            </div>
+                        </li>
+                        <li class="py-1">
+                            <div class="d-flex align-items-center">
+                                <span class="ti-check mr-2"></span>
+                                <p class="mb-0">Fully customizable online stores</p>
+                            </div>
+                        </li>
+                        <li class="py-1">
+                            <div class="d-flex align-items-center">
+                                <span class="ti-check mr-2"></span>
+                                <p class="mb-0">Free Online Store Set Up Phone Call</p>
+                            </div>
+                        </li>
                     </ul>
                     <div class="action-btns mt-4">
-                        <p>Get all the essentials features <strong>Starting at $2.59/mo</strong></p>
+                        <p>Get all the essentials features <strong>Starting at $6.59/mo</strong></p>
                     </div>
                 </div>
             </div>
@@ -49,9 +68,9 @@ export default {
                 <div class="offer-box text-white text-center py-5 px-4">
                     <span class="h5 text-white">Special intro offer </span>
                     <h2 class="offer-price text-white">
-                        <span class="currency usa-currency">$</span>4<span class="decimal">.99</span><small>/month</small>
+                        <span class="currency usa-currency">৳</span>12<span class="decimal">,99</span><small>/month</small>
                     </h2>
-                    <p class="regular-price">Regular Price <strong>$10.99/mo</strong></p>
+                    <p class="regular-price">Regular Price <strong>৳899/mo</strong></p>
                     <div class="action-btns mt-4">
                         <a class="btn primary-solid-btn animated-btn" href="#">Get Started Now</a>
                     </div>
@@ -60,9 +79,9 @@ export default {
         </div>
     </div>
     
-    <div class="shape-bottom">
+    <!-- <div class="shape-bottom">
         <img src="@/assets/img/jj.png" alt="shape" class="bottom-shape img-fluid">
-    </div>
+    </div> -->
 </section> <br>
 <!--hero section end-->
  
@@ -160,7 +179,7 @@ export default {
              <li > cPanel Control Panel</li>
              <li > 24/7 Regular Support</li>
          </ul>
-         <a href="https://account.hostservice.com.bd/index.php?rp=/store/maintenance" class="btn outline-btn mb-3" target="_blank">Purchase now</a>
+         <a href="https://account.hostservice.com.bd/index.php?rp=/store/maintenance/landing-pagepackage" class="btn outline-btn mb-3" target="_blank">Purchase now</a>
        </div>
     </div>
   </div>
@@ -201,7 +220,7 @@ export default {
             <li > cPanel Control Panel</li>
             <li > 24/7 Regular Support</li>
          </ul>
-         <a href="https://account.hostservice.com.bd/index.php?rp=/store/maintenance" class="btn outline-btn mb-3" target="_blank">Purchase now</a>
+         <a href="https://account.hostservice.com.bd/index.php?rp=/store/maintenance/landing-page-package-2" class="btn outline-btn mb-3" target="_blank">Purchase now</a>
        </div>
     </div>
   </div>
@@ -242,7 +261,7 @@ export default {
                         <li > cPanel Control Panel</li>
                         <li > 24/7 Regular Support</li>
          </ul>
-         <a href="https://account.hostservice.com.bd/index.php?rp=/store/maintenance" class="btn outline-btn mb-3" target="_blank">Purchase now</a>
+         <a href="https://account.hostservice.com.bd/index.php?rp=/store/maintenance/website-maintenance-silver" class="btn outline-btn mb-3" target="_blank">Purchase now</a>
        </div>
     </div>
   </div>
@@ -283,7 +302,7 @@ export default {
             <li > cPanel Control Panel</li>
             <li > 24/7 Regular Support</li>
          </ul>
-         <a href="https://account.hostservice.com.bd/index.php?rp=/store/maintenance" class="btn outline-btn mb-3" target="_blank">Purchase now</a>
+         <a href="https://account.hostservice.com.bd/index.php?rp=/store/maintenance/website-maintenance-gold" class="btn outline-btn mb-3" target="_blank">Purchase now</a>
        </div>
     </div>
   </div>
@@ -744,13 +763,12 @@ export default {
 </template>
 
 <style>
-    .backgr{
-        background-image: url("@/assets/img/z2.webp");
+
+
+    .backgrs{
+        background-image: url("@/assets/img/resel.webp");
       }
 
-      .backge{
-        background-image: url("@/assets/img/z2.webp");
-      }
 
 
 
