@@ -61,7 +61,7 @@ export default {
 <section>
   <div class="container">
     <div class="row justify-content-center head">
-        <div class="col-md-12 col-lg-7 ptb-100">
+        <div class="col-md-12 col-lg-7">
             <div class="section-heading  text-center mb-5">
                 <h1>Choose the package you need</h1>
                 <p class="lead">
@@ -98,7 +98,7 @@ export default {
 </section>
 <!-- main packages below -->
 <section>
-<div class="container">
+<div class="container top-p">
 
 <swiper
     :slidesPerView="3"
@@ -282,7 +282,7 @@ export default {
 </swiper-slide>
 </swiper> 
 </div>
-</section> <br>
+</section> <br> <br>
 
  <!--compare provider table start (new1)-->
  <section class="compare-provider-table ptb-100 gray-light-bg">
@@ -304,7 +304,7 @@ export default {
                             <tr>
                                 <tr>
                                     <td style="width: 20%; text-align: center"><h5>Resource Type</h5></td>
-                                    <td class="primary-bg" style="width: 20%; text-align: center;"><h5 class="text-white">Bronze</h5></td>
+                                    <td class="primary-bg" style="width: 20%; text-align: center;"><h5 class="text-white">Starter</h5></td>
                                     <td style="width: 20%; text-align: center;"><h5>Silver</h5></td>
                                     <td style="width: 20%; text-align: center;"><h5>Gold</h5></td>
                                     <td style="width: 20%; text-align: center;"><h5>Platinum</h5></td>

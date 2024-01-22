@@ -72,15 +72,15 @@ export default {
             </div>
         </div>
     </div>
-    <div class="shape-bottom">
+    <!-- <div class="shape-bottom">
         <img src="@/assets/img/jj.png" alt="shape" class="bottom-shape img-fluid">
-    </div>
+    </div> -->
 </section>
 
 <section>
     <div class="container">
       <div class="row justify-content-center head">
-          <div class="col-md-12 col-lg-7 ptb-100">
+          <div class="col-md-12 col-lg-7">
               <div class="section-heading  text-center mb-5">
                   <h1>Choose the package you need</h1>
                   <p class="lead">
@@ -114,10 +114,10 @@ export default {
           </div>
       </div>
     </div>
-  </section>
+  </section> 
   <!-- main packages below -->
   <section>
-  <div class="container">
+  <div class="container top-p ">
   
   <swiper
       :slidesPerView="3"
@@ -131,7 +131,7 @@ export default {
       class="mySwiper"
     >
   <swiper-slide> 
-  <div class="container">
+  <div class="container ">
   <div class="row align-items-center justify-content-between">
     <div class="col-lg-12 col-md-12 col-12">
      <div class="card text-center align-items-center single-pricing-pack">
@@ -301,7 +301,7 @@ export default {
   </swiper-slide>
   </swiper> 
   </div>
-  </section> <br>
+  </section> <br> <br>
   
    <!--compare provider table start (new1)-->
  <section class="compare-provider-table ptb-100 gray-light-bg">

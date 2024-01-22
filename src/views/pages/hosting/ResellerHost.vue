@@ -79,17 +79,14 @@ export default {
         </div>
     </div>
     
-    <!-- <div class="shape-bottom">
-        <img src="@/assets/img/jj.png" alt="shape" class="bottom-shape img-fluid">
-    </div> -->
-</section> <br>
+</section> 
 <!--hero section end-->
  
 <!-- packages starting heading -->
 <section>
     <div class="container">
-      <div class="row justify-content-center ptb-100 head">
-          <div class="col-md-12 col-lg-7 ">
+      <div class="row justify-content-center head">
+          <div class="col-md-12 col-lg-7">
               <div class="section-heading  text-center mb-5">
                   <h1>Choose the package you need</h1>
                   <p class="lead">
@@ -98,9 +95,9 @@ export default {
               </div>
           </div>
           <div class="col-10 col-sm-8 col-md-7">
-
+  
               <div class="text-center mb-2 radio-box-wrap billingCycle">
-
+  
                   <div class="single-radio-box">
                       <input name="billingPlan" id="monthly-plan" value="monthly" class="radio" type="radio" checked>
                       <label for="monthly-plan"><span class="custom-check"></span>1 Month</label>
@@ -113,53 +110,52 @@ export default {
                       <input name="billingPlan" id="biannual-plan" value="biannual" class="radio" type="radio">
                       <label for="biannual-plan"><span class="custom-check"></span>6 Month</label>
                   </div>
-
+  
                   <div class="single-radio-box">
-                      <input name="billingPlan" id="yearly-plan" value="yearly" class="radio" type="radio" checked>
-                      <label for="yearly-plan"><span class="custom-check"></span>1 Year</label>
+                      <input name="billingPlan" id="triennial-plan" value="triennial" class="radio" type="radio" checked>
+                      <label for="triennial-plan"><span class="custom-check"></span>1 Year</label>
                   </div>
-                  <div class="single-radio-box">
-                      <input name="billingPlan" id="monthly-plan" value="monthly" class="radio" type="radio">
-                      <label for="monthly-plan"><span class="custom-check"></span>2 Years</label>
-                  </div>
-                  <div class="single-radio-box">
-                      <input name="billingPlan" id="biannual-plan" value="biannual" class="radio" type="radio">
-                      <label for="biannual-plan"><span class="custom-check"></span>3 Years</label>
-                  </div>
+                 
               </div>
           </div>
       </div>
     </div>
-</section>
-
-<!-- main packages below -->
-<section>
-<div class="container">
-    <swiper
-    :slidesPerView="3"
-    :spaceBetween="50"
-    :loop="true"
-    :pagination="{
-      clickable: true,
-    }"
-    :navigation="true"
-    :modules="modules"
-    class="mySwiper"
-  >
-<swiper-slide> 
-<div class="container">
+  </section>
+  <!-- main packages below -->
+  <section>
+  <div class="container top-p">
+  
+  <swiper
+      :slidesPerView="3"
+      :spaceBetween="50"
+      :loop="true"
+      :pagination="{
+        clickable: true,
+      }"
+      :navigation="true"
+      :modules="modules"
+      class="mySwiper"
+    >
+  <swiper-slide> 
+  <div class="container">
   <div class="row align-items-center justify-content-between">
     <div class="col-lg-12 col-md-12 col-12">
      <div class="card text-center align-items-center single-pricing-pack">
        <div class="pt-5">
            <h5 class="mb-0">Cloud Starter</h5>
-           <p class="mb-0">1 Month Price</p>
+           <p class="mb-0">Starter</p>
          </div>
           <div class="card-header pb-4 border-0 pricing-header">
-              <div class="price text-center mb-0 monthly-price">$19<span>/month</span></div>
-              <div class="price text-center mb-0 yearly-price">$69<span>/yearly</span></div>
-              <div class="price text-center mb-0 biannual-price">$130<span>/biannual</span></div>
-              <div class="price text-center mb-0 triennial-price">$199<span>/triennial</span></div>
+              <div class="price text-center mb-0 monthly-price">৳ 1,500<span>/1 Month</span></div>
+             
+  
+              <div class="price text-center mb-0 yearly-price">৳ 4,500<span>/3 Month</span></div>
+             
+  
+              <div class="price text-center mb-0 biannual-price">৳ 9,000<span>/6 Month</span></div>
+              
+  
+              <div class="price text-center mb-0 triennial-price">৳ 14,500<span>/1 Year</span></div>
           </div>
      <div class="card-body">
          <ul class="list-unstyled mb-4 pricing-feature-list">
@@ -179,28 +175,28 @@ export default {
              <li > cPanel Control Panel</li>
              <li > 24/7 Regular Support</li>
          </ul>
-         <a href="https://account.hostservice.com.bd/index.php?rp=/store/maintenance/landing-pagepackage" class="btn outline-btn mb-3" target="_blank">Purchase now</a>
+         <a href="https://account.hostservice.com.bd/index.php?rp=/store/shared-hosting/starter" class="btn outline-btn mb-3" target="_blank">Purchase now</a>
        </div>
     </div>
   </div>
- </div>
-</div>
-</swiper-slide>
-
-<swiper-slide> 
-<div class="container">
+  </div>
+  </div>
+  </swiper-slide>
+  
+  <swiper-slide> 
+  <div class="container">
   <div class="row align-items-center justify-content-between">
     <div class="col-lg-12 col-md-12 col-12">
      <div class="card text-center align-items-center single-pricing-pack">
        <div class="pt-5">
            <h5 class="mb-0">Cloud Starter</h5>
-           <p class="mb-0">3 Month Price</p>
+           <p class="mb-0">Standard</p>
          </div>
           <div class="card-header pb-4 border-0 pricing-header">
-              <div class="price text-center mb-0 monthly-price">$19<span>/month</span></div>
-              <div class="price text-center mb-0 yearly-price">$69<span>/yearly</span></div>
-              <div class="price text-center mb-0 biannual-price">$130<span>/biannual</span></div>
-              <div class="price text-center mb-0 triennial-price">$199<span>/triennial</span></div>
+              <div class="price text-center mb-0 monthly-price">৳ 2,500<span>/1 Month</span></div>
+              <div class="price text-center mb-0 yearly-price">৳ 7,500<span>/ 3 Month</span></div>
+              <div class="price text-center mb-0 biannual-price">৳ 15,000<span>/6 Month</span></div>
+              <div class="price text-center mb-0 triennial-price">৳ 28,000<span>/1 Year</span></div>
           </div>
      <div class="card-body">
          <ul class="list-unstyled mb-4 pricing-feature-list">
@@ -209,7 +205,7 @@ export default {
             <li > Unlimited Website</li>
             <li > Free SSL Certificate</li>
             <li > 2x7 Days Backup</li>
-            <li > 4 Core CPU</li>
+            <li > 3 Core CPU</li>
             <li > 6 GB Physical Memory</li>
             <li > 2 GB Virtual Memory</li>
             <li > I/O Speed 100 MBs</li>
@@ -220,28 +216,28 @@ export default {
             <li > cPanel Control Panel</li>
             <li > 24/7 Regular Support</li>
          </ul>
-         <a href="https://account.hostservice.com.bd/index.php?rp=/store/maintenance/landing-page-package-2" class="btn outline-btn mb-3" target="_blank">Purchase now</a>
+         <a href="https://account.hostservice.com.bd/index.php?rp=/store/shared-hosting/standard" class="btn outline-btn mb-3" target="_blank">Purchase now</a>
        </div>
     </div>
   </div>
- </div>
-</div>
-</swiper-slide>
-
-<swiper-slide> 
-<div class="container">
+  </div>
+  </div>
+  </swiper-slide>
+  
+  <swiper-slide> 
+  <div class="container">
   <div class="row align-items-center justify-content-between">
     <div class="col-lg-12 col-md-12 col-12">
      <div class="card text-center align-items-center single-pricing-pack">
        <div class="pt-5">
            <h5 class="mb-0">Cloud Starter</h5>
-           <p class="mb-0">6 Month Price</p>
+           <p class="mb-0">Silver</p>
          </div>
           <div class="card-header pb-4 border-0 pricing-header">
-              <div class="price text-center mb-0 monthly-price">$19<span>/month</span></div>
-              <div class="price text-center mb-0 yearly-price">$69<span>/yearly</span></div>
-              <div class="price text-center mb-0 biannual-price">$130<span>/biannual</span></div>
-              <div class="price text-center mb-0 triennial-price">$199<span>/triennial</span></div>
+              <div class="price text-center mb-0 monthly-price">৳ 3,500<span>/1 Month</span></div>
+              <div class="price text-center mb-0 yearly-price">৳ 10,500<span>/3 Month</span></div>
+              <div class="price text-center mb-0 biannual-price">৳ 21,000<span>/6 Month</span></div>
+              <div class="price text-center mb-0 triennial-price">৳ 39,000<span>/1 Year</span></div>
           </div>
      <div class="card-body">
          <ul class="list-unstyled mb-4 pricing-feature-list">
@@ -261,28 +257,28 @@ export default {
                         <li > cPanel Control Panel</li>
                         <li > 24/7 Regular Support</li>
          </ul>
-         <a href="https://account.hostservice.com.bd/index.php?rp=/store/maintenance/website-maintenance-silver" class="btn outline-btn mb-3" target="_blank">Purchase now</a>
+         <a href="https://account.hostservice.com.bd/index.php?rp=/store/shared-hosting/silver" class="btn outline-btn mb-3" target="_blank">Purchase now</a>
        </div>
     </div>
   </div>
- </div>
-</div>
-</swiper-slide>
-
-<swiper-slide> 
-<div class="container">
+  </div>
+  </div>
+  </swiper-slide>
+  
+  <swiper-slide> 
+  <div class="container">
   <div class="row align-items-center justify-content-between">
     <div class="col-lg-12 col-md-12 col-12">
      <div class="card text-center align-items-center single-pricing-pack">
        <div class="pt-5">
            <h5 class="mb-0">Cloud Starter</h5>
-           <p class="mb-0">1 Year</p>
+           <p class="mb-0">Gold</p>
          </div>
           <div class="card-header pb-4 border-0 pricing-header">
-              <div class="price text-center mb-0 monthly-price">$19<span>/month</span></div>
-              <div class="price text-center mb-0 yearly-price">$69<span>/yearly</span></div>
-              <div class="price text-center mb-0 biannual-price">$130<span>/biannual</span></div>
-              <div class="price text-center mb-0 triennial-price">$199<span>/triennial</span></div>
+              <div class="price text-center mb-0 monthly-price">৳ 4,500<span>/1 Month</span></div>
+              <div class="price text-center mb-0 yearly-price">৳ 13,500<span>/3 Month</span></div>
+              <div class="price text-center mb-0 biannual-price">৳ 27,000<span>/6 Month</span></div>
+              <div class="price text-center mb-0 triennial-price">৳ 50,500<span>/1 Year</span></div>
           </div>
      <div class="card-body">
          <ul class="list-unstyled mb-4 pricing-feature-list">
@@ -302,16 +298,16 @@ export default {
             <li > cPanel Control Panel</li>
             <li > 24/7 Regular Support</li>
          </ul>
-         <a href="https://account.hostservice.com.bd/index.php?rp=/store/maintenance/website-maintenance-gold" class="btn outline-btn mb-3" target="_blank">Purchase now</a>
+         <a href="https://account.hostservice.com.bd/index.php?rp=/store/shared-hosting/gold" class="btn outline-btn mb-3" target="_blank">Purchase now</a>
        </div>
     </div>
   </div>
- </div>
-</div>
-</swiper-slide>
-</swiper> 
-</div>
-</section> <br> <br>
+  </div>
+  </div>
+  </swiper-slide>
+  </swiper> 
+  </div>
+  </section> <br> <br>
 
    <!--compare provider table start (new1)-->
  <section class="compare-provider-table ptb-100 gray-light-bg">
