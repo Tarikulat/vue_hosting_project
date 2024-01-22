@@ -251,9 +251,9 @@ export default {
        </div>
         <div class="card-header pb-4 border-0 pricing-header">
             <div class="price text-center mb-0 monthly-price">৳ 12,00<span>/1 Month</span></div>
-            <div class="price text-center mb-0 yearly-price">$69<span>/yearly</span></div>
-            <div class="price text-center mb-0 biannual-price">$130<span>/biannual</span></div>
-            <div class="price text-center mb-0 triennial-price">$199<span>/triennial</span></div>
+            <div class="price text-center mb-0 yearly-price">৳ 35,00<span>/3 Month</span></div>
+            <div class="price text-center mb-0 biannual-price">৳ 6,000<span>/6 Month</span></div>
+            <div class="price text-center mb-0 triennial-price">৳ 12,500<span>/1 Year</span></div>
         </div>
    <div class="card-body">
        <ul class="list-unstyled mb-4 pricing-feature-list">
