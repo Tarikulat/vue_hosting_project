@@ -87,17 +87,10 @@ export default {
                 </div>
 
                 <div class="single-radio-box">
-                    <input name="billingPlan" id="yearly-plan" value="yearly" class="radio" type="radio" checked>
-                    <label for="yearly-plan"><span class="custom-check"></span>1 Year</label>
+                    <input name="billingPlan" id="triennial-plan" value="triennial" class="radio" type="radio" checked>
+                    <label for="triennial-plan"><span class="custom-check"></span>1 Year</label>
                 </div>
-                <div class="single-radio-box">
-                    <input name="billingPlan" id="monthly-plan" value="monthly" class="radio" type="radio">
-                    <label for="monthly-plan"><span class="custom-check"></span>2 Years</label>
-                </div>
-                <div class="single-radio-box">
-                    <input name="billingPlan" id="biannual-plan" value="biannual" class="radio" type="radio">
-                    <label for="biannual-plan"><span class="custom-check"></span>3 Years</label>
-                </div>
+               
             </div>
         </div>
     </div>
@@ -125,13 +118,19 @@ export default {
    <div class="card text-center align-items-center single-pricing-pack">
      <div class="pt-5">
          <h5 class="mb-0">Cloud Starter</h5>
-         <p class="mb-0">1 Month Price</p>
+         <p class="mb-0">Starter</p>
        </div>
         <div class="card-header pb-4 border-0 pricing-header">
-            <div class="price text-center mb-0 monthly-price">$19<span>/month</span></div>
-            <div class="price text-center mb-0 yearly-price">$69<span>/yearly</span></div>
-            <div class="price text-center mb-0 biannual-price">$130<span>/biannual</span></div>
-            <div class="price text-center mb-0 triennial-price">$199<span>/triennial</span></div>
+            <div class="price text-center mb-0 monthly-price">৳ 7,00<span>/1 Month</span></div>
+           
+
+            <div class="price text-center mb-0 yearly-price">৳ 1,800<span>/3 Month</span></div>
+           
+
+            <div class="price text-center mb-0 biannual-price">৳ 3,200<span>/6 Month</span></div>
+            
+
+            <div class="price text-center mb-0 triennial-price">৳ 5,500<span>/1 Year</span></div>
         </div>
    <div class="card-body">
        <ul class="list-unstyled mb-4 pricing-feature-list">
@@ -166,13 +165,13 @@ export default {
    <div class="card text-center align-items-center single-pricing-pack">
      <div class="pt-5">
          <h5 class="mb-0">Cloud Starter</h5>
-         <p class="mb-0">3 Month Price</p>
+         <p class="mb-0">Standard</p>
        </div>
         <div class="card-header pb-4 border-0 pricing-header">
-            <div class="price text-center mb-0 monthly-price">$19<span>/month</span></div>
-            <div class="price text-center mb-0 yearly-price">$69<span>/yearly</span></div>
-            <div class="price text-center mb-0 biannual-price">$130<span>/biannual</span></div>
-            <div class="price text-center mb-0 triennial-price">$199<span>/triennial</span></div>
+            <div class="price text-center mb-0 monthly-price">৳ 1,000<span>/1 Month</span></div>
+            <div class="price text-center mb-0 yearly-price">৳ 25,00<span>/ 3 Month</span></div>
+            <div class="price text-center mb-0 biannual-price">৳ 4,500<span>/6 Month</span></div>
+            <div class="price text-center mb-0 triennial-price">৳ 8,000<span>/1 Year</span></div>
         </div>
    <div class="card-body">
        <ul class="list-unstyled mb-4 pricing-feature-list">
@@ -207,13 +206,13 @@ export default {
    <div class="card text-center align-items-center single-pricing-pack">
      <div class="pt-5">
          <h5 class="mb-0">Cloud Starter</h5>
-         <p class="mb-0">6 Month Price</p>
+         <p class="mb-0">Silver</p>
        </div>
         <div class="card-header pb-4 border-0 pricing-header">
-            <div class="price text-center mb-0 monthly-price">$19<span>/month</span></div>
-            <div class="price text-center mb-0 yearly-price">$69<span>/yearly</span></div>
-            <div class="price text-center mb-0 biannual-price">$130<span>/biannual</span></div>
-            <div class="price text-center mb-0 triennial-price">$199<span>/triennial</span></div>
+            <div class="price text-center mb-0 monthly-price">৳ 11,00<span>/1 Month</span></div>
+            <div class="price text-center mb-0 yearly-price">৳ 3,000<span>/3 Month</span></div>
+            <div class="price text-center mb-0 biannual-price">৳ 5,600<span>/6 Month</span></div>
+            <div class="price text-center mb-0 triennial-price">৳ 10,000<span>/1 Year</span></div>
         </div>
    <div class="card-body">
        <ul class="list-unstyled mb-4 pricing-feature-list">
@@ -248,10 +247,10 @@ export default {
    <div class="card text-center align-items-center single-pricing-pack">
      <div class="pt-5">
          <h5 class="mb-0">Cloud Starter</h5>
-         <p class="mb-0">1 Year</p>
+         <p class="mb-0">Gold</p>
        </div>
         <div class="card-header pb-4 border-0 pricing-header">
-            <div class="price text-center mb-0 monthly-price">$19<span>/month</span></div>
+            <div class="price text-center mb-0 monthly-price">৳ 12,00<span>/1 Month</span></div>
             <div class="price text-center mb-0 yearly-price">$69<span>/yearly</span></div>
             <div class="price text-center mb-0 biannual-price">$130<span>/biannual</span></div>
             <div class="price text-center mb-0 triennial-price">$199<span>/triennial</span></div>

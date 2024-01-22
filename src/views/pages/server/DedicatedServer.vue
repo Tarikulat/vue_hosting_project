@@ -6,6 +6,13 @@ import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 //import required modules
 import { Pagination, Navigation } from 'swiper/modules';
+//element start
+import { ref } from 'vue'
+
+const value = ref(0)
+
+//element end
+
 export default {
   components: {
     Swiper,
@@ -24,7 +31,7 @@ export default {
   <section class="hero-equal-height pt-165 pb-100 backgb gradient-overlay">
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-md-8 col-lg-7">
+            <div class="col-md-8 titl col-lg-7">
                 <div class="hero-content-wrap text-white text-center position-relative z-index">
                     <h1 class="text-white">DEDICATED SERVERS</h1>
                     <p class="lead">Discover a full range of web hosting servers. Dedicated servers are the perfect 
@@ -33,8 +40,8 @@ export default {
                 </div>
             </div>
             <div class="col-md-4 col-lg-5">
-              <div >
-                  <label><img src="@/assets/img/dade1.png" alt="ser"></label>
+              <div>
+                  <label><img src="@/assets/img/dade1.png" class="da-img" alt="ser"></label>
               </div>
             </div>
         </div>
@@ -48,7 +55,13 @@ export default {
         <div class="row">
             <div class="col-md-12 col-lg-8">
                 <div class="custom-plan-box white-bg custom-shadow">
-                    <input id="c-plan" type="text" data-slider-min="1" data-slider-max="12" data-slider-step="1" data-slider-value="6" data-currency="$" data-unit="">
+                    <!-- <input id="c-plan" type="text" data-slider-min="1" data-slider-max="12" data-slider-step="1" data-slider-value="6" data-currency="$" data-unit=""> -->
+                    <div>
+                      <h4>Input Your Value</h4>
+                    <div class="slider-demo-block">
+                      <el-slider v-model="value" show-input />
+                    </div>
+                  </div>
 
                     <ul class="list-inline mt-5 custom-vps-list text-center">
                         <li class="list-inline-item">
@@ -760,6 +773,24 @@ export default {
 </template>
 
 <style>
+
+.da-img{
+  margin-top: 100px !important;
+  height: 500px !important;
+}
+.titl{
+  margin-top: 120px !important;
+
+}
+
+.slider-demo-block {
+  display: flex;
+  align-items: center;
+}
+.slider-demo-block .el-slider {
+  margin-top: 0;
+  margin-left: 12px;
+}
 
 .backgb{
   background-image: url("@/assets/img/k1.webp");

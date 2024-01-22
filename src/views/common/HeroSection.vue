@@ -150,6 +150,7 @@ import { Service, Testimonial } from '@/views/common'
 </template>
 
 <style>
+
 @media (min-width: 700px) and (max-width: 2560px) {
     .res {
 
