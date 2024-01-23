@@ -224,16 +224,16 @@ jQuery(function ($) {
   } // 6. monthly, yearly, biannual and triennial pricing switch
 
 
-  if ($(".billingCycle").length > 0) {
-    var billingPlanInputs = $("input[name='billingPlan']");
-    billingPlanInputs.change(function () {
-      var billingPlan = $(this).val();
-      $.each(['.monthly-price', '.yearly-price', '.biannual-price', '.triennial-price'], function (index, tag) {
-        $(tag).css('display', 'none');
-      });
-      $('.' + billingPlan + '-price').css('display', 'block');
-    });
-  } // 7. tooltip
+  // if ($(".billingCycle").length > 0) {
+  //   var billingPlanInputs = $("input[name='billingPlan']");
+  //   billingPlanInputs.change(function () {
+  //     var billingPlan = $(this).val();
+  //     $.each(['.monthly-price', '.yearly-price', '.biannual-price', '.triennial-price'], function (index, tag) {
+  //       $(tag).css('display', 'none');
+  //     });
+  //     $('.' + billingPlan + '-price').css('display', 'block');
+  //   });
+  // } // 7. tooltip
 
 
   $('.custom-map-location li span').tooltip('show'); // 8. magnify popup video

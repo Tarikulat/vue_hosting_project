@@ -15,7 +15,7 @@ const isOpenModal = () =>{
             <div class="container">
                 <nav class="js-mega-menu navbar navbar-expand-md header-nav">
                     <!--logo start-->
-                    <a class="navbar-brand" href=""><img src="@/assets/img/logo_host.png" width="235" alt="logo" class="img-fluid" /></a>
+                    <router-link :to="{name:'home'}"  class="navbar-brand"><img src="@/assets/img/logo_host.png" width="235" alt="logo" class="img-fluid" /></router-link>
                     <!--logo end-->
 
                     <!--responsive toggle button start-->
@@ -221,15 +221,15 @@ const isOpenModal = () =>{
                                     
                                                 <div class="domain-list-wrap mt-4">
                                                     <ul class="list-inline domain-search-list">
-                                                        <li class="list-inline-item"><a href="#"><img src="@/assets/img/s5.png" alt="com" width="70" class="img-fluid" /> <span>$8.99</span></a>
+                                                        <li class="list-inline-item"><a href="#"><img src="@/assets/img/s5.png" alt="com" width="70" class="img-fluid" /> <span>৳ 1,250</span></a>
                                                         </li>
-                                                        <li class="list-inline-item"><a href="#"><img src="@/assets/img/s4.png" alt="com" width="70" class="img-fluid" /> <span>$0.99</span></a>
+                                                        <li class="list-inline-item"><a href="#"><img src="@/assets/img/s2.png" alt="com" width="70" class="img-fluid" /> <span>৳ 1,499</span></a>
                                                         </li>
-                                                        <li class="list-inline-item"><a href="#"><img src="@/assets/img/s3.png" alt="com" width="70" class="img-fluid" /> <span>$4.99</span></a>
+                                                        <li class="list-inline-item"><a href="#"><img src="@/assets/img/s3.png" alt="com" width="70" class="img-fluid" /> <span>৳ 1,550</span></a>
                                                         </li>
-                                                        <li class="list-inline-item"><a href="#"><img src="@/assets/img/s2.png" alt="com" width="70" class="img-fluid" /> <span>$2.99</span></a>
+                                                        <li class="list-inline-item"><a href="#"><img src="@/assets/img/biz.png" alt="com" width="70" class="img-fluid" /> <span>৳ 1,499</span></a>
                                                         </li>
-                                                        <li class="list-inline-item"><a href="#"><img src="@/assets/img/s1.png" alt="com" width="70" class="img-fluid" /> <span>$0.99</span></a>
+                                                        <li class="list-inline-item"><a href="#"><img src="@/assets/img/info1.png" alt="com" width="70" class="img-fluid" /> <span>৳ 7,99</span></a>
                                                         </li>
                                                     </ul>
                                                 </div>

@@ -46,7 +46,7 @@ export default {
                 </div>
                 <div class="col-md-5 col-lg-4">
                     <div >
-                        <label><img src="@/assets/img/host5.webp" alt="ser"></label>
+                        <label><img src="@/assets/img/host5.webp" class="body-landing" alt="ser"></label>
                     </div>
                 </div>
             </div>

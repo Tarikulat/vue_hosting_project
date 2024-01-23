@@ -64,7 +64,7 @@ export default {
                     </div>
                 </div>
             </div>
-            <div class="col-md-5 col-lg-4">
+            <div class="col-md-5 col-lg-4 body-landing">
                 <div class="offer-box text-white text-center py-5 px-4">
                     <span class="h5 text-white">Special intro offer </span>
                     <h2 class="offer-price text-white">
@@ -329,10 +329,10 @@ export default {
                             <tr>
                                 <tr>
                                     <td style="width: 20%; text-align: center"><h5>Resource Type</h5></td>
-                                    <td class="primary-bg" style="width: 20%; text-align: center;"><h5 class="text-white">Bronze</h5></td>
+                                    <td class="primary-bg" style="width: 20%; text-align: center;"><h5 class="text-white">Starter</h5></td>
+                                    <td style="width: 20%; text-align: center;"><h5>Standard</h5></td>
                                     <td style="width: 20%; text-align: center;"><h5>Silver</h5></td>
                                     <td style="width: 20%; text-align: center;"><h5>Gold</h5></td>
-                                    <td style="width: 20%; text-align: center;"><h5>Platinum</h5></td>
                                     </tr>
                             </tr>
                         </thead>

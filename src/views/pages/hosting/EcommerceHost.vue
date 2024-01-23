@@ -26,7 +26,8 @@ export default {
 
 <template>
 <!--hero section start-->
-<section class="hero-equal-height ptb-100 backgek gradient-overly-right">
+<!-- <section class="hero-equal-height ptb-100 backgek gradient-overly-right">
+
     <div class="container">
         <div class="row align-items-center">
             <div class="col-md-7 col-lg-8">
@@ -67,15 +68,64 @@ export default {
             <div class="col-md-5 col-lg-4">
                
                 <div>
-                    <label><img src="@/assets/img/host3.webp" class="eco" alt="ser"></label>
+                    <label><img src="@/assets/img/host3.webp" class="eco body-landing" alt="ser"></label>
                 </div>
             </div>
         </div>
     </div>
-    <!-- <div class="shape-bottom">
-        <img src="@/assets/img/jj.png" alt="shape" class="bottom-shape img-fluid">
-    </div> -->
+</section> -->
+
+ <!--hero section start-->
+ <section class="hero-equal-height pt-165 pb-100 backgek gradient-overly-right">
+    <div class="container">
+        <div class="row align-items-center justify-content-between">
+            <div class="col-lg-6 col-12">
+                <div class="hero-content-wrap text-white">
+                    <h1 class="text-white">Fully Managed Ecommerce Hosting Services</h1>
+                    <p class="lead">Globally parallel task granular alignments through excellent intellectual capital. Globally deploy vertical leadership.</p>
+                    <ul class="list-unstyled">
+                        <li class="py-1">
+                            <div class="d-flex align-items-center">
+                                <span class="ti-check mr-2"></span>
+                                <p class="mb-0">Easy to use no technical skills required</p>
+                            </div>
+                        </li>
+                        <li class="py-1">
+                            <div class="d-flex align-items-center">
+                                <span class="ti-check mr-2"></span>
+                                <p class="mb-0">Thousands of customizable design</p>
+                            </div>
+                        </li>
+                        <li class="py-1">
+                            <div class="d-flex align-items-center">
+                                <span class="ti-check mr-2"></span>
+                                <p class="mb-0">Zero-Risk Money-Back Guarantee</p>
+                            </div>
+                        </li>
+                        <li class="py-1">
+                            <div class="d-flex align-items-center">
+                                <span class="ti-check mr-2"></span>
+                                <p class="mb-0">Free domain with install</p>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="action-btns mt-4">
+                        <a href="#" class="btn solid-white-btn animated-btn mr-3">Get
+                            Started Now</a>
+                        <a href="#" class="btn outline-white-btn animated-btn">See Price Plan</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-12">
+                <div class="animation-image-wrap">
+                    <img src="@/assets/img/private-cloud-server.svg" alt="wp hosting" class="img-fluid" />
+                    <img src="@/assets/img/wordpress-logo.svg" alt="wp hosting" width="100" class="animation-icon-img animation-icon-5" />
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
+<!--hero section end-->
 
 <section>
     <div class="container">
@@ -323,10 +373,10 @@ export default {
                             <tr>
                                 <tr>
                                     <td style="width: 20%; text-align: center"><h5>Resource Type</h5></td>
-                                    <td class="primary-bg" style="width: 20%; text-align: center;"><h5 class="text-white">Bronze</h5></td>
+                                    <td class="primary-bg" style="width: 20%; text-align: center;"><h5 class="text-white">Starter</h5></td>
+                                    <td style="width: 20%; text-align: center;"><h5>Standard</h5></td>
                                     <td style="width: 20%; text-align: center;"><h5>Silver</h5></td>
                                     <td style="width: 20%; text-align: center;"><h5>Gold</h5></td>
-                                    <td style="width: 20%; text-align: center;"><h5>Platinum</h5></td>
                                     </tr>
                             </tr>
                         </thead>

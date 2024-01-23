@@ -29,6 +29,58 @@
   --font-family-sans-serif:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
   --font-family-monospace:SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
 }  
+/* hosting animation home image front start */
+.body-landing {
+  position: relative;
+  height: 320px;
+  width: 420px;
+  border-radius: 150px 0 150px 0;
+  animation: shakeUp 6s infinite;
+}
+
+@keyframes shakeUp {
+  0% {
+    transform: translateY(20px);
+  }
+  50% {
+    transform: translateY(50px);
+  }
+  100% {
+    transform: translateY(20px);
+  }
+}
+.beak {
+  position: absolute;
+  width: 170px;
+  height: 100px;
+  left: 220px;
+  background-color: var(--orange);
+  border-top-right-radius: 150px;
+}
+.beak::after {
+  content: "";
+  position: absolute;
+  width: 170px;
+  height: 50px;
+  left: 0;
+  bottom: 0;
+  background-color: var(--red);
+  border-top-right-radius: 50px;
+}
+
+@keyframes shakeRight {
+  0% {
+    transform: rotate(-50deg);
+  }
+  50% {
+    transform: rotate(-30deg);
+  }
+  100% {
+    transform: rotate(-50deg);
+  }
+}
+
+/* landing home image front end */
 .top-p{
 padding-top: 20px;
 }
@@ -52548,7 +52600,7 @@ svg.shape-bg, svg.promo-bg {
 
 /* line 1345, src/assets/scss/custom/_style.scss */
 .animation-icon-img.animation-icon-5 {
-  left: 14%;
+  left: 9%;
   top: 55%;
 }
 
@@ -52933,7 +52985,7 @@ background: linear-gradient(to bottom, rgb(246 79 0), rgb(246 79 0)); */
 /* line 1638, src/assets/scss/custom/_style.scss */
 .offer-box .offer-price {
   font-family: 'Open Sans', sans-serif;
-  font-size: 120px;
+  font-size: 95px;
   line-height: 1;
   font-weight: 600;
   position: relative;

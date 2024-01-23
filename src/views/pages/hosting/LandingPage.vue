@@ -1,4 +1,4 @@
-<script>
+<script setup>
 // Import Swiper Vue.js components
 import { Swiper, SwiperSlide } from 'swiper/vue';
 
@@ -11,17 +11,52 @@ import 'swiper/css/navigation';
 // import required modules
 import { Pagination, Navigation } from 'swiper/modules';
 
-export default {
-  components: {
-    Swiper,
-    SwiperSlide,
-  },
-  setup() {
-    return {
-      modules: [Pagination, Navigation],
-    };
-  },
-};
+// export default {
+//   components: {
+//     Swiper,
+//     SwiperSlide,
+//   },
+//   setup() {
+//     return {
+//       modules: [Pagination, Navigation],
+//     };
+//   },
+// };
+import { ref, onMounted } from 'vue'
+
+const monthly     = ref(50);
+const theryMonth  = ref(60)
+const halfYear    = ref(70);
+const yearly      = ref(80);
+
+const monthlyPrice = () =>{
+  monthly.value     = 50;
+  theryMonth.value  = 60;
+  halfYear.value    = 60;
+  yearly.value      = 60;
+}
+const threeMonthPrice = () =>{
+  monthly.value     = 80;
+  theryMonth.value  = 900;
+  halfYear.value    = 100;
+  yearly.value      = 1200;
+}
+const halfYearPrice = () =>{
+  monthly.value     = 130;
+  theryMonth.value  = 140;
+  halfYear.value    = 150;
+  yearly.value      = 160;
+}
+const yearPrice = () =>{
+  monthly.value     = 1000;
+  theryMonth.value  = 2000;
+  halfYear.value    = 3000;
+  yearly.value      = 4000;
+}
+
+onMounted(()=> {
+  yearPrice();
+})
 </script>
 
 <template>
@@ -45,18 +80,19 @@ export default {
                         </div>
                     </div>
                 </div>
-                <div class="col-md-5 col-lg-5">
+                <div class="col-md-5 col-lg-5" >
+                  
+                  <div class="container">
                   <div >
-                    <label><img src="@/assets/img/bh.webp" class="lan" alt="ser"></label>
-                </div>
+                    <label><img src="@/assets/img/bh.webp" class="lan body-landing" alt="ser"></label>
+                   </div>
+                  </div>
+
                 </div>
             </div>
-        </div>
-        <!-- <div class="shape-bottom">
-            <img src="@/assets/img/jj.png" alt="shape" class="bottom-shape img-fluid">
-        </div> -->
+          </div>
     </section>
-    <!--page header section end-->
+    
 <!-- packages starting heading -->
 <section>
   <div class="container">
@@ -73,22 +109,22 @@ export default {
 
             <div class="text-center mb-2 radio-box-wrap billingCycle">
 
-                <div class="single-radio-box">
+                <div class="single-radio-box" @click="monthlyPrice">
                     <input name="billingPlan" id="monthly-plan" value="monthly" class="radio" type="radio" checked>
-                    <label for="monthly-plan"><span class="custom-check"></span>1 Month</label>
+                    <label for="monthly-plan"><span class="custom-check" ></span>1 Month</label>
                 </div>
-                <div class="single-radio-box">
+                <div class="single-radio-box" @click="threeMonthPrice">
                     <input name="billingPlan" id="yearly-plan" value="yearly" class="radio" type="radio">
-                    <label for="yearly-plan"><span class="custom-check"></span>3 Month</label>
+                    <label for="yearly-plan"><span class="custom-check" ></span>3 Month</label>
                 </div>
-                <div class="single-radio-box">
+                <div class="single-radio-box" @click="halfYearPrice">
                     <input name="billingPlan" id="biannual-plan" value="biannual" class="radio" type="radio">
-                    <label for="biannual-plan"><span class="custom-check"></span>6 Month</label>
+                    <label for="biannual-plan"><span class="custom-check" ></span>6 Month</label>
                 </div>
 
-                <div class="single-radio-box">
+                <div class="single-radio-box" @click="yearPrice">
                     <input name="billingPlan" id="triennial-plan" value="triennial" class="radio" type="radio" checked>
-                    <label for="triennial-plan"><span class="custom-check"></span>1 Year</label>
+                    <label for="triennial-plan"><span class="custom-check" ></span>1 Year</label>
                 </div>
                
             </div>
@@ -121,16 +157,7 @@ export default {
          <p class="mb-0">Starter</p>
        </div>
         <div class="card-header pb-4 border-0 pricing-header">
-            <div class="price text-center mb-0 monthly-price">৳ 7,00<span>/1 Month</span></div>
-           
-
-            <div class="price text-center mb-0 yearly-price">৳ 1,800<span>/3 Month</span></div>
-           
-
-            <div class="price text-center mb-0 biannual-price">৳ 3,200<span>/6 Month</span></div>
-            
-
-            <div class="price text-center mb-0 triennial-price">৳ 5,500<span>/1 Year</span></div>
+            <div class="price text-center mb-0 ">৳ {{ monthly }}<span>/1 Month</span></div>
         </div>
    <div class="card-body">
        <ul class="list-unstyled mb-4 pricing-feature-list">
@@ -168,10 +195,7 @@ export default {
          <p class="mb-0">Standard</p>
        </div>
         <div class="card-header pb-4 border-0 pricing-header">
-            <div class="price text-center mb-0 monthly-price">৳ 1,000<span>/1 Month</span></div>
-            <div class="price text-center mb-0 yearly-price">৳ 25,00<span>/ 3 Month</span></div>
-            <div class="price text-center mb-0 biannual-price">৳ 4,500<span>/6 Month</span></div>
-            <div class="price text-center mb-0 triennial-price">৳ 8,000<span>/1 Year</span></div>
+            <div class="price text-center mb-0">৳ {{theryMonth}}<span>/1 Month</span></div>
         </div>
    <div class="card-body">
        <ul class="list-unstyled mb-4 pricing-feature-list">
@@ -209,10 +233,7 @@ export default {
          <p class="mb-0">Silver</p>
        </div>
         <div class="card-header pb-4 border-0 pricing-header">
-            <div class="price text-center mb-0 monthly-price">৳ 11,00<span>/1 Month</span></div>
-            <div class="price text-center mb-0 yearly-price">৳ 3,000<span>/3 Month</span></div>
-            <div class="price text-center mb-0 biannual-price">৳ 5,600<span>/6 Month</span></div>
-            <div class="price text-center mb-0 triennial-price">৳ 10,000<span>/1 Year</span></div>
+            <div class="price text-center mb-0">৳ {{halfYear}}<span>/1 Month</span></div>
         </div>
    <div class="card-body">
        <ul class="list-unstyled mb-4 pricing-feature-list">
@@ -250,10 +271,7 @@ export default {
          <p class="mb-0">Gold</p>
        </div>
         <div class="card-header pb-4 border-0 pricing-header">
-            <div class="price text-center mb-0 monthly-price">৳ 12,00<span>/1 Month</span></div>
-            <div class="price text-center mb-0 yearly-price">৳ 35,00<span>/3 Month</span></div>
-            <div class="price text-center mb-0 biannual-price">৳ 6,000<span>/6 Month</span></div>
-            <div class="price text-center mb-0 triennial-price">৳ 12,500<span>/1 Year</span></div>
+            <div class="price text-center mb-0">৳ {{yearly}}<span>/1 Month</span></div>
         </div>
    <div class="card-body">
        <ul class="list-unstyled mb-4 pricing-feature-list">
@@ -305,9 +323,9 @@ export default {
                                 <tr>
                                     <td style="width: 20%; text-align: center"><h5>Resource Type</h5></td>
                                     <td class="primary-bg" style="width: 20%; text-align: center;"><h5 class="text-white">Starter</h5></td>
+                                    <td style="width: 20%; text-align: center;"><h5>Standard</h5></td>
                                     <td style="width: 20%; text-align: center;"><h5>Silver</h5></td>
                                     <td style="width: 20%; text-align: center;"><h5>Gold</h5></td>
-                                    <td style="width: 20%; text-align: center;"><h5>Platinum</h5></td>
                                     </tr>
                             </tr>
                         </thead>
@@ -683,6 +701,8 @@ export default {
 </template>
 
 <style>
+
+
 @media (min-width: 320px) {
   /* line 6, src/assets/scss/vendors/bootstrap.min.css */
   .sw-response {
@@ -694,15 +714,13 @@ export default {
   height: 360px;
  
 }
+
 .backmg{
   background-image: url("@/assets/img/landing.webp");
 }
 .backges{
   background-image: url("@/assets/img/z3.webp");
 }
-
-
-
 
 
 #app {
