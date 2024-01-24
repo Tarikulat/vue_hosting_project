@@ -1,32 +1,11 @@
 "use strict";
+//....swiper js for slider start.....
 
-/*================
- Template Name: Hostlar Hosting Provider with WHMCS Template
- Description: All type of web hosting provider or company with WHMCS template.
- Version: 1.0
- Author: https://themeforest.net/user/themetags
-=======================*/
-// TABLE OF CONTENTS
-// 1. preloader
-// 2. mega menu js
-// 3. fixed navbar
-// 4. scroll bottom to top
-// 5. custom vps hosting plan js
-// 6. monthly and yearly pricing switch
-// 7. tooltip
-// 8. magnify popup video
-// 9. hero slider one
-// 10. hero slider two
-// 11. client-testimonial carousel
-// 12. client logo item carousel
-// 13. team member carousel
-// 14. video background
-// 15. wow js
-// 16. countdown or coming soon
-// 17. sticky sidebar
-// 18. chat api js
-// 19. image gallery js
-// 20. contact form js
+
+
+//....swiper js for slider end......
+
+
 jQuery(function ($) {
   'use strict'; // 1. preloader
 

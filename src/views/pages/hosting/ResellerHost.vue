@@ -1,27 +1,57 @@
-<script>
+<script setup>
 // Import Swiper Vue.js components
 import { Swiper, SwiperSlide } from 'swiper/vue';
-
-// Import Swiper styles
 import 'swiper/css';
-
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
-
-// import required modules
 import { Pagination, Navigation } from 'swiper/modules';
 
-export default {
-  components: {
-    Swiper,
-    SwiperSlide,
-  },
-  setup() {
-    return {
-      modules: [Pagination, Navigation],
-    };
-  },
-};
+// export default {
+//   components: {
+//     Swiper,
+//     SwiperSlide,
+//   },
+//   setup() {
+//     return {
+//       modules: [Pagination, Navigation],
+//     };
+//   },
+// };
+import { ref, onMounted } from 'vue'
+
+const monthly     = ref();
+const theryMonth  = ref();
+const halfYear    = ref();
+const yearly      = ref();
+
+const monthlyPrice = () =>{
+  monthly.value     = '1,500';
+  theryMonth.value  = '2,500';
+  halfYear.value    = '3,500';
+  yearly.value      = '4,500';
+}
+const threeMonthPrice = () =>{
+  monthly.value     = '4,500';
+  theryMonth.value  = '7,500';
+  halfYear.value    = '10,500';
+  yearly.value      = '13,500';
+}
+const halfYearPrice = () =>{
+  monthly.value     = '9,000';
+  theryMonth.value  = '15,00';
+  halfYear.value    = '21,000';
+  yearly.value      = '39,000';
+}
+const yearPrice = () =>{
+  monthly.value     = '14,500';
+  theryMonth.value  = '28,000';
+  halfYear.value    = '39,000';
+  yearly.value      = '50,000';
+}
+
+onMounted(()=> {
+  yearPrice();
+})
 </script>
 
 <template>
@@ -98,20 +128,20 @@ export default {
   
               <div class="text-center mb-2 radio-box-wrap billingCycle">
   
-                  <div class="single-radio-box">
+                  <div class="single-radio-box" @click="monthlyPrice">
                       <input name="billingPlan" id="monthly-plan" value="monthly" class="radio" type="radio" checked>
                       <label for="monthly-plan"><span class="custom-check"></span>1 Month</label>
                   </div>
-                  <div class="single-radio-box">
+                  <div class="single-radio-box" @click="threeMonthPrice">
                       <input name="billingPlan" id="yearly-plan" value="yearly" class="radio" type="radio">
                       <label for="yearly-plan"><span class="custom-check"></span>3 Month</label>
                   </div>
-                  <div class="single-radio-box">
+                  <div class="single-radio-box" @click="halfYearPrice">
                       <input name="billingPlan" id="biannual-plan" value="biannual" class="radio" type="radio">
                       <label for="biannual-plan"><span class="custom-check"></span>6 Month</label>
                   </div>
   
-                  <div class="single-radio-box">
+                  <div class="single-radio-box" @click="yearPrice">
                       <input name="billingPlan" id="triennial-plan" value="triennial" class="radio" type="radio" checked>
                       <label for="triennial-plan"><span class="custom-check"></span>1 Year</label>
                   </div>
@@ -146,16 +176,7 @@ export default {
            <p class="mb-0">Starter</p>
          </div>
           <div class="card-header pb-4 border-0 pricing-header">
-              <div class="price text-center mb-0 monthly-price">৳ 1,500<span>/1 Month</span></div>
-             
-  
-              <div class="price text-center mb-0 yearly-price">৳ 4,500<span>/3 Month</span></div>
-             
-  
-              <div class="price text-center mb-0 biannual-price">৳ 9,000<span>/6 Month</span></div>
-              
-  
-              <div class="price text-center mb-0 triennial-price">৳ 14,500<span>/1 Year</span></div>
+              <div class="price text-center mb-0 monthly-price">৳ {{ monthly }}<span>/1 Month</span></div>
           </div>
      <div class="card-body">
          <ul class="list-unstyled mb-4 pricing-feature-list">
@@ -193,10 +214,7 @@ export default {
            <p class="mb-0">Standard</p>
          </div>
           <div class="card-header pb-4 border-0 pricing-header">
-              <div class="price text-center mb-0 monthly-price">৳ 2,500<span>/1 Month</span></div>
-              <div class="price text-center mb-0 yearly-price">৳ 7,500<span>/ 3 Month</span></div>
-              <div class="price text-center mb-0 biannual-price">৳ 15,000<span>/6 Month</span></div>
-              <div class="price text-center mb-0 triennial-price">৳ 28,000<span>/1 Year</span></div>
+              <div class="price text-center mb-0 monthly-price">৳ {{theryMonth}}<span>/1 Month</span></div>
           </div>
      <div class="card-body">
          <ul class="list-unstyled mb-4 pricing-feature-list">
@@ -234,10 +252,7 @@ export default {
            <p class="mb-0">Silver</p>
          </div>
           <div class="card-header pb-4 border-0 pricing-header">
-              <div class="price text-center mb-0 monthly-price">৳ 3,500<span>/1 Month</span></div>
-              <div class="price text-center mb-0 yearly-price">৳ 10,500<span>/3 Month</span></div>
-              <div class="price text-center mb-0 biannual-price">৳ 21,000<span>/6 Month</span></div>
-              <div class="price text-center mb-0 triennial-price">৳ 39,000<span>/1 Year</span></div>
+              <div class="price text-center mb-0 monthly-price">৳ {{halfYear}}<span>/1 Month</span></div>
           </div>
      <div class="card-body">
          <ul class="list-unstyled mb-4 pricing-feature-list">
@@ -275,10 +290,7 @@ export default {
            <p class="mb-0">Gold</p>
          </div>
           <div class="card-header pb-4 border-0 pricing-header">
-              <div class="price text-center mb-0 monthly-price">৳ 4,500<span>/1 Month</span></div>
-              <div class="price text-center mb-0 yearly-price">৳ 13,500<span>/3 Month</span></div>
-              <div class="price text-center mb-0 biannual-price">৳ 27,000<span>/6 Month</span></div>
-              <div class="price text-center mb-0 triennial-price">৳ 50,500<span>/1 Year</span></div>
+              <div class="price text-center mb-0 monthly-price">৳ {{yearly}}<span>/1 Month</span></div>
           </div>
      <div class="card-body">
          <ul class="list-unstyled mb-4 pricing-feature-list">
@@ -312,7 +324,7 @@ export default {
    <!--compare provider table start (new1)-->
  <section class="compare-provider-table ptb-100 gray-light-bg">
     <div class="container">
-      <div class="row justify-content-center head">
+      <div class="row justify-content-center">
         <div class="col-md-12 col-lg-7 ">
             <div class="section-heading  text-center mb-5">
               <h1>Web Hosting Resource Details</h1>

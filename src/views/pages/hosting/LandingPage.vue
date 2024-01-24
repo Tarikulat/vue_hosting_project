@@ -1,14 +1,9 @@
 <script setup>
 // Import Swiper Vue.js components
 import { Swiper, SwiperSlide } from 'swiper/vue';
-
-// Import Swiper styles
 import 'swiper/css';
-
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
-
-// import required modules
 import { Pagination, Navigation } from 'swiper/modules';
 
 // export default {
@@ -22,36 +17,38 @@ import { Pagination, Navigation } from 'swiper/modules';
 //     };
 //   },
 // };
+
+//slider value changing start.....
 import { ref, onMounted } from 'vue'
 
-const monthly     = ref(50);
-const theryMonth  = ref(60)
-const halfYear    = ref(70);
-const yearly      = ref(80);
+const monthly     = ref();
+const theryMonth  = ref();
+const halfYear    = ref();
+const yearly      = ref();
 
 const monthlyPrice = () =>{
-  monthly.value     = 50;
-  theryMonth.value  = 60;
-  halfYear.value    = 60;
-  yearly.value      = 60;
+  monthly.value     = '1,500';
+  theryMonth.value  = '2,500';
+  halfYear.value    = '3,500';
+  yearly.value      = '4,500';
 }
 const threeMonthPrice = () =>{
-  monthly.value     = 80;
-  theryMonth.value  = 900;
-  halfYear.value    = 100;
-  yearly.value      = 1200;
+  monthly.value     = '4,500';
+  theryMonth.value  = '7,500';
+  halfYear.value    = '10,500';
+  yearly.value      = '13,500';
 }
 const halfYearPrice = () =>{
-  monthly.value     = 130;
-  theryMonth.value  = 140;
-  halfYear.value    = 150;
-  yearly.value      = 160;
+  monthly.value     = '9,000';
+  theryMonth.value  = '15,00';
+  halfYear.value    = '21,000';
+  yearly.value      = '39,000';
 }
 const yearPrice = () =>{
-  monthly.value     = 1000;
-  theryMonth.value  = 2000;
-  halfYear.value    = 3000;
-  yearly.value      = 4000;
+  monthly.value     = '14,500';
+  theryMonth.value  = '28,000';
+  halfYear.value    = '39,000';
+  yearly.value      = '50,000';
 }
 
 onMounted(()=> {
@@ -105,10 +102,9 @@ onMounted(()=> {
                 </p>
             </div>
         </div>
+        
         <div class="col-10 col-sm-8 col-md-7">
-
             <div class="text-center mb-2 radio-box-wrap billingCycle">
-
                 <div class="single-radio-box" @click="monthlyPrice">
                     <input name="billingPlan" id="monthly-plan" value="monthly" class="radio" type="radio" checked>
                     <label for="monthly-plan"><span class="custom-check" ></span>1 Month</label>
@@ -122,11 +118,11 @@ onMounted(()=> {
                     <label for="biannual-plan"><span class="custom-check" ></span>6 Month</label>
                 </div>
 
-                <div class="single-radio-box" @click="yearPrice">
+                <div class="single-radio-box" @click="yearPrice"> 
                     <input name="billingPlan" id="triennial-plan" value="triennial" class="radio" type="radio" checked>
                     <label for="triennial-plan"><span class="custom-check" ></span>1 Year</label>
                 </div>
-               
+          
             </div>
         </div>
     </div>
@@ -305,7 +301,7 @@ onMounted(()=> {
  <!--compare provider table start (new1)-->
  <section class="compare-provider-table ptb-100 gray-light-bg">
     <div class="container">
-      <div class="row justify-content-center head">
+      <div class="row justify-content-center">
         <div class="col-md-12 col-lg-7 ">
             <div class="section-heading  text-center mb-5">
               <h1>Web Hosting Resource Details</h1>
