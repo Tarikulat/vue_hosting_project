@@ -30,6 +30,37 @@
   --font-family-monospace:SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
 }  
 
+@media (max-width: 425px) {
+  .table-res {
+    margin: 16px 0px;
+  }
+
+  .table-res {
+    width: 260px;
+  }
+}
+
+@media (max-width: 375px) {
+  .table-res {
+    margin: 16px 0px;
+  }
+
+  .table-res {
+    width: 200px;
+  }
+}
+
+@media (max-width: 320px) {
+  .table-res {
+    margin: 16px 0px;
+  }
+
+  .table-res {
+    width: 95%x;
+  }
+}
+
+
 /* hosting animation home image front start */
 .body-landing {
   position: relative;

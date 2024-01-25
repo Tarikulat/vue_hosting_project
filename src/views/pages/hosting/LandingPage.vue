@@ -1,26 +1,14 @@
 <script setup>
 // Import Swiper Vue.js components
+import { ref, onMounted } from 'vue'
 import { Swiper, SwiperSlide } from 'swiper/vue';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import { Pagination, Navigation } from 'swiper/modules';
-
-// export default {
-//   components: {
-//     Swiper,
-//     SwiperSlide,
-//   },
-//   setup() {
-//     return {
-//       modules: [Pagination, Navigation],
-//     };
-//   },
-// };
+const modules = ref([Pagination, Navigation]);
 
 //slider value changing start.....
-import { ref, onMounted } from 'vue'
-
 const monthly     = ref();
 const theryMonth  = ref();
 const halfYear    = ref();
@@ -139,24 +127,39 @@ onMounted(()=> {
     :pagination="{
       clickable: true,
     }"
+    :breakpoints="{
+      '320': {
+        slidesPerView: 1,
+        spaceBetween: 20,
+      },
+      '570': {
+        slidesPerView: 2,
+        spaceBetween: 40,
+      },
+      '1024': {
+        slidesPerView: 3,
+        spaceBetween: 50,
+      },
+    }"
     :navigation="true"
     :modules="modules"
     class="mySwiper"
   >
+
 <swiper-slide> 
 <div class="container">
 <div class="row align-items-center justify-content-between">
   <div class="col-lg-12 col-md-12 col-12">
    <div class="card text-center align-items-center single-pricing-pack">
-     <div class="pt-5">
+       <div class="pt-5">
          <h5 class="mb-0">Cloud Starter</h5>
          <p class="mb-0">Starter</p>
-       </div>
-        <div class="card-header pb-4 border-0 pricing-header">
-            <div class="price text-center mb-0 ">৳ {{ monthly }}<span>/1 Month</span></div>
         </div>
-   <div class="card-body">
-       <ul class="list-unstyled mb-4 pricing-feature-list">
+         <div class="card-header pb-4 border-0 pricing-header">
+              <div class="price text-center mb-0 ">৳ {{ monthly }}<span>/-BDT Only.</span></div>
+         </div>
+       <div class="card-body">
+         <ul class="list-unstyled mb-4 pricing-feature-list">
            <li > 20 GB SSD Storage</li>
            <li > Unlimited Bandwidth</li>
            <li > Unlimited Website</li>
@@ -191,7 +194,7 @@ onMounted(()=> {
          <p class="mb-0">Standard</p>
        </div>
         <div class="card-header pb-4 border-0 pricing-header">
-            <div class="price text-center mb-0">৳ {{theryMonth}}<span>/1 Month</span></div>
+            <div class="price text-center mb-0">৳ {{theryMonth}}<span>/-BDT Only.</span></div>
         </div>
    <div class="card-body">
        <ul class="list-unstyled mb-4 pricing-feature-list">
@@ -229,7 +232,7 @@ onMounted(()=> {
          <p class="mb-0">Silver</p>
        </div>
         <div class="card-header pb-4 border-0 pricing-header">
-            <div class="price text-center mb-0">৳ {{halfYear}}<span>/1 Month</span></div>
+            <div class="price text-center mb-0">৳ {{halfYear}}<span>/-BDT Only.</span></div>
         </div>
    <div class="card-body">
        <ul class="list-unstyled mb-4 pricing-feature-list">
@@ -267,7 +270,7 @@ onMounted(()=> {
          <p class="mb-0">Gold</p>
        </div>
         <div class="card-header pb-4 border-0 pricing-header">
-            <div class="price text-center mb-0">৳ {{yearly}}<span>/1 Month</span></div>
+            <div class="price text-center mb-0">৳ {{yearly}}<span>/-BDT Only.</span></div>
         </div>
    <div class="card-body">
        <ul class="list-unstyled mb-4 pricing-feature-list">
@@ -313,7 +316,7 @@ onMounted(()=> {
         <div class="row table">
             <div class="col-md-12 col-lg-12">
                 <div class="table-responsive">
-                    <table class="table w-100 table-hover table-bordered table-striped comparision-table text-center">
+                    <table class="table w-100 table-res table-hover table-bordered table-striped comparision-table text-center">
                         <thead class="comparision-table-head">
                             <tr>
                                 <tr>

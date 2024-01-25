@@ -1,26 +1,14 @@
 <script setup>
 // Import Swiper Vue.js components
+import { ref, onMounted } from 'vue'
 import { Swiper, SwiperSlide } from 'swiper/vue';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import { Pagination, Navigation } from 'swiper/modules';
-
-// export default {
-//   components: {
-//     Swiper,
-//     SwiperSlide,
-//   },
-//   setup() {
-//     return {
-//       modules: [Pagination, Navigation],
-//     };
-//   },
-// };
+const modules = ref([Pagination, Navigation]);
 
 //slider value changing start.....
-import { ref, onMounted } from 'vue'
-
 const monthly     = ref();
 const theryMonth  = ref();
 const halfYear    = ref();
@@ -208,6 +196,20 @@ onMounted(()=> {
       :pagination="{
         clickable: true,
       }"
+      :breakpoints="{
+        '320': {
+          slidesPerView: 1,
+          spaceBetween: 20,
+        },
+        '570': {
+          slidesPerView: 2,
+          spaceBetween: 40,
+        },
+        '1024': {
+          slidesPerView: 3,
+          spaceBetween: 50,
+        },
+      }"
       :navigation="true"
       :modules="modules"
       class="mySwiper"
@@ -222,7 +224,7 @@ onMounted(()=> {
            <p class="mb-0">Starter</p>
          </div>
           <div class="card-header pb-4 border-0 pricing-header">
-              <div class="price text-center mb-0 monthly-price">৳ {{ monthly }}<span>/1 Month</span></div>
+              <div class="price text-center mb-0 monthly-price">৳ {{ monthly }}<span>/-BDT Only.</span></div>
           </div>
      <div class="card-body">
          <ul class="list-unstyled mb-4 pricing-feature-list">
@@ -260,7 +262,7 @@ onMounted(()=> {
            <p class="mb-0">Standard</p>
          </div>
           <div class="card-header pb-4 border-0 pricing-header">
-              <div class="price text-center mb-0 monthly-price">৳ {{theryMonth}}<span>/1 Month</span></div>
+              <div class="price text-center mb-0 monthly-price">৳ {{theryMonth}}<span>/-BDT Only.</span></div>
           </div>
      <div class="card-body">
          <ul class="list-unstyled mb-4 pricing-feature-list">
@@ -298,7 +300,7 @@ onMounted(()=> {
            <p class="mb-0">Silver</p>
          </div>
           <div class="card-header pb-4 border-0 pricing-header">
-              <div class="price text-center mb-0 monthly-price">৳ {{halfYear}}<span>/1 Month</span></div>
+              <div class="price text-center mb-0 monthly-price">৳ {{halfYear}}<span>/-BDT Only.</span></div>
           </div>
      <div class="card-body">
          <ul class="list-unstyled mb-4 pricing-feature-list">
@@ -336,7 +338,7 @@ onMounted(()=> {
            <p class="mb-0">Gold</p>
          </div>
           <div class="card-header pb-4 border-0 pricing-header">
-              <div class="price text-center mb-0 monthly-price">৳ {{yearly}}<span>/1 Month</span></div>
+              <div class="price text-center mb-0 monthly-price">৳ {{yearly}}<span>/-BDT Only.</span></div>
           </div>
      <div class="card-body">
          <ul class="list-unstyled mb-4 pricing-feature-list">
