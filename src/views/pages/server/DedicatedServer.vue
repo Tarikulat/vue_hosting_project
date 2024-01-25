@@ -1,18 +1,12 @@
 <script>
 import { Swiper, SwiperSlide } from 'swiper/vue';
-//Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
-//import required modules
 import { Pagination, Navigation } from 'swiper/modules';
-//element start
 import { ref } from 'vue'
 
 const value = ref(0)
-
-//element end
-
 export default {
   components: {
     Swiper,
@@ -41,7 +35,7 @@ export default {
             </div>
             <div class="col-md-4 col-lg-5">
               <div>
-                  <label><img src="@/assets/img/dade1.png" class="da-img" alt="ser"></label>
+                  <label><img src="@/assets/img/dade1.png" class="da-img body-landing" alt="ser"></label>
               </div>
             </div>
         </div>
@@ -133,7 +127,7 @@ export default {
                             <th>Storage</th>
                             <th>Geekbench Score</th>
                             <th>Bandwidth</th>
-                            <th colspan="2">Price</th>
+                            <th colspan="2">Dadicate server Price</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -154,12 +148,13 @@ export default {
                             <td data-value="Bandwidth">1000GB</td>
                             <td data-value="Price">
                                 <p>
-                                    <span class="rate">$3.95<span>/month</span></span>
-                                    <span class="pricing-onsale">On sale - <span class="badge color-3 color-3-bg">Save 30%</span></span>
+                                    <span class="rate">৳13,450<span>/month</span></span><br>
+                                  <span>Dedicated Starter</span>
+                                    <span class="pricing-onsale">On sale - <span class="badge color-3 color-3-bg">Save 25%</span></span>
                                 </p>
                             </td>
                             <td>
-                                <a href="https://account.hostservice.com.bd/index.php?rp=/store/dedicated-server" class="btn primary-solid-btn">Order Now</a>
+                                <a href="https://account.hostservice.com.bd/index.php?rp=/store/dedicated-server/dedicated-starter" class="btn primary-solid-btn">Order Now</a>
                             </td>
                         </tr>
                         <tr class="vps-pricing-row border-red-themes">
@@ -179,12 +174,13 @@ export default {
                             <td data-value="Bandwidth">2000GB</td>
                             <td data-value="Price">
                                 <p>
-                                    <span class="rate">$8.95<span>/month</span></span>
+                                    <span class="rate">৳15,350<span>/month</span></span><br>
+                                    <span>Dedicated Standard</span>
                                     <span class="pricing-onsale">On sale - <span class="badge color-1 color-1-bg">Save 50%</span></span>
                                 </p>
                             </td>
                             <td>
-                                <a href="https://account.hostservice.com.bd/index.php?rp=/store/dedicated-server" class="btn primary-solid-btn">Order Now</a>
+                                <a href="https://account.hostservice.com.bd/index.php?rp=/store/dedicated-server/dedicated-standard" class="btn primary-solid-btn">Order Now</a>
                             </td>
                         </tr>
                         <tr class="vps-pricing-row border-orange-themes">
@@ -204,12 +200,14 @@ export default {
                             <td data-value="Bandwidth">3000GB</td>
                             <td data-value="Price">
                                 <p>
-                                    <span class="rate">$12.95<span>/month</span></span>
-                                    <span class="pricing-onsale">On sale - <span class="badge color-3 color-3-bg">Save 10%</span></span>
+                                    <span class="rate">৳17,350<span>/month</span></span><br>
+                                    <span>Dedicated Silver</span>
+                                    <span class="pricing-onsale">On sale -
+                                       <span class="badge color-3 color-3-bg">Save 10%</span></span>
                                 </p>
                             </td>
                             <td>
-                                <a href="https://account.hostservice.com.bd/index.php?rp=/store/dedicated-server" class="btn primary-solid-btn">Order Now</a>
+                                <a href="https://account.hostservice.com.bd/index.php?rp=/store/dedicated-server/silver" class="btn primary-solid-btn">Order Now</a>
                             </td>
                         </tr>
                         <tr class="vps-pricing-row border-yellow-themes">
@@ -228,11 +226,13 @@ export default {
                             </td>
                             <td data-value="Bandwidth">4000GB</td>
                             <td data-value="Price">
-                                <p><span class="rate">$15.95<span>/month</span></span><span class="pricing-onsale">On sale - <span
-                                    class="badge color-3 color-3-bg">Save 30%</span></span></p>
+                                <p><span class="rate">৳23,350<span>/month</span></span><br>
+                                  <span>Dedicated Gold</span>
+                                <span class="pricing-onsale">On sale - 
+                                <span class="badge color-3 color-3-bg">Save 30%</span></span></p>
                             </td>
                             <td>
-                                <a href="https://account.hostservice.com.bd/index.php?rp=/store/dedicated-server" class="btn primary-solid-btn">Order Now</a>
+                                <a href="https://account.hostservice.com.bd/index.php?rp=/store/dedicated-server/dedicated-silver" class="btn primary-solid-btn">Order Now</a>
                             </td>
                         </tr>
                         <tr class="vps-pricing-row border-blue-themes">
@@ -251,7 +251,7 @@ export default {
                             </td>
                             <td data-value="Bandwidth">6000GB</td>
                             <td data-value="Price">
-                                <p><span class="rate">$23.95<span>/month</span></span><span class="pricing-onsale">On sale - <span
+                                <p><span class="rate">13,450<span>/month</span></span><span class="pricing-onsale">On sale - <span
                                     class="badge color-5 color-5-bg">Save 40%</span></span></p>
                             </td>
                             <td>

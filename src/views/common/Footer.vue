@@ -137,18 +137,6 @@
                                 <li class="list-inline-item">
                                     <img src="@/assets/img/footer-last.webp" alt="amex" width="300px" />
                                 </li>
-                                <!-- <li class="list-inline-item">
-                                    <img src="@/assets/img/payment-visa.svg" alt="visa" width="50" />
-                                </li>
-                                <li class="list-inline-item">
-                                    <img src="@/assets/img/payment-mastercard.svg" alt="mastercard" width="50" />
-                                </li>
-                                <li class="list-inline-item">
-                                    <img src="@/assets/img/payment-paypal.svg" alt="paypal" width="50" />
-                                </li>
-                                <li class="list-inline-item">
-                                    <img src="@/assets/img/payment-bitcoin.svg" alt="bitcoin" width="50" />
-                                </li> -->
                             </ul>
                         </div>
                     </div>

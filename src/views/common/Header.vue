@@ -43,7 +43,7 @@ const isOpenModal = () =>{
                                                     <div class="media">
                                                         <div class="menu-item-icon"><i class="fab fa-artstation"></i></div>
                                                         <div class="media-body">
-                                                            <span class="u-header__promo-title">Domain Register</span>
+                                                            <span class="u-header__promo-title" aria-expanded="false" aria-controls="navBar" data-toggle="collapse" data-target="#navBar">Domain Register</span>
                                                             <small class="u-header__promo-text">quickly response </small>
                                                         </div>
                                                     </div>
@@ -78,7 +78,7 @@ const isOpenModal = () =>{
                                                     <div class="media">
                                                         <div class="menu-item-icon"><i class="fas fa-server"></i></div>
                                                         <div class="media-body">
-                                                            <span class="u-header__promo-title">Landing Page Hosting</span>
+                                                            <span class="u-header__promo-title" aria-expanded="false" aria-controls="navBar" data-toggle="collapse" data-target="#navBar">Landing Page Hosting</span>
                                                             <small class="u-header__promo-text">Innovate reliable quality
                                                                 Starting at <strong>$2.99</strong></small>
                                                         </div>
@@ -92,7 +92,7 @@ const isOpenModal = () =>{
                                                     <div class="media">
                                                         <div class="menu-item-icon"><i class="fas fa-box"></i></div>
                                                         <div class="media-body">
-                                                            <span class="u-header__promo-title">Website Shared Hosting</span>
+                                                            <span class="u-header__promo-title" aria-expanded="false" aria-controls="navBar" data-toggle="collapse" data-target="#navBar">Website Shared Hosting</span>
                                                             <small class="u-header__promo-text">Pefficiently maintain
                                                                 Starting at <strong>$11.99</strong></small>
                                                         </div>
@@ -109,7 +109,7 @@ const isOpenModal = () =>{
                                                 <div class="media">
                                                     <div class="menu-item-icon"><i class="fas fa-tachometer-alt"></i></div>
                                                     <div class="media-body">
-                                                        <span class="u-header__promo-title">E-commerce Hosting<span
+                                                        <span class="u-header__promo-title" aria-expanded="false" aria-controls="navBar" data-toggle="collapse" data-target="#navBar">E-commerce Hosting<span
                                                                 class="badge bgcolour ml-1">Advance</span></span>
                                                         <small class="u-header__promo-text">Quickly build Starting at
                                                             <strong>$150.99/mo</strong></small>
@@ -124,7 +124,7 @@ const isOpenModal = () =>{
                                                     <div class="media">
                                                         <div class="menu-item-icon"><i class="fab fa-asymmetrik"></i></div>
                                                         <div class="media-body">
-                                                            <span class="u-header__promo-title">Reseller Hosting</span>
+                                                            <span class="u-header__promo-title" aria-expanded="false" aria-controls="navBar" data-toggle="collapse" data-target="#navBar">Reseller Hosting</span>
                                                             <small class="u-header__promo-text">Conveniently Starting at
                                                                 <strong>$9.99/mo</strong></small>
                                                         </div>

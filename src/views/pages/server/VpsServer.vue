@@ -45,7 +45,7 @@ export default {
 
                 <div class="col-md-5 col-lg-5">
                         <div>
-                            <label><img src="@/assets/img/vp1.png" alt="ser"></label>
+                            <label><img src="@/assets/img/vp1.png" class="body-landing" alt="ser"></label>
                         </div>
                 </div>
             </div>
@@ -137,7 +137,7 @@ export default {
                                 <th>Storage</th>
                                 <th>Geekbench Score</th>
                                 <th>Bandwidth</th>
-                                <th colspan="2">Price</th>
+                                <th colspan="2">Vps Server Price</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -158,12 +158,13 @@ export default {
                                 <td data-value="Bandwidth">1000GB</td>
                                 <td data-value="Price">
                                     <p>
-                                        <span class="rate">$3.95<span>/month</span></span>
+                                        <span class="rate">৳3,190<span>/month</span></span><br>
+                                        <span>VPS Standard</span>
                                         <span class="pricing-onsale">On sale - <span class="badge color-3 color-3-bg">Save 30%</span></span>
                                     </p>
                                 </td>
                                 <td>
-                                    <a href="https://account.hostservice.com.bd/index.php?rp=/store/vps-server" class="btn primary-solid-btn">Order Now</a>
+                                    <a href="https://account.hostservice.com.bd/cart.php?a=confproduct&i=1" class="btn primary-solid-btn">Order Now</a>
                                 </td>
                             </tr>
                             <tr class="vps-pricing-row border-red-themes">
@@ -183,12 +184,13 @@ export default {
                                 <td data-value="Bandwidth">2000GB</td>
                                 <td data-value="Price">
                                     <p>
-                                        <span class="rate">$8.95<span>/month</span></span>
-                                        <span class="pricing-onsale">On sale - <span class="badge color-1 color-1-bg">Save 50%</span></span>
+                                        <span class="rate">৳5,290<span>/month</span></span><br>
+                                        <span>VPS Silver</span>
+                                        <span class="pricing-onsale">On sale - <span class="badge color-1 color-1-bg">Save 35%</span></span>
                                     </p>
                                 </td>
                                 <td>
-                                    <a href="https://account.hostservice.com.bd/index.php?rp=/store/vps-server" class="btn primary-solid-btn">Order Now</a>
+                                    <a href="https://account.hostservice.com.bd/cart.php?a=confproduct&i=2" class="btn primary-solid-btn">Order Now</a>
                                 </td>
                             </tr>
                             <tr class="vps-pricing-row border-orange-themes">
@@ -208,12 +210,13 @@ export default {
                                 <td data-value="Bandwidth">3000GB</td>
                                 <td data-value="Price">
                                     <p>
-                                        <span class="rate">$12.95<span>/month</span></span>
-                                        <span class="pricing-onsale">On sale - <span class="badge color-3 color-3-bg">Save 10%</span></span>
+                                        <span class="rate">৳9,390<span>/month</span></span><br>
+                                        <span>VPS Gold</span>
+                                        <span class="pricing-onsale">On sale - <span class="badge color-3 color-3-bg">Save 20%</span></span>
                                     </p>
                                 </td>
                                 <td>
-                                    <a href="https://account.hostservice.com.bd/index.php?rp=/store/vps-server" class="btn primary-solid-btn">Order Now</a>
+                                    <a href="https://account.hostservice.com.bd/index.php?rp=/store/vps-server/vps-gold" class="btn primary-solid-btn">Order Now</a>
                                 </td>
                             </tr>
                             <tr class="vps-pricing-row border-yellow-themes">
@@ -232,8 +235,8 @@ export default {
                                 </td>
                                 <td data-value="Bandwidth">4000GB</td>
                                 <td data-value="Price">
-                                    <p><span class="rate">$15.95<span>/month</span></span><span class="pricing-onsale">On sale - <span
-                                        class="badge color-3 color-3-bg">Save 30%</span></span></p>
+                                    <p><span class="rate">৳8,390<span>/month</span></span><span class="pricing-onsale">On sale - <span
+                                        class="badge color-3 color-3-bg">Save 20%</span></span></p>
                                 </td>
                                 <td>
                                     <a href="https://account.hostservice.com.bd/index.php?rp=/store/vps-server" class="btn primary-solid-btn">Order Now</a>
@@ -255,8 +258,8 @@ export default {
                                 </td>
                                 <td data-value="Bandwidth">6000GB</td>
                                 <td data-value="Price">
-                                    <p><span class="rate">$23.95<span>/month</span></span><span class="pricing-onsale">On sale - <span
-                                        class="badge color-5 color-5-bg">Save 40%</span></span></p>
+                                    <p><span class="rate">৳7,390<span>/month</span></span><span class="pricing-onsale">On sale - <span
+                                        class="badge color-5 color-5-bg">Save 30%</span></span></p>
                                 </td>
                                 <td>
                                     <a href="https://account.hostservice.com.bd/index.php?rp=/store/vps-server" class="btn primary-solid-btn">Order Now</a>
@@ -278,7 +281,7 @@ export default {
                                 </td>
                                 <td data-value="Bandwidth">8000GB</td>
                                 <td data-value="Price">
-                                    <p><span class="rate">$29.95<span>/month</span></span><span class="pricing-onsale">On sale - <span
+                                    <p><span class="rate">৳5,390<span>/month</span></span><span class="pricing-onsale">On sale - <span
                                         class="badge color-3 color-3-bg">Save 10%</span></span></p>
                                 </td>
                                 <td>
@@ -294,19 +297,7 @@ export default {
                     <div class="payment-method text-center">
                         <ul class="list-inline">
                             <li class="list-inline-item">
-                                <img src="@/assets/img/payment-amex.svg" alt="amex" width="50">
-                            </li>
-                            <li class="list-inline-item">
-                                <img src="@/assets/img/payment-visa.svg" alt="visa" width="50">
-                            </li>
-                            <li class="list-inline-item">
-                                <img src="@/assets/img/payment-mastercard.svg" alt="mastercard" width="50">
-                            </li>
-                            <li class="list-inline-item">
-                                <img src="@/assets/img/payment-paypal.svg" alt="paypal" width="50">
-                            </li>
-                            <li class="list-inline-item">
-                                <img src="@/assets/img/payment-bitcoin.svg" alt="bitcoin" width="50">
+                                <img src="@/assets/img/footer-last.webp" alt="amex" width="300px" />
                             </li>
                         </ul>
                     </div>

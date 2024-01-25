@@ -298,7 +298,7 @@ onMounted(()=> {
       </section> <br> <br>
 
    <!--compare provider table start (new1)-->
- <section class="compare-provider-table ptb-50 gray-light-bg">
+ <section class="compare-provider-table ptb-100 gray-light-bg">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-md-12 col-lg-7 ">
@@ -317,10 +317,10 @@ onMounted(()=> {
                             <tr>
                                 <tr>
                                     <td style="width: 20%; text-align: center"><h5>Resource Type</h5></td>
-                                    <td class="primary-bg" style="width: 20%; text-align: center;"><h5 class="text-white">Bronze</h5></td>
+                                    <td class="primary-bg" style="width: 20%; text-align: center;"><h5 class="text-white">Starter</h5></td>
+                                    <td style="width: 20%; text-align: center;"><h5>Standard</h5></td>
                                     <td style="width: 20%; text-align: center;"><h5>Silver</h5></td>
                                     <td style="width: 20%; text-align: center;"><h5>Gold</h5></td>
-                                    <td style="width: 20%; text-align: center;"><h5>Platinum</h5></td>
                                     </tr>
                             </tr>
                         </thead>

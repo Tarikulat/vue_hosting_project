@@ -5391,7 +5391,7 @@ input[type=button].btn-block, input[type=reset].btn-block, input[type=submit].bt
   flex-basis: 100%;
   -ms-flex-positive: 1;
   -webkit-box-flex: 1;
-          flex-grow: 1;
+  flex-grow: 1;
   -ms-flex-align: center;
   -webkit-box-align: center;
           align-items: center;
@@ -54768,7 +54768,7 @@ table > tbody > tr > td:first-child:before {
   }
   /* line 3110, src/assets/scss/custom/_style.scss */
   .vps-hosting-pricing-table > tbody > tr {
-    padding: 15px;
+    padding: 30px;
   }
   /* line 3113, src/assets/scss/custom/_style.scss */
   .vps-hosting-pricing-table > tbody > tr > td {
@@ -54823,7 +54823,7 @@ table > tbody > tr > td:first-child:before {
     width: 100%;
     float: none;
     margin-left: auto;
-    margin-bottom: 15px;
+    margin-bottom: 35px;
   }
 }
 
