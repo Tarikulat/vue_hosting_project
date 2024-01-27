@@ -703,7 +703,6 @@ onMounted(()=> {
 
 
 @media (min-width: 320px) {
-  /* line 6, src/assets/scss/vendors/bootstrap.min.css */
   .sw-response {
     max-width: 540px;
   }
@@ -766,7 +765,5 @@ body {
 .swiper {
   margin-left: auto;
   margin-right: auto;
-}
-
-    
+}  
 </style>

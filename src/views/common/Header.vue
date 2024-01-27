@@ -1,4 +1,3 @@
-
 <script setup>
 import { ref } from 'vue';
 
@@ -93,7 +92,7 @@ const isOpenModal = () =>{
                                                         <div class="menu-item-icon"><i class="fas fa-box"></i></div>
                                                         <div class="media-body">
                                                             <span class="u-header__promo-title" aria-expanded="false" aria-controls="navBar" data-toggle="collapse" data-target="#navBar">Website Shared Hosting</span>
-                                                            <small class="u-header__promo-text">Pefficiently maintain
+                                                            <small class="u-header__promo-text"> Pefficiently maintain
                                                                 Starting at <strong>$11.99</strong></small>
                                                         </div>
                                                     </div>
@@ -148,8 +147,8 @@ const isOpenModal = () =>{
                                                     <div class="media">
                                                         <img class="menu-titile-icon" src="@/assets/img/chat.svg" alt="SVG">
                                                         <div class="media-body">
-                                                            <span class="u-header__promo-title">VPS Server</span>
-                                                            <small class="u-header__promo-text">Support team quickly response </small>
+                                                            <span class="u-header__promo-title" aria-expanded="false" aria-controls="navBar" data-toggle="collapse" data-target="#navBar">VPS Server</span>
+                                                            <small class="u-header__promo-text" >Support team quickly response </small>
                                                         </div>
                                                     </div>
                                                 </router-link>
@@ -160,7 +159,7 @@ const isOpenModal = () =>{
                                                     <div class="media">
                                                         <img class="menu-titile-icon" src="@/assets/img/data-services.svg" alt="SVG">
                                                         <div class="media-body">
-                                                            <span class="u-header__promo-title">Dedicated Server</span>
+                                                            <span class="u-header__promo-title" aria-expanded="false" aria-controls="navBar" data-toggle="collapse" data-target="#navBar">Dedicated Server</span>
                                                             <small class="u-header__promo-text">24 Data center globally</small>
                                                         </div>
                                                     </div>
@@ -174,12 +173,12 @@ const isOpenModal = () =>{
                             <!--about start-->
                             <li class="nav-item hs-has-mega-menu custom-nav-item" data-max-width="250px" data-position="right">
                                 <router-link id="aboutMegaMenu" class="nav-link custom-nav-link " 
-                                :to="{ name: 'about' }" aria-haspopup="true" aria-expanded="false">About</router-link>
+                                :to="{ name: 'about' }" aria-expanded="false" aria-controls="navBar" data-toggle="collapse" data-target="#navBar">About</router-link>
                             </li>
 
                             <li class="nav-item hs-has-mega-menu custom-nav-item" data-max-width="250px" data-position="right">
                                 <router-link id="aboutMegaMenu" class="nav-link custom-nav-link " 
-                                :to="{ name: 'contact' }" aria-haspopup="true" aria-expanded="false">Contact</router-link>
+                                :to="{ name: 'contact' }" aria-haspopup="true" aria-expanded="false" aria-controls="navBar" data-toggle="collapse" data-target="#navBar">Contact</router-link>
                             </li>
 
                             <li class="nav-item hs-has-mega-menu custom-nav-item" data-max-width="250px" data-position="right">
