@@ -89,8 +89,9 @@
                        <div class="col-md-9 col-lg-8">
                            <div class="section-heading mb-5">
                                <h2>Frequently Asked Queries</h2>
-                               <p>Efficiently productivate reliable paradigms before ubiquitous models. Continually utilize
-                                   frictionless expertise whereas tactical relationships. Still have questions? <a href="#contact" class="page-scroll">Contact us</a></p>
+                               <p>We understand that hosting stuff can seem complicated. 
+                               So please, ask us anything! We're happy to explain and help you on your 
+                               journey to getting online.<a href="#contact" class="page-scroll">Contact us</a></p>
                            </div>
                        </div>
                    </div>
@@ -99,66 +100,54 @@
                            <div id="accordion-one" class="accordion accordion-faq">
                                <div class="card mb-0">
                                    <a class="card-header collapsed" data-toggle="collapse" href="#collapseOne">
-                                       <h6 class="mb-0 d-inline-block">What is Web Hosting?
+                                       <h6 class="mb-0 d-inline-block">What exactly is web hosting? 
                                        </h6>
                                    </a>
                                    <div id="collapseOne" class="collapse" data-parent="#accordion-one">
                                        <div class="card-body">
-                                           <p>Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
-                                               sapiente ea proident.
-                                               Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer
-                                               farm-to-table, raw denim aesthetic
-                                               synth nesciunt you probably haven't heard of them accusamus labore sustainable
-                                               VHS.
+                                           <p>Web hosting provides the storage, servers, and technology to publish 
+                                           your site on the internet so others can access it 24/7. We take care of
+                                            all technical issues, so you can focus on your site and business.
                                            </p>
                                        </div>
                                    </div>
                                </div>
                                <div class="card mb-0">
                                    <a class="card-header collapsed" data-toggle="collapse" href="#collapseTwo">
-                                       <h6 class="mb-0 d-inline-block">What Are the
-                                           Different Types of Web Hosting Products DreamHost Offers?</h6>
+                                       <h6 class="mb-0 d-inline-block">What types of hosting plans do we offer?</h6>
                                    </a>
                                    <div id="collapseTwo" class="collapse" data-parent="#accordion-one">
                                        <div class="card-body">
-                                           <p>Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table,
-                                               raw denim aesthetic
-                                               synth nesciunt you probably haven't heard of them accusamus labore sustainable
-                                               VHS.
+                                           <p>We offer shared hosting for new sites, cloud hosting for rapidly growing sites, 
+                                           and dedicated servers for large businesses. Each scales up in resources and control.
+                                            Our team can suggest the ideal plan type for your needs. 
                                            </p>
                                        </div>
                                    </div>
                                </div>
                                <div class="card mb-0">
                                    <a class="card-header collapsed" data-toggle="collapse" href="#collapseThree">
-                                       <h6 class="mb-0 d-inline-block">How Do I Buy a Domain
-                                           Name?
+                                       <h6 class="mb-0 d-inline-block">How can you get a domain from us?
                                        </h6>
                                    </a>
                                    <div id="collapseThree" class="collapse" data-parent="#accordion-one">
                                        <div class="card-body">
-                                           <p>Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
-                                               sapiente ea proident.
-                                               Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer
-                                               farm-to-table, raw denim aesthetic
-                                               synth nesciunt you probably haven't heard of them accusamus labore sustainable
-                                               VHS.
+                                           <p>Purchasing a domain name is easy and affordable. You can buy domains directly
+                                            from us when signing up for web hosting. We help you find available domain names 
+                                            that strengthen your brand.
                                            </p>
                                        </div>
                                    </div>
                                </div>
                                <div class="card mb-0">
                                    <a class="card-header collapsed" data-toggle="collapse" href="#collapseFour">
-                                       <h6 class="mb-0 d-inline-block">Can You Help Me
-                                           Understand More About WordPress?
+                                       <h6 class="mb-0 d-inline-block">How do we optimize hosting for WordPress sites?
                                        </h6>
                                    </a>
                                    <div id="collapseFour" class="collapse" data-parent="#accordion-one">
                                        <div class="card-body">
-                                           <p>Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
-                                               sapiente ea proident.
-                                               Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer
-                                               farm-to-table.
+                                           <p>We optimize hosting for WordPress sites with automatic installs, custom plugins, and built-in scaling. 
+                                           So you get a secure, high-performance WordPress site with ease. 
                                            </p>
                                        </div>
                                    </div>
