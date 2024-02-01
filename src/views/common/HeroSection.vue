@@ -10,7 +10,7 @@ import { Service, Testimonial } from '@/views/common'
                 <source src="https://hostlar.themetags.com/server-room.mp4" type="video/mp4">
             </video>
             <div class="container">
-                <div class="row align-items-center justify-content-center">
+                <div class="row align-items-center cho-p justify-content-center">
                     <div class="col-lg-6 col-12">
                         <div class="hero-content-left text-center">
                             <h1 class="text-white testing">Choose Best Domain Name and Create Your Website</h1>
@@ -42,11 +42,11 @@ import { Service, Testimonial } from '@/views/common'
 
                       <div class="col-lg-5 col-12">
                         <div class="animation-image-wrap">
-                            <img src="@/assets/img/d.webp" alt="wp hosting" class="img-fluid" />
-                            <img src="@/assets/img/an1.png" alt="wp hosting" class="animation-icon-img animation-icon-1" />
-                            <img src="@/assets/img/an2.png" alt="wp hosting" class="animation-icon-img animation-icon-2" />
-                            <img src="@/assets/img/an3.png" alt="wp hosting" class="animation-icon-img animation-icon-3" />
-                            <img src="@/assets/img/an4.png" alt="wp hosting" class="animation-icon-img animation-icon-4" />
+                            <img src="@/assets/img/d.webp" alt="wp hosting" class="img-fluid down-img" />
+                            <img src="@/assets/img/an1.png" alt="wp hosting" class="animation-icon-img animation-icon-1 down-icon" />
+                            <img src="@/assets/img/an2.png" alt="wp hosting" class="animation-icon-img animation-icon-2 down-icon-u" />
+                            <img src="@/assets/img/an3.png" alt="wp hosting" class="animation-icon-img animation-icon-3 down-icon" />
+                            <img src="@/assets/img/an4.png" alt="wp hosting" class="animation-icon-img animation-icon-4 down-icon-u" />
                         </div>
                     </div>
                 </div>
@@ -140,16 +140,16 @@ import { Service, Testimonial } from '@/views/common'
         </div>
         <!--domain name block end-->
 
-        <PromoSection/>
+         <PromoSection/>
 
-    <Service/>
+         <Service/>
 
-    <!-- <Pricing/> -->
+         <Testimonial/>
 
-    <!-- <Faq/> -->
-
-    <Testimonial/>
 </template>
+
+
+
 
 <style>
 

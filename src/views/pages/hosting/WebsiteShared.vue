@@ -49,9 +49,9 @@ onMounted(()=> {
     <section class="hero-equal-height backge gradient-overly-right">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-md-7 col-lg-8">
+                <div class="col-md-7 col-lg-8 media-shair ">
                     <div class="hero-content-wrap text-white position-relative">
-                        <h1 class="text-white">Website Shared Hosting</h1>
+                        <h1 class="text-white media-sh">Website Shared Hosting</h1>
                         <p class="lead">Build and grow the perfect Website Shared Hosting Pro.</p>
                         <ul class="list-unstyled tech-feature-list text-white">
                             <li class="py-1"><span class="ti-control-forward mr-2"></span>Flexible, Easy to Use Control Panel</li>
@@ -67,7 +67,7 @@ onMounted(()=> {
                 </div>
                 <div class="col-md-5 col-lg-4">
                     <div >
-                        <label><img src="@/assets/img/host5.webp" class="body-landing" alt="ser"></label>
+                        <label><img src="@/assets/img/host5.webp" class="body-landing img-sec" alt="ser"></label>
                     </div>
                 </div>
             </div>

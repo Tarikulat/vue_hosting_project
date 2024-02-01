@@ -9,15 +9,15 @@
                 <div class="row justify-content-center">
                     <div class="col-md-9 col-lg-8">
                         <div class="section-heading text-center mb-5 mb-sm-5 mb-md-3 mb-lg-3">
-                            <h2>We Have a Hosting Solution For You</h2>
-                            <p class="lead">Synergistically architect plug-and-play without next-generation
+                            <h2 class="med-h">We Have a Hosting Solution For You</h2>
+                            <p class=" med-w">Synergistically architect plug-and-play without next-generation
                                 manufactured products. Assertively develop synergistic networks.</p>
                         </div>
                     </div>
                 </div>
                 <div class="row">
 
-                   <div class="col-md-6 col-lg-4">
+                   <div class="col-md-6 host-h col-lg-4">
                         <div class="single-service-plane text-center rounded white-bg shadow-sm p-5 mt-md-4 mt-lg-4">
                             <img src="@/assets/img/h1.png" alt="shared hosting" class="img-fluid images mb-4" width="45" />
                             <div class="service-plane-content serve">
@@ -30,7 +30,7 @@
                              </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-4">
+                    <div class="col-md-6 host-h col-lg-4">
                         <div class="single-service-plane text-center rounded white-bg shadow-sm p-5 mt-md-4 mt-lg-4">
                             <img src="@/assets/img/h2.png" alt="shared hosting" class="img-fluid mb-4" width="45" />
                             <div class="service-plane-content serve">
@@ -45,7 +45,7 @@
                                  </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-4">
+                    <div class="col-md-6 host-h col-lg-4">
                         <div class="single-service-plane text-center rounded white-bg shadow-sm p-5 mt-md-4 mt-lg-4">
                             <img src="@/assets/img/h3.png" alt="shared hosting" class="img-fluid mb-4" width="45" />
                             <div class="service-plane-content serve">
@@ -60,7 +60,7 @@
                                  </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-4">
+                    <div class="col-md-6 host-h col-lg-4">
                         <div class="single-service-plane text-center rounded white-bg shadow-sm p-5 mt-md-4 mt-lg-4">
                             <img src="@/assets/img/h4.png" alt="shared hosting" class="img-fluid mb-4" width="45" />
                             <div class="service-plane-content serve">
@@ -75,7 +75,7 @@
                                  </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-4">
+                    <div class="col-md-6 host-h col-lg-4">
                         <div class="single-service-plane text-center rounded white-bg shadow-sm p-5 mt-md-4 mt-lg-4">
                             <img src="@/assets/img/h5.png" alt="shared hosting" class="img-fluid mb-4" width="45" />
                             <div class="service-plane-content serve">
@@ -90,7 +90,7 @@
                                  </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-4">
+                    <div class="col-md-6 host-h col-lg-4">
                         <div class="single-service-plane text-center rounded white-bg shadow-sm p-5 mt-md-4 mt-lg-4">
                             <img src="@/assets/img/h6.png" alt="shared hosting" class="img-fluid mb-4" width="45" />
                             <div class="service-plane-content serve">
@@ -121,7 +121,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-6 col-lg-4 col-12">
+                    <div class=" host-h col-md-6 col-lg-4 col-12">
                         <div class="technical-specifications-wrap mt-md-5 mt-lg-5">
                             <span class="ti-harddrives icon-md color-primary d-block mb-4"></span>
                             <h5>Web Hosting Features</h5>
@@ -134,7 +134,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-4 col-12">
+                    <div class=" host-h col-md-6 col-lg-4 col-12">
                         <div class="technical-specifications-wrap mt-md-5 mt-lg-5">
                             <span class="ti-panel icon-md color-primary d-block mb-4"></span>
                             <h5>cPanel Control Panel</h5>
@@ -148,7 +148,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-4 col-12">
+                    <div class=" host-h col-md-6 col-lg-4 col-12">
                         <div class="technical-specifications-wrap mt-md-5 mt-lg-5">
                             <span class="ti-server icon-md color-primary d-block mb-4"></span>
                             <h5>Programming & Databases</h5>
@@ -161,7 +161,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-4 col-12">
+                    <div class="host-h col-md-6 col-lg-4 col-12">
                         <div class="technical-specifications-wrap mt-md-5 mt-lg-5">
                             <span class="ti-email icon-md color-primary d-block mb-4"></span>
                             <h5>Email Features</h5>
@@ -174,7 +174,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-4 col-12">
+                    <div class="host-h col-md-6 col-lg-4 col-12">
                         <div class="technical-specifications-wrap mt-md-5 mt-lg-5">
                             <span class="ti-headphone-alt icon-md color-primary d-block mb-4"></span>
                             <h5>Award-Winning Support</h5>
@@ -187,7 +187,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-4 col-12">
+                    <div class="host-h col-md-6 col-lg-4 col-12">
                         <div class="technical-specifications-wrap mt-md-5 mt-lg-5">
                             <span class="ti-direction-alt icon-md color-primary d-block mb-4"></span>
                             <h5>Application Hosting Plan</h5>

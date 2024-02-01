@@ -25,9 +25,9 @@ export default {
   <section class="hero-equal-height pt-165 pb-100 backgb gradient-overlay">
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-md-8 titl col-lg-7">
+            <div class="col-md-8 dser-media col-lg-7">
                 <div class="hero-content-wrap text-white text-center position-relative z-index">
-                    <h1 class="text-white">DEDICATED SERVERS</h1>
+                    <h1 class="text-white ded-t ">DEDICATED SERVERS</h1>
                     <p class="lead">Discover a full range of web hosting servers. Dedicated servers are the perfect 
                       solution to accommodate your projects when shared hosting is no longer enough. The complete 
                       freedom of managing your dedicated server lets you shape it to your own needs.</p>
@@ -42,67 +42,6 @@ export default {
     </div>
 </section>
 <!--hero section end-->
-
-<!--custom plan section start-->
-<section id="custom-plan" class="custom-plan gray-light-bg pt-5 mt--165">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12 col-lg-8">
-                <div class="custom-plan-box white-bg custom-shadow">
-                    <!-- <input id="c-plan" type="text" data-slider-min="1" data-slider-max="12" data-slider-step="1" data-slider-value="6" data-currency="$" data-unit=""> -->
-                    <div>
-                      <h4>Input Your Value</h4>
-                    <div class="slider-demo-block">
-                      <el-slider v-model="value" show-input />
-                    </div>
-                  </div>
-
-                    <ul class="list-inline mt-5 custom-vps-list text-center">
-                        <li class="list-inline-item">
-                            <div class="single-vps-item rounded text-center">
-                                <span class="ti-shield icon-sm color-primary p-2 mb-3"></span>
-                                <h6 class="d-block py-1">Core</h6>
-                                <h5 class="mb-0 feature vpsCore h5"><span>1</span> GB</h5>
-                            </div>
-                        </li>
-                        <li class="list-inline-item">
-                            <div class="single-vps-item rounded text-center">
-                                <span class="ti-plug icon-sm color-primary p-2 mb-3"></span>
-                                <h6 class="d-block py-1">Memory</h6>
-                                <h5 class="mb-0 feature vpsMemory"><span>2</span> GB</h5>
-                            </div>
-                        </li>
-                        <li class="list-inline-item">
-                            <div class="single-vps-item rounded text-center">
-                                <span class="ti-harddrive icon-sm color-primary p-2 mb-3"></span>
-                                <h6 class="d-block py-1">Storage</h6>
-                                <h5 class="mb-0 feature vpsStorage"><span>10</span> GB</h5>
-                            </div>
-                        </li>
-                        <li class="list-inline-item">
-                            <div class="single-vps-item rounded text-center">
-                                <span class="ti-dashboard icon-sm color-primary p-2 mb-3"></span>
-                                <h6 class="d-block py-1">Bandwidth</h6>
-                                <h5 class="mb-0 feature vpsBandwidth"><span>1000</span> GB</h5>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-md-12 col-lg-4">
-                <div class="custom-plan-info-box p-5 white-bg custom-shadow">
-                    <h5>Order Summary</h5>
-                    <p>Flexible hosting platform to deploy your online projects.</p>
-                    <div class="price vpsPrice">$20</div>
-                    <div class="btn-holder">
-                        <a href="https://account.hostservice.com.bd/index.php?rp=/store/dedicated-server" class="btn primary-solid-btn vpsWHmcsUrl">Order now</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!--custom plan section end-->
 
 <!--vps hosting pricing plane start-->
 <section class="vps-pricing-plane ptb-100 gray-light-bg">
@@ -233,52 +172,6 @@ export default {
                             </td>
                             <td>
                                 <a href="https://account.hostservice.com.bd/index.php?rp=/store/dedicated-server/dedicated-silver" class="btn primary-solid-btn">Order Now</a>
-                            </td>
-                        </tr>
-                        <tr class="vps-pricing-row border-blue-themes">
-                            <td data-value="VCPU">6 vCPU</td>
-                            <td data-value="Memory">12GB</td>
-                            <td data-value="CPU Power"><span>14.4GHz<span class="cpu-core">6 cores</span></span></td>
-                            <td data-value="Storage">120GB</td>
-                            <td data-value="Geekbench Score">
-                                <div class="score-bar-wrap">
-                                    <span class="geekbench-score">10789</span>
-                                    <div class="progress w-100 score-bar-item">
-                                        <div class="progress-bar primary-bg" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">85%
-                                        </div>
-                                    </div>
-                                </div>
-                            </td>
-                            <td data-value="Bandwidth">6000GB</td>
-                            <td data-value="Price">
-                                <p><span class="rate">13,450<span>/month</span></span><span class="pricing-onsale">On sale - <span
-                                    class="badge color-5 color-5-bg">Save 40%</span></span></p>
-                            </td>
-                            <td>
-                                <a href="https://account.hostservice.com.bd/index.php?rp=/store/dedicated-server" class="btn primary-solid-btn">Order Now</a>
-                            </td>
-                        </tr>
-                        <tr class="vps-pricing-row border-lime-themes">
-                            <td data-value="VCPU">8 vCPU</td>
-                            <td data-value="Memory">16GB</td>
-                            <td data-value="CPU Power"><span>19.2GHz<span class="cpu-core">8 cores</span></span></td>
-                            <td data-value="Storage">160GB</td>
-                            <td data-value="Geekbench Score">
-                                <div class="score-bar-wrap">
-                                    <span class="geekbench-score">12632</span>
-                                    <div class="progress w-100 score-bar-item">
-                                        <div class="progress-bar primary-bg" role="progressbar" style="width: 100%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%
-                                        </div>
-                                    </div>
-                                </div>
-                            </td>
-                            <td data-value="Bandwidth">8000GB</td>
-                            <td data-value="Price">
-                                <p><span class="rate">$29.95<span>/month</span></span><span class="pricing-onsale">On sale - <span
-                                    class="badge color-3 color-3-bg">Save 10%</span></span></p>
-                            </td>
-                            <td>
-                                <a href="https://account.hostservice.com.bd/index.php?rp=/store/dedicated-server" class="btn primary-solid-btn">Order Now</a>
                             </td>
                         </tr>
                     </tbody>

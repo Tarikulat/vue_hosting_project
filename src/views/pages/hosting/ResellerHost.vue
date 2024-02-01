@@ -51,8 +51,8 @@ onMounted(()=> {
         <div class="row align-items-center">
             <div class="col-md-7 col-lg-8">
                 <div class="hero-content-wrap text-white position-relative z-index">
-                    <h1 class="text-white">Reseller Hosting Management</h1>
-                    <p class="lead">Sell anything, anywhere, anytime on the world's biggest eCommerce platform. Up to 50% Off domain and hosting, Starting from $2.99/month.</p>
+                    <h1 class="text-white media-res" >Reseller Hosting Management</h1>
+                    <p class="lead">Sell anything, anywhere, anytime on the world's biggest platform.</p>
                     <ul class="list-unstyled">
                         <li class="py-1">
                             <div class="d-flex align-items-center">
@@ -84,12 +84,14 @@ onMounted(()=> {
                     </div>
                 </div>
             </div>
-            <div class="col-md-5 col-lg-4 body-landing">
-                <div class="offer-box text-white text-center py-5 px-4">
-                    <span class="h5 text-white">Special intro offer </span>
-                    <h2 class="offer-price text-white">
-                        <span class="currency usa-currency">৳</span>12<span class="decimal">,99</span><small>/month</small>
+            <div class="col-md-5 col-lg-4 body-landing re-box">
+                <div class="offer-box text-white text-center py-5 px-4 re-box">
+                    <span class="h5 text-white ">Special intro offer </span>
+                    <div class="pri">
+                    <h2 class="offer-price box-pri text-white">
+                        <span class="currency usa-currency crn">৳</span>12<span class="decimal crn">,99</span><small>/month</small>
                     </h2>
+                    </div>
                     <p class="regular-price">Regular Price <strong>৳899/mo</strong></p>
                     <div class="action-btns mt-4">
                         <a class="btn primary-solid-btn animated-btn" href="#">Get Started Now</a>
@@ -108,7 +110,7 @@ onMounted(()=> {
       <div class="row justify-content-center head">
           <div class="col-md-12 col-lg-7">
               <div class="section-heading  text-center mb-5">
-                  <h1>Choose the package you need</h1>
+                  <h1 class="re-sell">Choose the package you need</h1>
                   <p class="lead">
                       use this code for 25% discount on yearly payment | YEARLY25
                   </p>
@@ -331,7 +333,7 @@ onMounted(()=> {
       <div class="row justify-content-center">
         <div class="col-md-12 col-lg-7 ">
             <div class="section-heading  text-center mb-5">
-              <h1>Web Hosting Resource Details</h1>
+              <h1 class="re-sell">Web Hosting Resource Details</h1>
                 <p class="lead">
                     This hosting resource is very exclusive 
                 </p>
@@ -523,7 +525,7 @@ onMounted(()=> {
         <div class="row justify-content-center">
             <div class="col-md-9 col-lg-8">
                 <div class="section-heading text-center mb-5">
-                    <h2>Hosting Features For Your Big Ideas</h2>
+                    <h2 class="re-sell">Hosting Features For Your Big Ideas</h2>
                     <p class="lead">These features come standard in all of our hosting plans. Dynamically extend
                         imperatives through open-source quickly niche markets.</p>
                 </div>
@@ -610,7 +612,7 @@ onMounted(()=> {
         <div class="row">
             <div class="col-md-6 col-lg-6">
                 <div class="call-to-action-box white-bg shadow-sm rounded p-5">
-                    <h3>100% Uptime Guarantee</h3>
+                    <h3 class="re-sell">100% Uptime Guarantee</h3>
                     <p>Made possible by our multiple datacenter locations, redundant cooling, emergency generators.
                         Monotonectally drive business e-markets after distinctive functionalities.</p>
                     <a href="#" class="btn outline-btn">Learn More</a>
@@ -618,7 +620,7 @@ onMounted(()=> {
             </div>
             <div class="col-md-6 col-lg-6">
                 <div class="call-to-action-box white-bg shadow-sm rounded p-5">
-                    <h3>24/7 365 Day Support</h3>
+                    <h3 class="re-sell">24/7 365 Day Support</h3>
                     <p>Our experts are on standby for friendly, pro-level support 24/7, 365. No question is too
                         Objectively envisioneer stand-alone growth strategies whereas market.</p>
                     <div class="action-btns">
@@ -637,7 +639,7 @@ onMounted(()=> {
         <div class="row justify-content-center">
             <div class="col-md-9 col-lg-8">
                 <div class="section-heading mb-3 text-center">
-                    <h2>Frequently Asked Questions</h2>
+                    <h2 class="re-sell">Frequently Asked Questions</h2>
                     <p class="lead">
                         Quickly morph client-centric results through performance based applications. Proactively facilitate professional human capital for cutting-edge.
                     </p>
@@ -700,7 +702,7 @@ onMounted(()=> {
         <div class="row justify-content-center">
             <div class="col-md-9 col-lg-8">
                 <div class="section-heading text-center mb-5">
-                    <h2>What Our Customers Say About Us?</h2>
+                    <h2 class="re-sell">What Our Customers Say About Us?</h2>
                     <p class="lead">Authoritatively reinvent client-centric e-markets via fully tested process. Objectively restore strategic initiatives through fully researched.</p>
                 </div>
             </div>

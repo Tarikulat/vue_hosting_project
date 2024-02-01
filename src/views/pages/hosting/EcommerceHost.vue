@@ -45,64 +45,14 @@ onMounted(()=> {
 </script>
 
 <template>
-<!--hero section start-->
-<!-- <section class="hero-equal-height ptb-100 backgek gradient-overly-right">
-
-    <div class="container">
-        <div class="row align-items-center">
-            <div class="col-md-7 col-lg-8">
-                <div class="hero-content-wrap text-white position-relative z-index">
-                    <h1 class="text-white">Ecommerce Hosting</h1>
-                    <p class="lead">Sell anything, anywhere, anytime on the world's biggest eCommerce platform. Up to 50% Off domain and hosting, Starting from $2.99/month.</p>
-                    <ul class="list-unstyled">
-                        <li class="py-1">
-                            <div class="d-flex align-items-center">
-                                <span class="ti-check mr-2"></span>
-                                <p class="mb-0">Great for selling online</p>
-                            </div>
-                        </li>
-                        <li class="py-1">
-                            <div class="d-flex align-items-center">
-                                <span class="ti-check mr-2"></span>
-                                <p class="mb-0">Secure payment gateways provided</p>
-                            </div>
-                        </li>
-                        <li class="py-1">
-                            <div class="d-flex align-items-center">
-                                <span class="ti-check mr-2"></span>
-                                <p class="mb-0">Fully customizable online stores</p>
-                            </div>
-                        </li>
-                        <li class="py-1">
-                            <div class="d-flex align-items-center">
-                                <span class="ti-check mr-2"></span>
-                                <p class="mb-0">Free Online Store Set Up Phone Call</p>
-                            </div>
-                        </li>
-                    </ul>
-                    <div class="action-btns mt-4">
-                        <p>Get all the essentials features <strong>Starting at $6.59/mo</strong></p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-5 col-lg-4">
-               
-                <div>
-                    <label><img src="@/assets/img/host3.webp" class="eco body-landing" alt="ser"></label>
-                </div>
-            </div>
-        </div>
-    </div>
-</section> -->
-
  <!--hero section start-->
  <section class="hero-equal-height pt-165 pb-100 backgek gradient-overly-right">
     <div class="container">
         <div class="row align-items-center justify-content-between">
             <div class="col-lg-6 col-12">
                 <div class="hero-content-wrap text-white">
-                    <h1 class="text-white">Fully Managed Ecommerce Hosting Services</h1>
-                    <p class="lead">Globally parallel task granular alignments through excellent intellectual capital. Globally deploy vertical leadership.</p>
+                    <h1 class="text-white media-eco">Ecommerce Hosting Services</h1>
+                    <p class="lead">Globally  through excellent intellectual capital.</p>
                     <ul class="list-unstyled">
                         <li class="py-1">
                             <div class="d-flex align-items-center">
@@ -129,17 +79,17 @@ onMounted(()=> {
                             </div>
                         </li>
                     </ul>
-                    <div class="action-btns mt-4">
+                    <!-- <div class="action-btns mt-4">
                         <a href="#" class="btn solid-white-btn animated-btn mr-3">Get
                             Started Now</a>
                         <a href="#" class="btn outline-white-btn animated-btn">See Price Plan</a>
-                    </div>
+                    </div> -->
                 </div>
             </div>
             <div class="col-lg-6 col-12">
                 <div class="animation-image-wrap">
-                    <img src="@/assets/img/private-cloud-server.svg" alt="wp hosting" class="img-fluid" />
-                    <img src="@/assets/img/wordpress-logo.svg" alt="wp hosting" width="100" class="animation-icon-img animation-icon-5" />
+                    <img src="@/assets/img/private-cloud-server.svg" alt="wp hosting" class="img-fluid eco-img-s" />
+                    <img src="@/assets/img/wordpress-logo.svg" alt="wp hosting" width="100" class="animation-icon-img eco-anim animation-icon-5" />
                 </div>
             </div>
         </div>
@@ -152,7 +102,7 @@ onMounted(()=> {
       <div class="row justify-content-center head">
           <div class="col-md-12 col-lg-7">
               <div class="section-heading  text-center mb-5">
-                  <h1>Choose the package you need</h1>
+                  <h1 class="eco-cho">Choose the package you need</h1>
                   <p class="lead">
                       use this code for 25% discount on yearly payment | YEARLY25
                   </p>
@@ -375,7 +325,7 @@ onMounted(()=> {
       <div class="row justify-content-center">
         <div class="col-md-12 col-lg-7 ">
             <div class="section-heading  text-center mb-5">
-              <h1>Web Hosting Resource Details</h1>
+              <h1 class="eco-cho">Web Hosting Resource Details</h1>
                 <p class="lead">
                     This hosting resource is very exclusive 
                 </p>
@@ -567,7 +517,7 @@ onMounted(()=> {
         <div class="row justify-content-center">
             <div class="col-md-9 col-lg-8">
                 <div class="section-heading text-center mb-5">
-                    <h2>Why Choose This Package</h2>
+                    <h2 class="eco-cho">Why Choose This Package</h2>
                     <p class="lead">
                         Distinctively recaptiualize principle-centered core competencies through client-centered
                         core competencies. Enthusiastically provide access.
@@ -614,7 +564,7 @@ onMounted(()=> {
         <div class="row justify-content-center">
             <div class="col-md-9 col-lg-8">
                 <div class="section-heading text-center mb-sm-5 mb-md-0 mb-lg-0">
-                    <h2>Technical Specifications</h2>
+                    <h2 class="eco-cho">Technical Specifications</h2>
                     <p class="lead">Compellingly morph quality users for granular leadership. Authoritatively build accurate technology after economically sound leadership.</p>
                 </div>
             </div>
@@ -709,7 +659,7 @@ onMounted(()=> {
         <div class="row justify-content-center">
             <div class="col-md-9 col-lg-8">
                 <div class="call-to-action-content text-white text-center">
-                    <h2 class="text-white">Already have a domain that you love?</h2>
+                    <h2 class="text-white eco-cho">Already have a domain that you love?</h2>
                     <p>No problem! It's quick and painless to transfer your hosting, domain registrations, or both
                         to HostLar maximize market positioning solutions and enterprise services.</p>
                     <div class="action-btns mt-3">
@@ -729,7 +679,7 @@ onMounted(()=> {
         <div class="row justify-content-center">
             <div class="col-md-9 col-lg-8">
                 <div class="section-heading text-center mb-5">
-                    <h2>Easy to Start and Hassle free Transfer</h2>
+                    <h2 class="eco-cho">Easy to Start and Hassle free Transfer</h2>
                     <p class="lead">Get Immediate Activation or Express Transfer service free of charge.
                         Enthusiastically enhance testing procedures and cross.</p>
                 </div>
@@ -819,7 +769,7 @@ onMounted(()=> {
         <div class="row justify-content-center">
             <div class="col-md-9 col-lg-8">
                 <div class="section-heading text-center mb-5">
-                    <h2>What Our Customers Say About Us?</h2>
+                    <h2 class="eco-cho">What Our Customers Say About Us?</h2>
                     <p class="lead">Authoritatively reinvent client-centric fully tested process improvements. 
                         Objectively restore strategic initiatives through fully researched.</p>
                 </div>

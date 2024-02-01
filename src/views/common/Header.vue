@@ -30,7 +30,9 @@ const isOpenModal = () =>{
                         <ul class="navbar-nav ml-auto main-navbar-nav">
                             <!--home start-->
                             <li class="nav-item hs-has-mega-menu custom-nav-item" data-max-width="250px" data-position="right">
-                                <router-link :to="{name:'home'}" id="aboutMegaMenu" class="nav-link custom-nav-link " aria-haspopup="true" aria-expanded="false">Home</router-link>
+                                <span aria-expanded="false" aria-controls="navBar" data-toggle="collapse" data-target="#navBar">
+                                    <router-link :to="{name:'home'}" id="aboutMegaMenu" class="nav-link custom-nav-link ">Home</router-link>
+                                </span>
                             </li>
                         
                             <li class="nav-item hs-has-sub-menu custom-nav-item">
@@ -143,27 +145,34 @@ const isOpenModal = () =>{
                                 <!-- Pages - Submenu -->
                                 <ul id="pagesSubMenu" class="hs-sub-menu main-sub-menu" aria-labelledby="pagesMegaMenu" style="min-width: 330px;">
                                     <div class="title-with-icon-item">
+                                                 <span  aria-expanded="false" aria-controls="navBar" data-toggle="collapse" data-target="#navBar">
                                                 <router-link class="title-with-icon-link" :to="{ name: 'vps-server' }">
                                                     <div class="media">
                                                         <img class="menu-titile-icon" src="@/assets/img/chat.svg" alt="SVG">
                                                         <div class="media-body">
-                                                            <span class="u-header__promo-title" aria-expanded="false" aria-controls="navBar" data-toggle="collapse" data-target="#navBar">VPS Server</span>
+                                                            <span class="u-header__promo-title" >VPS Server</span>
                                                             <small class="u-header__promo-text" >Support team quickly response </small>
                                                         </div>
                                                     </div>
                                                 </router-link>
+                                                </span>
                                      </div>
 
                                      <div class="title-with-icon-item">
+                                                 <span aria-expanded="false" aria-controls="navBar" data-toggle="collapse" data-target="#navBar">
                                                 <router-link class="title-with-icon-link" :to="{ name: 'DedicatedServer' }">
                                                     <div class="media">
                                                         <img class="menu-titile-icon" src="@/assets/img/data-services.svg" alt="SVG">
                                                         <div class="media-body">
-                                                            <span class="u-header__promo-title" aria-expanded="false" aria-controls="navBar" data-toggle="collapse" data-target="#navBar">Dedicated Server</span>
+                                                            <span class="u-header__promo-title">Dedicated Server</span>
                                                             <small class="u-header__promo-text">24 Data center globally</small>
                                                         </div>
                                                     </div>
                                                 </router-link>
+                                                </span>
+                                                    <!-- <span aria-expanded="false" aria-controls="navBar" data-toggle="collapse" data-target="#navBar">
+                                        <router-link :to="{ name: 'home' }" id="aboutMegaMenu" class="nav-link custom-nav-link ">Home</router-link>
+                                    </span> -->
                                      </div>
                                 </ul>
                                 <!-- End Pages - Submenu -->
@@ -171,20 +180,24 @@ const isOpenModal = () =>{
                             <!--pages end-->
                            
                             <!--about start-->
-                            <li class="nav-item hs-has-mega-menu custom-nav-item" data-max-width="250px" data-position="right">
-                                <router-link id="aboutMegaMenu" class="nav-link custom-nav-link " 
-                                :to="{ name: 'about' }" aria-expanded="false" aria-controls="navBar" data-toggle="collapse" data-target="#navBar">About</router-link>
+                            <li class="nav-item hs-has-mega-menu custom-nav-item" data-max-width="250px" data-position="right" >
+                                <span aria-expanded="false" aria-controls="navBar" data-toggle="collapse" data-target="#navBar">
+                                    <router-link id="aboutMegaMenu" class="nav-link custom-nav-link " :to="{ name: 'about' }">About</router-link>
+                                </span>
                             </li>
 
                             <li class="nav-item hs-has-mega-menu custom-nav-item" data-max-width="250px" data-position="right">
-                                <router-link id="aboutMegaMenu" class="nav-link custom-nav-link " 
-                                :to="{ name: 'contact' }" aria-haspopup="true" aria-expanded="false" aria-controls="navBar" data-toggle="collapse" data-target="#navBar">Contact</router-link>
+                                <span aria-expanded="false" aria-controls="navBar" data-toggle="collapse" data-target="#navBar">
+                                    <router-link id="aboutMegaMenu" class="nav-link custom-nav-link " :to="{ name: 'contact' }">Contact</router-link>
+                                </span>
                             </li>
 
+                            <span aria-expanded="false" aria-controls="navBar" data-toggle="collapse" data-target="#navBar">
                             <li class="nav-item hs-has-mega-menu custom-nav-item" data-max-width="250px" data-position="right">
-                                <!-- <router-link :to="{name:'nav-search'}" id="aboutMegaMenu" class="nav-link custom-nav-link " aria-haspopup="true" aria-expanded="false"><i class="fa fa-search"></i> Domain Search</router-link> -->
-                                <a href="javascript::void(0)" id="aboutMegaMenu" class="nav-link custom-nav-link " @click.prevent="isOpenModal"><i class="fa fa-search"></i> Domain Search</a>
+                                <a href="javascript::void(0)" id="aboutMegaMenu" class="nav-link custom-nav-link " @click.prevent="isOpenModal">
+                                <i class="fa fa-search"></i> Domain Search</a>
                             </li>
+                            </span>
                         </ul>
                     </div>
                     <!--main menu end-->  

@@ -49,9 +49,9 @@ onMounted(()=> {
     <section class="hero-equal-height ptb-100 gradient-overly-right:before backmg gradient-overly-right" >
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-md-7 col-lg-7">
+                <div class="col-md-7 col-lg-7 media-lan ">
                     <div class="hero-content-wrap text-white position-relative">
-                        <h1 class="text-white">Landing Page Hosting</h1>
+                        <h1 class="text-white media-lan">Landing Page Hosting</h1>
                         <p class="lead">Build and grow the perfect Website Shared Hosting Pro.</p>
                         <ul class="list-unstyled tech-feature-list text-white">
                             <li class="py-1"><span class="ti-control-forward mr-2"></span>Flexible, Easy to Use Control Panel</li>
@@ -60,16 +60,13 @@ onMounted(()=> {
                             <li class="py-1"><span class="ti-control-forward mr-2"></span><strong>99%</strong> Uptime Guarantee</li>
                             <li class="py-1"><span class="ti-control-forward mr-2"></span><strong>45-Day</strong> Money-Back Guarantee</li>
                         </ul>
-                        <div class="action-btns mt-4">
-                            <p>Get all the essentials features <strong>Starting at $3.59/mo</strong></p>
-                        </div>
                     </div>
                 </div>
                 <div class="col-md-5 col-lg-5" >
                   
                   <div class="container">
                   <div >
-                    <label><img src="@/assets/img/bh.webp" class="lan body-landing" alt="ser"></label>
+                    <label><img src="@/assets/img/bh.webp" class="lan img-lan body-landing" alt="ser"></label>
                    </div>
                   </div>
 
@@ -84,7 +81,7 @@ onMounted(()=> {
     <div class="row justify-content-center head">
         <div class="col-md-12 col-lg-7">
             <div class="section-heading  text-center mb-5">
-                <h1>Choose the package you need</h1>
+                <h1 class="media-la">Choose the package you need</h1>
                 <p class="lead">
                     use this code for 25% discount on yearly payment | YEARLY25
                 </p>
@@ -307,7 +304,7 @@ onMounted(()=> {
       <div class="row justify-content-center">
         <div class="col-md-12 col-lg-7 ">
             <div class="section-heading  text-center mb-5">
-              <h1>Web Hosting Resource Details</h1>
+              <h1 class="media-la">Web Hosting Resource Details</h1>
                 <p class="lead">
                     This hosting resource is very exclusive 
                 </p>
@@ -499,7 +496,7 @@ onMounted(()=> {
       <div class="row justify-content-center">
         <div class="col-md-9 col-lg-8">
           <div class="section-heading text-center mb-5">
-            <h2>Hosting Features For Your Big Ideas</h2>
+            <h2 class="media-la">Hosting Features For Your Big Ideas</h2>
             <p class="lead">
               These features come standard in all of our hosting plans. Dynamically extend
               imperatives through open-source quickly niche markets.
@@ -622,7 +619,7 @@ onMounted(()=> {
       <div class="row justify-content-center">
         <div class="col-md-9 col-lg-8">
           <div class="section-heading mb-3 text-center">
-            <h2>Frequently Asked Questions</h2>
+            <h2 class="media-la">Frequently Asked Questions</h2>
             <p class="lead">
               Quickly morph client-centric results through performance based applications.
               Proactively facilitate professional human capital for cutting-edge.
