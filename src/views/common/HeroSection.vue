@@ -13,9 +13,9 @@ import { Service, Testimonial } from '@/views/common'
                 <div class="row align-items-center cho-p justify-content-center">
                     <div class="col-lg-6 col-12">
                         <div class="hero-content-left text-center">
-                            <h1 class="text-white testing">Choose Best Domain Name and Create Your Website</h1>
-                            <p class="lead">Up to 50% Off domain and hosting, Starting from $2.99/month,
-                                 free SSL certificate, 24/7/365 support, money back guarantee.</p>
+                            <h1 class="text-white testing">Build Your Online Home with Host Service</h1>
+                            <p class="lead">Host Service's hosting provides the performance to power
+                                 the website you wish for, and our builder makes it simple to develop.</p>
                             <form  class="domain-search-form mt-3  mx-auto">
                                 <a href="https://account.hostservice.com.bd/cart.php?a=add&domain=register">
                                 <div class="input-group">

@@ -49,7 +49,7 @@ onMounted(()=> {
   <section class="hero-equal-height pt-165 backgrs pb-100 packge backgrs gradient-overly-right" >
     <div class="container">
         <div class="row align-items-center">
-            <div class="col-md-7 col-lg-8">
+            <div class="col-md-7 col-lg-7">
                 <div class="hero-content-wrap text-white position-relative z-index">
                     <h1 class="text-white media-res" >Reseller Hosting Management</h1>
                     <p class="lead">Sell anything, anywhere, anytime on the world's biggest platform.</p>
@@ -84,20 +84,13 @@ onMounted(()=> {
                     </div>
                 </div>
             </div>
-            <div class="col-md-5 col-lg-4 body-landing re-box">
-                <div class="offer-box text-white text-center py-5 px-4 re-box">
-                    <span class="h5 text-white ">Special intro offer </span>
-                    <div class="pri">
-                    <h2 class="offer-price box-pri text-white">
-                        <span class="currency usa-currency crn">৳</span>12<span class="decimal crn">,99</span><small>/month</small>
-                    </h2>
-                    </div>
-                    <p class="regular-price">Regular Price <strong>৳899/mo</strong></p>
-                    <div class="action-btns mt-4">
-                        <a class="btn primary-solid-btn animated-btn" href="#">Get Started Now</a>
-                    </div>
-                </div>
-            </div>
+            <div class="col-md-5 col-lg-5" >
+                  <div class="container">
+                      <div >
+                        <label><img src="@/assets/img/v4.png" class="lan img-lan body-landing" alt="ser"></label>
+                       </div>
+                      </div>
+                 </div>
         </div>
     </div>
     

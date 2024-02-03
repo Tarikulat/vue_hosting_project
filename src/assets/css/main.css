@@ -205,7 +205,7 @@
   position: relative;
   height: 320px;
   width: 420px;
-  border-radius: 150px 0 150px 0;
+  /* border-radius: 150px 0 150px 0; */
   animation: shakeUp 6s infinite;
 }
 
@@ -270,7 +270,7 @@ padding-top: 20px;
 
 .gradient-overly-right:before {
   background: -webkit-gradient(linear, left top, right top, from(#031974), to(rgba(25, 52, 167, 0.5)));
-  background: linear-gradient(90deg, #031974, rgba(25, 52, 167, 0.5));
+  /* background: linear-gradient(90deg, #031974, rgba(25, 52, 167, 0.5)); */
 }
 
 
@@ -51761,7 +51761,7 @@ select.form-control.has-value {
 
 /* line 465, src/assets/scss/custom/_style.scss */
 .topbar-text ul li a:hover {
-  color: #035ded;
+  color: #f64f00;
 }
 
 /* line 469, src/assets/scss/custom/_style.scss */
@@ -51896,12 +51896,12 @@ select.form-control.has-value {
 
 /* line 564, src/assets/scss/custom/_style.scss */
 .custom-nav-item:hover .custom-nav-link, .custom-nav-item:focus .custom-nav-link {
-  color: #035ded;
+  color: #f64f00;
 }
 
 /* line 568, src/assets/scss/custom/_style.scss */
 .header-main .active > .custom-nav-link {
-  color: #035ded;
+  color: #f64f00;
 }
 
 /* line 572, src/assets/scss/custom/_style.scss */
@@ -52139,7 +52139,7 @@ select.form-control.has-value {
   -webkit-transform: translate(-50%, 0) rotate(-315deg);
   transform: translate(-50%, 0) rotate(-315deg);
   border-radius: 3px;
-  background-color: #035ded;
+  background-color: #f64f00;
 }
 
 /* line 764, src/assets/scss/custom/_style.scss */
@@ -52328,7 +52328,7 @@ select.form-control.has-value {
 
 /* line 925, src/assets/scss/custom/_style.scss */
 .title-with-icon-link:hover .u-header__promo-title {
-  color: #035ded;
+  color: #f64f00;
 }
 
 /* line 929, src/assets/scss/custom/_style.scss */
@@ -52346,14 +52346,14 @@ select.form-control.has-value {
 /* line 937, src/assets/scss/custom/_style.scss */
 .menu-item-icon i {
   font-size: 20px;
-  color: #035ded;
+  color: #f64f00;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
 
 /* line 942, src/assets/scss/custom/_style.scss */
 .title-with-icon-link:hover .menu-item-icon i {
-  color: #0e6bff;
+  color: #f64f00;
 }
 
 /* line 946, src/assets/scss/custom/_style.scss */
@@ -52894,7 +52894,7 @@ svg.shape-bg, svg.promo-bg {
 /* line 1449, src/assets/scss/custom/_style.scss */
 .background-video-overly {
   /* background-image: -webkit-gradient(linear, left top, right top, from(rgba(3, 25, 116, 0.45)), to(rgba(25, 52, 167, 0.4))); */
-  background-image: -webkit-gradient(linear, left top, right top, from(rgb(3 25 116 / 95%)), to(rgb(25 52 167 / 93%)));
+  background-image: -webkit-gradient(linear, left top, right top, from(#000000c2), to(#000000d4));
   /* background-image: linear-gradient(90deg, #f64f00e6, rgb(246 79 0 / 88%)); */
 }
 
@@ -52937,6 +52937,7 @@ svg.shape-bg, svg.promo-bg {
 .gradient-overly-right:before {
   /* background: -webkit-gradient(linear, left top, right top, from(#031974), to(rgba(25, 52, 167, 0.5)));
   background: linear-gradient(to bottom, rgb(246 79 0), rgb(246 79 0)); */
+  background: linear-gradient(90deg, #000, rgb(34 35 39 / 81%));
 }
 
 /* line 1486, src/assets/scss/custom/_style.scss */
@@ -53115,7 +53116,7 @@ background: linear-gradient(to bottom, rgb(246 79 0), rgb(246 79 0)); */
 
 /* line 1610, src/assets/scss/custom/_style.scss */
 .custom-dot.owl-theme .owl-dots button.owl-dot span:hover {
-  background: #035ded;
+  background: #f64f00;
 }
 
 /* line 1613, src/assets/scss/custom/_style.scss */
@@ -54448,17 +54449,18 @@ ul.disc-style li {
 
 /* line 2707, src/assets/scss/custom/_style.scss */
 .domain-search-form button.search-btn {
-  color: #ffffff;
-  padding-left: 25px;
+  color        : #ffffff;
+  padding-left : 25px;
   padding-right: 25px;
-  border: 1px solid #000;
-  background: #000000e6;
+ 
+  border            : 1px solid #035ded;;
+  background        : #007bff;
   -webkit-box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.15);
-          box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.15);
-  font-weight: 500;
-  font-size: 14px;
-  font-family: 'Poppins', sans-serif;
-  z-index: 0 !important;
+  box-shadow        : 0 2px 4px -1px rgba(0, 0, 0, 0.15);
+  font-weight       : 500;
+  font-size         : 14px;
+  font-family       : 'Poppins', sans-serif;
+  z-index           : 0 !important;
 }
 
 /* line 2720, src/assets/scss/custom/_style.scss */

@@ -9,9 +9,8 @@
                 <div class="row justify-content-center">
                     <div class="col-md-9 col-lg-8">
                         <div class="section-heading text-center mb-5 mb-sm-5 mb-md-3 mb-lg-3">
-                            <h2 class="med-h">We Have a Hosting Solution For You</h2>
-                            <p class=" med-w">Synergistically architect plug-and-play without next-generation
-                                manufactured products. Assertively develop synergistic networks.</p>
+                            <h2 class="med-h">We Have a Hosting Plan That Fits Your Needs</h2>
+                            <p class=" med-w">Our scalable hosting solutions grow alongside your success..</p>
                         </div>
                     </div>
                 </div>
@@ -21,8 +20,9 @@
                         <div class="single-service-plane text-center rounded white-bg shadow-sm p-5 mt-md-4 mt-lg-4">
                             <img src="@/assets/img/h1.png" alt="shared hosting" class="img-fluid images mb-4" width="45" />
                             <div class="service-plane-content serve">
-                                <h1 class="h5">Landing Page Hosting</h1>
-                                <p>Enter your required specifications, and when the moment is right, snap up your offer!</p>
+                                <h1 class="h5">Landing Page Hosting </h1>
+                                <p>Promote your product or service with fast, focused landing pages
+                                  designed to convert visitors.</p>
                             </div>
                              <div class="cart-home">
                                  <h4><small>Starting at </small>৳12,00</h4>
@@ -35,8 +35,8 @@
                             <img src="@/assets/img/h2.png" alt="shared hosting" class="img-fluid mb-4" width="45" />
                             <div class="service-plane-content serve">
                                 <h3 class="h5">Website Shared Hosting</h3>
-                                <p>Get up and running fast with Optimized performance easy
-                                    maintenance hosting.</p>
+                                <p>Reliable, affordable shared hosting for personal websites 
+                                    and small business sites. Scale up as your traffic grows.  </p>
                             </div>
                             <div class="cart-home">
                             <h4><small>Starting at </small>৳15,00</h4>
@@ -50,8 +50,7 @@
                             <img src="@/assets/img/h3.png" alt="shared hosting" class="img-fluid mb-4" width="45" />
                             <div class="service-plane-content serve">
                                 <h3 class="h5">E-commerce Hosting</h3>
-                                <p>Virtual Private Servers and flexibility, Ubuntu, IPv6,
-                                    Nginx and more.</p>
+                                <p>Powerful e-commerce hosting is optimized for security, performance, and high sales conversion.</p>
                             </div>
                             <div class="cart-home">
                             <h4><small>Starting at </small>$11,00</h4>
@@ -64,9 +63,8 @@
                         <div class="single-service-plane text-center rounded white-bg shadow-sm p-5 mt-md-4 mt-lg-4">
                             <img src="@/assets/img/h4.png" alt="shared hosting" class="img-fluid mb-4" width="45" />
                             <div class="service-plane-content serve">
-                                <h3 class="h5">VPS Server</h3>
-                                <p>No code required! Build your site confidently with design tools that 
-                                    website build.</p>
+                                <h3 class="h5">VPS Server </h3>
+                                <p>Increased speed and resources with our virtual private servers are perfect for developers and rising companies.</p>
                             </div>
                             <div class="cart-home">
                             <h4><small>Starting at </small>৳17,00</h4>
@@ -80,8 +78,7 @@
                             <img src="@/assets/img/h5.png" alt="shared hosting" class="img-fluid mb-4" width="45" />
                             <div class="service-plane-content serve">
                                 <h3 class="h5">Dedicated Server</h3>
-                                <p>Fast web servers to run your applications with root and a 100% Guarantee
-                                    our hosting.</p>
+                                <p>Manage your site on your own dedicated server for maximum control, traffic capacity, and security.</p>
                             </div>
                             <div class="cart-home">
                             <h4><small>Starting at </small>৳10,00</h4>
@@ -95,7 +92,8 @@
                             <img src="@/assets/img/h6.png" alt="shared hosting" class="img-fluid mb-4" width="45" />
                             <div class="service-plane-content serve">
                                 <h3 class="h5">Reseller Hosting</h3>
-                                <p>Lightning-fast servers with root access, SSD storage and blazing-fast networking hosting.</p>
+                                <h6>Become a Hosting Provider</h6>
+                                <p>White-label hosting plans to sell hosting under your brand.</p>
                             </div>
                             <div class="cart-home">
                             <h4><small>Starting at </small>৳18,00</h4>
@@ -115,8 +113,8 @@
                 <div class="row justify-content-center">
                     <div class="col-md-9 col-lg-8">
                         <div class="section-heading text-center mb-sm-5 mb-md-0 mb-lg-0">
-                            <h2>Technical Specifications</h2>
-                            <p class="lead">Compellingly morph quality users for granular leadership. Authoritatively build accurate technology after economically sound leadership.</p>
+                            <h2>Our Technical Solutions</h2>
+                            <p class="lead">We'll match your needs to the perfect hosting solution for a new site or established business, small operation or large.</p>
                         </div>
                     </div>
                 </div>
@@ -126,11 +124,11 @@
                             <span class="ti-harddrives icon-md color-primary d-block mb-4"></span>
                             <h5>Web Hosting Features</h5>
                             <ul class="list-unstyled tech-feature-list">
-                                <li class="py-1"><span class="ti-control-forward mr-2 color-primary"></span>Flexible, Easy to Use Control Panel</li>
-                                <li class="py-1"><span class="ti-control-forward mr-2 color-primary"></span><strong>Unmetered</strong> Bandwidth</li>
-                                <li class="py-1"><span class="ti-control-forward mr-2 color-primary"></span><strong>Unmetered</strong> Sub Domains, FTP Accounts</li>
-                                <li class="py-1"><span class="ti-control-forward mr-2 color-primary"></span><strong>99%</strong> Uptime Guarantee</li>
-                                <li class="py-1"><span class="ti-control-forward mr-2 color-primary"></span><strong>45-Day</strong> Money-Back Guarantee</li>
+                                <li class="py-1"><span class="ti-control-forward mr-2 color-primary"></span>Ultra-fast SSD storage and advanced servers</li>
+                                <li class="py-1"><span class="ti-control-forward mr-2 color-primary"></span>Simple scripts and database management</li>
+                                <li class="py-1"><span class="ti-control-forward mr-2 color-primary"></span>Automatic scaling to meet demand</li>
+                                <li class="py-1"><span class="ti-control-forward mr-2 color-primary"></span>Air-gapped security and DDoS protection</li>
+                                <li class="py-1"><span class="ti-control-forward mr-2 color-primary"></span>99.9% uptime guarantee</li>
                             </ul>
                         </div>
                     </div>
@@ -139,11 +137,11 @@
                             <span class="ti-panel icon-md color-primary d-block mb-4"></span>
                             <h5>cPanel Control Panel</h5>
                             <ul class="list-unstyled tech-feature-list">
-                                <li class="py-1"><span class="ti-control-forward mr-2 color-primary"></span><strong>Latest</strong> cPanel Web Hosting Control Panel</li>
-                                <li class="py-1"><span class="ti-control-forward mr-2 color-primary"></span>Webalizer, Raw Log Manager with Error Logs</li>
-                                <li class="py-1"><span class="ti-control-forward mr-2 color-primary"></span>Instant Shopping Carts, Blogs, Portals</li>
-                                <li class="py-1"><span class="ti-control-forward mr-2 color-primary"></span><strong>Password</strong> Protected Directories Error Pages</li>
-                                <li class="py-1"><span class="ti-control-forward mr-2 color-primary"></span>Web Based File Manager, Hotlink Protection</li>
+                                <li class="py-1"><span class="ti-control-forward mr-2 color-primary"></span>Easy-to-use interface</li>
+                                <li class="py-1"><span class="ti-control-forward mr-2 color-primary"></span>Automated tasks to save you time</li>
+                                <li class="py-1"><span class="ti-control-forward mr-2 color-primary"></span>Manage domains, files, databases, and more</li>
+                                <li class="py-1"><span class="ti-control-forward mr-2 color-primary"></span><strong>Password</strong>Add emails, subdomains, etc</li>
+                                <li class="py-1"><span class="ti-control-forward mr-2 color-primary"></span>Simplify DNS management</li>
 
                             </ul>
                         </div>
@@ -151,13 +149,13 @@
                     <div class=" host-h col-md-6 col-lg-4 col-12">
                         <div class="technical-specifications-wrap mt-md-5 mt-lg-5">
                             <span class="ti-server icon-md color-primary d-block mb-4"></span>
-                            <h5>Programming & Databases</h5>
+                            <h5>Programming and Databases</h5>
                             <ul class="list-unstyled tech-feature-list">
-                                <li class="py-1"><span class="ti-control-forward mr-2 color-primary"></span><strong>MySQL</strong> Databases with phpMyAdmin Access</li>
-                                <li class="py-1"><span class="ti-control-forward mr-2 color-primary"></span>Fast CGI, PHP 7, Ruby on Rails, Python</li>
-                                <li class="py-1"><span class="ti-control-forward mr-2 color-primary"></span><strong>ImageMagick</strong> Curl, CPAN, GD Library</li>
-                                <li class="py-1"><span class="ti-control-forward mr-2 color-primary"></span><strong>SSH</strong> Access and Cron Job Scheduling</li>
+                                <li class="py-1"><span class="ti-control-forward mr-2 color-primary"></span>Supports common languages/frameworks</li>
                                 <li class="py-1"><span class="ti-control-forward mr-2 color-primary"></span>SSL Certification</li>
+                                <li class="py-1"><span class="ti-control-forward mr-2 color-primary"></span>MySQL databases with phpMyAdmin</li>
+                                <li class="py-1"><span class="ti-control-forward mr-2 color-primary"></span>SSH access for development</li>
+                                <li class="py-1"><span class="ti-control-forward mr-2 color-primary"></span>Real-time database backups to protect your data</li>
                             </ul>
                         </div>
                     </div>
@@ -166,37 +164,39 @@
                             <span class="ti-email icon-md color-primary d-block mb-4"></span>
                             <h5>Email Features</h5>
                             <ul class="list-unstyled tech-feature-list">
-                                <li class="py-1"><span class="ti-control-forward mr-2 color-primary"></span><strong>Unlimited</strong> POP3 Email Accounts with SMTP</li>
-                                <li class="py-1"><span class="ti-control-forward mr-2 color-primary"></span>WebMail Access: Horde, RoundCube</li>
-                                <li class="py-1"><span class="ti-control-forward mr-2 color-primary"></span>Receive your email to your phone via IMAP</li>
-                                <li class="py-1"><span class="ti-control-forward mr-2 color-primary"></span>Prevent spam with SpamAssassin</li>
-                                <li class="py-1"><span class="ti-control-forward mr-2 color-primary"></span><strong>Unlimited</strong> Email Aliases, Autoresponders</li>
+                                <li class="py-1"><span class="ti-control-forward mr-2 color-primary"></span>Fast setup of professional emails</li>
+                                <li class="py-1"><span class="ti-control-forward mr-2 color-primary"></span>Integrated email marketing tools</li>
+                                <li class="py-1"><span class="ti-control-forward mr-2 color-primary"></span>Anti-spam and security filters</li>
+                                <li class="py-1"><span class="ti-control-forward mr-2 color-primary"></span>Access mail anywhere via webmail</li>
+                                <li class="py-1"><span class="ti-control-forward mr-2 color-primary"></span>Automated responses and autoresponder capabilities</li>
                             </ul>
                         </div>
                     </div>
                     <div class="host-h col-md-6 col-lg-4 col-12">
                         <div class="technical-specifications-wrap mt-md-5 mt-lg-5">
                             <span class="ti-headphone-alt icon-md color-primary d-block mb-4"></span>
-                            <h5>Award-Winning Support</h5>
+                            <h5>Expert Support</h5>
                             <ul class="list-unstyled tech-feature-list">
-                                <li class="py-1"><span class="ti-control-forward mr-2 color-primary"></span><strong>24/7/365</strong> Premium Support with Live Chat</li>
-                                <li class="py-1"><span class="ti-control-forward mr-2 color-primary"></span><strong>Automatic</strong> Weekly Off-Site Data Backups</li>
-                                <li class="py-1"><span class="ti-control-forward mr-2 color-primary"></span><strong>24/7/365</strong> Hosting Server Monitoring</li>
-                                <li class="py-1"><span class="ti-control-forward mr-2 color-primary"></span>Online Support Portal</li>
-                                <li class="py-1"><span class="ti-control-forward mr-2 color-primary"></span><strong>500+</strong>Video Tutorials and <strong>680+</strong> Help Articles</li>
+                                <li class="py-1"><span class="ti-control-forward mr-2 color-primary"></span>24/7 expert support by chat, phone, and tickets</li>
+                                <li class="py-1"><span class="ti-control-forward mr-2 color-primary"></span>Extensive knowledge-based articles and video tutorials</li>
+                                <li class="py-1"><span class="ti-control-forward mr-2 color-primary"></span>Proactive monitoring and emergency response</li>
+                                <li class="py-1"><span class="ti-control-forward mr-2 color-primary"></span>Free consultations for complex issues</li>
+                                <li class="py-1"><span class="ti-control-forward mr-2 color-primary"></span>Scheduled data backups</li>
                             </ul>
                         </div>
                     </div>
                     <div class="host-h col-md-6 col-lg-4 col-12">
                         <div class="technical-specifications-wrap mt-md-5 mt-lg-5">
                             <span class="ti-direction-alt icon-md color-primary d-block mb-4"></span>
-                            <h5>Application Hosting Plan</h5>
+                            <h5>Optimized Application Hosting</h5>
                             <ul class="list-unstyled tech-feature-list">
-                                <li class="py-1"><span class="ti-control-forward mr-2 color-primary"></span><strong>Free</strong> Website Transfer, Domain Transfer</li>
-                                <li class="py-1"><span class="ti-control-forward mr-2 color-primary"></span><strong>52 Free</strong> scripts can be instantly installed</li>
-                                <li class="py-1"><span class="ti-control-forward mr-2 color-primary"></span><strong>$100</strong> Google Adwords Offer (Details)</li>
-                                <li class="py-1"><span class="ti-control-forward mr-2 color-primary"></span><strong>$100</strong> Bing Ads Credit (Details)</li>
-                                <li class="py-1"><span class="ti-control-forward mr-2 color-primary"></span><strong>Free</strong> SSL Certification website securely</li>
+                                <li class="py-1"><span class="ti-control-forward mr-2 color-primary"></span>Speed-optimized services</li>
+                                <li class="py-1"><span class="ti-control-forward mr-2 color-primary"></span>Auto-scaling for traffic variations</li>
+                                <li class="py-1"><span class="ti-control-forward mr-2 color-primary"></span>Caching and content delivery network</li>
+                                <li class="py-1"><span class="ti-control-forward mr-2 color-primary"></span>Extra security protection available</li>
+                                <li class="py-1"><span class="ti-control-forward mr-2 color-primary"></span>Customizable server configuration</li>
+                                <li class="py-1"><span class="ti-control-forward mr-2 color-primary"></span>Website Transfer, Domain Transfer</li>
+                                <li class="py-1"><span class="ti-control-forward mr-2 color-primary"></span>Website Transfer, Domain Transfer</li>
                             </ul>
                         </div>
                     </div>
