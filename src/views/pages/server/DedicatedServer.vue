@@ -35,7 +35,7 @@ export default {
             </div>
             <div class="col-md-4 col-lg-5">
               <div>
-                  <label><img src="@/assets/img/dade1.png" class="da-img body-landing" alt="ser"></label>
+                  <label><img src="@/assets/img/v3.png" class="da-img body-landing" alt="ser"></label>
               </div>
             </div>
         </div>
@@ -49,7 +49,7 @@ export default {
         <div class="row justify-content-center">
             <div class="col-md-9 col-lg-8">
                 <div class="section-heading text-center mb-5">
-                    <h2>Dadicated Hosting Pricing Plane</h2>
+                    <h2>Dedicated Server Plan:</h2>
                     <p class="lead">Uniquely restore open-source products via open-source relationships.
                         Enthusiastically deliver competitive systems and client-centric.</p>
                 </div>
@@ -60,7 +60,7 @@ export default {
                 <table class="table vps-hosting-pricing-table">
                     <thead>
                         <tr>
-                            <th>VCPU</th>
+                            <th>AMD</th>
                             <th>Memory</th>
                             <th>CPU Power</th>
                             <th>Storage</th>
@@ -71,25 +71,25 @@ export default {
                     </thead>
                     <tbody>
                         <tr class="vps-pricing-row border-accent-primary">
-                            <td data-value="VCPU">1 vCPU</td>
-                            <td data-value="Memory">2GB</td>
-                            <td data-value="CPU Power"><span>2.4GHz<span class="cpu-core">1 core</span></span></td>
-                            <td data-value="Storage">20GB</td>
+                            <td data-value="VCPU">Dedicated Starter:</td>
+                            <td data-value="Memory">AMD Ryzen 5600X Processor</td>
+                            <td data-value="CPU Power"><span>CPU: <span class="cpu-core">Ryzen 5600X 6x3.70GHz</span></span></td>
+                            <td data-value="Storage">64GB DDR4 Memory</td>
                             <td data-value="Geekbench Score">
                                 <div class="score-bar-wrap">
-                                    <span class="geekbench-score">3513</span>
+                                    <span class="geekbench-score">512GB NVMe Hard Drive</span>
                                     <div class="progress w-100 score-bar-item">
                                         <div class="progress-bar primary-bg" role="progressbar" style="width: 30%;" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">30%
                                         </div>
                                     </div>
                                 </div>
                             </td>
-                            <td data-value="Bandwidth">1000GB</td>
+                            <td data-value="Bandwidth">DDoS Protection included</td>
                             <td data-value="Price">
                                 <p>
-                                    <span class="rate">৳13,450<span>/month</span></span><br>
-                                  <span>Dedicated Starter</span>
-                                    <span class="pricing-onsale">On sale - <span class="badge color-3 color-3-bg">Save 25%</span></span>
+                                    <span class="rate">৳14390<span>/month</span></span><br>
+                                  <span>Delivered in: 72h</span>
+                                    <span class="pricing-onsale">On sale - <span class="badge color-3 color-3-bg"></span></span>
                                 </p>
                             </td>
                             <td>
@@ -97,24 +97,24 @@ export default {
                             </td>
                         </tr>
                         <tr class="vps-pricing-row border-red-themes">
-                            <td data-value="VCPU">2 vCPU</td>
-                            <td data-value="Memory">4GB</td>
-                            <td data-value="CPU Power"><span>4.8GHz<span class="cpu-core">2 cores</span></span></td>
-                            <td data-value="Storage">40GB</td>
+                            <td data-value="VCPU">Dedicated  Standard:</td>
+                            <td data-value="Memory">AMD Ryzen 5800X Processor</td>
+                            <td data-value="CPU Power"><span>CPU: <span class="cpu-core">Ryzen 5800X 8x3.80GHz</span></span></td>
+                            <td data-value="Storage">Ryzen 5800X 8x3.80GHz</td>
                             <td data-value="Geekbench Score">
                                 <div class="score-bar-wrap">
-                                    <span class="geekbench-score">5363</span>
+                                    <span class="geekbench-score">1TB Hard Drive</span>
                                     <div class="progress w-100 score-bar-item">
                                         <div class="progress-bar primary-bg" role="progressbar" style="width: 40%;" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100">40%
                                         </div>
                                     </div>
                                 </div>
                             </td>
-                            <td data-value="Bandwidth">2000GB</td>
+                            <td data-value="Bandwidth">DDoS Protection included</td>
                             <td data-value="Price">
                                 <p>
-                                    <span class="rate">৳15,350<span>/month</span></span><br>
-                                    <span>Dedicated Standard</span>
+                                    <span class="rate">৳20390 tk<span>/month</span></span><br>
+                                    <span>Delivered in: 72h</span>
                                     <span class="pricing-onsale">On sale - <span class="badge color-1 color-1-bg">Save 50%</span></span>
                                 </p>
                             </td>
@@ -123,26 +123,26 @@ export default {
                             </td>
                         </tr>
                         <tr class="vps-pricing-row border-orange-themes">
-                            <td data-value="VCPU">3 vCPU</td>
-                            <td data-value="Memory">6GB</td>
-                            <td data-value="CPU Power"><span>7.2GHz<span class="cpu-core">3 cores</span></span></td>
-                            <td data-value="Storage">60GB</td>
+                            <td data-value="VCPU">Dedicated  Silver :</td>
+                            <td data-value="Memory">AMD Ryzen 5900X Processor</td>
+                            <td data-value="CPU Power"><span>CPU: <span class="cpu-core">Ryzen 5900X 12x3.70GHz</span></span></td>
+                            <td data-value="Storage">128GB DDR4 Memory</td>
                             <td data-value="Geekbench Score">
                                 <div class="score-bar-wrap">
-                                    <span class="geekbench-score">7545</span>
+                                    <span class="geekbench-score">2TB Hard Drive</span>
                                     <div class="progress w-100 score-bar-item">
-                                        <div class="progress-bar primary-bg" role="progressbar" style="width: 60%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">60%
+                                        <div class="progress-bar primary-bg" role="progressbar" style="width: 60%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">%
                                         </div>
                                     </div>
                                 </div>
                             </td>
-                            <td data-value="Bandwidth">3000GB</td>
+                            <td data-value="Bandwidth">DDoS Protection included</td>
                             <td data-value="Price">
                                 <p>
-                                    <span class="rate">৳17,350<span>/month</span></span><br>
+                                    <span class="rate">৳26590<span>/month</span></span><br>
                                     <span>Dedicated Silver</span>
                                     <span class="pricing-onsale">On sale -
-                                       <span class="badge color-3 color-3-bg">Save 10%</span></span>
+                                       <span class="badge color-3 color-3-bg">Save %</span></span>
                                 </p>
                             </td>
                             <td>
@@ -150,25 +150,25 @@ export default {
                             </td>
                         </tr>
                         <tr class="vps-pricing-row border-yellow-themes">
-                            <td data-value="VCPU">4 vCPU</td>
-                            <td data-value="Memory">8GB</td>
-                            <td data-value="CPU Power"><span>9.6GHz<span class="cpu-core">4 cores</span></span></td>
-                            <td data-value="Storage">80GB</td>
+                            <td data-value="VCPU">Dedicated  Gold :</td>
+                            <td data-value="Memory">AMD Ryzen 5950X Processor</td>
+                            <td data-value="CPU Power"><span>CPU: <span class="cpu-core">Ryzen 5950X 16x3.40GHz</span></span></td>
+                            <td data-value="Storage">128GB DDR4 Memory</td>
                             <td data-value="Geekbench Score">
                                 <div class="score-bar-wrap">
-                                    <span class="geekbench-score">8953</span>
+                                    <span class="geekbench-score">2TB Hard Drive</span>
                                     <div class="progress w-100 score-bar-item">
-                                        <div class="progress-bar primary-bg" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%
+                                        <div class="progress-bar primary-bg" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">%
                                         </div>
                                     </div>
                                 </div>
                             </td>
-                            <td data-value="Bandwidth">4000GB</td>
+                            <td data-value="Bandwidth">DDoS Protection included</td>
                             <td data-value="Price">
-                                <p><span class="rate">৳23,350<span>/month</span></span><br>
-                                  <span>Dedicated Gold</span>
+                                <p><span class="rate">৳32390<span>/month</span></span><br>
+                                  <span>Delivered in: 72h</span>
                                 <span class="pricing-onsale">On sale - 
-                                <span class="badge color-3 color-3-bg">Save 30%</span></span></p>
+                                <span class="badge color-3 color-3-bg">Save %</span></span></p>
                             </td>
                             <td>
                                 <a href="https://account.hostservice.com.bd/index.php?rp=/store/dedicated-server/dedicated-silver" class="btn primary-solid-btn">Order Now</a>
@@ -667,10 +667,7 @@ export default {
 
 <style>
 
-.da-img{
-  margin-top: 100px !important;
-  height: 500px !important;
-}
+
 .titl{
   margin-top: 120px !important;
 
@@ -686,7 +683,7 @@ export default {
 }
 
 .backgb{
-  background-image: url("@/assets/img/k1.webp");
+  background-image: url("@/assets/img/a7.webp");
 }
 .backgm{
   background-image: url("@/assets/img/z2.webp");

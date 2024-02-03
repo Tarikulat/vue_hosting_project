@@ -4,7 +4,7 @@
 
 <template>
  <!--page header section start-->
- <section class="page-header-section ptb-100 backge gradient-overly-right">
+ <section class="page-header-section ptb-100 backge imb gradient-overly-right">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-md-7 col-lg-6">
@@ -497,7 +497,7 @@
 
 <style>
 .backge{
-    background-image: url("@/assets/img/z2.webp");
+    background-image: url("@/assets/img/a9.webp");
   }
   .packgr{
     background-image: url("@/assets/img/z2.webp");

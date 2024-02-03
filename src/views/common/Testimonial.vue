@@ -10,7 +10,7 @@
                 <div class="row justify-content-center">
                     <div class="col-md-9 col-lg-8">
                         <div class="section-heading text-center mb-5">
-                            <h2>Our Customers' Success Stories</h2>
+                            <h2 class="cl-b">Our Customers' Success Stories</h2>
                             <p class="lead">Hearing about the positive experiences customers have with our service makes our day. We deeply care about helping businesses succeed online.</p>
                         </div>
                     </div>
@@ -93,7 +93,7 @@
                    <div class="row">
                        <div class="col-md-9 col-lg-8">
                            <div class="section-heading mb-5">
-                               <h2>Frequently Asked Questions</h2>
+                               <h2 class="cl-b">Frequently Asked Questions</h2>
                                <p>We understand that hosting stuff can seem complicated. So please, ask us anything! We're happy to explain and help you on your journey to getting online.</p>
                            </div>
                        </div>

@@ -29,11 +29,11 @@ import { Service, Testimonial } from '@/views/common'
                             </form>
                             <div class="domain-list-wrap res mt-4">
                                 <ul class="list-inline domain-search-list text-white">
-                                    <li class="list-inline-item"><a href="#"><img src="@/assets/img/lg1.png" alt="com" width="75" class="img-fluid" /> <span>৳ 1,250</span></a></li>
-                                    <li class="list-inline-item"><a href="#"><img src="@/assets/img/lg2.png" alt="com" width="75" class="img-fluid" /> <span>৳ 1,550</span></a></li>
-                                    <li class="list-inline-item"><a href="#"><img src="@/assets/img/lg3.png" alt="com" width="75" class="img-fluid" /> <span>৳ 1,499</span></a></li>
-                                    <li class="list-inline-item"><a href="#"><img src="@/assets/img/lg5.png" alt="com" width="75" class="img-fluid" /> <span>৳8,99</span></a></li>
-                                    <li class="list-inline-item"><a href="#"><img src="@/assets/img/lg4.png" alt="com" width="75" class="img-fluid" /> <span>৳6,99</span></a></li>
+                                    <li class="list-inline-item"><a href="#"><img src="@/assets/img/lg1.png" alt="com" width="75" class="img-fluid" /> <span>৳ 1299</span></a></li>
+                                    <li class="list-inline-item"><a href="#"><img src="@/assets/img/lg2.png" alt="com" width="75" class="img-fluid" /> <span>৳ 1550</span></a></li>
+                                    <li class="list-inline-item"><a href="#"><img src="@/assets/img/lg3.png" alt="com" width="75" class="img-fluid" /> <span>৳ 1499</span></a></li>
+                                    <li class="list-inline-item"><a href="#"><img src="@/assets/img/lg4.png" alt="com" width="75" class="img-fluid" /> <span>৳ 1499</span></a></li>
+                                    <li class="list-inline-item"><a href="#"><img src="@/assets/img/lg4.png" alt="com" width="75" class="img-fluid" /> <span>৳ 699</span></a></li>
                                     
                                 </ul>
                             </div>
@@ -65,21 +65,57 @@ import { Service, Testimonial } from '@/views/common'
                                     <div class="single-domain">
                                         <img src="@/assets/img/s5.png" alt="domain" class="img-fluid" />
                                         <div class="domain-price">
-                                            <h6 class="sell-price">৳ 1,250 <span
+                                            <h6 class="sell-price">৳ 1299 <span
                                                     class="badge badge-danger text-uppercase">Sell</span></h6>
-                                            <span class="old-price">৳1,350</span>
+                                            <span class="old-price">৳1350</span>
                                         </div>
                                     </div>
                                 </a>
                             </li>
                             <li class="list-inline-item white-bg custom-shadow">
+                                    <a href="#">
+                                        <div class="single-domain">
+                                            <img src="@/assets/img/s3.png" alt="domain" class="img-fluid" />
+                                            <div class="domain-price">
+                                                <h6 class="sell-price">৳ 1550<span
+                                                        class="badge badge-danger text-uppercase">Sell</span></h6>
+                                                <span class="old-price">৳1650</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                 <li class="list-inline-item white-bg custom-shadow">
+                                    <a href="#">
+                                        <div class="single-domain">
+                                            <img src="@/assets/img/xyz.png" alt="domain" class="img-fluid" />
+                                            <div class="domain-price">
+                                                <h6 class="sell-price">৳ 350 <span
+                                                        class="badge badge-danger text-uppercase">Sell</span></h6>
+                                                <span class="old-price">৳450</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item white-bg custom-shadow">
+                                    <a href="#">
+                                        <div class="single-domain">
+                                            <img src="@/assets/img/info1.png" alt="domain" class="img-fluid" />
+                                            <div class="domain-price">
+                                                <h6 class="sell-price">৳ 799 <span
+                                                        class="badge badge-danger text-uppercase">Sell</span></h6>
+                                                <span class="old-price">৳899</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                            <li class="list-inline-item white-bg custom-shadow">
                                 <a href="#">
                                     <div class="single-domain">
                                         <img src="@/assets/img/s2.png" alt="domain" class="img-fluid" />
                                         <div class="domain-price">
-                                            <h6 class="sell-price">৳ 1,499 <span
+                                            <h6 class="sell-price">৳ 1499 <span
                                                     class="badge badge-danger text-uppercase">Sell</span></h6>
-                                            <span class="old-price">৳ 1,599</span>
+                                            <span class="old-price">৳1599</span>
                                         </div>
                                     </div>
                                 </a>
@@ -89,50 +125,13 @@ import { Service, Testimonial } from '@/views/common'
                                     <div class="single-domain">
                                         <img src="@/assets/img/biz.png" alt="domain" class="img-fluid" />
                                         <div class="domain-price">
-                                            <h6 class="sell-price">৳ 1,499 <span
+                                            <h6 class="sell-price">৳ 1499 <span
                                                     class="badge badge-danger text-uppercase">Sell</span></h6>
-                                            <span class="old-price">৳1,599</span>
+                                            <span class="old-price">৳1599</span>
                                         </div>
                                     </div>
                                 </a>
                             </li>
-                            <li class="list-inline-item white-bg custom-shadow">
-                                <a href="#">
-                                    <div class="single-domain">
-                                        <img src="@/assets/img/xyz.png" alt="domain" class="img-fluid" />
-                                        <div class="domain-price">
-                                            <h6 class="sell-price">৳ 3,50 <span
-                                                    class="badge badge-danger text-uppercase">Sell</span></h6>
-                                            <span class="old-price">৳4,50</span>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                            <li class="list-inline-item white-bg custom-shadow">
-                                <a href="#">
-                                    <div class="single-domain">
-                                        <img src="@/assets/img/info1.png" alt="domain" class="img-fluid" />
-                                        <div class="domain-price">
-                                            <h6 class="sell-price">৳ 7,99 <span
-                                                    class="badge badge-danger text-uppercase">Sell</span></h6>
-                                            <span class="old-price">৳8,99</span>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                            <li class="list-inline-item white-bg custom-shadow">
-                                <a href="#">
-                                    <div class="single-domain">
-                                        <img src="@/assets/img/s3.png" alt="domain" class="img-fluid" />
-                                        <div class="domain-price">
-                                            <h6 class="sell-price">৳ 1,550<span
-                                                    class="badge badge-danger text-uppercase">Sell</span></h6>
-                                            <span class="old-price">৳1,650</span>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                           
                         </ul>
                     </div>
                 </div>

@@ -9,7 +9,7 @@
                 <div class="row justify-content-center">
                     <div class="col-md-9 col-lg-8">
                         <div class="section-heading text-center mb-5 mb-sm-5 mb-md-3 mb-lg-3">
-                            <h2 class="med-h">We Have a Hosting Plan That Fits Your Needs</h2>
+                            <h2 class="med-h cl-b">We Have a Hosting Plan That Fits Your Needs</h2>
                             <p class=" med-w">Our scalable hosting solutions grow alongside your success..</p>
                         </div>
                     </div>
@@ -113,7 +113,7 @@
                 <div class="row justify-content-center">
                     <div class="col-md-9 col-lg-8">
                         <div class="section-heading text-center mb-sm-5 mb-md-0 mb-lg-0">
-                            <h2>Our Technical Solutions</h2>
+                            <h2 class="cl-b">Our Technical Solutions</h2>
                             <p class="lead">We'll match your needs to the perfect hosting solution for a new site or established business, small operation or large.</p>
                         </div>
                     </div>
@@ -195,8 +195,7 @@
                                 <li class="py-1"><span class="ti-control-forward mr-2 color-primary"></span>Caching and content delivery network</li>
                                 <li class="py-1"><span class="ti-control-forward mr-2 color-primary"></span>Extra security protection available</li>
                                 <li class="py-1"><span class="ti-control-forward mr-2 color-primary"></span>Customizable server configuration</li>
-                                <li class="py-1"><span class="ti-control-forward mr-2 color-primary"></span>Website Transfer, Domain Transfer</li>
-                                <li class="py-1"><span class="ti-control-forward mr-2 color-primary"></span>Website Transfer, Domain Transfer</li>
+                                
                             </ul>
                         </div>
                     </div>

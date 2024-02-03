@@ -103,10 +103,10 @@ onMounted(()=> {
       <div class="row justify-content-center head">
           <div class="col-md-12 col-lg-7">
               <div class="section-heading  text-center mb-5">
-                  <h1 class="re-sell">Choose the package you need</h1>
-                  <p class="lead">
-                      use this code for 25% discount on yearly payment | YEARLY25
-                  </p>
+                  <h1 class="re-sell">Reseller Hosting Plan:</h1>
+                   <p class="lead">
+                     6 month purchase 10% discount - hostgift6m
+                    <br> 1year purchase 25% discount - hostgift1yr</p>
               </div>
           </div>
           <div class="col-10 col-sm-8 col-md-7">
@@ -172,28 +172,30 @@ onMounted(()=> {
      <div class="card text-center align-items-center single-pricing-pack">
        <div class="pt-5">
            <h5 class="mb-0">Cloud Starter</h5>
-           <p class="mb-0">Starter</p>
+           <p class="mb-0">Reseller Starter:</p>
          </div>
           <div class="card-header pb-4 border-0 pricing-header">
               <div class="price text-center mb-0 monthly-price">৳ {{ monthly }}<span>/-BDT Only.</span></div>
           </div>
      <div class="card-body">
          <ul class="list-unstyled mb-4 pricing-feature-list">
-             <li > 20 GB SSD Storage</li>
-             <li > Unlimited Bandwidth</li>
-             <li > Unlimited Website</li>
-             <li > Free SSL Certificate</li>
-             <li > 2x7 Days Backup</li>
-             <li > 2 Core CPU</li>
-             <li > 4 GB Physical Memory</li>
-             <li > 1 GB Virtual Memory</li>
-             <li > I/O Speed 50 MBs</li>
-             <li > IOPS 1024</li>
-             <li > Entry Process 50</li>
-             <li > Number of Process 130</li>
-             <li > LiteSpeed with LSCache</li>
-             <li > cPanel Control Panel</li>
-             <li > 24/7 Regular Support</li>
+             <li > 50 GB NVMe Disk Space</li>
+             <li > 1 TB Bandwidth Monthly</li>
+             <li > 20 cPanel Accounts</li>
+             <li > WHM Accounts</li>
+             <li > Free SSL certificates</li>
+             <li > Private Nameserver</li>
+             <li > White-label Server</li>
+             <li > 1 Core (up to 4.9 GHz) per cP</li>
+             <li > 1 GB RAM (DDR4) Per cP</li>
+             <li > I/O 20 MBs Per cP</li>
+             <li > 20 Entry Process Per cP</li>
+             <li > 100 Number of Process Per cP</li>
+             <li > Cloud Linux</li>
+             <li > LiteSpeed</li>
+             <li > imunify360</li>
+             <li > Jetbackup</li>
+             <li > 99.9% Uptime</li>
          </ul>
          <a href="https://account.hostservice.com.bd/index.php?rp=/store/shared-hosting/starter" class="btn outline-btn mb-3" target="_blank">Purchase now</a>
        </div>
@@ -210,28 +212,30 @@ onMounted(()=> {
      <div class="card text-center align-items-center single-pricing-pack">
        <div class="pt-5">
            <h5 class="mb-0">Cloud Starter</h5>
-           <p class="mb-0">Standard</p>
+           <p class="mb-0">Reseller Standard:</p>
          </div>
           <div class="card-header pb-4 border-0 pricing-header">
               <div class="price text-center mb-0 monthly-price">৳ {{theryMonth}}<span>/-BDT Only.</span></div>
           </div>
      <div class="card-body">
          <ul class="list-unstyled mb-4 pricing-feature-list">
-            <li > 40 GB NVMe Storage</li>
-            <li > Unlimited Bandwidth</li>
-            <li > Unlimited Website</li>
-            <li > Free SSL Certificate</li>
-            <li > 2x7 Days Backup</li>
-            <li > 3 Core CPU</li>
-            <li > 6 GB Physical Memory</li>
-            <li > 2 GB Virtual Memory</li>
-            <li > I/O Speed 100 MBs</li>
-            <li > IOPS 2000</li>
-            <li > Entry Process 50</li>
-            <li > Number of Process 150</li>
-            <li > LiteSpeed with LSCache</li>
-            <li > cPanel Control Panel</li>
-            <li > 24/7 Regular Support</li>
+                 <li > 100 GB NVMe Disk Space</li>
+                 <li > 2 TB Bandwidth Monthly</li>
+                 <li > 45 cPanel Accounts</li>
+                 <li > WHM Accounts</li>
+                 <li > Free SSL certificates</li>
+                 <li > Private Nameserver</li>
+                 <li > White-label Server</li>
+                 <li > 1 Core (up to 4.9 GHz) per cP</li>
+                 <li > 1 GB RAM (DDR4) Per cP</li>
+                 <li > I/O 20 MBs Per cP</li>
+                 <li > 20 Entry Process Per cP</li>
+                 <li > 100 Number of Process Per cP</li>
+                 <li > Cloud Linux</li>
+                 <li > LiteSpeed</li>
+                 <li > imunify360</li>
+                 <li > Jetbackup</li>
+                 <li > 99.9% Uptime</li>
          </ul>
          <a href="https://account.hostservice.com.bd/index.php?rp=/store/shared-hosting/standard" class="btn outline-btn mb-3" target="_blank">Purchase now</a>
        </div>
@@ -248,28 +252,30 @@ onMounted(()=> {
      <div class="card text-center align-items-center single-pricing-pack">
        <div class="pt-5">
            <h5 class="mb-0">Cloud Starter</h5>
-           <p class="mb-0">Silver</p>
+           <p class="mb-0">Reseller Silver :</p>
          </div>
           <div class="card-header pb-4 border-0 pricing-header">
               <div class="price text-center mb-0 monthly-price">৳ {{halfYear}}<span>/-BDT Only.</span></div>
           </div>
      <div class="card-body">
          <ul class="list-unstyled mb-4 pricing-feature-list">
-                        <li > 60 GB NVMe Storage</li>
-                        <li > Unlimited Bandwidth</li>
-                        <li > Unlimited Website</li>
-                        <li > Free SSL Certificate</li>
-                        <li > 2x7 Days Backup</li>
-                        <li > 4 Core CPU</li>
-                        <li > 8 GB Physical Memory</li>
-                        <li > 2 GB Virtual Memory</li>
-                        <li > I/O Speed 150 MBs</li>
-                        <li > IOPS 2500</li>
-                        <li > Entry Process 80</li>
-                        <li > Number of Process 180</li>
-                        <li > LiteSpeed with LSCache</li>
-                        <li > cPanel Control Panel</li>
-                        <li > 24/7 Regular Support</li>
+                     <li > 200 GB NVMe Disk Space</li>
+                     <li > 3 TB Bandwidth Monthly</li>
+                     <li > 90 cPanel Accounts</li>
+                     <li > WHM Accounts</li>
+                     <li > Free SSL certificates</li>
+                     <li > Private Nameserver</li>
+                     <li > White-label Server</li>
+                     <li > 1 Core (up to 4.9 GHz) per cP</li>
+                     <li > 1 GB RAM (DDR4) Per cP</li>
+                     <li > I/O 20 MBs Per cP</li>
+                     <li > 30 Entry Process Per cP</li>
+                     <li > 120 Number of Process Per cP</li>
+                     <li > Cloud Linux</li>
+                     <li > LiteSpeed</li>
+                     <li > imunify360</li>
+                     <li > Jetbackup</li>
+                     <li > 99.9% Uptime</li>
          </ul>
          <a href="https://account.hostservice.com.bd/index.php?rp=/store/shared-hosting/silver" class="btn outline-btn mb-3" target="_blank">Purchase now</a>
        </div>
@@ -286,28 +292,30 @@ onMounted(()=> {
      <div class="card text-center align-items-center single-pricing-pack">
        <div class="pt-5">
            <h5 class="mb-0">Cloud Starter</h5>
-           <p class="mb-0">Gold</p>
+           <p class="mb-0">Reseller Gold :</p>
          </div>
           <div class="card-header pb-4 border-0 pricing-header">
               <div class="price text-center mb-0 monthly-price">৳ {{yearly}}<span>/-BDT Only.</span></div>
           </div>
      <div class="card-body">
          <ul class="list-unstyled mb-4 pricing-feature-list">
-            <li > 80 GB SSD Storage</li>
-            <li > Unlimited Bandwidth</li>
-            <li > Unlimited Website</li>
-            <li > Free SSL Certificate</li>
-            <li > 2x7 Days Backup</li>
-            <li > 5 Core CPU</li>
-            <li > 10 GB Physical Memory</li>
-            <li > 2 GB Virtual Memory</li>
-            <li > I/O Speed 200 MBs</li>
-            <li > IOPS 3000</li>
-            <li > Entry Process 100</li>
-            <li > Number of Process 200</li>
-            <li > LiteSpeed with LSCache</li>
-            <li > cPanel Control Panel</li>
-            <li > 24/7 Regular Support</li>
+                         <li > 300 GB NVMe Disk Space</li>
+                         <li > Unlimited Bandwidth</li>
+                         <li > 120 cPanel Accounts</li>
+                         <li > 3 WHM Accounts</li>
+                         <li > Free SSL certificates</li>
+                         <li > Private Nameserver</li>
+                         <li > White-label Server</li>
+                         <li > 1 Core (up to 4.9 GHz) per cP</li>
+                         <li > 2 GB RAM (DDR4) Per cP</li>
+                         <li > I/O 20 MBs Per cP</li>
+                         <li > 30 Entry Process Per cP</li>
+                         <li > 120 Number of Process Per cP</li>
+                         <li > Cloud Linux</li>
+                         <li > LiteSpeed</li>
+                         <li > imunify360</li>
+                         <li > Jetbackup</li>
+                         <li > 99.9% Uptime</li>
          </ul>
          <a href="https://account.hostservice.com.bd/index.php?rp=/store/shared-hosting/gold" class="btn outline-btn mb-3" target="_blank">Purchase now</a>
        </div>
