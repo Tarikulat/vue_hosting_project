@@ -206,7 +206,7 @@ const isOpenModal = () =>{
         </div>
         <div id="myModal" class="searchDomainModal" :class="{ 'is-open': isOpen == true, 'is-close': isOpen == false }"  >
             <div class="d-flex justify-content-center align-items-center">
-                <div class="modal-content" style="width:1050px; margin-top:100px; height: 500px;">
+                <div class="modal-content serar-b ">
                     <span class="close" @click.prevent="isOpenModal"  id="closeModalBtn" >&times;</span> 
                     <div class="domain-search-cta-type ptb-100" style="background: url('@/assets/img/map-bg.png')no-repeat center center">
                         <div class="container">
@@ -233,15 +233,15 @@ const isOpenModal = () =>{
                                     
                                                 <div class="domain-list-wrap mt-4">
                                                     <ul class="list-inline domain-search-list">
-                                                        <li class="list-inline-item"><a href="#"><img src="@/assets/img/s5.png" alt="com" width="70" class="img-fluid" /> <span>৳ 1,250</span></a>
+                                                        <li class="list-inline-item"><a href="#"><img src="@/assets/img/s5.png" alt="com" width="70" class="img-fluid" /> <span>৳ 1250</span></a>
                                                         </li>
-                                                        <li class="list-inline-item"><a href="#"><img src="@/assets/img/s2.png" alt="com" width="70" class="img-fluid" /> <span>৳ 1,499</span></a>
+                                                        <li class="list-inline-item"><a href="#"><img src="@/assets/img/s2.png" alt="com" width="70" class="img-fluid" /> <span>৳ 1499</span></a>
                                                         </li>
-                                                        <li class="list-inline-item"><a href="#"><img src="@/assets/img/s3.png" alt="com" width="70" class="img-fluid" /> <span>৳ 1,550</span></a>
+                                                        <li class="list-inline-item"><a href="#"><img src="@/assets/img/s3.png" alt="com" width="70" class="img-fluid" /> <span>৳ 1550</span></a>
                                                         </li>
-                                                        <li class="list-inline-item"><a href="#"><img src="@/assets/img/biz.png" alt="com" width="70" class="img-fluid" /> <span>৳ 1,499</span></a>
+                                                        <li class="list-inline-item"><a href="#"><img src="@/assets/img/biz.png" alt="com" width="70" class="img-fluid" /> <span>৳ 1499</span></a>
                                                         </li>
-                                                        <li class="list-inline-item"><a href="#"><img src="@/assets/img/info1.png" alt="com" width="70" class="img-fluid" /> <span>৳ 7,99</span></a>
+                                                        <li class="list-inline-item"><a href="#"><img src="@/assets/img/info1.png" alt="com" width="70" class="img-fluid" /> <span>৳ 799</span></a>
                                                         </li>
                                                     </ul>
                                                 </div>

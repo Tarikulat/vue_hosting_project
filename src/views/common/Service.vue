@@ -25,8 +25,8 @@
                                   designed to convert visitors.</p>
                             </div>
                              <div class="cart-home">
-                                 <h4><small>Starting at </small>৳12,00</h4>
-                                 <a href="landing-page" class="btn outline-btn mb-3 cart-btn"><span class="elementor-button-content-wrapper"><span class="elementor-button-text">Order Now</span></span></a>
+                                 <h4><small class="cl-b">Starting at </small>৳750</h4>
+                                 <a href="https://account.hostservice.com.bd/index.php?rp=/store/shared-hosting" class="btn outline-btn mb-3 cart-btn"><span class="elementor-button-content-wrapper"><span class="elementor-button-text">Order Now</span></span></a>
                              </div>
                         </div>
                     </div>
@@ -39,8 +39,8 @@
                                     and small business sites. Scale up as your traffic grows.  </p>
                             </div>
                             <div class="cart-home">
-                            <h4><small>Starting at </small>৳15,00</h4>
-                                <a href="share-hosting" class="elementor-button-link elementor-button elementor-size-sm"
+                            <h4><small class="cl-b">Starting at </small>৳1500</h4>
+                                <a href="https://account.hostservice.com.bd/index.php?rp=/store/website-shared-hosting" class="elementor-button-link elementor-button elementor-size-sm"
                                  role="button"><span class="btn outline-btn mb-3 cart-btn"><span class="elementor-button-text">Order Now</span></span></a>
                                  </div>
                         </div>
@@ -53,8 +53,8 @@
                                 <p>Powerful e-commerce hosting is optimized for security, performance, and high sales conversion.</p>
                             </div>
                             <div class="cart-home">
-                            <h4><small>Starting at </small>$11,00</h4>
-                                <a href="ecommerce-hosting" class="elementor-button-link elementor-button elementor-size-sm"
+                            <h4><small class="cl-b">Starting at </small>৳1500</h4>
+                                <a href="https://account.hostservice.com.bd/index.php?rp=/store/ecommerce-hosting" class="elementor-button-link elementor-button elementor-size-sm"
                                  role="button"><span class="btn outline-btn mb-3 cart-btn"><span class="elementor-button-text">Order Now</span></span></a>
                                  </div>
                         </div>
@@ -67,8 +67,8 @@
                                 <p>Increased speed and resources with our virtual private servers are perfect for developers and rising companies.</p>
                             </div>
                             <div class="cart-home">
-                            <h4><small>Starting at </small>৳17,00</h4>
-                                <a href="vps-server" class="elementor-button-link elementor-button elementor-size-sm"
+                            <h4><small class="cl-b">Starting at </small>৳3190</h4>
+                                <a href="https://account.hostservice.com.bd/index.php?rp=/store/vps-server" class="elementor-button-link elementor-button elementor-size-sm"
                                  role="button"><span class="btn outline-btn mb-3 cart-btn"><span class="elementor-button-text">Order Now</span></span></a>
                                  </div>
                         </div>
@@ -81,8 +81,8 @@
                                 <p>Manage your site on your own dedicated server for maximum control, traffic capacity, and security.</p>
                             </div>
                             <div class="cart-home">
-                            <h4><small>Starting at </small>৳10,00</h4>
-                                <a href="dadicated-server" class="elementor-button-link elementor-button elementor-size-sm"
+                            <h4><small class="cl-b">Starting at </small>৳14390</h4>
+                                <a href="https://account.hostservice.com.bd/index.php?rp=/store/dedicated-server" class="elementor-button-link elementor-button elementor-size-sm"
                                  role="button"><span class="btn outline-btn mb-3 cart-btn"><span class="elementor-button-text">Order Now</span></span></a>
                                  </div>
                         </div>
@@ -96,7 +96,7 @@
                                 <p>White-label hosting plans to sell hosting under your brand.</p>
                             </div>
                             <div class="cart-home">
-                            <h4><small>Starting at </small>৳18,00</h4>
+                            <h4><small class="cl-b">Starting at </small>৳1800</h4>
                                 <a href="reseller-hosting" class="elementor-button-link elementor-button elementor-size-sm"
                                  role="button"><span class="btn outline-btn mb-3 cart-btn"><span class="elementor-button-text">Order Now</span></span></a>
                                  </div>
@@ -210,7 +210,7 @@
 <style>
 @media (min-width: 320px) and (max-width: 962px) {
     .respons {
-      padding: 50px 0;
+      padding: 54px 0;
 
     }
   }

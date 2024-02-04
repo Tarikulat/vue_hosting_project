@@ -14,29 +14,23 @@ const theryMonth  = ref();
 const halfYear    = ref();
 const yearly      = ref();
 
-const monthlyPrice = () =>{
-  monthly.value     = '1,500';
-  theryMonth.value  = '2,500';
-  halfYear.value    = '3,500';
-  yearly.value      = '4,500';
-}
 const threeMonthPrice = () =>{
-  monthly.value     = '4,500';
-  theryMonth.value  = '7,500';
-  halfYear.value    = '10,500';
-  yearly.value      = '13,500';
+  monthly.value     = '1500';
+  theryMonth.value  = '2,750';
+  halfYear.value    = '3,850';
+  yearly.value      = '5,000';
 }
 const halfYearPrice = () =>{
-  monthly.value     = '9,000';
-  theryMonth.value  = '15,00';
-  halfYear.value    = '21,000';
-  yearly.value      = '39,000';
+  monthly.value     = '3000';
+  theryMonth.value  = '5500';
+  halfYear.value    = '7700';
+  yearly.value      = '10000';
 }
 const yearPrice = () =>{
-  monthly.value     = '14,500';
-  theryMonth.value  = '28,000';
-  halfYear.value    = '39,000';
-  yearly.value      = '50,000';
+  monthly.value     = '6000';
+  theryMonth.value  = '11000';
+  halfYear.value    = '15400';
+  yearly.value      = '20000';
 }
 
 onMounted(()=> {
@@ -66,10 +60,15 @@ onMounted(()=> {
                     </div>
                 </div>
                 <div class="col-md-5 col-lg-4">
-                    <div >
+                    <!-- <div >
                         <label><img src="@/assets/img/host5.webp" class="body-landing img-sec" alt="ser"></label>
-                    </div>
+                    </div> -->
+                     <div class="hover15 column">
+                         <div>
+                         <figure><img src="@/assets/img/host5.webp" class="body-landing img-sec" /></figure>
                 </div>
+                </div>
+                        </div>
             </div>
         </div>
        
@@ -90,10 +89,6 @@ onMounted(()=> {
       
                   <div class="text-center mb-2 radio-box-wrap billingCycle">
       
-                      <div class="single-radio-box" @click="monthlyPrice">
-                          <input name="billingPlan" id="monthly-plan" value="monthly" class="radio" type="radio" checked>
-                          <label for="monthly-plan"><span class="custom-check"></span>1 Month</label>
-                      </div>
                       <div class="single-radio-box" @click="threeMonthPrice">
                           <input name="billingPlan" id="yearly-plan" value="yearly" class="radio" type="radio">
                           <label for="yearly-plan"><span class="custom-check"></span>3 Month</label>
@@ -483,7 +478,7 @@ onMounted(()=> {
         </div>
     </div>
   </div>
-</section> <br> <br>
+</section>
 
 <!--promo-section feature section start-->
 <section class="promo-feature ptb-100 backgr gradient-overlay">
@@ -766,7 +761,7 @@ onMounted(()=> {
                     </ul>
                     <div class="ratting-content">
                         <h5>Awesome Design Quality with Support</h5>
-                        <p>Objectively envisioneer magnetic manufactured products and dynamic models maximize 2.0 relationships whereas methodologies.</p>
+                        <p>Objectively magnetic manufactured products and dynamic models maximize 2.0 relationships whereas methodologies.</p>
                     </div>
                     <div class="ratting-author mt-3">
                         <h6>Peter Anderson</h6>

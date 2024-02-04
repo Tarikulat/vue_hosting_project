@@ -305,6 +305,7 @@ onMounted(()=> {
                          <li > 2 GB Virtual Memory</li>
                          <li > 200 MBs I/O Speed</li>
                          <li > 3000 IOPS </li>
+                         <li > 100 Entry Process</li>
                          <li > 200 Number of Process</li>
                          <li > LiteSpeed with LSCache</li>
                          <li > cPanel Control Panel</li>
@@ -512,10 +513,10 @@ onMounted(()=> {
         </div>
     </div>
   </div>
-</section> <br> <br>
+</section> 
 
 
-<section class="promo-feature ptb-100 gray-light-bg">
+<section class="promo-feature gray-light-bg">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-9 col-lg-8">

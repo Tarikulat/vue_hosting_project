@@ -29,11 +29,11 @@ import { Service, Testimonial } from '@/views/common'
                             </form>
                             <div class="domain-list-wrap res mt-4">
                                 <ul class="list-inline domain-search-list text-white">
-                                    <li class="list-inline-item"><a href="#"><img src="@/assets/img/lg1.png" alt="com" width="75" class="img-fluid" /> <span>৳ 1299</span></a></li>
-                                    <li class="list-inline-item"><a href="#"><img src="@/assets/img/lg2.png" alt="com" width="75" class="img-fluid" /> <span>৳ 1550</span></a></li>
-                                    <li class="list-inline-item"><a href="#"><img src="@/assets/img/lg3.png" alt="com" width="75" class="img-fluid" /> <span>৳ 1499</span></a></li>
-                                    <li class="list-inline-item"><a href="#"><img src="@/assets/img/lg4.png" alt="com" width="75" class="img-fluid" /> <span>৳ 1499</span></a></li>
-                                    <li class="list-inline-item"><a href="#"><img src="@/assets/img/lg4.png" alt="com" width="75" class="img-fluid" /> <span>৳ 699</span></a></li>
+                                    <li class="list-inline-item"><a href="https://account.hostservice.com.bd/cart.php?a=add&domain=register"><img src="@/assets/img/lg1.png" alt="com" width="75" class="img-fluid" /> <span>৳ 1299</span></a></li>
+                                    <li class="list-inline-item"><a href="https://account.hostservice.com.bd/cart.php?a=add&domain=register"><img src="@/assets/img/lg2.png" alt="com" width="75" class="img-fluid" /> <span>৳ 1550</span></a></li>
+                                    <li class="list-inline-item"><a href="https://account.hostservice.com.bd/cart.php?a=add&domain=register"><img src="@/assets/img/lg3.png" alt="com" width="75" class="img-fluid" /> <span>৳ 1499</span></a></li>
+                                    <li class="list-inline-item"><a href="https://account.hostservice.com.bd/cart.php?a=add&domain=register"><img src="@/assets/img/lg4.png" alt="com" width="75" class="img-fluid" /> <span>৳ 1499</span></a></li>
+                                    <li class="list-inline-item"><a href="https://account.hostservice.com.bd/cart.php?a=add&domain=register"><img src="@/assets/img/lg4.png" alt="com" width="75" class="img-fluid" /> <span>৳ 699</span></a></li>
                                     
                                 </ul>
                             </div>
@@ -61,7 +61,7 @@ import { Service, Testimonial } from '@/views/common'
                     <div class="col-md-12 col-lg-12">
                         <ul class="list-inline cart-respons domain-list">
                             <li class="list-inline-item white-bg custom-shadow">
-                                <a href="#">
+                                <a href="https://account.hostservice.com.bd/cart.php?a=add&domain=register">
                                     <div class="single-domain">
                                         <img src="@/assets/img/s5.png" alt="domain" class="img-fluid" />
                                         <div class="domain-price">
@@ -73,7 +73,7 @@ import { Service, Testimonial } from '@/views/common'
                                 </a>
                             </li>
                             <li class="list-inline-item white-bg custom-shadow">
-                                    <a href="#">
+                                    <a href="https://account.hostservice.com.bd/cart.php?a=add&domain=register">
                                         <div class="single-domain">
                                             <img src="@/assets/img/s3.png" alt="domain" class="img-fluid" />
                                             <div class="domain-price">
@@ -97,7 +97,7 @@ import { Service, Testimonial } from '@/views/common'
                                     </a>
                                 </li>
                                 <li class="list-inline-item white-bg custom-shadow">
-                                    <a href="#">
+                                    <a href="https://account.hostservice.com.bd/cart.php?a=add&domain=register">
                                         <div class="single-domain">
                                             <img src="@/assets/img/info1.png" alt="domain" class="img-fluid" />
                                             <div class="domain-price">
@@ -109,7 +109,7 @@ import { Service, Testimonial } from '@/views/common'
                                     </a>
                                 </li>
                             <li class="list-inline-item white-bg custom-shadow">
-                                <a href="#">
+                                <a href="https://account.hostservice.com.bd/cart.php?a=add&domain=register">
                                     <div class="single-domain">
                                         <img src="@/assets/img/s2.png" alt="domain" class="img-fluid" />
                                         <div class="domain-price">
@@ -121,7 +121,7 @@ import { Service, Testimonial } from '@/views/common'
                                 </a>
                             </li>
                             <li class="list-inline-item white-bg custom-shadow">
-                                <a href="#">
+                                <a href="https://account.hostservice.com.bd/cart.php?a=add&domain=register">
                                     <div class="single-domain">
                                         <img src="@/assets/img/biz.png" alt="domain" class="img-fluid" />
                                         <div class="domain-price">

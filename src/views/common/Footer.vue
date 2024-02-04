@@ -127,8 +127,8 @@
             <div class="container">
                 <div class="row align-items-center justify-content-between">
                     <div class="col-md-5 col-lg-5">
-                        <p class="copyright-text pb-0 mb-0">Copyright © 2024 Host Service. All Rights Reserved.
-                            <a href="https://themeforest.net/user/themetags" target="_blank">Service Key</a>
+                        <p class="copyright-text pb-0 mb-0">© 2024 Service Key | Support with friendly.
+                            <!-- <a href="https://themeforest.net/user/themetags" target="_blank">Service Key</a> -->
                         </p>
                     </div>
                     <div class="col-md-7 col-lg-6">

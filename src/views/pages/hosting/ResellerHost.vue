@@ -15,28 +15,28 @@ const halfYear    = ref();
 const yearly      = ref();
 
 const monthlyPrice = () =>{
-  monthly.value     = '1,500';
-  theryMonth.value  = '2,500';
-  halfYear.value    = '3,500';
-  yearly.value      = '4,500';
+  monthly.value     = '3890';
+  theryMonth.value  = '6890';
+  halfYear.value    = '12390';
+  yearly.value      = '15490';
 }
 const threeMonthPrice = () =>{
-  monthly.value     = '4,500';
-  theryMonth.value  = '7,500';
-  halfYear.value    = '10,500';
-  yearly.value      = '13,500';
+  monthly.value     = '11670';
+  theryMonth.value  = '20670';
+  halfYear.value    = '37170';
+  yearly.value      = '46470';
 }
 const halfYearPrice = () =>{
-  monthly.value     = '9,000';
-  theryMonth.value  = '15,00';
-  halfYear.value    = '21,000';
-  yearly.value      = '39,000';
+  monthly.value     = '23340';
+  theryMonth.value  = '41340';
+  halfYear.value    = '74340';
+  yearly.value      = '92940';
 }
 const yearPrice = () =>{
-  monthly.value     = '14,500';
-  theryMonth.value  = '28,000';
-  halfYear.value    = '39,000';
-  yearly.value      = '50,000';
+  monthly.value     = '46680';
+  theryMonth.value  = '82680';
+  halfYear.value    = '148680';
+  yearly.value      = '185880';
 }
 
 onMounted(()=> {
@@ -326,7 +326,7 @@ onMounted(()=> {
   </swiper-slide>
   </swiper> 
   </div>
-  </section> <br> <br>
+  </section> <br> <br> 
 
    <!--compare provider table start (new1)-->
  <section class="compare-provider-table ptb-100 gray-light-bg">
@@ -518,10 +518,10 @@ onMounted(()=> {
         </div>
     </div>
   </div>
-</section> <br> <br>
+</section> 
 
 <!--feature section start-->
-<section class="feature-section ptb-100 gray-light-bg">
+<section class="feature-section  gray-light-bg">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-9 col-lg-8">

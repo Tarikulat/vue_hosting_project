@@ -14,29 +14,23 @@ const theryMonth  = ref();
 const halfYear    = ref();
 const yearly      = ref();
 
-const monthlyPrice = () =>{
-  monthly.value     = '750';
-  theryMonth.value  = '2,500';
-  halfYear.value    = '3,500';
-  yearly.value      = '4,500';
-}
 const threeMonthPrice = () =>{
-  monthly.value     = '4,500';
-  theryMonth.value  = '7,500';
-  halfYear.value    = '10,500';
-  yearly.value      = '13,500';
+  monthly.value     = '750';
+  theryMonth.value  = '1500';
+  halfYear.value    = '2,500';
+  yearly.value      = '3,750';
 }
 const halfYearPrice = () =>{
-  monthly.value     = '9,000';
-  theryMonth.value  = '15,00';
-  halfYear.value    = '21,000';
-  yearly.value      = '39,000';
+  monthly.value     = '1500';
+  theryMonth.value  = '3000';
+  halfYear.value    = '5000';
+  yearly.value      = '10000';
 }
 const yearPrice = () =>{
-  monthly.value     = '14,500';
-  theryMonth.value  = '28,000';
-  halfYear.value    = '39,000';
-  yearly.value      = '50,000';
+  monthly.value     = '3000';
+  theryMonth.value  = '6000';
+  halfYear.value    = '10000';
+  yearly.value      = '20000';
 }
 
 onMounted(()=> {
@@ -64,11 +58,16 @@ onMounted(()=> {
                 </div>
                 <div class="col-md-5 col-lg-5" >
                   
-                  <div class="container">
-                  <div >
-                    <label><img src="@/assets/img/bh.png" class="lan img-lan body-landing" alt="ser"></label>
-                   </div>
-                  </div>
+                  
+                         <!-- <div >
+                           <label><img src="@/assets/img/bh.png" class="lan img-lan body-landing" alt="ser"></label>
+                        </div> -->
+                        <div class="hover14 column">
+                                       <div>
+                                      <figure><img src="@/assets/img/bh.png" class="lan img-lan body-landing" /></figure>
+                                     </div>
+                                       </div>
+                            
 
                 </div>
             </div>
@@ -90,10 +89,10 @@ onMounted(()=> {
         
         <div class="col-10 col-sm-8 col-md-7">
             <div class="text-center mb-2 radio-box-wrap billingCycle">
-                <div class="single-radio-box" @click="monthlyPrice">
+                <!-- <div class="single-radio-box" @click="monthlyPrice">
                     <input name="billingPlan" id="monthly-plan" value="monthly" class="radio" type="radio" checked>
                     <label for="monthly-plan"><span class="custom-check" ></span>1 Month</label>
-                </div>
+                </div> -->
                 <div class="single-radio-box" @click="threeMonthPrice">
                     <input name="billingPlan" id="yearly-plan" value="yearly" class="radio" type="radio">
                     <label for="yearly-plan"><span class="custom-check" ></span>3 Month</label>
@@ -207,7 +206,6 @@ onMounted(()=> {
           <li > LiteSpeed with LSCache</li>
           <li > cPanel Control Panel</li>
           <li > 24/7 Regular Support</li>
-          <li > cPanel Control Panel</li>
           <li > Advanced Features</li>
        </ul>
        <a href="https://account.hostservice.com.bd/index.php?rp=/store/shared-hosting/standard" class="btn outline-btn mb-3" target="_blank">Purchase now</a>
@@ -245,6 +243,7 @@ onMounted(()=> {
                       <li > LiteSpeed with LSCache</li>
                       <li > cPanel Control Panel</li>
                       <li > 24/7 Regular Support</li>
+                       <li > Advanced Features</li>
                      
        </ul>
        <a href="https://account.hostservice.com.bd/index.php?rp=/store/shared-hosting/silver" class="btn outline-btn mb-3" target="_blank">Purchase now</a>
@@ -485,10 +484,10 @@ onMounted(()=> {
         </div>
     </div>
   </div>
-</section> <br> <br>
+</section> 
 
  <!--feature section start(1add)-->
- <section class="feature-section ptb-100 gray-light-bg">
+ <section class="feature-section gray-light-bg">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-md-9 col-lg-8">
@@ -588,7 +587,7 @@ onMounted(()=> {
         </div>
       </div>
     </div>
-  </section><br>
+  </section>
   <!--feature section end-->
 
   <!--call to action new section start (add2)-->
