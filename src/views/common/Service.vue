@@ -28,7 +28,7 @@
                             </div>
                              <div class="cart-home">
                                  <h4><small class="cl-b">Starting at </small>৳750</h4>
-                                 <a href="https://account.hostservice.com.bd/index.php?rp=/store/shared-hosting" class="btn outline-btn mb-3 cart-btn"><span class="elementor-button-content-wrapper"><span class="elementor-button-text">Order Now</span></span></a>
+                                 <a href="landing-page" class="btn outline-btn mb-3 cart-btn"><span class="elementor-button-content-wrapper"><span class="elementor-button-text">Order Now</span></span></a>
                              </div>
                         </div>
                     </div>
@@ -42,7 +42,7 @@
                             </div>
                             <div class="cart-home">
                             <h4><small class="cl-b">Starting at </small>৳1500</h4>
-                                <a href="https://account.hostservice.com.bd/index.php?rp=/store/website-shared-hosting" class="elementor-button-link elementor-button elementor-size-sm"
+                                <a href="share-hosting" class="elementor-button-link elementor-button elementor-size-sm"
                                  role="button"><span class="btn outline-btn mb-3 cart-btn"><span class="elementor-button-text">Order Now</span></span></a>
                                  </div>
                         </div>
@@ -56,7 +56,7 @@
                             </div>
                             <div class="cart-home">
                             <h4><small class="cl-b">Starting at </small>৳1500</h4>
-                                <a href="https://account.hostservice.com.bd/index.php?rp=/store/ecommerce-hosting" class="elementor-button-link elementor-button elementor-size-sm"
+                                <a href="ecommerce-hosting" class="elementor-button-link elementor-button elementor-size-sm"
                                  role="button"><span class="btn outline-btn mb-3 cart-btn"><span class="elementor-button-text">Order Now</span></span></a>
                                  </div>
                         </div>
@@ -70,7 +70,7 @@
                             </div>
                             <div class="cart-home">
                             <h4><small class="cl-b">Starting at </small>৳3190</h4>
-                                <a href="https://account.hostservice.com.bd/index.php?rp=/store/vps-server" class="elementor-button-link elementor-button elementor-size-sm"
+                                <a href="vps-server" class="elementor-button-link elementor-button elementor-size-sm"
                                  role="button"><span class="btn outline-btn mb-3 cart-btn"><span class="elementor-button-text">Order Now</span></span></a>
                                  </div>
                         </div>
@@ -84,7 +84,7 @@
                             </div>
                             <div class="cart-home">
                             <h4><small class="cl-b">Starting at </small>৳14390</h4>
-                                <a href="https://account.hostservice.com.bd/index.php?rp=/store/dedicated-server" class="elementor-button-link elementor-button elementor-size-sm"
+                                <a href="dadicated-server" class="elementor-button-link elementor-button elementor-size-sm"
                                  role="button"><span class="btn outline-btn mb-3 cart-btn"><span class="elementor-button-text">Order Now</span></span></a>
                                  </div>
                         </div>
