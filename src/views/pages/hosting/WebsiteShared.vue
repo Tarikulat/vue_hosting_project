@@ -494,7 +494,6 @@ onMounted(() => {
                                         <td class="col-12">
                                             <h6>Bandwidth Port</h6>
                                         </td>
-
                                     </tr>
                                 </tbody>
                             </table>
@@ -657,9 +656,8 @@ onMounted(() => {
     </section>
     <!--feature section end-->
 
-
     <!--feature section tab style start-->
-    <section id="features" class="feature-tab-section ptb-100">
+    <section id="features" class="feature-tab-section ptb-100 med-v">
         <div class="container">
             <div class="row">
                 <div class="col-xl-4 col-lg-3 col-12 order-lg-last align-self-center">
@@ -699,9 +697,9 @@ onMounted(() => {
                 </div>
             </div>
         </div>
-    </section>
+    <!-- </section> -->
 
-    <section class="cta-new pb-100">
+    <!-- <section class="cta-new med-v"> -->
         <div class="container">
             <div class="row justify-content-between">
                 <div class="col-xl-4 col-lg-7 col-12 order-lg-last align-self-center">

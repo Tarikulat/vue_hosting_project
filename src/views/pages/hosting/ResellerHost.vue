@@ -539,7 +539,7 @@ onMounted(() => {
     </section>
 
     <!--feature section start-->
-    <section class="feature-section  gray-light-bg">
+    <section class="feature-section ptb-100  gray-light-bg">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-md-9 col-lg-8">
@@ -717,7 +717,7 @@ onMounted(() => {
     <!--faq new style end-->
 
     <!--testimonial and review section start-->
-    <section class="client-review-section ptb-100 gray-light-bg">
+    <section class="client-review-section btn-mc gray-light-bg">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-md-9 col-lg-8">
@@ -761,7 +761,7 @@ onMounted(() => {
                         <div class="ratting-content">
                             <h5>Awesome Design Quality with Support</h5>
                             <p>Objectively envisioneer magnetic manufactured products and dynamic
-                                models maximize 2.0 relationships whereas methodologies.</p>
+                                models maximize 2.0 relationships whereas.</p>
                         </div>
                         <div class="ratting-author mt-3">
                             <h6>Peter Anderson</h6>
