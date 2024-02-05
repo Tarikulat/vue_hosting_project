@@ -5,7 +5,7 @@ import { Service, Testimonial } from '@/views/common'
 
 <template>
      <!--hero section start home main page-->
-        <section class="hero-equal-height section-xl section-header background-video-overly text-white flex-column d-flex justify-content-center">
+        <section class="hero-equal-height hig-h section-xl section-header background-video-overly text-white flex-column d-flex justify-content-center">
             <video class="fit-cover w-100 h-100 position-absolute z--1" autoplay muted loop id="myVideo">
                 <source src="https://hostlar.themetags.com/server-room.mp4" type="video/mp4">
             </video>
@@ -13,7 +13,7 @@ import { Service, Testimonial } from '@/views/common'
                 <div class="row align-items-center cho-p justify-content-center">
                     <div class="col-lg-6 col-12">
                         <div class="hero-content-left text-center">
-                            <h1 class="text-white testing">Build Your Online Home with Host Service</h1>
+                            <h1 class="text-brand testing">Host Your Online Business with Host Service</h1>
                             <p class="lead">Host Service's hosting provides the performance to power
                                  the website you wish for, and our builder makes it simple to develop.</p>
                             <form  class="domain-search-form mt-3  mx-auto">

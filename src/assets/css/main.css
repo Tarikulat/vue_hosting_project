@@ -30,6 +30,29 @@
   --font-family-monospace:SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
 }  
 
+
+.text-brand{
+  color: #f64f00;
+}
+.mr-c {
+  margin-bottom: 35px !important;
+}
+
+.mr-b {
+  margin-bottom: 70px;
+}
+
+.bg-co {
+  background-color: #eee;
+}
+ .ptb-a {
+    margin-top: 70px;
+    margin-bottom: 90px;
+  }
+.bg-c{
+  background-color: #ffffff;
+}
+
 /* image effect start */
 /* Shine */
 .hover14 figure {
@@ -123,24 +146,52 @@ margin-top: 100px;
 height    : 500px;
 }
 
-.cl-b{
+.cl-b {
   color: #f64f00;
+  padding-bottom: 15px;
+  /* margin-top: 75px; */
+}
+@media (max-width: 2562px) {
+    .hig-h {
+  min-height: 630px !important;
+}
+.accordion-faq .card-header{
+    padding: 10px;
+  }
 }
 @media (max-width: 1440px) {
-  .modal-content {
+ 
+.modal-content {
 width     : 1050px;
 margin-top: 100px;
 height    : 500px;
 }
   .cart-home {
-    padding: 11px;
+    padding    : 11px;
     padding-top: 20px;
   }
+
 }
 
 
 @media (max-width: 425px) {
-  .serar-b {
+.mar-e{
+  margin-bottom: 20px;
+}
+.animation-icon-img.animation-icon-5 {
+    left: 3% !important;
+  }
+  .accordion-faq .card-header{
+    padding: 1px !important;
+  }
+  .bt-p{
+    margin-bottom: 20px !important;
+  }
+  .mr-b {
+    margin-bottom: 40px;
+}
+ 
+.serar-b {
 width     : 500px;
 margin-top: 100px;
 height    : 100px;
@@ -194,70 +245,87 @@ height    : 100px;
 
 /* home page section 2 */
 @media (max-width: 425px) {
+  .ptb-a {
+    margin-top: 70px;
+    margin-bottom: 54px;
+}
   .da-img{
     width: 250px !important;
     height: 200px !important;
   }
-  .media-q{
+  .media-q {
     margin: 16px 0px !important;
   }
-  .med-w{
+  .med-w {
     text-align: center;
     padding-top: 5px;
+    font-size: 13px !important;
     
   }
-  .med-h{
-    font-size: 25px;
+  .med-h {
+    font-size: 20px;
     padding: 0px;
     text-align: center;
-    margin-top: 110px; 
+    margin-top: 75px; 
+  }
+  .med-k {
+    font-size: 20px;
+    padding: 0px;
+    text-align: center;
+  
   }
 
   .media-q {
     width: 95%x;
   }
-  .host-h{
+  .host-h {
     padding: 17px;
   }
 
-  .down-img{
+  .down-img {
     margin: 35px;
+    /* margin-bottom: 130px; */
   }
   .down-icon{
     padding-left: 25px;
   }
-  .down-icon-u{
+  .down-icon-u {
     padding-left: 10px;
-        right: 43% !important;
+    /* right: 43% !important; */
+    left: 104px !important;
+  }
+  .animation-icon-img.animation-icon-4 {
+    top  : 54% !important;
+    right: 58%;
   }
   .cho-p {
     margin-top: 20px !important;
     padding-top: 20px;;
   }
-  .media-lan{
+  .media-lan {
     margin-top: 5px;
     font-size: 30px;
   }
-  .media-la{
+  .media-la {
     
     font-size: 30px;
   }
-  .img-lan{
+  .img-lan {
     width: 100% !important;
     height: 70% !important;
   }
-  .media-shair{
+  .media-shair {
     margin-top: 95px;
   }
-  .media-sh{
+  .media-sh {
     font-size: 30px;
   }
-  .img-sec{
+  .img-sec {
     width: 100% !important;
     height: 70% !important;
     margin-bottom: 70px;
   }
-  .media-eco{
+  .media-eco {
      /* margin-top: 40px; */
     font-size: 30px;
   }
@@ -266,48 +334,48 @@ height    : 100px;
     height: 20%;
    
   }
-  .eco-cho{
+  .eco-cho {
     font-size: 25px;
     padding: 0px;
   }
-  .media-res{
+  .media-res {
     font-size: 30px;
   }
-  .re-box{
+  .re-box {
     max-width: 350px !important;
     height: auto !important;
     margin-bottom: 110px;
   }
-  .box-pri{
+  .box-pri {
     font-size: 10px !important;
   }
-  .crn{
+  .crn {
      font-size: 25px !important;
      padding: 5px;
   }
-  .pri{
+  .pri {
     text-align: center;
   }
-  .re-sell{
+  .re-sell {
     font-size: 28px;
   }
-  .spi{
+  .spi {
     font-size: 20px;
   }
-  .ser-img{
+  .ser-img {
     width: 100% !important;
     height: 70% !important;
      padding-left: 28px;
   }
-  .sub-t{
+  .sub-t {
     padding: 15px;
   }
-  .vp-t{
+  .vp-t {
     margin: auto;
     font-size: 33px;
   
   }
-  .ded-t{
+  .ded-t {
     margin: 10px !important;
     font-size: 30px;
   }
@@ -374,6 +442,7 @@ padding-top: 20px;
 
 .cart-home{
   background: #f7f7f7;
+  padding-top: 13px;
  
 }
 .cart-btn{
@@ -876,7 +945,7 @@ hr {
 /* line 6, src/assets/scss/vendors/bootstrap.min.css */
 .small, small {
   font-size: 80%;
-  font-weight: 400;
+  /* font-weight: 400; */
 }
 
 /* line 6, src/assets/scss/vendors/bootstrap.min.css */
@@ -933,7 +1002,7 @@ hr {
 
 /* line 6, src/assets/scss/vendors/bootstrap.min.css */
 .img-fluid {
-  max-width: 75%;
+  max-width: 53%;
   height: auto;
   
 }
@@ -51229,15 +51298,7 @@ img.mfp-img {
   width: 100%;
 }
 
-/**
- * Owl Carousel v2.3.4
- * Copyright 2013-2018 David Deutsch
- * Licensed under: SEE LICENSE IN https://github.com/OwlCarousel2/OwlCarousel2/blob/master/LICENSE
- */
-/*
- * 	Default theme - Owl Carousel CSS File
- */
-/* line 9, src/assets/scss/vendors/owl.theme.default.css */
+
 .owl-theme .owl-nav {
   margin-top: 10px;
   text-align: center;
@@ -51303,62 +51364,6 @@ img.mfp-img {
 /* line 49, src/assets/scss/vendors/owl.theme.default.css */
 .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
   background: #869791;
-}
-
-/*================
- Template Name: Hostlar Hosting Provider with WHMCS Template
- Description: All type of web hosting provider or company with WHMCS template.
- Version: 1.0
- Author: https://themeforest.net/user/themetags
-
-=======================*/
-/*TABLE OF CONTENTS*/
-/*=====================
-01. RESET CSS
-02. BASE TYPOGRAPHY
-03. PRE DEFINE CLASS CSS
-04. HEADER MENU CSS
-05. HERO SECTION CSS
-06. CUSTOM VPS PLAN CSS
-07. PRICING SECTION CSS
-08. TEAM SECTION CSS
-09. CLIENT SECTION CSS
-10. FAQ CSS
-11. PROMO SECTION CSS
-12. FEATURE SECTION CSS
-13. START AND TRANSFER SECTION CSS
-14. DOMAIN NAME LIST CSS
-15. FEATURE TAB CSS
-16. POPULAR DOMAIN LIST CSS
-17. PRELOADER CSS
-18. DOMAIN SEARCH FROM
-19. NETWORK MAP CSS
-20. SUBMIT REQUEST FORM CSS
-21. VPS HOSTING CSS
-22. SERVICES STATUS CSS
-23. PARTNER SECTION CSS
-24. CLIENT RATTING OR REVIEW CSS
-24. 404 PAGES CSS
-25. BREADCRUMB CSS
-26. FIXED SIDEBAR CSS
-27. LOGIN SIGN UP CSS
-28. BLOG SECTION CSS
-29. CONTACT US CSS
-30. BACK TO TOP CSS
-31. FOOTER CSS
-=======================*/
-/* -----------------------------------------
-           02. BASE TYPOGRAPHY
--------------------------------------------- */
-/* line 49, src/assets/scss/custom/_style.scss */
-body {
-  background-color: #ffffff;
-  font-family: 'Open Sans', sans-serif;
-  color: #575757;
-  font-weight: 400;
-  line-height: 1.75;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
 /* line 58, src/assets/scss/custom/_style.scss */
@@ -51499,7 +51504,8 @@ strong, b {
 
 /* line 167, src/assets/scss/custom/_style.scss */
 .gray-light-bg {
-  background: #f8f9fa;
+  /* margin-bottom: 90px; */
+  /* background: #f8f9fa; */
 }
 
 /* line 171, src/assets/scss/custom/_style.scss */
@@ -52806,7 +52812,7 @@ svg.shape-bg, svg.promo-bg {
 /* line 1275, src/assets/scss/custom/_style.scss */
 .hero-equal-height {
   position: relative;
-  min-height: 660px;
+  min-height: 550px;
   -js-display: flex;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -52855,15 +52861,15 @@ svg.shape-bg, svg.promo-bg {
 
 /* line 1318, src/assets/scss/custom/_style.scss */
 .animation-icon-img.animation-icon-1 {
-  left: 11%;
+  left: 10%;
   top: 30%;
 }
 
 /* line 1323, src/assets/scss/custom/_style.scss */
 .animation-icon-img.animation-icon-2 {
-  left: inherit;
+  left: 163px;
   right: 59%;
-  top: 0;
+  top: 0px;
   -webkit-animation-delay: .4s;
   animation-delay: .4s;
 }
@@ -52878,16 +52884,16 @@ svg.shape-bg, svg.promo-bg {
 
 /* line 1338, src/assets/scss/custom/_style.scss */
 .animation-icon-img.animation-icon-4 {
-  left: inherit;
+  left: 162px;
   right: 58%;
-  top: 58%;
+  top: 65%;
   -webkit-animation-delay: .8s;
   animation-delay: .8s;
 }
 
 /* line 1345, src/assets/scss/custom/_style.scss */
 .animation-icon-img.animation-icon-5 {
-  left: 9%;
+  left: 6%;
   top: 55%;
 }
 

@@ -45,7 +45,7 @@ onMounted(()=> {
             <div class="row align-items-center">
                 <div class="col-md-7 col-lg-7 media-lan ">
                     <div class="hero-content-wrap text-white position-relative">
-                        <h1 class="text-white media-lan">Landing Page Hosting</h1>
+                        <h1 class="text-brand media-lan">Landing Page Hosting</h1>
                         <p class="lead">Build and grow the perfect Website Landing Hosting Pro.</p>
                         <ul class="list-unstyled tech-feature-list text-white">
                             <li class="py-1"><span class="ti-control-forward mr-2"></span>Flexible, Easy to Use Control Panel</li>

@@ -45,7 +45,7 @@ onMounted(()=> {
             <div class="row align-items-center">
                 <div class="col-md-7 col-lg-8 media-shair ">
                     <div class="hero-content-wrap text-white position-relative">
-                        <h1 class="text-white media-sh">Website Shared Hosting</h1>
+                        <h1 class="text-brand media-sh">Website Shared Hosting</h1>
                         <p class="lead">Build and grow the perfect Website Shared Hosting Pro.</p>
                         <ul class="list-unstyled tech-feature-list text-white">
                             <li class="py-1"><span class="ti-control-forward mr-2"></span>Flexible, Easy to Use Control Panel</li>
@@ -65,10 +65,10 @@ onMounted(()=> {
                     </div> -->
                      <div class="hover15 column">
                          <div>
-                         <figure><img src="@/assets/img/host5.webp" class="body-landing img-sec" /></figure>
-                </div>
-                </div>
+                            <figure><img src="@/assets/img/host5.webp" class="body-landing img-sec" /></figure>
                         </div>
+                    </div>
+                </div>
             </div>
         </div>
        

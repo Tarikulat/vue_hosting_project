@@ -5,13 +5,13 @@
 <template>
   
    <!--testimonial and review section start-->
-   <section class="client-review-section ptb-100 gray-light-bg">
+   <section class="client-review-section ptb-100 bg-co">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-md-9 col-lg-8">
                         <div class="section-heading text-center mb-5">
-                            <h2 class="cl-b">Our Customers' Success Stories</h2>
-                            <p class="lead">Hearing about the positive experiences customers have with our service makes our day. We deeply care about helping businesses succeed online.</p>
+                            <h3 class="cl-b med-k">Our Customers' Success Stories</h3>
+                            <p class="h5 med-w mr-c">Hearing about the positive experiences customers have with our service makes our day. We deeply care about helping businesses succeed online.</p>
                         </div>
                     </div>
                 </div>
@@ -88,13 +88,13 @@
 
         <section>
             <div class="container">
-            <div id="faq" class="ptb-100 ">
+            <div id="faq" class="mr-b">
                <div class="container">
                    <div class="row">
                        <div class="col-md-9 col-lg-8">
                            <div class="section-heading mb-5">
-                               <h2 class="cl-b">Frequently Asked Questions</h2>
-                               <p>We understand that hosting stuff can seem complicated. So please, ask us anything! We're happy to explain and help you on your journey to getting online.</p>
+                               <h3 class="cl-b med-k">Frequently Asked Questions</h3>
+                               <h1 class="h5 bt-p med-w">We understand that hosting stuff can seem complicated. So please, ask us anything! We're happy to explain and help you on your journey to getting online.</h1>
                            </div>
                        </div>
                    </div>

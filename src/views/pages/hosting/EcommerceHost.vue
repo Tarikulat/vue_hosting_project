@@ -49,9 +49,9 @@ onMounted(()=> {
  <section class="hero-equal-height pt-165 pb-100 backgek gradient-overly-right">
     <div class="container">
         <div class="row align-items-center justify-content-between">
-            <div class="col-lg-6 col-12">
+            <div class="col-lg-6 col-12 mar-e">
                 <div class="hero-content-wrap text-white">
-                    <h1 class="text-white media-eco">Ecommerce Hosting Services</h1>
+                    <h1 class="text-brand media-eco">Ecommerce Hosting Services</h1>
                     <p class="lead">Globally  through excellent intellectual capital.</p>
                     <ul class="list-unstyled">
                         <li class="py-1">
@@ -89,7 +89,7 @@ onMounted(()=> {
             <div class="col-lg-6 col-12">
                 <div class="animation-image-wrap">
                     <img src="@/assets/img/private-cloud-server.svg" alt="wp hosting" class="img-fluid eco-img-s" />
-                    <img src="@/assets/img/wordpress-logo.svg" alt="wp hosting" width="100" class="animation-icon-img eco-anim animation-icon-5" />
+                    <img src="@/assets/img/wordpress-logo.svg" alt="wp hosting" width="70" class="animation-icon-img eco-anim animation-icon-5" />
                 </div>
             </div>
         </div>
