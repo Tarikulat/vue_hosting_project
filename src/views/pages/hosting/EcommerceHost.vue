@@ -40,7 +40,7 @@ const yearPrice = () => {
 }
 
 onMounted(() => {
-    yearPrice();
+    monthlyPrice();
 })
 </script>
 
@@ -786,7 +786,7 @@ onMounted(() => {
                         </p>
                     </div>
                 </div>
-                <div class="col-lg-6 col-12 pl-lg-0">
+                <div class="col-lg-6 mr-con col-12 pl-lg-0">
                     <div class="right-box primary-bg">
                         <div class="d-flex align-items-center mb-4">
                             <span class="ti-loop icon-sm color-primary white-bg p-2 rounded mr-3"></span>

@@ -10,8 +10,8 @@
                 <div class="row justify-content-center">
                     <div class="col-md-9 col-lg-8">
                         <div class="section-heading text-center mb-5">
-                            <h3 class="cl-b med-k">Our Customers' Success Stories</h3>
-                            <p class="h5 med-w mr-c">Hearing about the positive experiences customers have with our service makes our day. We deeply care about helping businesses succeed online.</p>
+                            <h3 class="cl-b med-k">Success Stories from Our Customers</h3>
+                            <p class="h5 med-w mr-c">Customer Success Fuels Our Passion</p>
                         </div>
                     </div>
                 </div>
@@ -37,7 +37,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-4">
+                    <div class="col-md-6 mr-con col-lg-4">
                         <div class="single-testimonial white-bg shadow-sm rounded p-5">
                             <ul class="list-inline ratting-list mb-2">
                                 <li class="list-inline-item"><span class="fas fa-star"></span></li>
@@ -57,7 +57,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-4">
+                    <div class="col-md-6 mr-con col-lg-4">
                         <div class="single-testimonial white-bg shadow-sm rounded p-5">
                             <ul class="list-inline ratting-list mb-2">
                                 <li class="list-inline-item"><span class="fas fa-star"></span></li>
@@ -94,7 +94,7 @@
                        <div class="col-md-9 col-lg-8">
                            <div class="section-heading mb-5">
                                <h3 class="cl-b med-k">Frequently Asked Questions</h3>
-                               <h1 class="h5 bt-p med-w">We understand that hosting stuff can seem complicated. So please, ask us anything! We're happy to explain and help you on your journey to getting online.</h1>
+                               <h1 class="h5 bt-p med-w">Hosting Made Easy! Ask Us Anything.</h1>
                            </div>
                        </div>
                    </div>

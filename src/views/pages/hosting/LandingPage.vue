@@ -34,7 +34,7 @@ const yearPrice = () => {
 }
 
 onMounted(() => {
-  yearPrice();
+  threeMonthPrice();
 })
 </script>
 
@@ -75,7 +75,7 @@ onMounted(() => {
       <div class="row justify-content-center head">
         <div class="col-md-12 col-lg-7">
           <div class="section-heading  text-center">
-            <h3 class="media-la text-brand bt-hj">Landing Page Hosting :</h3>
+            <h3 class="media-la text-brand bt-hj">Landing Page Hosting </h3>
             <h6 class="h5 med-w">
               6 month plan <strong class="text-brand">10%</strong> discount - <strong class="text-brand"> hostgift6m
               </strong>
@@ -140,7 +140,7 @@ onMounted(() => {
                 <div class="card text-center align-items-center single-pricing-pack">
                   <div class="pt-5">
                     <h5 class="mb-0 text-brand">Landing Page Hosting</h5>
-                    <p class="mb-0">Starte :r</p>
+                    <p class="mb-0">Starte :</p>
                   </div>
                   <div class="card-header border-0 pricing-header">
                     <div class="price text-center mb-0 ">৳ {{ monthly }}<span>/-BDT Only.</span></div>

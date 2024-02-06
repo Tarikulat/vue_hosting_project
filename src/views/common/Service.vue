@@ -9,9 +9,9 @@
                 <div class="row justify-content-center">
                     <div class="col-md-9 col-lg-8">
                         <div class="section-heading text-center mb-5 mb-sm-5 mb-md-3 mb-lg-3">
-                            <h3 class="med-h cl-b">We Have a Hosting Plan That Fits Your Needs</h3>
+                            <h3 class="med-h cl-b">Hosting Plan That Fits Your Needs</h3>
                             <div>
-                            <h1 class=" h5 med-w">Our scalable hosting solutions grow alongside your success.</h1>
+                            <h1 class=" h5 med-w">Scalable Hosting for Your Growing Success</h1>
                             </div>
                         </div>
                     </div>
@@ -116,7 +116,7 @@
                     <div class="col-md-9 col-lg-8">
                         <div class="section-heading text-center mb-sm-5 mb-md-0 mb-lg-0">
                             <h3 class="cl-b med-k">Our Technical Solutions</h3>
-                            <h1 class="h5 med-w">We'll match your needs to the perfect hosting solution for a new site or established business.</h1>
+                            <h1 class="h5 med-w">Tailored Hosting Solutions for Every Business</h1>
                         </div>
                     </div>
                 </div>

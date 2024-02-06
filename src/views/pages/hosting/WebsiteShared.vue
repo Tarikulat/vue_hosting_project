@@ -34,7 +34,7 @@ const yearPrice = () => {
 }
 
 onMounted(() => {
-    yearPrice();
+    threeMonthPrice();
 })
 
 </script>
@@ -769,7 +769,7 @@ onMounted(() => {
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-4">
+                <div class="col-md-6 mr-con col-lg-4">
                     <div class="single-testimonial white-bg shadow-sm rounded p-5">
                         <ul class="list-inline ratting-list mb-2">
                             <li class="list-inline-item"><span class="fas fa-star"></span></li>
@@ -789,7 +789,7 @@ onMounted(() => {
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-4">
+                <div class="col-md-6 mr-con col-lg-4">
                     <div class="single-testimonial white-bg shadow-sm rounded p-5">
                         <ul class="list-inline ratting-list mb-2">
                             <li class="list-inline-item"><span class="fas fa-star"></span></li>

@@ -40,7 +40,7 @@ const yearPrice = () => {
 }
 
 onMounted(() => {
-    yearPrice();
+    monthlyPrice();
 })
 </script>
 

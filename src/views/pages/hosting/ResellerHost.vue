@@ -16,7 +16,7 @@ const yearly = ref();
 
 const monthlyPrice = () => {
     monthly.value = '3890';
-    theryMonth.value = '6890';
+    theryMonth.value = '46890';
     halfYear.value = '12390';
     yearly.value = '15490';
 }
@@ -40,7 +40,7 @@ const yearPrice = () => {
 }
 
 onMounted(() => {
-    yearPrice();
+    monthlyPrice();
 })
 </script>
 
@@ -103,7 +103,7 @@ onMounted(() => {
             <div class="row justify-content-center head">
                 <div class="col-md-12 col-lg-7">
                     <div class="section-heading  text-center">
-                        <h3 class="media-la text-brand bt-hj">Reseller Page Hosting :</h3>
+                        <h3 class="media-la text-brand bt-hj">Reseller Page Hosting </h3>
                         <h6 class="h5 med-w">
                             6 month plan <strong class="text-brand">10%</strong> discount - <strong class="text-brand">
                                 hostgift6m
@@ -171,7 +171,7 @@ onMounted(() => {
                                 <div class="card text-center align-items-center single-pricing-pack">
                                     <div class="pt-5">
                                         <h5 class="mb-0 text-brand">Reseller Page Hosting </h5>
-                                        <p class="mb-0">Starter </p>
+                                        <p class="mb-0">Starter :</p>
                                     </div>
                                     <div class="card-header border-0 pricing-header">
                                         <div class="price text-center mb-0 monthly-price">৳ {{ monthly }}<span>/-BDT

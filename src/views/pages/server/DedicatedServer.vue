@@ -28,7 +28,7 @@ export default {
         <div class="col-md-8 dser-media col-lg-7">
           <div class="col-md-7 col-lg-7 media-lan ">
             <div class="hero-content-wrap text-white position-relative">
-              <h1 class="text-brand ">Dedicated Server </h1>
+              <h1 class="text-brand media-lan ">Dedicated Server </h1>
               <p class="lead">Build and grow the perfect Website dadicated Server.</p>
               <ul class="list-unstyled tech-feature-list text-white">
                 <li class="py-1"><span class="ti-control-forward mr-2"></span>Flexible, Easy to Use Control Panel</li>
@@ -56,9 +56,9 @@ export default {
   <section class="vps-pricing-plane ptb-100 gray-light-bg">
     <div class="container">
       <div class="row justify-content-center">
-        <div class="col-md-9 col-lg-8">
+        <div class="col-md-7 col-lg-7 media-lan">
           <div class="section-heading text-center mb-5">
-            <h3 class="media-la text-brand">Dedicated Server Plan </h3>
+            <h1 class="media-la text-brand">Dedicated Server Plan </h1>
             <p class="h5 web-s">Reviving Open-Source Products with Enthusiastic Client Focus</p>
           </div>
         </div>

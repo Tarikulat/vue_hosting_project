@@ -28,6 +28,48 @@
   --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
+@media (max-width: 425px) {
+  .down-icon {
+    padding-left: 33px;
+  }
+
+  .down-icon-u {
+    padding-left: 25px;
+    /* right: 43% !important; */
+    left: 125px !important;
+  }
+
+}
+
+@media (max-width: 375px) {
+   .down-icon {
+     padding-left: 29px;
+   }
+
+   .down-icon-u {
+     padding-left: 20px;
+     /* right: 43% !important; */
+     left: 110px !important;
+   }
+
+
+}
+
+@media (max-width: 320px) {
+
+   .down-icon {
+     padding-left: 26px;
+   }
+
+   .down-icon-u {
+     padding-left: 15px;
+     /* right: 43% !important; */
+     left: 100px !important;
+   }
+
+}
+
+
 .bg-mz {
   background-color: #ffffff;
 }
@@ -444,16 +486,6 @@ margin-top: 20px;
   .down-img {
     margin: 35px;
     /* margin-bottom: 130px; */
-  }
-
-  .down-icon {
-    padding-left: 25px;
-  }
-
-  .down-icon-u {
-    padding-left: 10px;
-    /* right: 43% !important; */
-    left: 104px !important;
   }
 
   .animation-icon-img.animation-icon-4 {
