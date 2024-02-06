@@ -308,9 +308,9 @@ onMounted(() => {
             <div class="row justify-content-center">
                 <div class="col-md-12 col-lg-7 ">
                     <div class="section-heading  text-center mb-5">
-                        <h1>Web Hosting Resource Details</h1>
-                        <p class="lead">
-                            This hosting resource is very exclusive
+                        <h3 class="media-la text-brand" >Web Hosting Resource :</h3>
+                        <p class="h5 web-s bt-bl">
+                            Exclusive hosting resources
                         </p>
                     </div>
                 </div>
@@ -510,7 +510,7 @@ onMounted(() => {
             <div class="row justify-content-center">
                 <div class="col-md-9 col-lg-8">
                     <div class="section-heading text-center mb-5 text-white">
-                        <h2 class="text-white">Why Choose This Package</h2>
+                        <h3 class="text-white">Why Choose This Package</h3>
                         <p class="lead">
                             Distinctively recaptiualize principle-centered core competencies through client-centered
                             core competencies. Enthusiastically provide access.
@@ -558,10 +558,9 @@ onMounted(() => {
             <div class="row justify-content-center">
                 <div class="col-md-9 col-lg-8">
                     <div class="section-heading text-center mb-5">
-                        <h2>Hosting Features For Your Big Ideas</h2>
-                        <p class="lead">
-                            These features come standard in all of our hosting plans. Dynamically extend
-                            imperatives through open-source quickly niche markets.
+                        <h3 class="media-la text-brand">Hosting Features Ideas :</h3>
+                        <p class="h5 web-s bt-bl">
+                            Extend better dynamically.
                         </p>
                     </div>
                 </div>
@@ -665,12 +664,10 @@ onMounted(() => {
                         <img src="@/assets/img/icon-wordpress-hosting.svg" alt="wp-hosting" class="img-fluid" />
                     </div>
                 </div>
-                <div class="col-xl-8 col-lg-9 col-12 order-xl-first">
-                    <h2>Better Support & Security</h2>
-                    <p>Progressively matrix mission-critical core competencies without magnetic
-                        paradigms. Appropriately develop flexible ROI without goal-oriented customer
-                        service. Seamlessly.</p>
-                    <div class="row pt-2">
+                <div class="col-xl-8 col-lg-9 col-12 nd-res order-xl-first">
+                    <h3 class="media-la text-brand">Better Support & Security</h3>
+                    <p class="h5 web-s">Gradually integrate mission-critical core competencies without relying on fixed paradigms.</p>
+                    <div class="row">
                         <div class="col-md-6 col-12">
                             <h5>WordPress Optimization</h5>
                             <ul class="disc-style">
@@ -702,17 +699,15 @@ onMounted(() => {
     <!-- <section class="cta-new med-v"> -->
         <div class="container">
             <div class="row justify-content-between">
-                <div class="col-xl-4 col-lg-7 col-12 order-lg-last align-self-center">
+                <div class="col-xl-4 col-lg-7 nd-res col-12 order-lg-last align-self-center">
                     <div class="image-box fadein text-xl-right text-center">
                         <img src="@/assets/img/shared-wp-hosting.svg" alt="wp-hosting" class="img-fluid" />
                     </div>
                 </div>
-                <div class="col-xl-7 col-lg-7 col-12 order-xl-last">
-                    <h2>World-Famous Shared Hosting</h2>
-                    <p>Efficiently reintermediate long-term high-impact channels without equity
-                        invested technology. Quickly brand backend web-readiness without
-                        cross-platform e-services.</p>
-                    <div class="row pt-2">
+                <div class="col-xl-7 col-lg-7 nd-res col-12 order-xl-last">
+                    <h3 class="media-la text-brand" >World-Famous Shared Hosting</h3>
+                    <p class="h5 web-s"> Rapidly establish backend without integrating cross-platform e-services.</p>
+                    <div class="row">
                         <div class="col-md-6 col-12">
                             <h5>Exclusive Features</h5>
                             <ul class="disc-style">
@@ -748,9 +743,8 @@ onMounted(() => {
             <div class="row justify-content-center">
                 <div class="col-md-9 col-lg-8">
                     <div class="section-heading text-center mb-5">
-                        <h2>What Our Customers Say About Us?</h2>
-                        <p class="lead">Authoritatively reinvent client-centric e-markets via fully tested process.
-                            Objectively restore strategic initiatives through fully researched.</p>
+                        <h3 class="media-la text-brand" >What Our Customers Say About Us?</h3>
+                        <p class="h5 web-s bt-bl">Revive strategies with thorough research.</p>
                     </div>
                 </div>
             </div>

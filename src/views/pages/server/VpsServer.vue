@@ -49,20 +49,25 @@ onMounted(() => {
     <section class="hero-equal-height pt-165 backvp pb-100 gradient-overlay">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-md-7 col-lg-7">
-                    <div class="hero-content-wrap text-white text-center position-relative z-index">
-                        <h1 class="text-white vp-t">Managed Your VPS Servers</h1>
-                        <p class="lead sub-t">Our High-Performance VPS is a powerful virtual server that offers
-                            lightning-fast speed,
-                            reliability, and scalability. It's perfect for hosting resource-intensive websites,
-                            running complex applications, and handling data-heavy tasks with minimal downtime.
-                            Ideal for businesses and developers who demand top-tier performance.</p>
-                    </div>
+                <div class="col-md-7 col-lg-7 media-lan">
+                    <div class="hero-content-wrap text-white position-relative">
+                <h1 class="text-brand media-lan">VPS Servers Hosting</h1>
+                <p class="lead">Build and grow the perfect Website  Hosting Pro.</p>
+                <ul class="list-unstyled tech-feature-list text-white">
+                  <li class="py-1"><span class="ti-control-forward mr-2"></span>Flexible, Easy to Use Control Panel</li>
+                  <li class="py-1"><span class="ti-control-forward mr-2"></span><strong>Unmetered</strong> Bandwidth</li>
+                  <li class="py-1"><span class="ti-control-forward mr-2"></span><strong>Unmetered</strong> Sub Domains, FTP
+                    Accounts</li>
+                  <li class="py-1"><span class="ti-control-forward mr-2"></span><strong>99%</strong> Uptime Guarantee</li>
+                  <li class="py-1"><span class="ti-control-forward mr-2"></span><strong>45-Day</strong> Money-Back Guarantee
+                  </li>
+                </ul>
+              </div>
                 </div>
 
                 <div class="col-md-5 col-lg-5">
                     <div>
-                        <label><img src="@/assets/img/vp1.png" class="body-landing ser-img" alt="ser"></label>
+                        <label><img src="@/assets/img/vp1.png" class="body-vp ser-img" alt="ser"></label>
                     </div>
                 </div>
             </div>
@@ -145,8 +150,8 @@ onMounted(() => {
                             <div class="col-lg-12 col-md-12 col-12">
                                 <div class="card text-center align-items-center single-pricing-pack">
                                     <div class="pt-5">
-                                        <h5 class="mb-0">Cloud Starter</h5>
-                                        <p class="mb-0">VPS Starter:</p>
+                                        <h5 class="mb-0 text-brand">VPS Servers Plan</h5>
+                                        <p class="mb-0">Starter :</p>
                                     </div>
                                     <div class="card-header pb-4 border-0 pricing-header">
                                         <div class="price text-center mb-0 ">৳ {{ monthly }}<span>/-BDT Only.</span></div>
@@ -181,8 +186,8 @@ onMounted(() => {
                             <div class="col-lg-12 col-md-12 col-12">
                                 <div class="card text-center align-items-center single-pricing-pack">
                                     <div class="pt-5">
-                                        <h5 class="mb-0">Cloud Starter</h5>
-                                        <p class="mb-0">VPS Standard: :</p>
+                                        <h5 class="mb-0 text-brand">VPS Servers Plan</h5>
+                                        <p class="mb-0"> Standard: :</p>
                                     </div>
                                     <div class="card-header pb-4 border-0 pricing-header">
                                         <div class="price text-center mb-0">৳ {{ theryMonth }}<span>/-BDT Only.</span></div>
@@ -217,8 +222,8 @@ onMounted(() => {
                             <div class="col-lg-12 col-md-12 col-12">
                                 <div class="card text-center align-items-center single-pricing-pack">
                                     <div class="pt-5">
-                                        <h5 class="mb-0">Cloud Starter</h5>
-                                        <p class="mb-0">VPS Silver:</p>
+                                         <h5 class="mb-0 text-brand">VPS Servers Plan</h5>
+                                        <p class="mb-0"> Silver :</p>
                                     </div>
                                     <div class="card-header pb-4 border-0 pricing-header">
                                         <div class="price text-center mb-0">৳ {{ halfYear }}<span>/-BDT Only.</span></div>
@@ -253,8 +258,8 @@ onMounted(() => {
                             <div class="col-lg-12 col-md-12 col-12">
                                 <div class="card text-center align-items-center single-pricing-pack">
                                     <div class="pt-5">
-                                        <h5 class="mb-0">Cloud Starter</h5>
-                                        <p class="mb-0">VPS Gold :</p>
+                                        <h5 class="mb-0 text-brand">VPS Servers Plan</h5>
+                                        <p class="mb-0"> Gold :</p>
                                     </div>
                                     <div class="card-header pb-4 border-0 pricing-header">
                                         <div class="price text-center mb-0">৳ {{ yearly }}<span>/-BDT Only.</span></div>
@@ -286,15 +291,216 @@ onMounted(() => {
         </div>
     </section> <br> <br>
     <br>
+
+     <section class="compare-provider-table ptb-100 gray-light-bg-n">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-md-12 col-lg-7 ">
+              <div class="section-heading  text-center mb-5">
+                <h3 class="media-la text-brand">Web Hosting Resource :</h3>
+                <p class="h5 web-s bt-bl">
+                  Exclusive hosting resources
+                </p>
+              </div>
+            </div>
+            <div class="row table">
+              <div class="col-md-12 col-lg-12">
+                <div class="table-responsive">
+                  <table class="table w-100 table-res table-hover table-bordered table-striped comparision-table text-center">
+                    <thead class="comparision-table-head">
+                      <tr>
+                      <tr>
+                        <td style="width: 20%; text-align: center">
+                          <h5>Resource Type</h5>
+                        </td>
+                        <td class="primary-bg" style="width: 20%; text-align: center;">
+                          <h5 class="text-white">Starter</h5>
+                        </td>
+                        <td style="width: 20%; text-align: center;">
+                          <h5>Standard</h5>
+                        </td>
+                        <td style="width: 20%; text-align: center;">
+                          <h5>Silver</h5>
+                        </td>
+                        <td style="width: 20%; text-align: center;">
+                          <h5>Gold</h5>
+                        </td>
+                      </tr>
+                      </tr>
+                    </thead>
+                    <tbody class="comparision-table-body">
+                      <tr style="width: 20%; text-align: center">
+                        <td>
+                          <h6 class="text-left">CPU Core Limit %</h6>
+                        </td>
+                        <td class="primary-bg">
+                          <h6 class="text-white">0.5 core 50%</h6>
+                        </td>
+                        <td>
+                          <h6>1 core 100%</h6>
+                        </td>
+                        <td>
+                          <h6>1.5 core 150%</h6>
+                        </td>
+                        <td>
+                          <h6>2 core 200%</h6>
+                        </td>
+                      </tr>
+                      <tr style="width: 20%; text-align: center">
+                        <td>
+                          <h6 class="text-left">Physical Memory</h6>
+                        </td>
+                        <td class="primary-bg">
+                          <h6 class="text-white">1 GB</h6>
+                        </td>
+                        <td>
+                          <h6>2 GB</h6>
+                        </td>
+                        <td>
+                          <h6>3 GB</h6>
+                        </td>
+                        <td>
+                          <h6>4 GB</h6>
+                        </td>
+                      </tr>
+
+                      <tr style="width: 20%; text-align: center">
+                        <td>
+                          <h6 class="text-left">Virtual Memory</h6>
+                        </td>
+                        <td class="primary-bg">
+                          <h6 class="text-white">1 GB</h6>
+                        </td>
+                        <td>
+                          <h6>1 GB</h6>
+                        </td>
+                        <td>
+                          <h6>1 GB</h6>
+                        </td>
+                        <td>
+                          <h6>1 GB</h6>
+                        </td>
+                      </tr>
+                      <tr style="width: 20%; text-align: center">
+                        <td>
+                          <h6 class="text-left">I/O Speed</h6>
+                        </td>
+                        <td class="primary-bg">
+                          <h6 class="text-white">20 MBs</h6>
+                        </td>
+                        <td>
+                          <h6>30 MBs</h6>
+                        </td>
+                        <td>
+                          <h6>40 MBs</h6>
+                        </td>
+                        <td>
+                          <h6>50 MBs</h6>
+                        </td>
+                      </tr>
+                      <tr style="width: 20%; text-align: center">
+                        <td>
+                          <h6 class="text-left">IOPS</h6>
+                        </td>
+                        <td class="primary-bg">
+                          <h6 class="text-white">1024</h6>
+                        </td>
+                        <td>
+                          <h6>1024</h6>
+                        </td>
+                        <td>
+                          <h6>1024</h6>
+                        </td>
+                        <td>
+                          <h6>1024</h6>
+                        </td>
+                      </tr>
+                      <tr style="width: 20%; text-align: center">
+                        <td>
+                          <h6 class="text-left">Entry Process</h6>
+                        </td>
+                        <td class="primary-bg">
+                          <h6 class="text-white">20</h6>
+                        </td>
+                        <td>
+                          <h6>30</h6>
+                        </td>
+                        <td>
+                          <h6>40</h6>
+                        </td>
+                        <td>
+                          <h6>50</h6>
+                        </td>
+                      </tr>
+                      <tr style="width: 20%; text-align: center">
+                        <td>
+                          <h6 class="text-left">Number of Process</h6>
+                        </td>
+                        <td class="primary-bg">
+                          <h6 class="text-white">100</h6>
+                        </td>
+                        <td>
+                          <h6>110</h6>
+                        </td>
+                        <td>
+                          <h6>120</h6>
+                        </td>
+                        <td>
+                          <h6>130</h6>
+                        </td>
+                      </tr>
+                      <tr style="width: 20%; text-align: center">
+                        <td>
+                          <h6 class="text-left">INODES/File Limit</h6>
+                        </td>
+                        <td class="primary-bg">
+                          <h6 class="text-white">No File Limit</h6>
+                        </td>
+                        <td>
+                          <h6>No File Limit</h6>
+                        </td>
+                        <td>
+                          <h6>No File Limit</h6>
+                        </td>
+                        <td>
+                          <h6>No File Limit</h6>
+                        </td>
+                      </tr>
+                      <tr style="width: 20%; text-align: center">
+                        <td>
+                          <h6 class="text-left">Bandwidth Network</h6>
+                        </td>
+                        <td class="primary-bg">
+                          <h6 class="text-white"></h6>
+                        </td>
+                        <td class="col-12">
+                          <h6>1Gbps Global </h6>
+                        </td>
+                        <td class="col-12">
+                          <h6>10Gbps Special </h6>
+                        </td>
+                        <td class="col-12">
+                          <h6>Bandwidth Port</h6>
+                        </td>
+
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
     <!--feature section start-->
     <section class="feature-section ptb-100 ">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-md-9 col-lg-8">
                     <div class="section-heading text-center mb-5">
-                        <h2>Server Hosting Platform Features</h2>
-                        <p class="lead">These features come standard in all of our hosting plans. Dynamically extend
-                            imperatives through open-source quickly niche markets.</p>
+                        <h3 class="media-la text-brand">Server Hosting Platform Features</h3>
+                        <p class="h5 web-s">Standard Hosting Features: Dynamic Open-Source Expansion.</p>
                     </div>
                 </div>
             </div>
@@ -352,7 +558,7 @@ onMounted(() => {
             <div class="row justify-content-center">
                 <div class="col-md-9 col-lg-8">
                     <div class="cta-new-wrap text-white text-center">
-                        <h2 class="text-white">30-day Money-back Guarantee</h2>
+                        <h3 class="text-white bm-d">30-day Money-back Guarantee</h3>
                         <p class="lead">Globally parallel task granular alignments through excellent intellectual capital.
                             Globally deploy vertical leadership.</p>
                         <div class="action-btns mt-4">
@@ -365,19 +571,92 @@ onMounted(() => {
         </div>
     </section>
     <!--call to action new section end-->
-    <!-- faq home pages -->
-
+     <!--testimonial and review section start-->
+        <section class="client-review-section ptb-100 gray-light-bg">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-9 col-lg-8">
+                        <div class="section-heading text-center mb-5">
+                            <h3 class="media-la text-brand">Our Customers Say About Us?</h3>
+                            <p class="h5 web-s bt-bl">Revitalizing E-Markets: Tested & Researched Approach.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 mr-con col-lg-4">
+                        <div class="single-testimonial white-bg shadow-sm rounded p-5">
+                            <ul class="list-inline ratting-list mb-2">
+                                <li class="list-inline-item"><span class="fas fa-star"></span></li>
+                                <li class="list-inline-item"><span class="fas fa-star"></span></li>
+                                <li class="list-inline-item"><span class="fas fa-star"></span></li>
+                                <li class="list-inline-item"><span class="fas fa-star"></span></li>
+                                <li class="list-inline-item"><span class="fas fa-star"></span></li>
+                            </ul>
+                            <div class="ratting-content">
+                                <h5>Awesome support from technical</h5>
+                                <p>Objectively envisioneer magnetic manufactured products and dynamic models. Progressively
+                                    maximize 2.0 relationships whereas process-centric.</p>
+                            </div>
+                            <div class="ratting-author mt-3">
+                                <h6>Alex Khamer</h6>
+                                <small class="text-right">6 days ago</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mr-con col-lg-4">
+                        <div class="single-testimonial white-bg shadow-sm rounded p-5">
+                            <ul class="list-inline ratting-list mb-2">
+                                <li class="list-inline-item"><span class="fas fa-star"></span></li>
+                                <li class="list-inline-item"><span class="fas fa-star"></span></li>
+                                <li class="list-inline-item"><span class="fas fa-star"></span></li>
+                                <li class="list-inline-item"><span class="fas fa-star"></span></li>
+                                <li class="list-inline-item"><span class="fas fa-star"></span></li>
+                            </ul>
+                            <div class="ratting-content">
+                                <h5>Awesome Design Quality with Support</h5>
+                                <p>Objectively envisioneer magnetic manufactured products and dynamic models maximize 2.0
+                                    relationships.</p>
+                            </div>
+                            <div class="ratting-author mt-3">
+                                <h6>Peter Anderson</h6>
+                                <small class="text-right">3 days ago</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mr-con col-lg-4">
+                        <div class="single-testimonial white-bg shadow-sm rounded p-5">
+                            <ul class="list-inline ratting-list mb-2">
+                                <li class="list-inline-item"><span class="fas fa-star"></span></li>
+                                <li class="list-inline-item"><span class="fas fa-star"></span></li>
+                                <li class="list-inline-item"><span class="fas fa-star"></span></li>
+                                <li class="list-inline-item"><span class="fas fa-star"></span></li>
+                                <li class="list-inline-item"><span class="fas fa-star"></span></li>
+                            </ul>
+                            <div class="ratting-content">
+                                <h5>Contacted support after Midnight</h5>
+                                <p>Objectively envisioneer magnetic manufactured products and dynamic models. Progressively
+                                    maximize 2.0 relationships whereas process-centric.</p>
+                            </div>
+                            <div class="ratting-author mt-3">
+                                <h6>Jolio Darix</h6>
+                                <small class="text-right">8 days ago</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--testimonial and review section end-->
+<!-- faq -->
     <section>
         <div class="container">
-            <div id="faq" class="ptb-100 ">
+            <div id="faq" class="ptb-100">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-9 col-lg-8">
                             <div class="section-heading mb-5">
-                                <h2>Frequently Asked Queries</h2>
-                                <p>We understand that hosting stuff can seem complicated.
-                                    So please, ask us anything! We're happy to explain and help you on your
-                                    journey to getting online.<a href="#contact" class="page-scroll">Contact us</a></p>
+                                <h3 class="media-la text-brand">Frequently Asked Queries</h3>
+                                <p class="h5 web-s">Hosting Made Simple: Ask Us Anything ! <a href="contact" class="page-scroll"> Contact us</a></p>
                             </div>
                         </div>
                     </div>
@@ -450,83 +729,6 @@ onMounted(() => {
         </div>
     </section>
 
-    <!--testimonial and review section start-->
-    <section class="client-review-section ptb-100 gray-light-bg">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-md-9 col-lg-8">
-                    <div class="section-heading text-center mb-5">
-                        <h2>What Our Customers Say About Us?</h2>
-                        <p class="lead">Authoritatively reinvent client-centric e-markets via fully tested process.
-                            Objectively restore strategic initiatives through fully researched.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-6 col-lg-4">
-                    <div class="single-testimonial white-bg shadow-sm rounded p-5">
-                        <ul class="list-inline ratting-list mb-2">
-                            <li class="list-inline-item"><span class="fas fa-star"></span></li>
-                            <li class="list-inline-item"><span class="fas fa-star"></span></li>
-                            <li class="list-inline-item"><span class="fas fa-star"></span></li>
-                            <li class="list-inline-item"><span class="fas fa-star"></span></li>
-                            <li class="list-inline-item"><span class="fas fa-star"></span></li>
-                        </ul>
-                        <div class="ratting-content">
-                            <h5>Awesome support from technical</h5>
-                            <p>Objectively envisioneer magnetic manufactured products and dynamic models. Progressively
-                                maximize 2.0 relationships whereas process-centric.</p>
-                        </div>
-                        <div class="ratting-author mt-3">
-                            <h6>Alex Khamer</h6>
-                            <small class="text-right">6 days ago</small>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="single-testimonial white-bg shadow-sm rounded p-5">
-                        <ul class="list-inline ratting-list mb-2">
-                            <li class="list-inline-item"><span class="fas fa-star"></span></li>
-                            <li class="list-inline-item"><span class="fas fa-star"></span></li>
-                            <li class="list-inline-item"><span class="fas fa-star"></span></li>
-                            <li class="list-inline-item"><span class="fas fa-star"></span></li>
-                            <li class="list-inline-item"><span class="fas fa-star"></span></li>
-                        </ul>
-                        <div class="ratting-content">
-                            <h5>Awesome Design Quality with Support</h5>
-                            <p>Objectively envisioneer magnetic manufactured products and dynamic models maximize 2.0
-                                relationships whereas methodologies.</p>
-                        </div>
-                        <div class="ratting-author mt-3">
-                            <h6>Peter Anderson</h6>
-                            <small class="text-right">3 days ago</small>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="single-testimonial white-bg shadow-sm rounded p-5">
-                        <ul class="list-inline ratting-list mb-2">
-                            <li class="list-inline-item"><span class="fas fa-star"></span></li>
-                            <li class="list-inline-item"><span class="fas fa-star"></span></li>
-                            <li class="list-inline-item"><span class="fas fa-star"></span></li>
-                            <li class="list-inline-item"><span class="fas fa-star"></span></li>
-                            <li class="list-inline-item"><span class="fas fa-star"></span></li>
-                        </ul>
-                        <div class="ratting-content">
-                            <h5>Contacted support after Midnight</h5>
-                            <p>Objectively envisioneer magnetic manufactured products and dynamic models. Progressively
-                                maximize 2.0 relationships whereas process-centric.</p>
-                        </div>
-                        <div class="ratting-author mt-3">
-                            <h6>Jolio Darix</h6>
-                            <small class="text-right">8 days ago</small>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--testimonial and review section end-->
 </template>
 
 <style>
@@ -541,7 +743,7 @@ onMounted(() => {
 }
      
 .backvp {
-    background-image: url("@/assets/img/a8.webp");
+    background-image: url("@/assets/img/kv.webp");
 }
 
 .backvps {

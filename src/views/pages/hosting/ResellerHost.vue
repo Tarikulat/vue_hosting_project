@@ -171,7 +171,7 @@ onMounted(() => {
                                 <div class="card text-center align-items-center single-pricing-pack">
                                     <div class="pt-5">
                                         <h5 class="mb-0 text-brand">Reseller Page Hosting </h5>
-                                        <p class="mb-0">Reseller Starter:</p>
+                                        <p class="mb-0">Starter </p>
                                     </div>
                                     <div class="card-header border-0 pricing-header">
                                         <div class="price text-center mb-0 monthly-price">৳ {{ monthly }}<span>/-BDT
@@ -213,7 +213,7 @@ onMounted(() => {
                                 <div class="card text-center align-items-center single-pricing-pack">
                                     <div class="pt-5">
                                         <h5 class="mb-0 text-brand">Reseller Page Hosting </h5>
-                                        <p class="mb-0">Reseller Standard:</p>
+                                        <p class="mb-0">Standard :</p>
                                     </div>
                                     <div class="card-header border-0 pricing-header">
                                         <div class="price text-center mb-0 monthly-price">৳ {{ theryMonth }}<span>/-BDT
@@ -255,7 +255,7 @@ onMounted(() => {
                                 <div class="card text-center align-items-center single-pricing-pack">
                                     <div class="pt-5">
                                          <h5 class="mb-0 text-brand">Reseller Page Hosting </h5>
-                                        <p class="mb-0">Reseller Silver :</p>
+                                        <p class="mb-0">Silver :</p>
                                     </div>
                                     <div class="card-header border-0 pricing-header">
                                         <div class="price text-center mb-0 monthly-price">৳ {{ halfYear }}<span>/-BDT
@@ -297,7 +297,7 @@ onMounted(() => {
                                 <div class="card text-center align-items-center single-pricing-pack">
                                     <div class="pt-5">
                                        <h5 class="mb-0 text-brand">Reseller Page Hosting </h5>
-                                        <p class="mb-0">Reseller Gold :</p>
+                                        <p class="mb-0">Gold :</p>
                                     </div>
                                     <div class="card-header border-0 pricing-header">
                                         <div class="price text-center mb-0 monthly-price">৳ {{ yearly }}<span>/-BDT
@@ -341,9 +341,9 @@ onMounted(() => {
             <div class="row justify-content-center">
                 <div class="col-md-12 col-lg-7 ">
                     <div class="section-heading  text-center mb-5">
-                        <h1 class="re-sell">Web Hosting Resource Details</h1>
-                        <p class="lead">
-                            This hosting resource is very exclusive
+                        <h3 class="media-la text-brand">Web Hosting Resource :</h3>
+                        <p class="h5 web-s bt-bl">
+                           Exclusive hosting resources
                         </p>
                     </div>
                 </div>
@@ -544,9 +544,8 @@ onMounted(() => {
             <div class="row justify-content-center">
                 <div class="col-md-9 col-lg-8">
                     <div class="section-heading text-center mb-5">
-                        <h2 class="re-sell">Hosting Features For Your Big Ideas</h2>
-                        <p class="lead">These features come standard in all of our hosting plans. Dynamically extend
-                            imperatives through open-source quickly niche markets.</p>
+                        <h3 class="media-la text-brand">Hosting Features Idea :</h3>
+                        <p class="h5 web-s">Standard Features Hosting</p>
                     </div>
                 </div>
             </div>
@@ -626,7 +625,7 @@ onMounted(() => {
     </section>
     <!--feature section end-->
     <!--call to action new style start-->
-    <section class="call-to-action ptb-100 gray-light-bg gradient-bg">
+    <section class="call-to-action ptb-100 pd-crt gray-light-bg gradient-bg">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 col-lg-6">
@@ -637,7 +636,7 @@ onMounted(() => {
                         <a href="#" class="btn outline-btn">Learn More</a>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-6">
+                <div class="col-md-6 nd-res col-lg-6">
                     <div class="call-to-action-box white-bg shadow-sm rounded p-5">
                         <h3 class="re-sell">24/7 365 Day Support</h3>
                         <p>Our experts are on standby for friendly, pro-level support 24/7, 365. No question is too
@@ -658,10 +657,9 @@ onMounted(() => {
             <div class="row justify-content-center">
                 <div class="col-md-9 col-lg-8">
                     <div class="section-heading mb-3 text-center">
-                        <h2 class="re-sell">Frequently Asked Questions</h2>
-                        <p class="lead">
-                            Quickly morph client-centric results through performance based applications. Proactively
-                            facilitate professional human capital for cutting-edge.
+                        <h3 class="media-la text-brand">Frequently Asked Questions</h3>
+                        <p class="h5 web-s">
+                            Dynamic Client Outcomes Proactive.
                         </p>
                     </div>
                 </div>
@@ -722,14 +720,13 @@ onMounted(() => {
             <div class="row justify-content-center">
                 <div class="col-md-9 col-lg-8">
                     <div class="section-heading text-center mb-5">
-                        <h2 class="re-sell">What Our Customers Say About Us?</h2>
-                        <p class="lead">Authoritatively reinvent client-centric e-markets via fully tested process.
-                            Objectively restore strategic initiatives through fully researched.</p>
+                        <h3 class="media-la text-brand">Our Customers Say About Us?</h3>
+                        <p class="h5 web-s bt-bl">Revamping E-Markets: Tested Approach, Researched Strategies</p>
                     </div>
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-6 col-lg-4">
+                <div class="col-md-6 nd-res col-lg-4">
                     <div class="single-testimonial white-bg shadow-sm rounded p-5">
                         <ul class="list-inline ratting-list mb-2">
                             <li class="list-inline-item"><span class="fas fa-star"></span></li>
@@ -749,7 +746,7 @@ onMounted(() => {
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-4">
+                <div class="col-md-6 nd-res col-lg-4">
                     <div class="single-testimonial white-bg shadow-sm rounded p-5">
                         <ul class="list-inline ratting-list mb-2">
                             <li class="list-inline-item"><span class="fas fa-star"></span></li>
@@ -769,7 +766,7 @@ onMounted(() => {
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-4">
+                <div class="col-md-6 nd-res col-lg-4">
                     <div class="single-testimonial white-bg shadow-sm rounded p-5">
                         <ul class="list-inline ratting-list mb-2">
                             <li class="list-inline-item"><span class="fas fa-star"></span></li>

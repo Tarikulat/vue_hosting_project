@@ -11,14 +11,15 @@
                 <div class="row">
                     <div class="col-md-3">
                         <div class="row footer-top-wrap">
-                            <div class="col-6">
+                            <div class="col-">
                                 <div class="footer-nav-wrap text-white">
                                     <h4 class="text-white">SECURED BY</h4>
                                     <ul class="list-inline security-icon-list">
-                                        <li class="list-inline-item"><img src="@/assets/img/ff1.png" width="110" alt="security" class="img-fluid" /></li>
+                                        <!-- <li class="list-inline-item"><img src="@/assets/img/ff1.png" width="110" alt="security" class="img-fluid" /></li>
                                         <li class="list-inline-item"><img src="@/assets/img/ff2.png" width="110" alt="security" class="img-fluid" /></li>
                                         <li class="list-inline-item"><img src="@/assets/img/ff3.png" width="110" alt="security" class="img-fluid" /></li>
-                                        <li class="list-inline-item"><img src="@/assets/img/ff4.png" width="110" alt="security" class="img-fluid" /></li>
+                                        <li class="list-inline-item"><img src="@/assets/img/ff4.png" width="110" alt="security" class="img-fluid" /></li> -->
+                                       <p>Powering your online success with superfast hosting service – Host Service.</p> 
                                     </ul>
                                 </div>
                             </div>
@@ -53,7 +54,7 @@
                                     <h4 class="text-white">COMPANY</h4>
                                     <ul class="nav flex-column">
                                         <li class="nav-item">
-                                            <a class="nav-link" href="#">Info</a>
+                                            <a class="nav-link" href="#">About</a>
                                         </li>
                                         <li class="nav-item">
                                             <a class="nav-link" href="#">Affiliates</a>

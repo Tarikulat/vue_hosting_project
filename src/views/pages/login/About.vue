@@ -9,15 +9,12 @@
         <div class="row align-items-center">
             <div class="col-md-7 col-lg-6">
                 <div class="page-header-content text-white">
-                    <h1 class="text-white mb-2">About Us</h1>
+                    <h1 class="text-brand media-lan">About Us</h1>
                     <p class="lead">Compellingly conceptualize ubiquitous methodologies and progressive total linkage. Credibly reconceptualize enabled models after open-source applications. </p>
                 </div>
             </div>
         </div>
     </div><br>
-    <!-- <div class="shape-bottom">
-        <img src="@/assets/img/jj.png" alt="shape" class="bottom-shape img-fluid">
-    </div> -->
 </section>
 <!--page header section end-->
 
@@ -31,10 +28,8 @@
                 </div>
             </div>
             <div class="col-xl-8 col-lg-9 col-12 order-xl-first">
-                <h2>We Make Sure Your Website is Fast</h2>
-                <p>Efficiently reintermediate long-term high-impact channels without equity
-                    invested technology. Quickly brand backend web-readiness without
-                    cross-platform e-services.</p>
+                <h3 class="media-la me-n text-brand">We Make Sure Your Website is Fast</h3>
+                <p class="h5 web-s">Streamlining High-Impact Channels, Branding Backend Web-Readiness</p>
                 <div class="row pt-2">
                     <div class="col-md-6 col-12">
                         <h5>Exclusive Features</h5>
@@ -71,7 +66,7 @@
         <div class="row justify-content-center">
             <div class="col-md-9 col-lg-8">
                 <div class="call-to-action-content text-white text-center">
-                    <h2 class="text-white">Already have a domain that you love?</h2>
+                    <h2 class="text-white bm-d">Already have a domain that you love?</h2>
                     <p>No problem! It's quick and painless to transfer your hosting, domain registrations, or both
                         to HostLar maximize market positioning solutions and enterprise services.</p>
                     <div class="action-btns mt-3">
@@ -86,14 +81,13 @@
 <!--call to action section end-->
 
 <!--feature section start-->
-<section class="feature-section ptb-100 gray-light-bg">
+<section class="feature-section ptb-100 vps-bg gray-light-bg">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-9 col-lg-8">
                 <div class="section-heading text-center mb-5">
-                    <h2>Hosting Features For Your Big Ideas</h2>
-                    <p class="lead">These features come standard in all of our hosting plans. Dynamically extend
-                        imperatives through open-source quickly niche markets.</p>
+                    <h3 class="media-la text-brand">Hosting Features Ideas</h3>
+                    <p class="h5 web-s">Standard Hosting: Dynamic Open-Source Expansion</p>
                 </div>
             </div>
         </div>
@@ -174,256 +168,14 @@
     </div>
 </section>
 
-
-<!--feature section end-->
-
-<!--meet our team carousel style start-->
-<section class="our-team-section packgr ptb-100">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-md-8 col-lg-8">
-                <div class="section-heading text-center mb-5">
-                    <h2>Meet Our Professional Team</h2>
-                    <p>Distinctively grow go forward manufactured products 
-                        and optimal networks. Enthusiastically
-                        disseminate user-centric outsourcing through revolutionary</p>
-                </div>
-            </div>
-        </div>
-        <!-- <div class="row">
-            <div class="col-md-12 col-lg-12">
-                <div class="owl-carousel owl-theme team-member-carousel custom-dot dot-bottom-center">
-                    <div class="item">
-                        <div class="staff-member">
-                            <div class="card text-center">
-                                <img src="@/assets/img/team-1.jpg" alt="team image" class="card-img-top">
-                                <div class="card-body">
-                                    <h5 class="teacher mb-0">Richard Ford</h5>
-                                    <span>Instructor of Mathematics</span>
-                                    <ul class="list-inline pt-2 social">
-                                        <li class="list-inline-item"><a href="" target="_blank"><span
-                                                class="ti-facebook"></span></a></li>
-                                        <li class="list-inline-item"><a href="" target="_blank"><span
-                                                class="ti-linkedin"></span></a></li>
-                                        <li class="list-inline-item"><a href="" target="_blank"><span
-                                                class="ti-dribbble"></span></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="overlay d-flex align-items-center justify-content-center">
-                                <div class="overlay-inner">
-                                    <p class="teacher-quote">"Energistically administrate multifunctional 
-                                        rather than front-end expertise." </p><a href="#" class="teacher-name">
-                                        <h5 class="mb-0 teacher text-white">Richard Ford</h5>
-                                    </a>
-                                    <span class="teacher-field text-white">Instructor of Mathematics</span>
-                                    <ul class="list-inline py-4 social">
-                                        <li class="list-inline-item"><a href="" target="_blank"><span
-                                                class="ti-facebook"></span></a></li>
-                                        <li class="list-inline-item"><a href="" target="_blank"><span
-                                                class="ti-linkedin"></span></a></li>
-                                        <li class="list-inline-item"><a href="" target="_blank"><span
-                                                class="ti-dribbble"></span></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="staff-member">
-                            <div class="card text-center">
-                                <img src="@/assets/img/team-3.jpg" alt="team image" class="card-img-top">
-                                <div class="card-body">
-                                    <h5 class="h5 teacher mb-0">Ann Smith</h5>
-                                    <span>Finance Lead</span>
-                                    <ul class="list-inline pt-2 social">
-                                        <li class="list-inline-item"><a href="" target="_blank"><span
-                                                class="ti-facebook"></span></a></li>
-                                        <li class="list-inline-item"><a href="" target="_blank"><span
-                                                class="ti-linkedin"></span></a></li>
-                                        <li class="list-inline-item"><a href="" target="_blank"><span
-                                                class="ti-dribbble"></span></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="overlay d-flex align-items-center justify-content-center">
-                                <div class="overlay-inner">
-                                    <p class="teacher-quote">"Efficiently deliver business systems through
-                                         extensible redefine user" </p><a href="#" class="teacher-name">
-                                        <h5 class="mb-0 teacher text-white">Ann Smith</h5>
-                                    </a><span class="teacher-field text-white">Finance Lead</span>
-                                    <ul class="list-inline py-4 social">
-                                        <li class="list-inline-item"><a href="" target="_blank"><span
-                                                class="ti-facebook"></span></a></li>
-                                        <li class="list-inline-item"><a href="" target="_blank"><span
-                                                class="ti-linkedin"></span></a></li>
-                                        <li class="list-inline-item"><a href="" target="_blank"><span
-                                                class="ti-dribbble"></span></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="staff-member">
-                            <div class="card text-center">
-                                <img src="@/assets/img/team-2.jpg" alt="team image" class="img-fluid">
-                                <div class="card-body">
-                                    <h5 class="teacher mb-0">Philip Wilson</h5>
-                                    <span>Marketing Head</span>
-                                    <ul class="list-inline pt-2 social">
-                                        <li class="list-inline-item"><a href="" target="_blank"><span
-                                                class="ti-facebook"></span></a></li>
-                                        <li class="list-inline-item"><a href="" target="_blank"><span
-                                                class="ti-linkedin"></span></a></li>
-                                        <li class="list-inline-item"><a href="" target="_blank"><span
-                                                class="ti-dribbble"></span></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="overlay d-flex align-items-center justify-content-center">
-                                <div class="overlay-inner">
-                                    <p class="teacher-quote">"Monotonectally mesh customized core competencies 
-                                        through communities." </p><a href="#" class="teacher-name">
-                                        <h5 class="mb-0 teacher text-white">Philip Wilson</h5>
-                                    </a>
-                                    <span class="teacher-field text-white">Marketing Head</span>
-                                    <ul class="list-inline py-4 social">
-                                        <li class="list-inline-item"><a href="" target="_blank"><span
-                                                class="ti-facebook"></span></a></li>
-                                        <li class="list-inline-item"><a href="" target="_blank"><span
-                                                class="ti-linkedin"></span></a></li>
-                                        <li class="list-inline-item"><a href="" target="_blank"><span
-                                                class="ti-dribbble"></span></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="staff-member">
-                            <div class="card text-center">
-                                <img src="@/assets/img/team-4.jpg" alt="team image" class="img-fluid">
-                                <div class="card-body">
-                                    <h5 class="teacher mb-0">Walsh ALex</h5>
-                                    <span>Company Director</span>
-                                    <ul class="list-inline pt-2 social">
-                                        <li class="list-inline-item"><a href="" target="_blank"><span
-                                                class="ti-facebook"></span></a></li>
-                                        <li class="list-inline-item"><a href="" target="_blank"><span
-                                                class="ti-linkedin"></span></a></li>
-                                        <li class="list-inline-item"><a href="" target="_blank"><span
-                                                class="ti-dribbble"></span></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="overlay d-flex align-items-center justify-content-center">
-                                <div class="overlay-inner">
-                                    <p class="teacher-quote">"Conveniently whiteboard one-to-one bandwidth
-                                         rather than revolutionary mindshare." </p><a href="#" class="teacher-name">
-                                        <h5 class="mb-0 teacher text-white">Walsh ALex</h5>
-                                    </a>
-                                    <span class="teacher-field text-white">Company Director</span>
-                                    <ul class="list-inline py-4 social">
-                                        <li class="list-inline-item"><a href="" target="_blank"><span
-                                                class="ti-facebook"></span></a></li>
-                                        <li class="list-inline-item"><a href="" target="_blank"><span
-                                                class="ti-linkedin"></span></a></li>
-                                        <li class="list-inline-item"><a href="" target="_blank"><span
-                                                class="ti-dribbble"></span></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="staff-member">
-                            <div class="card text-center">
-                                <img src="@/assets/img/team-6.jpg" alt="team image" class="card-img-top">
-                                <div class="card-body">
-                                    <h5 class="teacher mb-0">Ford Kaly</h5>
-                                    <span>CEO & Marketing</span>
-                                    <ul class="list-inline pt-2 social">
-                                        <li class="list-inline-item"><a href="" target="_blank"><span
-                                                class="ti-facebook"></span></a></li>
-                                        <li class="list-inline-item"><a href="" target="_blank"><span
-                                                class="ti-linkedin"></span></a></li>
-                                        <li class="list-inline-item"><a href="" target="_blank"><span
-                                                class="ti-dribbble"></span></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="overlay d-flex align-items-center justify-content-center">
-                                <div class="overlay-inner">
-                                    <p class="teacher-quote">"Energistically administrate multifunctional
-                                         rather than front-end expertise." </p><a href="#" class="teacher-name">
-                                        <h5 class="mb-0 teacher text-white">Richard Ford</h5>
-                                    </a>
-                                    <span class="teacher-field text-white">Instructor of Mathematics</span>
-                                    <ul class="list-inline py-4 social">
-                                        <li class="list-inline-item"><a href="" target="_blank"><span
-                                                class="ti-facebook"></span></a></li>
-                                        <li class="list-inline-item"><a href="" target="_blank"><span
-                                                class="ti-linkedin"></span></a></li>
-                                        <li class="list-inline-item"><a href="" target="_blank"><span
-                                                class="ti-dribbble"></span></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="staff-member">
-                            <div class="card text-center">
-                                <img src="@/assets/img/team-5.jpg" alt="team image" class="img-fluid">
-                                <div class="card-body">
-                                    <h5 class="teacher mb-0">Nancy ALex</h5>
-                                    <span>Product Manager</span>
-                                    <ul class="list-inline pt-2 social">
-                                        <li class="list-inline-item"><a href="" target="_blank"><span
-                                                class="ti-facebook"></span></a></li>
-                                        <li class="list-inline-item"><a href="" target="_blank"><span
-                                                class="ti-linkedin"></span></a></li>
-                                        <li class="list-inline-item"><a href="" target="_blank"><span
-                                                class="ti-dribbble"></span></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="overlay d-flex align-items-center justify-content-center">
-                                <div class="overlay-inner">
-                                    <p class="teacher-quote">"Conveniently whiteboard one-to-one bandwidth
-                                         rather than revolutionary mindshare." </p><a href="#" class="teacher-name">
-                                        <h5 class="mb-0 teacher text-white">Nancy ALex</h5>
-                                    </a>
-                                    <span class="teacher-field text-white">Product Manager</span>
-                                    <ul class="list-inline py-4 social">
-                                        <li class="list-inline-item"><a href="" target="_blank"><span
-                                                class="ti-facebook"></span></a></li>
-                                        <li class="list-inline-item"><a href="" target="_blank"><span
-                                                class="ti-linkedin"></span></a></li>
-                                        <li class="list-inline-item"><a href="" target="_blank"><span
-                                                class="ti-dribbble"></span></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div> -->
-    </div>
-</section>
-<!--meet our team carousel style end-->
-
 <!--testimonial and review section start-->
 <section class="client-review-section ptb-100 gray-light-bg">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-9 col-lg-8">
                 <div class="section-heading text-center mb-5">
-                    <h2>What Our Customers Say About Us?</h2>
-                    <p class="lead">Authoritatively reinvent client-centric e-markets via fully 
-                        tested process. Objectively restore strategic initiatives through fully researched.</p>
+                    <h3 class="media-la text-brand">What Our Customers Say About Us?</h3>
+                    <p class="h5 web-s bt-bl">Revolutionizing Client-Centric E-Markets: Tested Processes, Researched Initiatives</p>
                 </div>
             </div>
         </div>
@@ -460,7 +212,7 @@
                     <div class="ratting-content">
                         <h5>Awesome Design Quality with Support</h5>
                         <p>Objectively envisioneer magnetic manufactured products and dynamic models
-                             maximize 2.0 relationships whereas methodologies.</p>
+                             maximize 2.0 relationships</p>
                     </div>
                     <div class="ratting-author mt-3">
                         <h6>Peter Anderson</h6>

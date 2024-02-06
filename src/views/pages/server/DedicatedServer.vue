@@ -24,266 +24,248 @@ export default {
   <!--hero section start-->
   <section class="hero-equal-height pt-165 pb-100 backgb gradient-overlay">
     <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-md-8 dser-media col-lg-7">
-                <div class="hero-content-wrap text-white text-center position-relative z-index">
-                    <h1 class="text-white ded-t ">DEDICATED SERVERS</h1>
-                    <p class="lead">Discover a full range of web hosting servers. Dedicated servers are the perfect 
-                      solution to accommodate your projects when shared hosting is no longer enough. The complete 
-                      freedom of managing your dedicated server lets you shape it to your own needs.</p>
-                </div>
+      <div class="row justify-content-center">
+        <div class="col-md-8 dser-media col-lg-7">
+          <div class="col-md-7 col-lg-7 media-lan ">
+            <div class="hero-content-wrap text-white position-relative">
+              <h1 class="text-brand ">Dedicated Server </h1>
+              <p class="lead">Build and grow the perfect Website dadicated Server.</p>
+              <ul class="list-unstyled tech-feature-list text-white">
+                <li class="py-1"><span class="ti-control-forward mr-2"></span>Flexible, Easy to Use Control Panel</li>
+                <li class="py-1"><span class="ti-control-forward mr-2"></span><strong>Unmetered</strong> Bandwidth</li>
+                <li class="py-1"><span class="ti-control-forward mr-2"></span><strong>Unmetered</strong> Sub Domains, FTP
+                  Accounts</li>
+                <li class="py-1"><span class="ti-control-forward mr-2"></span><strong>99%</strong> Uptime Guarantee</li>
+                <li class="py-1"><span class="ti-control-forward mr-2"></span><strong>45-Day</strong> Money-Back Guarantee
+                </li>
+              </ul>
             </div>
-            <div class="col-md-4 col-lg-5">
-              <div>
-                  <label><img src="@/assets/img/v3.png" class="da-img body-landing" alt="ser"></label>
-              </div>
-            </div>
+          </div>
         </div>
+        <div class="col-md-4 col-lg-5">
+          <div>
+            <label><img src="@/assets/img/v3.png" class="da-img body-landing" alt="ser"></label>
+          </div>
+        </div>
+      </div>
     </div>
-</section>
-<!--hero section end-->
+  </section>
+  <!--hero section end-->
 
-<!--vps hosting pricing plane start-->
-<section class="vps-pricing-plane ptb-100 gray-light-bg">
+  <!--vps hosting pricing plane start-->
+  <section class="vps-pricing-plane ptb-100 gray-light-bg">
     <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-md-9 col-lg-8">
-                <div class="section-heading text-center mb-5">
-                    <h2>Dedicated Server Plan:</h2>
-                    <p class="lead">Uniquely restore open-source products via open-source relationships.
-                        Enthusiastically deliver competitive systems and client-centric.</p>
-                </div>
-            </div>
+      <div class="row justify-content-center">
+        <div class="col-md-9 col-lg-8">
+          <div class="section-heading text-center mb-5">
+            <h3 class="media-la text-brand">Dedicated Server Plan </h3>
+            <p class="h5 web-s">Reviving Open-Source Products with Enthusiastic Client Focus</p>
+          </div>
         </div>
-        <div class="row">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                <table class="table vps-hosting-pricing-table">
-                    <thead>
-                        <tr>
-                            <th>AMD</th>
-                            <th>Memory</th>
-                            <th>CPU Power</th>
-                            <th>Storage</th>
-                            <th>Geekbench Score</th>
-                            <th>Bandwidth</th>
-                            <th colspan="2">Dadicate server Price</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr class="vps-pricing-row border-accent-primary">
-                            <td data-value="VCPU">Dedicated Starter:</td>
-                            <td data-value="Memory">AMD Ryzen 5600X Processor</td>
-                            <td data-value="CPU Power"><span>CPU: <span class="cpu-core">Ryzen 5600X 6x3.70GHz</span></span></td>
-                            <td data-value="Storage">64GB DDR4 Memory</td>
-                            <td data-value="Geekbench Score">
-                                <div class="score-bar-wrap">
-                                    <span class="geekbench-score">512GB NVMe Hard Drive</span>
-                                    <div class="progress w-100 score-bar-item">
-                                        <div class="progress-bar primary-bg" role="progressbar" style="width: 30%;" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">30%
-                                        </div>
-                                    </div>
-                                </div>
-                            </td>
-                            <td data-value="Bandwidth">DDoS Protection included</td>
-                            <td data-value="Price">
-                                <p>
-                                    <span class="rate">৳14390<span>/month</span></span><br>
-                                  <span>Delivered in: 72h</span>
-                                    <span class="pricing-onsale">On sale - <span class="badge color-3 color-3-bg"></span></span>
-                                </p>
-                            </td>
-                            <td>
-                                <a href="https://account.hostservice.com.bd/index.php?rp=/store/dedicated-server/dedicated-starter" class="btn primary-solid-btn">Order Now</a>
-                            </td>
-                        </tr>
-                        <tr class="vps-pricing-row border-red-themes">
-                            <td data-value="VCPU">Dedicated  Standard:</td>
-                            <td data-value="Memory">AMD Ryzen 5800X Processor</td>
-                            <td data-value="CPU Power"><span>CPU: <span class="cpu-core">Ryzen 5800X 8x3.80GHz</span></span></td>
-                            <td data-value="Storage">Ryzen 5800X 8x3.80GHz</td>
-                            <td data-value="Geekbench Score">
-                                <div class="score-bar-wrap">
-                                    <span class="geekbench-score">1TB Hard Drive</span>
-                                    <div class="progress w-100 score-bar-item">
-                                        <div class="progress-bar primary-bg" role="progressbar" style="width: 40%;" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100">40%
-                                        </div>
-                                    </div>
-                                </div>
-                            </td>
-                            <td data-value="Bandwidth">DDoS Protection included</td>
-                            <td data-value="Price">
-                                <p>
-                                    <span class="rate">৳20390 tk<span>/month</span></span><br>
-                                    <span>Delivered in: 72h</span>
-                                    <span class="pricing-onsale">On sale - <span class="badge color-1 color-1-bg">Save 50%</span></span>
-                                </p>
-                            </td>
-                            <td>
-                                <a href="https://account.hostservice.com.bd/index.php?rp=/store/dedicated-server/dedicated-standard" class="btn primary-solid-btn">Order Now</a>
-                            </td>
-                        </tr>
-                        <tr class="vps-pricing-row border-orange-themes">
-                            <td data-value="VCPU">Dedicated  Silver :</td>
-                            <td data-value="Memory">AMD Ryzen 5900X Processor</td>
-                            <td data-value="CPU Power"><span>CPU: <span class="cpu-core">Ryzen 5900X 12x3.70GHz</span></span></td>
-                            <td data-value="Storage">128GB DDR4 Memory</td>
-                            <td data-value="Geekbench Score">
-                                <div class="score-bar-wrap">
-                                    <span class="geekbench-score">2TB Hard Drive</span>
-                                    <div class="progress w-100 score-bar-item">
-                                        <div class="progress-bar primary-bg" role="progressbar" style="width: 60%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">%
-                                        </div>
-                                    </div>
-                                </div>
-                            </td>
-                            <td data-value="Bandwidth">DDoS Protection included</td>
-                            <td data-value="Price">
-                                <p>
-                                    <span class="rate">৳26590<span>/month</span></span><br>
-                                    <span>Dedicated Silver</span>
-                                    <span class="pricing-onsale">On sale -
-                                       <span class="badge color-3 color-3-bg">Save %</span></span>
-                                </p>
-                            </td>
-                            <td>
-                                <a href="https://account.hostservice.com.bd/index.php?rp=/store/dedicated-server/silver" class="btn primary-solid-btn">Order Now</a>
-                            </td>
-                        </tr>
-                        <tr class="vps-pricing-row border-yellow-themes">
-                            <td data-value="VCPU">Dedicated  Gold :</td>
-                            <td data-value="Memory">AMD Ryzen 5950X Processor</td>
-                            <td data-value="CPU Power"><span>CPU: <span class="cpu-core">Ryzen 5950X 16x3.40GHz</span></span></td>
-                            <td data-value="Storage">128GB DDR4 Memory</td>
-                            <td data-value="Geekbench Score">
-                                <div class="score-bar-wrap">
-                                    <span class="geekbench-score">2TB Hard Drive</span>
-                                    <div class="progress w-100 score-bar-item">
-                                        <div class="progress-bar primary-bg" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">%
-                                        </div>
-                                    </div>
-                                </div>
-                            </td>
-                            <td data-value="Bandwidth">DDoS Protection included</td>
-                            <td data-value="Price">
-                                <p><span class="rate">৳32390<span>/month</span></span><br>
-                                  <span>Delivered in: 72h</span>
-                                <span class="pricing-onsale">On sale - 
-                                <span class="badge color-3 color-3-bg">Save %</span></span></p>
-                            </td>
-                            <td>
-                                <a href="https://account.hostservice.com.bd/index.php?rp=/store/dedicated-server/dedicated-silver" class="btn primary-solid-btn">Order Now</a>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-        <div class="row justify-content-center d-none d-md-block d-lg-block">
-            <div class="col-md-10 col-lg-12">
-                <div class="payment-method text-center">
-                    <ul class="list-inline">
-                        <li class="list-inline-item">
-                            <img src="@/assets/img/payment-amex.svg" alt="amex" width="50">
-                        </li>
-                        <li class="list-inline-item">
-                            <img src="@/assets/img/payment-visa.svg" alt="visa" width="50">
-                        </li>
-                        <li class="list-inline-item">
-                            <img src="@/assets/img/payment-mastercard.svg" alt="mastercard" width="50">
-                        </li>
-                        <li class="list-inline-item">
-                            <img src="@/assets/img/payment-paypal.svg" alt="paypal" width="50">
-                        </li>
-                        <li class="list-inline-item">
-                            <img src="@/assets/img/payment-bitcoin.svg" alt="bitcoin" width="50">
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!--vps hosting pricing plane end-->
+      </div>
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+          <table class="table vps-hosting-pricing-table">
+            <thead>
+              <tr>
+                <th>Packages</th>
+                <th>CPU</th>
+                <th>Processor</th>
+                <th>Ram</th>
+                <th>Storage</th>
+                <th>Bandwidth DDoS</th>
+                <th colspan="2">Price And Delivered</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="vps-pricing-row border-accent-primary">
+                <td>Starter:</td>
+                <td><span class="cpu-core">Ryzen 5800X 8x3.80GHz</span></td>
+                <td><span class="cpu-core">Ryzen 5600X 6x3.70GHz</span></td>
+                <td><span class="cpu-core">64GB DDR4 Memory</span></td>
+                <td>
+                  <div>
+                    <span class="cpu-core">512GB NVMe Hard Drive</span>
+                  </div>
+                </td>
+                <td><span class="cpu-core">Protection included</span></td>
+                <td>
+                  <p>
+                    <span class="rate">৳14390<span>/month</span></span><br>
 
-<br>
-<!--feature section start-->
-<section class="feature-section ptb-100 ">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-md-9 col-lg-8">
-                <div class="section-heading text-center mb-5">
-                    <h2>Hosting Platform Features</h2>
-                    <p class="lead">These features come standard in all of our hosting plans. Dynamically extend
-                        imperatives through open-source quickly niche markets.</p>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-6 col-lg-4">
-                <div class="feature-feature-list p-4 text-center">
-                    <span class="ti-harddrives icon-sm d-block color-primary mb-3"></span>
-                    <h5 class="mb-2">SSD Disk Drives</h5>
-                    <p>You can never go wrong with our own top-notch dedicated servers loaded</p>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-4">
-                <div class="feature-feature-list p-4 text-center">
-                    <span class="ti-rss-alt icon-sm d-block color-primary mb-3"></span>
-                    <h5 class="mb-2">100 Mb/s Network</h5>
-                    <p>We can guarantee an excellent experience and loading time for your successful</p>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-4">
-                <div class="feature-feature-list p-4 text-center">
-                    <span class="ti-lock icon-sm d-block color-primary mb-3"></span>
-                    <h5 class="mb-2">DDoS Protection</h5>
-                    <p>With full root access you will be able to take full control of your server very easy</p>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-4">
-                <div class="feature-feature-list p-4 text-center">
-                    <span class="ti-world icon-sm d-block color-primary mb-3"></span>
-                    <h5 class="mb-2">Dedicated IP</h5>
-                    <p>One of many premium features is a dedicated IP cheapest VPS hosting plan</p>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-4">
-                <div class="feature-feature-list p-4 text-center">
-                    <span class="ti-location-pin icon-sm d-block color-primary mb-3"></span>
-                    <h5 class="mb-2">IPv6 Support</h5>
-                    <p>Our VPS hosting plan is fully packed with dedicated IPv6 Internet protocol IP</p>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-4">
-                <div class="feature-feature-list p-4 text-center">
-                    <span class="ti-wallet icon-sm d-block color-primary mb-3"></span>
-                    <h5 class="mb-2">Money-back Guarantee</h5>
-                    <p>If you’re not 100% satisfied with Hostlar, we’ll refund your payment no risk</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!--feature section end-->
 
-<!--call to action new section start (add2)-->
-<section class="call-to-action backgm ptb-100 gradient-overlay ">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-md-9 col-lg-8">
-                <div class="cta-new-wrap text-white text-center">
-                    <h2 class="text-white">30-day Money-back Guarantee</h2>
-                    <p class="lead">Globally parallel task granular alignments through excellent intellectual capital. Globally deploy vertical leadership.</p>
-                    <div class="action-btns mt-4">
-                        <a href="#" class="btn solid-white-btn animated-btn mr-lg-3">Get
-                            Started Now</a>
-                    </div>
-                </div>
-            </div>
+                  </p>
+                </td>
+
+                <td>
+                  <a href="" class="btn primary-solid-btn">Order Now</a>
+                </td>
+
+              </tr>
+
+              <tr class="vps-pricing-row border-red-themes">
+                <td>Standard:</td>
+                <td><span class="cpu-core">Ryzen 5800X 8x3.80GHz</span></td>
+                <td> <span class="cpu-core">Ryzen 5800X Processor</span></td>
+                <td><span class="cpu-core">128GB DDR4 Memory</span></td>
+                <td><span class="cpu-core">1TB Hard Drive</span></td>
+                <td><span class="cpu-core"> Protection included</span></td>
+                <td >
+                  <p>
+                    <span class="rate">৳20390<span>/month</span></span><br>
+                  </p>
+                </td>
+                <td>
+                  <a href="" class="btn primary-solid-btn">Order Now</a>
+                </td>
+              </tr>
+              <tr class="vps-pricing-row border-orange-themes">
+                <td>Silver :</td>
+                <td><span class="cpu-core">Ryzen 5900X 12x3.70GHz</span> </td>
+                <td> <span class="cpu-core">Ryzen 5900X Processor</span></td>
+                <td><span class="cpu-core">128GB DDR4 Memory</span></td>
+                <td>
+                  <div class="score-bar-wrap">
+                    <span class="cpu-core">2TB Hard Drive</span>
+                  </div>
+                </td>
+                <td><span class="cpu-core"> Protection included</span></td>
+                <td>
+                  <p>
+                    <span class="rate">৳26590<span>/month</span></span><br>
+                  </p>
+                </td>
+                <td>
+                  <a href="" class="btn primary-solid-btn">Order Now</a>
+                </td>
+              </tr>
+              <tr class="vps-pricing-row border-yellow-themes">
+                <td>Gold :</td>
+                <td><span class="cpu-core">Ryzen 5950X 16x3.40GHz</span></td>
+                <td><span class="cpu-core">AMD Ryzen 5950X</span></td>
+                <td><span class="cpu-core">128GB DDR4 Memory</span></td>
+                <td>
+                  <div class="score-bar-wrap">
+                    <span class="cpu-core">2TB Hard Drive</span>
+                  </div>
+                </td>
+                <td><span class="cpu-core"> Protection included</span></td>
+                <td>
+                  <p><span class="rate">৳32390<span>/month</span></span><br>
+                  </p>
+                </td>
+                <td>
+                  <a href="" class="btn primary-solid-btn">Order Now</a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
         </div>
+      </div>
+      <div class="row justify-content-center d-none d-md-block d-lg-block">
+        <div class="col-md-10 col-lg-12">
+          <div class="payment-method text-center">
+            <ul class="list-inline">
+              <li class="list-inline-item">
+                <img src="@/assets/img/payment-amex.svg" alt="amex" width="50">
+              </li>
+              <li class="list-inline-item">
+                <img src="@/assets/img/payment-visa.svg" alt="visa" width="50">
+              </li>
+              <li class="list-inline-item">
+                <img src="@/assets/img/payment-mastercard.svg" alt="mastercard" width="50">
+              </li>
+              <li class="list-inline-item">
+                <img src="@/assets/img/payment-paypal.svg" alt="paypal" width="50">
+              </li>
+              <li class="list-inline-item">
+                <img src="@/assets/img/payment-bitcoin.svg" alt="bitcoin" width="50">
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </div>
-</section>
-<!--call to action new section end-->
+  </section>
+  <!--vps hosting pricing plane end-->
+  <!--feature section start-->
+  <section class="feature-section ptb-100 vps-bg">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-9 col-lg-8">
+          <div class="section-heading text-center mb-5">
+            <h3 class="media-la text-brand">Hosting Platform Features</h3>
+            <p class="h5 web-s">Standard Hosting Features: Dynamic Open-Source Expansion</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 col-lg-4">
+          <div class="feature-feature-list p-4 text-center">
+            <span class="ti-harddrives icon-sm d-block color-primary mb-3"></span>
+            <h5 class="mb-2">SSD Disk Drives</h5>
+            <p>You can never go wrong with our own top-notch dedicated servers loaded</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="feature-feature-list p-4 text-center">
+            <span class="ti-rss-alt icon-sm d-block color-primary mb-3"></span>
+            <h5 class="mb-2">100 Mb/s Network</h5>
+            <p>We can guarantee an excellent experience and loading time for your successful</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="feature-feature-list p-4 text-center">
+            <span class="ti-lock icon-sm d-block color-primary mb-3"></span>
+            <h5 class="mb-2">DDoS Protection</h5>
+            <p>With full root access you will be able to take full control of your server very easy</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="feature-feature-list p-4 text-center">
+            <span class="ti-world icon-sm d-block color-primary mb-3"></span>
+            <h5 class="mb-2">Dedicated IP</h5>
+            <p>One of many premium features is a dedicated IP cheapest VPS hosting plan</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="feature-feature-list p-4 text-center">
+            <span class="ti-location-pin icon-sm d-block color-primary mb-3"></span>
+            <h5 class="mb-2">IPv6 Support</h5>
+            <p>Our VPS hosting plan is fully packed with dedicated IPv6 Internet protocol IP</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="feature-feature-list p-4 text-center">
+            <span class="ti-wallet icon-sm d-block color-primary mb-3"></span>
+            <h5 class="mb-2">Money-back Guarantee</h5>
+            <p>If you’re not 100% satisfied with Hostlar, we’ll refund your payment no risk</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--feature section end-->
+
+  <!--call to action new section start (add2)-->
+  <section class="call-to-action backgm ptb-100 gradient-overlay ">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-9 col-lg-8">
+          <div class="cta-new-wrap text-white text-center">
+            <h2 class="text-white bm-d">30-day Money-back Guarantee</h2>
+            <p class="lead">Globally parallel task granular alignments through excellent intellectual capital. Globally
+              deploy vertical leadership.</p>
+            <div class="action-btns mt-4">
+              <a href="#" class="btn solid-white-btn animated-btn mr-lg-3">Get
+                Started Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--call to action new section end-->
 
   <!--feature section start(1add)-->
   <section class="feature-section ptb-100 gray-light-bg">
@@ -291,10 +273,9 @@ export default {
       <div class="row justify-content-center">
         <div class="col-md-9 col-lg-8">
           <div class="section-heading text-center mb-5">
-            <h2>Hosting Features For Your Big Ideas</h2>
-            <p class="lead">
-              These features come standard in all of our hosting plans. Dynamically extend
-              imperatives through open-source quickly niche markets.
+            <h3 class="media-la text-brand">Hosting Features Ideas</h3>
+            <p class="h5 web-s">
+              Standard Hosting: Open-Source Expansion
             </p>
           </div>
         </div>
@@ -356,7 +337,7 @@ export default {
             </div>
           </div>
         </div>
-        <div class="col-md-6 col-lg-4">
+        <div class="col-md-6  col-lg-4">
           <div class="features-box p-4">
             <div class="features-box-icon">
               <span class="ti-harddrives icon-sm color-primary"></span>
@@ -370,7 +351,7 @@ export default {
             </div>
           </div>
         </div>
-        <div class="col-md-6 col-lg-4">
+        <div class="col-md-6  col-lg-4">
           <div class="features-box p-4">
             <div class="features-box-icon">
               <span class="ti-cup icon-sm color-primary"></span>
@@ -404,7 +385,7 @@ export default {
             <a href="#" class="btn outline-btn">Learn More</a>
           </div>
         </div>
-        <div class="col-md-6 col-lg-6">
+        <div class="col-md-6 mr-con col-lg-6">
           <div class="call-to-action-box white-bg shadow-sm rounded p-5">
             <h3>24/7 365 Day Support</h3>
             <p>
@@ -424,15 +405,14 @@ export default {
   <!--call to action new style end-->
 
   <!--faq new style start (3add)-->
-  <section class="ptb-100">
+  <section class="ptb-100 white-bg">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-md-9 col-lg-8">
           <div class="section-heading mb-3 text-center">
-            <h2>Frequently Asked Questions</h2>
-            <p class="lead">
-              Quickly morph client-centric results through performance based applications.
-              Proactively facilitate professional human capital for cutting-edge.
+            <h3 class="media-la text-brand">Frequently Asked Questions</h3>
+            <p class="h5 web-s">
+              Transforming Results: Performance-Based Solutions
             </p>
           </div>
         </div>
@@ -510,10 +490,9 @@ export default {
       <div class="row justify-content-center">
         <div class="col-md-9 col-lg-8">
           <div class="section-heading text-center mb-5">
-            <h2>What Our Customers Say About Us?</h2>
-            <p class="lead">
-              Authoritatively reinvent client-centric e-markets via fully tested process.
-              Objectively restore strategic initiatives through fully researched.
+            <h3 class="media-la text-brand">What Our Customers Say About Us?</h3>
+            <p class="h5 web-s bt-bl">
+              Revamping E-Markets: Tested Processes, Researched Initiatives
             </p>
           </div>
         </div>
@@ -541,7 +520,7 @@ export default {
             </div>
           </div>
         </div>
-        <div class="col-md-6 col-lg-4">
+        <div class="col-md-6 mr-con col-lg-4">
           <div class="single-testimonial white-bg shadow-sm rounded p-5">
             <ul class="list-inline ratting-list mb-2">
               <li class="list-inline-item"><span class="fas fa-star"></span></li>
@@ -553,7 +532,7 @@ export default {
             <div class="ratting-content">
               <h5>Awesome Design Quality with Support</h5>
               <p>
-                Objectively envisioneer  manufactured products and dynamic models
+                Objectively envisioneer manufactured products and dynamic models
                 maximize 2.0 relationships whereas methodologies.
               </p>
             </div>
@@ -563,7 +542,7 @@ export default {
             </div>
           </div>
         </div>
-        <div class="col-md-6 col-lg-4">
+        <div class="col-md-6 mr-con col-lg-4">
           <div class="single-testimonial white-bg shadow-sm rounded p-5">
             <ul class="list-inline ratting-list mb-2">
               <li class="list-inline-item"><span class="fas fa-star"></span></li>
@@ -592,8 +571,7 @@ export default {
 </template>
 
 <style>
-
-.titl{
+.titl {
   margin-top: 120px !important;
 
 }
@@ -602,15 +580,17 @@ export default {
   display: flex;
   align-items: center;
 }
+
 .slider-demo-block .el-slider {
   margin-top: 0;
   margin-left: 12px;
 }
 
-.backgb{
+.backgb {
   background-image: url("@/assets/img/a7.webp");
 }
-.backgm{
+
+.backgm {
   background-image: url("@/assets/img/z2.webp");
 }
 
@@ -620,6 +600,7 @@ export default {
 #app {
   height: 100%;
 }
+
 html,
 body {
   position: relative;

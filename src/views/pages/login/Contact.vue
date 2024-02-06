@@ -9,16 +9,13 @@
         <div class="row align-items-center">
             <div class="col-md-7 col-lg-6">
                 <div class="page-header-content text-white">
-                    <h1 class="text-white mb-2">Contact Us</h1>
+                    <h1 class="text-brand media-lan">Contact Us</h1>
                     <p class="lead">Enthusiastically provide access to multidisciplinary communities
                          and reliable quality vectors. Globally administrate robust.</p>
                 </div>
             </div>
         </div>
     </div> <br>
-    <!-- <div class="shape-bottom">
-        <img src="@/assets/img/jj.png" alt="shape" class="bottom-shape img-fluid">
-    </div> -->
 </section>
 <!--page header section end-->
 
@@ -34,12 +31,12 @@
                         </div>
                         <div>
                             <h5 class="mb-0">Call Us</h5>
-                            <p class="text-muted mb-0">+123 456-78900</p>
+                            <p class="text-muted mb-0">+88 01839636749</p>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="col-lg-3 mr-con  col-md-6 col-sm-6">
                 <div class="card single-promo-card single-promo-hover text-center">
                     <div class="card-body py-5">
                         <div class="pb-2">
@@ -47,12 +44,12 @@
                         </div>
                         <div>
                             <h5 class="mb-0">Visit Us</h5>
-                            <p class="text-muted mb-0">New York, CA N310</p>
+                            <p class="text-muted mb-0">Kazipara, Dhaka-Bangladesh</p>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="col-lg-3 mr-con  col-md-6 col-sm-6">
                 <div class="card single-promo-card single-promo-hover text-center">
                     <div class="card-body py-5">
                         <div class="pb-2">
@@ -60,12 +57,12 @@
                         </div>
                         <div>
                             <h5 class="mb-0">Mail Us</h5>
-                            <p class="text-muted mb-0">help@yourdomain.com</p>
+                            <p class="text-muted mb-0">info@hostservice.com.bd</p>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="col-lg-3 mr-con col-md-6 col-sm-6">
                 <div class="card single-promo-card single-promo-hover text-center">
                     <div class="card-body py-5">
                         <div class="pb-2">
@@ -122,8 +119,8 @@
             </div>
             <div class="col-md-5">
                 <div class="contact-us-content">
-                    <h2>Looking for a excellent Business idea?</h2>
-                    <p class="lead">Seamlessly deliver pandemic e-services
+                    <h3 class="media-la text-brand">Looking for a excellent Business idea?</h3>
+                    <p class="h5 web-s">Seamlessly deliver pandemic e-services
                          and next-generation initiatives.</p>
 
                     <a href="#" class="btn outline-btn align-items-center">Get Directions <span class="ti-arrow-right pl-2"></span></a>
@@ -132,12 +129,11 @@
 
                     <h5>Our Headquarters</h5>
                     <address>
-                        100 Yellow House, Mn <br>
-                        Factory, United State, 13420
+                        Kazipara, Dhaka-Bangladesh
                     </address>
                     <br>
-                    <span>Phone: +1234567890123</span> <br>
-                    <span>Email: <a href="mailto:email@yourdomain.com" class="link-color">email@yourdomain.com</a></span>
+                    <span>Phone: 01839636749</span> <br>
+                    <span>Email: <a href="" class="link-color">info@hostservice.com.bd</a></span>
 
                 </div>
             </div>
@@ -147,12 +143,12 @@
 <!--contact us section end-->
 
 <!--testimonial and review section start-->
-<section class="client-review-section ptb-100 gray-light-bg">
+<section class="client-review-sectiongray-light-bg bt-ln">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-9 col-lg-8">
                 <div class="section-heading text-center mb-5">
-                    <h2>What Our Customers Say About Us?</h2>
+                    <h3 class="media-la text-brand">What Our Customers Say About Us?</h3>
                     <p class="lead">Authoritatively reinvent client-centric fully tested 
                         process improvements. Objectively restore strategic 
                         initiatives through fully researched.</p>

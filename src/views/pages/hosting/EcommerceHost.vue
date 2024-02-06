@@ -50,7 +50,7 @@ onMounted(() => {
         <div class="container">
             <div class="row align-items-center justify-content-between">
                 <div class="col-lg-6 col-12 mar-e">
-                    <div class="hero-content-wrap text-white">
+                    <div class="hero-content-wrap marg-tq text-white">
                         <h1 class="text-brand media-eco">Ecommerce Hosting Services</h1>
                         <p class="lead">Globally through excellent intellectual capital.</p>
                         <ul class="list-unstyled">
@@ -79,15 +79,10 @@ onMounted(() => {
                                 </div>
                             </li>
                         </ul>
-                        <!-- <div class="action-btns mt-4">
-                        <a href="#" class="btn solid-white-btn animated-btn mr-3">Get
-                            Started Now</a>
-                        <a href="#" class="btn outline-white-btn animated-btn">See Price Plan</a>
-                    </div> -->
                     </div>
                 </div>
                 <div class="col-lg-6 col-12">
-                    <div class="animation-image-wrap">
+                    <div class="animation-image-wrap med-p">
                         <img src="@/assets/img/private-cloud-server.svg" alt="wp hosting" class="img-fluid eco-img-s" />
                         <img src="@/assets/img/wordpress-logo.svg" alt="wp hosting" width="70"
                             class="animation-icon-img eco-anim animation-icon-5" />
@@ -173,7 +168,7 @@ onMounted(() => {
                                 <div class="card text-center align-items-center single-pricing-pack">
                                     <div class="pt-5">
                                         <h5 class="mb-0 text-brand">Advance Ecommerce Hosting</h5>
-                                        <p class="mb-0">Ecom Starter:</p>
+                                        <p class="mb-0">Starter :</p>
                                     </div>
                                     <div class="card-header border-0 pricing-header">
                                         <div class="price text-center mb-0 monthly-price">৳ {{ monthly }}<span>/-BDT
@@ -214,7 +209,7 @@ onMounted(() => {
                                 <div class="card text-center align-items-center single-pricing-pack">
                                     <div class="pt-5">
                                     <h5 class="mb-0 text-brand">Advance Ecommerce Hosting</h5>
-                                        <p class="mb-0">Ecom Standard:</p>
+                                        <p class="mb-0">Standard:</p>
                                     </div>
                                     <div class="card-header border-0 pricing-header">
                                         <div class="price text-center mb-0 monthly-price">৳ {{ theryMonth }}<span>/-BDT
@@ -255,7 +250,7 @@ onMounted(() => {
                                 <div class="card text-center align-items-center single-pricing-pack">
                                     <div class="pt-5">
                                       <h5 class="mb-0 text-brand">Advance Ecommerce Hosting</h5>
-                                        <p class="mb-0">Ecom Silver :</p>
+                                        <p class="mb-0">Silver :</p>
                                     </div>
                                     <div class="card-header border-0 pricing-header">
                                         <div class="price text-center mb-0 monthly-price">৳ {{ halfYear }}<span>/-BDT
@@ -296,7 +291,7 @@ onMounted(() => {
                                 <div class="card text-center align-items-center single-pricing-pack">
                                     <div class="pt-5">
                                         <h5 class="mb-0 text-brand">Advance Ecommerce Hosting</h5>
-                                        <p class="mb-0">Ecom Gold :</p>
+                                        <p class="mb-0">Gold :</p>
                                     </div>
                                     <div class="card-header border-0 pricing-header">
                                         <div class="price text-center mb-0 monthly-price">৳ {{ yearly }}<span>/-BDT
@@ -339,9 +334,9 @@ onMounted(() => {
             <div class="row justify-content-center">
                 <div class="col-md-12 col-lg-7 ">
                     <div class="section-heading  text-center mb-5">
-                        <h1 class="eco-cho">Web Hosting Resource Details</h1>
-                        <p class="lead">
-                            This hosting resource is very exclusive
+                        <h3 class="media-la text-brand bt-h">Web Hosting Resource :</h3>
+                        <p class="h5 web-s bt-bl">
+                            Exclusive hosting resources
                         </p>
                     </div>
                 </div>
@@ -542,9 +537,8 @@ onMounted(() => {
             <div class="row justify-content-center">
                 <div class="col-md-9 col-lg-8">
                     <div class="section-heading text-center mb-sm-5 mb-md-0 mb-lg-0">
-                        <h2 class="eco-cho">Technical Specifications</h2>
-                        <p class="lead">Compellingly morph quality users for granular leadership. Authoritatively build
-                            accurate technology after economically sound leadership.</p>
+                        <h3 class="media-la text-brand bt-h">Technical Specifications :</h3>
+                        <p class="h5 web-s">Transform high-quality users into effective</p>
                     </div>
                 </div>
             </div>
@@ -678,15 +672,15 @@ onMounted(() => {
             </div>
         </div>
     </section>
+
     <section class="promo-feature ptb-100 bg-mz gray-light-bg">
                 <div class="container">
                     <div class="row justify-content-center">
                         <div class="col-md-9 col-lg-8">
                             <div class="section-heading text-center mb-5">
-                                <h2 class="eco-cho">Why Choose This Package</h2>
-                                <p class="lead">
-                                    Distinctively recaptiualize principle-centered core competencies through client-centered
-                                    core competencies. Enthusiastically provide access.
+                                <h3 class="media-la text-brand bt-h">Why Choose This Package</h3>
+                                <p class="h5 web-s">
+                                   Enthusiastically facilitate accessibility.
                                 </p>
                             </div>
                         </div>
@@ -730,7 +724,7 @@ onMounted(() => {
             <div class="row justify-content-center">
                 <div class="col-md-9 col-lg-8">
                     <div class="call-to-action-content text-white text-center">
-                        <h2 class="text-white eco-cho">Already have a domain that you love?</h2>
+                        <h4 class="text-white eco-cho">Already have a domain that you love?</h4>
                         <p>No problem! It's quick and painless to transfer your hosting, domain registrations, or both
                             to HostLar maximize market positioning solutions and enterprise services.</p>
                         <div class="action-btns mt-3">
@@ -750,9 +744,8 @@ onMounted(() => {
             <div class="row justify-content-center">
                 <div class="col-md-9 col-lg-8">
                     <div class="section-heading text-center mb-5">
-                        <h2 class="eco-cho">Easy to Start and Hassle free Transfer</h2>
-                        <p class="lead">Get Immediate Activation or Express Transfer service free of charge.
-                            Enthusiastically enhance testing procedures and cross.</p>
+                        <h3 class="media-la text-brand bt-h">Easy, Hassle free Transfer</h3>
+                        <p class="h5 web-s bt-bl">Get Immediate Activation Express Transfer service.</p>
                     </div>
                 </div>
             </div>
@@ -839,7 +832,7 @@ onMounted(() => {
             <div class="row justify-content-center">
                 <div class="col-md-9 col-lg-8">
                     <div class="section-heading text-center mb-5">
-                        <h2 class="eco-cho">What Our Customers Say About Us?</h2>
+                        <h3 class="media-la text-brand bt-h">What Our Customers Say About Us?</h3>
                         <p class="lead">Authoritatively reinvent client-centric fully tested process improvements.
                             Objectively restore strategic initiatives through fully researched.</p>
                     </div>

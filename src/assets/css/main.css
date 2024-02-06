@@ -174,8 +174,31 @@
   padding-bottom: 15px;
   /* margin-top: 75px; */
 }
+.vps-bg {
+  background-color: #ffffff;
+}
 
 @media (max-width: 2562px) {
+ 
+  .bt-ln {
+    margin-bottom: 50px;
+  }
+  .pd-crt {
+    padding-top: 120px !important;
+    padding-bottom: 100px !important;
+  }
+  .bt-bl {
+    margin-bottom: 20px !important;
+  }
+  .animation-icon-img.animation-icon-5 {
+    left: 10%;
+    top: 115%;
+  }
+  .med-p {
+    height: 200px;
+    width: 500px;
+    margin-bottom: 100px;
+  }
   .med-v{
     background-color: #ffffff;
     
@@ -212,8 +235,45 @@
 
 }
 
-
 @media (max-width: 425px) {
+   
+  .dser-media {
+     margin-top: 1px !important;
+   }
+  .mr-con {
+    margin-top: 20px;
+  }
+  .bm-d {
+    font-size: 22px;
+  }
+  .me-n {
+    margin-top: 25px;
+  }
+  .modal-content {
+   width: 260px !important;
+   height: 90px !important;
+  }
+  .nd-res {
+    margin-top: 25px;
+  }
+
+  .pricing-header .price {
+    font-size: 25px !important;
+  
+  }
+  .marg-tq {
+    margin-top: 160px;
+  }
+   .med-p {
+         height: 150px;
+         width: 220px;
+         margin-bottom: 200px;
+   }
+
+  .animation-icon-img.animation-icon-5 {
+    left: 9%;
+    top: 70%;
+  }
    .sm-p {
      margin-top: 0px;
      margin-bottom: 0px;
@@ -245,9 +305,6 @@
     margin-bottom: 20px;
   }
 
-  .animation-icon-img.animation-icon-5 {
-    left: 3% !important;
-  }
 
   .accordion-faq .card-header {
     padding: 1px !important;
@@ -306,6 +363,19 @@
 }
 
 @media (max-width: 2560px) {
+  .mr-j {
+    margin-top: 70px;
+  }
+
+  .body-vp {
+    position: relative;
+    height: 240px;
+    width: 250px;
+    /* border-radius: 150px 0 150px 0; */
+    animation: shakeUp 6s infinite;
+  }
+
+
   .head {
     padding-top: 75px;
 
@@ -471,8 +541,8 @@ margin-top: 20px;
   }
 
   .ser-img {
-    width: 100% !important;
-    height: 70% !important;
+    width: 70% !important;
+    height: 50% !important;
     padding-left: 28px;
   }
 
@@ -55472,10 +55542,6 @@ svg.promo-bg {
 }
 
 /* line 1345, src/assets/scss/custom/_style.scss */
-.animation-icon-img.animation-icon-5 {
-  left: 6%;
-  top: 55%;
-}
 
 @-webkit-keyframes bounce {
   0% {

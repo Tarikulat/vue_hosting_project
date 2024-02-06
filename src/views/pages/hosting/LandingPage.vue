@@ -140,7 +140,7 @@ onMounted(() => {
                 <div class="card text-center align-items-center single-pricing-pack">
                   <div class="pt-5">
                     <h5 class="mb-0 text-brand">Landing Page Hosting</h5>
-                    <p class="mb-0">Starter</p>
+                    <p class="mb-0">Starte :r</p>
                   </div>
                   <div class="card-header border-0 pricing-header">
                     <div class="price text-center mb-0 ">৳ {{ monthly }}<span>/-BDT Only.</span></div>
@@ -295,7 +295,7 @@ onMounted(() => {
         <div class="col-md-12 col-lg-7 ">
           <div class="section-heading  text-center mb-5">
             <h3 class="media-la text-brand">Web Hosting Resource :</h3>
-            <p class="h5 web-s">
+            <p class="h5 web-s bt-bl">
               Exclusive hosting resources
             </p>
           </div>
