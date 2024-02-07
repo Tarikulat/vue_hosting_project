@@ -1,11 +1,9 @@
-
-
 <script>
 
 </script>
 
 <template>
-<header id="header" class="header-main">
+    <header id="header" class="header-main">
         <!--topbar start-->
         <div id="header-top-bar" class="gray-light-bg">
             <div class="container">
@@ -15,7 +13,7 @@
                             <ul class="list-inline">
                                 <li class="list-inline-item">
                                     <a href="tell:888-1234567"><span class="fas fa-phone mr-2">
-                                    </span>Sales - 01839636749 (9AM-9PM)</a>
+                                        </span>Sales - 01839636749 (9AM-9PM)</a>
                                 </li>
                             </ul>
                         </div>
@@ -25,19 +23,20 @@
                             <ul class="list-inline text-right">
                                 <li class="list-inline-item">
                                     <!-- <router-link :to="{ name: 'login' }"><span class="fas fa-user mr-2"></span> Login</router-link></li> -->
-                                    <a href="https://account.hostservice.com.bd/index.php?rp=/login"><span class="fas fa-user mr-2"></span> Login</a></li>                 
+                                    <a href="https://account.hostservice.com.bd/index.php?rp=/login"><span
+                                            class="fas fa-user mr-2"></span> Login</a>
+                                </li>
                                 <li class="list-inline-item">
-                                    <a href="https://account.hostservice.com.bd/register.php"><span class="fas fa-lock mr-2"></span> Register</a></li>
+                                    <a href="https://account.hostservice.com.bd/register.php"><span
+                                            class="fas fa-lock mr-2"></span> Register</a>
+                                </li>
                             </ul>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-</header>
+    </header>
 </template>
 
-<style>
-
-
-</style>
+<style></style>

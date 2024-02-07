@@ -14,17 +14,16 @@
                             <div class="col-">
                                 <div class="footer-nav-wrap text-white">
                                     <h4 class="text-white">SECURED BY</h4>
+                                    <img src="@/assets/img/logo_host.png" width="150px" alt="logo" class="img-fluid" />
+
                                     <ul class="list-inline security-icon-list">
-                                        <!-- <li class="list-inline-item"><img src="@/assets/img/ff1.png" width="110" alt="security" class="img-fluid" /></li>
-                                        <li class="list-inline-item"><img src="@/assets/img/ff2.png" width="110" alt="security" class="img-fluid" /></li>
-                                        <li class="list-inline-item"><img src="@/assets/img/ff3.png" width="110" alt="security" class="img-fluid" /></li>
-                                        <li class="list-inline-item"><img src="@/assets/img/ff4.png" width="110" alt="security" class="img-fluid" /></li> -->
                                        <p>Powering your online success with superfast hosting service – Host Service.</p> 
                                     </ul>
                                 </div>
                             </div>
                         </div>
                     </div>
+
                     <div class="col-md-9">
                         <div class="row footer-top-wrap">
                             <div class="col-md-3 col-sm-6">
@@ -49,7 +48,7 @@
                                     </ul>
                                 </div>
                             </div>
-                            <div class="col-md-3 col-sm-6">
+                            <div class="col-md-3 f-mr col-sm-6">
                                 <div class="footer-nav-wrap text-white">
                                     <h4 class="text-white">COMPANY</h4>
                                     <ul class="nav flex-column">
@@ -72,7 +71,7 @@
 
                                 </div>
                             </div>
-                            <div class="col-md-3 col-sm-6">
+                            <div class="col-md-3 f-mr col-sm-6">
                                 <div class="footer-nav-wrap text-white">
                                     <h4 class="text-white">LEGAL</h4>
                                     <ul class="nav flex-column">
@@ -94,7 +93,7 @@
                                     </ul>
                                 </div>
                             </div>
-                            <div class="col-md-3 col-sm-6">
+                            <div class="col-md-3 f-mr col-sm-6">
                                 <div class="footer-nav-wrap text-white">
                                     <h4 class="text-white">SUPPORT</h4>
                                     <ul class="nav flex-column">

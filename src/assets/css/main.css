@@ -29,13 +29,28 @@
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 @media (max-width: 425px) {
+  .footer-nav-wrap h4{
+    margin-bottom: 1px !important;
+  }
+  .f-mr {
+    margin-top: 20px;
+  }
+  .net {
+    display: none !important;
+  }
+  .sr-img {
+    display: none;
+  }
+  .fin-d {
+    width: 210px;
+    font-size: 27px;
+  }
   .down-icon {
     padding-left: 33px;
   }
 
   .down-icon-u {
     padding-left: 25px;
-    /* right: 43% !important; */
     left: 125px !important;
   }
 

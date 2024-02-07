@@ -4,25 +4,22 @@ import { Topbar, Header, HeroSection, Service, Testimonial, Chartbot, Footer } f
 </script>
 
 <template>
-    <div>
-        <!-- This is home page Layout structure start -->
+  <div>
+    <!-- This is home page Layout structure start -->
 
-        <Topbar/>
+    <Topbar />
 
-        <Header/>
+    <Header />
 
-        <RouterView/>
+    <RouterView />
 
-        <Chartbot/>
+    <Chartbot />
 
-        <Footer/>
+    <Footer />
 
-      <!-- This is home page Layout structure end -->
-
-    </div>
+    <!-- This is home page Layout structure end -->
+  </div>
 </template>
 
 
-<style scoped>
-
-</style>
+<style scoped></style>
