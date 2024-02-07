@@ -4,13 +4,15 @@
 
 <template>
  <!--page header section start-->
- <section class="page-header-section ptb-100 backge imb gradient-overly-right">
+ <section class="page-header-section ptb-100 backge-a imb gradient-overly-right">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-md-7 col-lg-6">
                 <div class="page-header-content text-white">
                     <h1 class="text-brand media-lan">About Us</h1>
-                    <p class="lead">Compellingly conceptualize ubiquitous methodologies and progressive total linkage. Credibly reconceptualize enabled models after open-source applications. </p>
+                    <p class="lead">We are a globally trusted web hosting provider dedicated to helping small businesses and developers 
+                        establish their online presence. Our reliable hosting services help you build the website you want 
+                        while we handle the optimizations behind the scenes. </p>
                 </div>
             </div>
         </div>
@@ -24,7 +26,7 @@
         <div class="row">
             <div class="col-xl-4 col-lg-3 col-12 order-lg-last align-self-center">
                 <div class="image-box fadein text-xl-right text-center">
-                    <img src="@/assets/img/icon-shared-hosting.svg" alt="wp-hosting" class="img-fluid" />
+                    <img src="@/assets/img/icon-shared-hosting.svg" alt="wp-hosting" class="img-fluid med-abt" />
                 </div>
             </div>
             <div class="col-xl-8 col-lg-9 col-12 order-xl-first">
@@ -34,19 +36,19 @@
                     <div class="col-md-6 col-12">
                         <h5>Exclusive Features</h5>
                         <ul class="disc-style">
-                            <li>Daily Backups & free backup restore</li>
-                            <li>Security Updates and Patching</li>
-                            <li>Performance and resource monitoring</li>
-                            <li>Step-by-step Tutorials & Knowledgebase</li>
+                            <li>Easy-to-use SSD-accelerated cloud hosting</li>
+                            <li>HTTP/3 support for next-gen site speed</li>
+                            <li>DDoS protection</li>
+                            <li>99.9% uptime guarantee</li>
                         </ul>
                     </div>
                     <div class="col-md-6 col-12">
                         <h5>WordPress Services</h5>
                         <ul class="disc-style">
-                            <li>1-click WordPress Installation</li>
-                            <li>Free WordPress Transfer</li>
-                            <li>Themes and plugins installation</li>
-                            <li>Malware Scan & Reports</li>
+                            <li>One-click WordPress installer</li>
+                            <li>Custom plugins and security</li>
+                            <li>Daily auto backups to safeguard your site</li>
+                            <li>Free site migration services</li>
                         </ul>
                     </div>
                 </div>
@@ -68,7 +70,7 @@
                 <div class="call-to-action-content text-white text-center">
                     <h2 class="text-white bm-d">Already have a domain that you love?</h2>
                     <p>No problem! It's quick and painless to transfer your hosting, domain registrations, or both
-                        to HostLar maximize market positioning solutions and enterprise services.</p>
+                        to Host service maximize market positioning solutions and enterprise services.</p>
                     <div class="action-btns mt-3">
                         <a href="#" class="btn solid-white-btn mr-3">Existing Customers</a>
                         <a href="#" class="btn outline-white-btn">New Customers</a>
@@ -98,9 +100,8 @@
                         <span class="ti-panel icon-md color-primary"></span>
                     </div>
                     <div class="features-box-content">
-                        <h5>Custom Control Panel</h5>
-                        <p>Our intuitive control panel gives you admin access to all of your DreamHost products.
-                            Easily update domain information, add users, adjust email settings gain access.</p>
+                        <h5>Instant Global Content Delivery</h5>
+                        <p>Maximize site speed locally and internationally through our distributed content delivery network optimized for your geography.</p>
                     </div>
                 </div>
             </div>
@@ -122,9 +123,8 @@
                         <span class="ti-mouse-alt icon-md color-primary"></span>
                     </div>
                     <div class="features-box-content">
-                        <h5>1-Click Installer</h5>
-                        <p>No need to dig into a bunch of documentation. Simply install web apps like WordPress,
-                            Joomla! and more. Monotonectally administrate economically sound opportunities.</p>
+                        <h5>Simplified Setup </h5>
+                        <p>Quickly get WordPress and top web apps running on your site with our simple one-click installer and automated DevOps, making it easy to setup.</p>
                     </div>
                 </div>
             </div>
@@ -135,8 +135,8 @@
                     </div>
                     <div class="features-box-content">
                         <h5>100% Uptime Guarantee</h5>
-                        <p>With multiple datacenter locations, redundant cooling, emergency generators, and constant
-                            monitoring, we are able to offer our 100% Uptime Guarantee.</p>
+                        <p>With our industry-best uptime guarantee and backup security safeguards, you can be sure that your website 
+                            will be accessible to all visitors, keeping your online home open at all times.</p>
                     </div>
                 </div>
             </div>
@@ -147,8 +147,8 @@
                     </div>
                     <div class="features-box-content">
                         <h5>Solid State Drives (SSD)</h5>
-                        <p>With SSDs, your website, caching, and database queries are faster by our calculations.
-                            Quickly orchestrate worldwide niche markets vis-a-vis end-to-end infomediaries. </p>
+                        <p>Enjoy the speed and reliability of advanced SSD cloud hosting, combined with constant performance optimization, 
+                            to ensure that your site is always performing at its best. </p>
                     </div>
                 </div>
             </div>
@@ -158,9 +158,9 @@
                         <span class="ti-cup icon-md color-primary"></span>
                     </div>
                     <div class="features-box-content">
-                        <h5>Award-Winning Support</h5>
-                        <p>No question is too simple, or too complex for our team of experts. Synergistically
-                            synergize Our in-house support staff and service team are here for you 24/7, 365.</p>
+                        <h5>Expert Support</h5>
+                        <p>Our expert support team is always available to assist you via chat, phone, or ticket.
+                             We are here 24/7 to assist you with your hosting needs.</p>
                     </div>
                 </div>
             </div>
@@ -191,16 +191,16 @@
                     </ul>
                     <div class="ratting-content">
                         <h5>Awesome support from technical</h5>
-                        <p>Objectively envisioneer magnetic manufactured products and dynamic models.
-                             Progressively maximize 2.0 relationships whereas process-centric.</p>
+                        <p>"Great hosting, very little if any downtime, I haven’t even noticed, everything is super easy to use and intuitive and 
+                            if I do have problems I can always contract on their customer support"</p>
                     </div>
                     <div class="ratting-author mt-3">
-                        <h6>Alex Khamer</h6>
+                        <h6>Imran Khan</h6>
                         <small class="text-right">6 days ago</small>
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 col-lg-4">
+            <div class="col-md-6 mr-con col-lg-4">
                 <div class="single-testimonial white-bg shadow-sm rounded p-5">
                     <ul class="list-inline ratting-list mb-2">
                         <li class="list-inline-item"><span class="fas fa-star"></span></li>
@@ -210,17 +210,17 @@
                         <li class="list-inline-item"><span class="fas fa-star"></span></li>
                     </ul>
                     <div class="ratting-content">
-                        <h5>Awesome Design Quality with Support</h5>
-                        <p>Objectively envisioneer magnetic manufactured products and dynamic models
-                             maximize 2.0 relationships</p>
+                        <h5>Design Quality with Support</h5>
+                        <p>“I would recommend this hosting service and exclusive Design quality, anyone who wants an easy way
+                             to get your business online. professional website and good hosting service”</p>
                     </div>
                     <div class="ratting-author mt-3">
-                        <h6>Peter Anderson</h6>
+                        <h6>SM Jahangir</h6>
                         <small class="text-right">3 days ago</small>
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 col-lg-4">
+            <div class="col-md-6 mr-con col-lg-4">
                 <div class="single-testimonial white-bg shadow-sm rounded p-5">
                     <ul class="list-inline ratting-list mb-2">
                         <li class="list-inline-item"><span class="fas fa-star"></span></li>
@@ -230,12 +230,12 @@
                         <li class="list-inline-item"><span class="fas fa-star"></span></li>
                     </ul>
                     <div class="ratting-content">
-                        <h5>Contacted support after Midnight</h5>
-                        <p>Objectively envisioneer magnetic manufactured products and dynamic models. 
-                            Progressively maximize 2.0 relationships whereas process-centric.</p>
+                        <h5>Excellent Customer Service</h5>
+                        <p>I've had DreamHost for a couple years now and every time I've reached out to them for support, I've always
+                             had a great experience. They respond so quickly and are always so helpful. Thank you!.</p>
                     </div>
                     <div class="ratting-author mt-3">
-                        <h6>Jolio Darix</h6>
+                        <h6>Shuvo Ahmed</h6>
                         <small class="text-right">8 days ago</small>
                     </div>
                 </div>
@@ -248,10 +248,10 @@
 </template>
 
 <style>
-.backge{
-    background-image: url("@/assets/img/a9.webp");
+.backge-a {
+    background-image: url("@/assets/img/bb.webp");
   }
-  .packgr{
+  .packgr {
     background-image: url("@/assets/img/z2.webp");
   }
   .backv{

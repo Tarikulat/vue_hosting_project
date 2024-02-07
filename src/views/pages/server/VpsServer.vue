@@ -45,14 +45,13 @@ onMounted(() => {
 </script>
 
 <template>
-    <!--hero section start-->
-    <section class="hero-equal-height pt-165 backvp pb-100 gradient-overlay">
+     <section class="hero-equal-height ptb-100 gradient-overly-right:before backvp gradient-overly-right">
         <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-md-7 col-lg-7 media-lan">
-                    <div class="hero-content-wrap text-white position-relative">
-                <h1 class="text-brand media-lan">VPS Servers Hosting</h1>
-                <p class="lead">Build and grow the perfect Website  Hosting Pro.</p>
+          <div class="row align-items-center">
+            <div class="col-md-7 col-lg-7 media-lan ">
+              <div class="hero-content-wrap text-white position-relative">
+                <h1 class="text-brand media-lan">vps server Hosting</h1>
+                <p class="lead">Build and grow the perfect Website vpsserver Hosting Pro.</p>
                 <ul class="list-unstyled tech-feature-list text-white">
                   <li class="py-1"><span class="ti-control-forward mr-2"></span>Flexible, Easy to Use Control Panel</li>
                   <li class="py-1"><span class="ti-control-forward mr-2"></span><strong>Unmetered</strong> Bandwidth</li>
@@ -63,17 +62,18 @@ onMounted(() => {
                   </li>
                 </ul>
               </div>
-                </div>
-
-                <div class="col-md-5 col-lg-5">
-                    <div>
-                        <label><img src="@/assets/img/vp1.png" class="body-vp ser-img" alt="ser"></label>
-                    </div>
-                </div>
             </div>
+            <div class="col-md-5 col-lg-5">
+
+              <div class="hover14 column">
+                <div>
+                  <figure><img src="@/assets/img/bz.png" class="lan img-lan body-landing" /></figure>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-    </section>
-    <!--hero section end-->
+      </section>
 
     <!-- packages starting heading -->
     <section>
@@ -743,7 +743,7 @@ onMounted(() => {
 }
      
 .backvp {
-    background-image: url("@/assets/img/kv.webp");
+    background-image: url("@/assets/img/bbb.webp");
 }
 
 .backvps {

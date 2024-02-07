@@ -26,7 +26,7 @@
 
                     <div class="col-md-9">
                         <div class="row footer-top-wrap">
-                            <div class="col-md-3 col-sm-6">
+                            <div class="col-md-3 f-mr col-sm-6">
                                 <div class="footer-nav-wrap text-white">
                                     <h4 class="text-white">PRODUCTS</h4>
                                     <ul class="nav flex-column">

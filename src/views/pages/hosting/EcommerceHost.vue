@@ -15,28 +15,28 @@ const halfYear = ref();
 const yearly = ref();
 
 const monthlyPrice = () => {
-    monthly.value = '1,500';
-    theryMonth.value = '2,500';
-    halfYear.value = '3,500';
-    yearly.value = '4,500';
+    monthly.value = '1,890';
+    theryMonth.value = '2,890';
+    halfYear.value = '3,890';
+    yearly.value = '4,890';
 }
 const threeMonthPrice = () => {
-    monthly.value = '4,500';
-    theryMonth.value = '7,500';
-    halfYear.value = '10,500';
-    yearly.value = '13,500';
+    monthly.value = '17010';
+    theryMonth.value = '8670';
+    halfYear.value = '11670';
+    yearly.value = '14670';
 }
 const halfYearPrice = () => {
-    monthly.value = '9,000';
-    theryMonth.value = '15,00';
-    halfYear.value = '21,000';
-    yearly.value = '39,000';
+    monthly.value = '34020';
+    theryMonth.value = '17340';
+    halfYear.value = '23340';
+    yearly.value = '29340';
 }
 const yearPrice = () => {
-    monthly.value = '14,500';
-    theryMonth.value = '28,000';
-    halfYear.value = '39,000';
-    yearly.value = '50,000';
+    monthly.value = '68040';
+    theryMonth.value = '34680';
+    halfYear.value = '46680';
+    yearly.value = '58680';
 }
 
 onMounted(() => {

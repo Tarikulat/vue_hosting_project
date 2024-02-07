@@ -88,14 +88,13 @@ const isOpenModal = () => {
                                                 <div class="title-with-icon-item">
                                                     <router-link class="title-with-icon-link" :to="{ name: 'landing-page' }">
                                                         <div class="media">
-                                                            <div class="menu-item-icon"><i class="fas fa-server"></i></div>
+                                                            <div class="menu-item-icon"><i class="fa-solid fa-microchip"></i></div>
                                                             <div class="media-body">
                                                                 <span class="u-header__promo-title" aria-expanded="false"
                                                                     aria-controls="navBar" data-toggle="collapse"
                                                                     data-target="#navBar">Landing Page Hosting</span>
                                                                 <small class="u-header__promo-text">Innovate reliable
-                                                                    quality
-                                                                    Starting at <strong>$2.99</strong></small>
+                                                                    quality</small>
                                                             </div>
                                                         </div>
                                                     </router-link>
@@ -109,8 +108,7 @@ const isOpenModal = () => {
                                                                 <span class="u-header__promo-title" aria-expanded="false"
                                                                     aria-controls="navBar" data-toggle="collapse"
                                                                     data-target="#navBar">Website Shared Hosting</span>
-                                                                <small class="u-header__promo-text"> Pefficiently maintain
-                                                                    Starting at <strong>$11.99</strong></small>
+                                                                <small class="u-header__promo-text"> Pefficiently maintain</small>
                                                             </div>
                                                         </div>
                                                     </router-link>
@@ -129,8 +127,7 @@ const isOpenModal = () => {
                                                                     aria-controls="navBar" data-toggle="collapse"
                                                                     data-target="#navBar">E-commerce Hosting<span
                                                                         class="badge bgcolour ml-1">Advance</span></span>
-                                                                <small class="u-header__promo-text">Quickly build Starting at
-                                                                    <strong>$150.99/mo</strong></small>
+                                                                <small class="u-header__promo-text">Quickly build package</small>
                                                             </div>
                                                         </div>
                                                     </router-link>
@@ -145,8 +142,7 @@ const isOpenModal = () => {
                                                                 <span class="u-header__promo-title" aria-expanded="false"
                                                                     aria-controls="navBar" data-toggle="collapse"
                                                                     data-target="#navBar">Reseller Hosting</span>
-                                                                <small class="u-header__promo-text">Conveniently Starting at
-                                                                    <strong>$9.99/mo</strong></small>
+                                                                <small class="u-header__promo-text">Conveniently hosting</small>
                                                             </div>
                                                         </div>
                                                     </router-link>
@@ -169,7 +165,8 @@ const isOpenModal = () => {
                                                 data-target="#navBar">
                                                 <router-link class="title-with-icon-link" :to="{ name: 'vps-server' }">
                                                     <div class="media">
-                                                        <img class="menu-titile-icon" src="@/assets/img/chat.svg" alt="SVG">
+                                                        <!-- <img class="menu-titile-icon" src="@/assets/img/chat.svg" alt="SVG"> -->
+                                                        <div class="menu-item-icon"><i class="fas fa-database"></i></div>
                                                         <div class="media-body">
                                                             <span class="u-header__promo-title">VPS Server</span>
                                                             <small class="u-header__promo-text">Support team quickly
@@ -185,8 +182,7 @@ const isOpenModal = () => {
                                                 data-target="#navBar">
                                                 <router-link class="title-with-icon-link" :to="{ name: 'DedicatedServer' }">
                                                     <div class="media">
-                                                        <img class="menu-titile-icon" src="@/assets/img/data-services.svg"
-                                                            alt="SVG">
+                                                        <div class="menu-item-icon"><i class="fas fa-server"></i></div>
                                                         <div class="media-body">
                                                             <span class="u-header__promo-title">Dedicated Server</span>
                                                             <small class="u-header__promo-text">24 Data center

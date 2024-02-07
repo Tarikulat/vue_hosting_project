@@ -22,7 +22,7 @@ export default {
 
 <template>
   <!--hero section start-->
-  <section class="hero-equal-height pt-165 pb-100 backgb gradient-overlay">
+  <!-- <section class="hero-equal-height pt-165 pb-100 backgb gradient-overlay">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-md-8 dser-media col-lg-7">
@@ -49,9 +49,39 @@ export default {
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
   <!--hero section end-->
 
+    <section class="hero-equal-height ptb-100 gradient-overly-right:before backgb backmg gradient-overly-right">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-md-7 col-lg-7 media-lan ">
+                <div class="hero-content-wrap text-white position-relative">
+                  <h1 class="text-brand media-lan">Dedicated Server </h1>
+                  <p class="lead">Build and grow the perfect Website dadicated Server.</p>
+                  <ul class="list-unstyled tech-feature-list text-white">
+                    <li class="py-1"><span class="ti-control-forward mr-2"></span>Flexible, Easy to Use Control Panel</li>
+                    <li class="py-1"><span class="ti-control-forward mr-2"></span><strong>Unmetered</strong> Bandwidth</li>
+                    <li class="py-1"><span class="ti-control-forward mr-2"></span><strong>Unmetered</strong> Sub Domains, FTP
+                      Accounts</li>
+                    <li class="py-1"><span class="ti-control-forward mr-2"></span><strong>99%</strong> Uptime Guarantee</li>
+                    <li class="py-1"><span class="ti-control-forward mr-2"></span><strong>45-Day</strong> Money-Back Guarantee
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md-5 col-lg-5">
+
+                <div class="hover13 column">
+                  <div>
+                    <figure><img src="@/assets/img/v3.png" class="lan img-lan body-landing" /></figure>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+ 
   <!--vps hosting pricing plane start-->
   <section class="vps-pricing-plane ptb-100 gray-light-bg">
     <div class="container">
@@ -587,7 +617,7 @@ export default {
 }
 
 .backgb {
-  background-image: url("@/assets/img/a7.webp");
+  background-image: url("@/assets/img/nzz.webp");
 }
 
 .backgm {
