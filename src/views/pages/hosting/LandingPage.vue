@@ -17,8 +17,8 @@ const yearly = ref();
 const threeMonthPrice = () => {
   monthly.value = '750';
   theryMonth.value = '1500';
-  halfYear.value = '2,500';
-  yearly.value = '3,750';
+  halfYear.value = '2500';
+  yearly.value = '3750';
 }
 const halfYearPrice = () => {
   monthly.value = '1500';
@@ -77,14 +77,13 @@ onMounted(() => {
           <div class="section-heading  text-center">
             <h3 class="media-la text-brand bt-hj">Landing Page Hosting </h3>
             <h6 class="h5 med-w">
-              6 month plan <strong class="text-brand">10%</strong> discount - <strong class="text-brand"> hostgift6m
-              </strong>
+              6 month plan <span class="text-rd">5%</span> discount - <span class="text-rd"> hostgift6m
+              </span>
             </h6>
 
             <div>
-              <h6 class="h5 med-w">
-                1year plan <strong class="text-brand">25%</strong> discount - <strong class="text-brand">
-                  hostgift1yr </strong>
+              <h6 class="h5 med-w ">
+                1year plan <span class="text-rd"> 15% </span> discount -<span class="text-rd"> hostgift1yr</span>
               </h6>
             </div>
 
@@ -92,7 +91,7 @@ onMounted(() => {
         </div>
 
         <div class="col-10 col-sm-8 col-md-7">
-          <div class="text-center med-pl mb-2 radio-box-wrap billingCycle">
+          <div class="text-center mb-2 radio-box-wrap billingCycle">
             <div class="single-radio-box" @click="threeMonthPrice">
               <input name="billingPlan" id="yearly-plan" value="yearly" class="radio" type="radio" checked>
               <label for="yearly-plan"><span class="custom-check"></span>3 Month</label>
@@ -104,7 +103,7 @@ onMounted(() => {
 
             <div class="single-radio-box" @click="yearPrice">
               <input name="billingPlan" id="triennial-plan" value="triennial" class="radio" type="radio">
-              <label for="triennial-plan"><span class="custom-check"></span>1 Year</label>
+              <label for="triennial-plan"><span class="custom-check"></span>1  Year</label>
             </div>
 
           </div>
@@ -140,7 +139,7 @@ onMounted(() => {
                 <div class="card text-center align-items-center single-pricing-pack">
                   <div class="pt-5">
                     <h5 class="mb-0 text-brand">Landing Page Hosting</h5>
-                    <p class="mb-0">Starte :</p>
+                    <p class="mb-0">Starte </p>
                   </div>
                   <div class="card-header border-0 pricing-header">
                     <div class="price text-center mb-0 ">৳ {{ monthly }}<span>/-BDT Only.</span></div>
@@ -178,7 +177,7 @@ onMounted(() => {
                 <div class="card text-center align-items-center single-pricing-pack">
                   <div class="pt-5">
                   <h5 class="mb-0 text-brand">Landing Page Hosting</h5>
-                    <p class="mb-0">Standard :</p>
+                    <p class="mb-0">Standard </p>
                   </div>
                   <div class="card-header border-0 pricing-header">
                     <div class="price text-center mb-0">৳ {{ theryMonth }}<span>/-BDT Only.</span></div>
@@ -216,7 +215,7 @@ onMounted(() => {
                 <div class="card text-center align-items-center single-pricing-pack">
                   <div class="pt-5">
                    <h5 class="mb-0 text-brand">Landing Page Hosting</h5>
-                    <p class="mb-0">Silver :</p>
+                    <p class="mb-0">Silver </p>
                   </div>
                   <div class="card-header border-0 pricing-header">
                     <div class="price text-center mb-0">৳ {{ halfYear }}<span>/-BDT Only.</span></div>
@@ -254,7 +253,7 @@ onMounted(() => {
                 <div class="card text-center align-items-center single-pricing-pack">
                   <div class="pt-5">
                    <h5 class="mb-0 text-brand">Landing Page Hosting</h5>
-                    <p class="mb-0">Gold :</p>
+                    <p class="mb-0">Gold </p>
                   </div>
                   <div class="card-header border-0 pricing-header">
                     <div class="price text-center mb-0">৳ {{ yearly }}<span>/-BDT Only.</span></div>
@@ -294,9 +293,9 @@ onMounted(() => {
       <div class="row justify-content-center">
         <div class="col-md-12 col-lg-7 ">
           <div class="section-heading  text-center mb-5">
-            <h3 class="media-la text-brand">Web Hosting Resource :</h3>
+            <h3 class="media-la text-brand">Landing Page Hosting Resource </h3>
             <p class="h5 web-s bt-bl">
-              Exclusive hosting resources
+              Exclusive landing hosting resources
             </p>
           </div>
         </div>
@@ -328,19 +327,19 @@ onMounted(() => {
                 <tbody class="comparision-table-body">
                   <tr style="width: 20%; text-align: center">
                     <td>
-                      <h6 class="text-left">CPU Core Limit %</h6>
+                      <h6 class="text-left">CPU Core Limit </h6>
                     </td>
                     <td class="primary-bg">
-                      <h6 class="text-white">0.5 core 50%</h6>
+                      <h6 class="text-white">1 Core 4.7 GHz Pro</h6>
                     </td>
                     <td>
-                      <h6>1 core 100%</h6>
+                      <h6>1 Core  4.7 GHz Pro</h6>
                     </td>
                     <td>
-                      <h6>1.5 core 150%</h6>
+                      <h6>1 Core 4.7 GHz Pro</h6>
                     </td>
                     <td>
-                      <h6>2 core 200%</h6>
+                      <h6>1 Core 4.7 GHz Pro</h6>
                     </td>
                   </tr>
                   <tr style="width: 20%; text-align: center">
@@ -348,34 +347,34 @@ onMounted(() => {
                       <h6 class="text-left">Physical Memory</h6>
                     </td>
                     <td class="primary-bg">
-                      <h6 class="text-white">1 GB</h6>
+                      <h6 class="text-white">2 GB</h6>
                     </td>
                     <td>
                       <h6>2 GB</h6>
                     </td>
                     <td>
-                      <h6>3 GB</h6>
+                      <h6>2 GB</h6>
                     </td>
                     <td>
-                      <h6>4 GB</h6>
+                      <h6>2 GB</h6>
                     </td>
                   </tr>
 
                   <tr style="width: 20%; text-align: center">
                     <td>
-                      <h6 class="text-left">Virtual Memory</h6>
+                      <h6 class="text-left">Virtual Storage</h6>
                     </td>
                     <td class="primary-bg">
-                      <h6 class="text-white">1 GB</h6>
+                      <h6 class="text-white">5 GB SSD </h6>
                     </td>
                     <td>
-                      <h6>1 GB</h6>
+                      <h6>7 GB SSD </h6>
                     </td>
                     <td>
-                      <h6>1 GB</h6>
+                      <h6>10 GB SSD </h6>
                     </td>
                     <td>
-                      <h6>1 GB</h6>
+                      <h6>15 GB SSD </h6>
                     </td>
                   </tr>
                   <tr style="width: 20%; text-align: center">
@@ -383,13 +382,13 @@ onMounted(() => {
                       <h6 class="text-left">I/O Speed</h6>
                     </td>
                     <td class="primary-bg">
-                      <h6 class="text-white">20 MBs</h6>
+                      <h6 class="text-white">50 MBs</h6>
                     </td>
                     <td>
-                      <h6>30 MBs</h6>
+                      <h6>50 MBs</h6>
                     </td>
                     <td>
-                      <h6>40 MBs</h6>
+                      <h6>50 MBs</h6>
                     </td>
                     <td>
                       <h6>50 MBs</h6>
@@ -417,16 +416,16 @@ onMounted(() => {
                       <h6 class="text-left">Entry Process</h6>
                     </td>
                     <td class="primary-bg">
-                      <h6 class="text-white">20</h6>
+                      <h6 class="text-white">30</h6>
                     </td>
                     <td>
                       <h6>30</h6>
                     </td>
                     <td>
-                      <h6>40</h6>
+                      <h6>30</h6>
                     </td>
                     <td>
-                      <h6>50</h6>
+                      <h6>30</h6>
                     </td>
                   </tr>
                   <tr style="width: 20%; text-align: center">
@@ -434,33 +433,33 @@ onMounted(() => {
                       <h6 class="text-left">Number of Process</h6>
                     </td>
                     <td class="primary-bg">
-                      <h6 class="text-white">100</h6>
-                    </td>
-                    <td>
-                      <h6>110</h6>
+                      <h6 class="text-white">120</h6>
                     </td>
                     <td>
                       <h6>120</h6>
                     </td>
                     <td>
-                      <h6>130</h6>
+                      <h6>120</h6>
+                    </td>
+                    <td>
+                      <h6>120</h6>
                     </td>
                   </tr>
                   <tr style="width: 20%; text-align: center">
                     <td>
-                      <h6 class="text-left">INODES/File Limit</h6>
+                      <h6 class="text-left">Numbers of Domain</h6>
                     </td>
                     <td class="primary-bg">
-                      <h6 class="text-white">No File Limit</h6>
+                      <h6 class="text-white">2 Domain</h6>
                     </td>
                     <td>
-                      <h6>No File Limit</h6>
+                      <h6>3 Domain</h6>
                     </td>
                     <td>
-                      <h6>No File Limit</h6>
+                      <h6>5 Domain</h6>
                     </td>
                     <td>
-                      <h6>No File Limit</h6>
+                      <h6>7 Domain</h6>
                     </td>
                   </tr>
                   <tr style="width: 20%; text-align: center">
@@ -468,16 +467,16 @@ onMounted(() => {
                       <h6 class="text-left">Bandwidth Network</h6>
                     </td>
                     <td class="primary-bg">
-                      <h6 class="text-white"></h6>
+                      <h6 class="text-white">250 GB </h6>
                     </td>
                     <td class="col-12">
-                      <h6>1Gbps Global </h6>
+                      <h6>750 GB </h6>
                     </td>
                     <td class="col-12">
-                      <h6>10Gbps Special </h6>
+                      <h6>1500 GB </h6>
                     </td>
                     <td class="col-12">
-                      <h6>Bandwidth Port</h6>
+                      <h6>2000 GB</h6>
                     </td>
 
                   </tr>
@@ -496,7 +495,7 @@ onMounted(() => {
       <div class="row justify-content-center">
         <div class="col-md-9 col-lg-8">
           <div class="section-heading text-center mb-5">
-            <h3 class="media-la text-brand">Hosting Features Ideas :</h3>
+            <h3 class="media-la text-brand">Hosting Feature Ideas</h3>
             <p class="h5 web-s">
               Standard our hosting plans
             </p>
@@ -621,7 +620,7 @@ onMounted(() => {
           <div class="section-heading mb-3 text-center">
             <h3 class="media-la text-brand">Frequently Questions</h3>
             <p class="h5 web-s">
-              Success to everyone online.
+              Success to everyone online
             </p>
           </div>
         </div>

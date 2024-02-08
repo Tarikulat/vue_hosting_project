@@ -15,10 +15,10 @@ const halfYear = ref();
 const yearly = ref();
 
 const monthlyPrice = () => {
-    monthly.value = '3,190';
-    theryMonth.value = '5,290';
-    halfYear.value = '9,390';
-    yearly.value = '11,890';
+    monthly.value = '3190';
+    theryMonth.value = '5290';
+    halfYear.value = '9390';
+    yearly.value = '11890';
 }
 const threeMonthPrice = () => {
     monthly.value = '9570';
@@ -50,7 +50,7 @@ onMounted(() => {
           <div class="row align-items-center">
             <div class="col-md-7 col-lg-7 media-lan ">
               <div class="hero-content-wrap text-white position-relative">
-                <h1 class="text-brand media-lan">vps server Hosting</h1>
+                <h1 class="text-brand media-lan">VPS Server Hosting</h1>
                 <p class="lead">Build and grow the perfect Website vpsserver Hosting Pro.</p>
                 <ul class="list-unstyled tech-feature-list text-white">
                   <li class="py-1"><span class="ti-control-forward mr-2"></span>Flexible, Easy to Use Control Panel</li>
@@ -81,20 +81,17 @@ onMounted(() => {
             <div class="row justify-content-center head">
                 <div class="col-md-12 col-lg-7">
                     <div class="section-heading  text-center">
-                        <h3 class="media-la text-brand bt-hj">VPS Servers Plan :</h3>
+                        <h3 class="media-la text-brand bt-hj">VPS Servers Plan </h3>
                         <h6 class="h5 med-w">
-                            6 month plan <strong class="text-brand">10%</strong> discount - <strong class="text-brand">
-                                hostgift6m
-                            </strong>
-                        </h6>
+                6 month plan <span class="text-rd">5%</span> discount - <span class="text-rd"> hostgift6m
+                </span>
+              </h6>
 
-                        <div>
-                            <h6 class="h5 med-w">
-                                1year plan <strong class="text-brand">25%</strong> discount - <strong class="text-brand">
-                                    hostgift1yr </strong>
-                            </h6>
-                        </div>
-
+              <div>
+                <h6 class="h5 med-w ">
+                  1year plan <span class="text-rd"> 15% </span> discount -<span class="text-rd"> hostgift1yr</span>
+                </h6>
+              </div>
                     </div>
                 </div>
 
@@ -151,7 +148,7 @@ onMounted(() => {
                                 <div class="card text-center align-items-center single-pricing-pack">
                                     <div class="pt-5">
                                         <h5 class="mb-0 text-brand">VPS Servers Plan</h5>
-                                        <p class="mb-0">Starter :</p>
+                                        <p class="mb-0">Starter </p>
                                     </div>
                                     <div class="card-header pb-4 border-0 pricing-header">
                                         <div class="price text-center mb-0 ">৳ {{ monthly }}<span>/-BDT Only.</span></div>
@@ -187,7 +184,7 @@ onMounted(() => {
                                 <div class="card text-center align-items-center single-pricing-pack">
                                     <div class="pt-5">
                                         <h5 class="mb-0 text-brand">VPS Servers Plan</h5>
-                                        <p class="mb-0"> Standard: :</p>
+                                        <p class="mb-0"> Standard </p>
                                     </div>
                                     <div class="card-header pb-4 border-0 pricing-header">
                                         <div class="price text-center mb-0">৳ {{ theryMonth }}<span>/-BDT Only.</span></div>
@@ -223,7 +220,7 @@ onMounted(() => {
                                 <div class="card text-center align-items-center single-pricing-pack">
                                     <div class="pt-5">
                                          <h5 class="mb-0 text-brand">VPS Servers Plan</h5>
-                                        <p class="mb-0"> Silver :</p>
+                                        <p class="mb-0"> Silver </p>
                                     </div>
                                     <div class="card-header pb-4 border-0 pricing-header">
                                         <div class="price text-center mb-0">৳ {{ halfYear }}<span>/-BDT Only.</span></div>
@@ -259,7 +256,7 @@ onMounted(() => {
                                 <div class="card text-center align-items-center single-pricing-pack">
                                     <div class="pt-5">
                                         <h5 class="mb-0 text-brand">VPS Servers Plan</h5>
-                                        <p class="mb-0"> Gold :</p>
+                                        <p class="mb-0"> Gold </p>
                                     </div>
                                     <div class="card-header pb-4 border-0 pricing-header">
                                         <div class="price text-center mb-0">৳ {{ yearly }}<span>/-BDT Only.</span></div>
@@ -297,9 +294,9 @@ onMounted(() => {
           <div class="row justify-content-center">
             <div class="col-md-12 col-lg-7 ">
               <div class="section-heading  text-center mb-5">
-                <h3 class="media-la text-brand">Web Hosting Resource :</h3>
+                <h3 class="media-la text-brand">VPS Servers Plan Hosting Resource</h3>
                 <p class="h5 web-s bt-bl">
-                  Exclusive hosting resources
+                  Exclusive vps servers plan hosting resource
                 </p>
               </div>
             </div>
@@ -314,16 +311,16 @@ onMounted(() => {
                           <h5>Resource Type</h5>
                         </td>
                         <td class="primary-bg" style="width: 20%; text-align: center;">
-                          <h5 class="text-white">Starter</h5>
+                          <h5 class="text-white">Starter </h5>
                         </td>
                         <td style="width: 20%; text-align: center;">
-                          <h5>Standard</h5>
+                          <h5>Standard </h5>
                         </td>
                         <td style="width: 20%; text-align: center;">
-                          <h5>Silver</h5>
+                          <h5>Silver </h5>
                         </td>
                         <td style="width: 20%; text-align: center;">
-                          <h5>Gold</h5>
+                          <h5>Gold </h5>
                         </td>
                       </tr>
                       </tr>
@@ -331,156 +328,156 @@ onMounted(() => {
                     <tbody class="comparision-table-body">
                       <tr style="width: 20%; text-align: center">
                         <td>
-                          <h6 class="text-left">CPU Core Limit %</h6>
+                          <h6 class="text-left">Core Processor</h6>
                         </td>
                         <td class="primary-bg">
-                          <h6 class="text-white">0.5 core 50%</h6>
+                          <h6 class="text-white">4 Core 4.7 GHz  </h6>
                         </td>
                         <td>
-                          <h6>1 core 100%</h6>
+                          <h6>6 Core 4.7 GHz  </h6>
                         </td>
                         <td>
-                          <h6>1.5 core 150%</h6>
+                          <h6>8 Core 4.7 GHz  </h6>
                         </td>
                         <td>
-                          <h6>2 core 200%</h6>
+                          <h6>10 Core 4.7 GHz </h6>
                         </td>
                       </tr>
                       <tr style="width: 20%; text-align: center">
                         <td>
-                          <h6 class="text-left">Physical Memory</h6>
+                          <h6 class="text-left"> Memory DDR-4</h6>
                         </td>
                         <td class="primary-bg">
-                          <h6 class="text-white">1 GB</h6>
+                          <h6 class="text-white">8 GB </h6>
                         </td>
                         <td>
-                          <h6>2 GB</h6>
+                          <h6>16 GB </h6>
                         </td>
                         <td>
-                          <h6>3 GB</h6>
+                          <h6>32 GB </h6>
                         </td>
                         <td>
-                          <h6>4 GB</h6>
+                          <h6>48 GB </h6>
                         </td>
                       </tr>
 
                       <tr style="width: 20%; text-align: center">
                         <td>
-                          <h6 class="text-left">Virtual Memory</h6>
+                          <h6 class="text-left">NVMe PCI Gen 4.0</h6>
                         </td>
                         <td class="primary-bg">
-                          <h6 class="text-white">1 GB</h6>
+                          <h6 class="text-white">100 GB </h6>
                         </td>
                         <td>
-                          <h6>1 GB</h6>
+                          <h6>200 GB </h6>
                         </td>
                         <td>
-                          <h6>1 GB</h6>
+                          <h6>400 GB </h6>
                         </td>
                         <td>
-                          <h6>1 GB</h6>
+                          <h6>600 GB </h6>
                         </td>
                       </tr>
                       <tr style="width: 20%; text-align: center">
                         <td>
-                          <h6 class="text-left">I/O Speed</h6>
+                          <h6 class="text-left">Transfer</h6>
                         </td>
                         <td class="primary-bg">
-                          <h6 class="text-white">20 MBs</h6>
+                          <h6 class="text-white">5 TB Transfer</h6>
                         </td>
                         <td>
-                          <h6>30 MBs</h6>
+                          <h6>8 TB Transfer</h6>
                         </td>
                         <td>
-                          <h6>40 MBs</h6>
+                          <h6>Unlimited Transfer</h6>
                         </td>
                         <td>
-                          <h6>50 MBs</h6>
+                          <h6>Unlimited Transfer</h6>
                         </td>
                       </tr>
                       <tr style="width: 20%; text-align: center">
                         <td>
-                          <h6 class="text-left">IOPS</h6>
+                          <h6 class="text-left"> Address</h6>
                         </td>
                         <td class="primary-bg">
-                          <h6 class="text-white">1024</h6>
+                          <h6 class="text-white">1 IPv4 Address</h6>
                         </td>
                         <td>
-                          <h6>1024</h6>
+                          <h6>1 IPv4 Address</h6>
                         </td>
                         <td>
-                          <h6>1024</h6>
+                          <h6>1 IPv4 Address</h6>
                         </td>
                         <td>
-                          <h6>1024</h6>
+                          <h6>1 IPv4 Address</h6>
                         </td>
                       </tr>
                       <tr style="width: 20%; text-align: center">
                         <td>
-                          <h6 class="text-left">Entry Process</h6>
+                          <h6 class="text-left">Gbps Port</h6>
                         </td>
                         <td class="primary-bg">
-                          <h6 class="text-white">20</h6>
+                          <h6 class="text-white">1 - upto 10 </h6>
                         </td>
                         <td>
-                          <h6>30</h6>
+                          <h6>1 - upto 10 </h6>
                         </td>
                         <td>
-                          <h6>40</h6>
+                          <h6>1 - upto 10 </h6>
                         </td>
                         <td>
-                          <h6>50</h6>
+                          <h6>1 - upto 10 </h6>
                         </td>
                       </tr>
                       <tr style="width: 20%; text-align: center">
                         <td>
-                          <h6 class="text-left">Number of Process</h6>
+                          <h6 class="text-left"> Protection </h6>
                         </td>
                         <td class="primary-bg">
-                          <h6 class="text-white">100</h6>
+                          <h6 class="text-white">DDoS included</h6>
                         </td>
                         <td>
-                          <h6>110</h6>
+                          <h6>DDoS included</h6>
                         </td>
                         <td>
-                          <h6>120</h6>
+                          <h6>DDoS included</h6>
                         </td>
                         <td>
-                          <h6>130</h6>
+                          <h6>DDoS included</h6>
                         </td>
                       </tr>
                       <tr style="width: 20%; text-align: center">
                         <td>
-                          <h6 class="text-left">INODES/File Limit</h6>
+                          <h6 class="text-left"> Technology</h6>
                         </td>
                         <td class="primary-bg">
-                          <h6 class="text-white">No File Limit</h6>
+                          <h6 class="text-white">KVM </h6>
                         </td>
                         <td>
-                          <h6>No File Limit</h6>
+                          <h6>KVM </h6>
                         </td>
                         <td>
-                          <h6>No File Limit</h6>
+                          <h6>KVM </h6>
                         </td>
                         <td>
-                          <h6>No File Limit</h6>
+                          <h6>KVM </h6>
                         </td>
                       </tr>
                       <tr style="width: 20%; text-align: center">
                         <td>
-                          <h6 class="text-left">Bandwidth Network</h6>
+                          <h6 class="text-left">Guarantee</h6>
                         </td>
                         <td class="primary-bg">
-                          <h6 class="text-white"></h6>
+                          <h6 class="text-white">99.9% Uptime</h6>
                         </td>
                         <td class="col-12">
-                          <h6>1Gbps Global </h6>
+                          <h6>99.9% Uptime </h6>
                         </td>
                         <td class="col-12">
-                          <h6>10Gbps Special </h6>
+                          <h6>99.9% Uptime </h6>
                         </td>
                         <td class="col-12">
-                          <h6>Bandwidth Port</h6>
+                          <h6>99.9% Uptime </h6>
                         </td>
 
                       </tr>

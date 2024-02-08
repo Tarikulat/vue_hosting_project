@@ -13,11 +13,11 @@
                         <div class="row footer-top-wrap">
                             <div class="col-">
                                 <div class="footer-nav-wrap text-white">
-                                    <h4 class="text-white">SECURED BY</h4>
                                     <img src="@/assets/img/logo_host.png" width="150px" alt="logo" class="img-fluid" />
-
+                                    
                                     <ul class="list-inline security-icon-list">
-                                       <p>Powering your online success with superfast hosting service – Host Service.</p> 
+                                       <p> Supercharge your online success with our superfast hosting service, ensuring rapid website 
+                                        load times for an exceptional user experience.e – Host Service.</p> 
                                     </ul>
                                 </div>
                             </div>
@@ -31,19 +31,19 @@
                                     <h4 class="text-white">PRODUCTS</h4>
                                     <ul class="nav flex-column">
                                         <li class="nav-item">
-                                            <a class="nav-link" href="https://account.hostservice.com.bd/index.php?rp=/store/shared-hosting">Landing Page Hosting</a>
+                                            <a class="nav-link" href="landing-page">Landing Page Hosting</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="https://account.hostservice.com.bd/index.php?rp=/store/website-shared-hosting">Website Shared Hosting</a>
+                                            <a class="nav-link" href="share-hosting">Website Shared Hosting</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="https://account.hostservice.com.bd/index.php?rp=/store/ecommerce-hosting">E-commerce Hosting</a>
+                                            <a class="nav-link" href="ecommerce-hosting">E-commerce Hosting</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="https://account.hostservice.com.bd/index.php?rp=/store/dedicated-server">Dedicated Server</a>
+                                            <a class="nav-link" href="dadicated-server">Dedicated Server</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="https://account.hostservice.com.bd/index.php?rp=/store/vps-server">VPS Server</a>
+                                            <a class="nav-link" href="vps-server">VPS Server</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -53,7 +53,7 @@
                                     <h4 class="text-white">COMPANY</h4>
                                     <ul class="nav flex-column">
                                         <li class="nav-item">
-                                            <a class="nav-link" href="#">About</a>
+                                            <a class="nav-link" href="about">About</a>
                                         </li>
                                         <li class="nav-item">
                                             <a class="nav-link" href="#">Affiliates</a>
@@ -98,7 +98,7 @@
                                     <h4 class="text-white">SUPPORT</h4>
                                     <ul class="nav flex-column">
                                         <li class="nav-item">
-                                            <a class="nav-link" href="#">Contact</a>
+                                            <a class="nav-link" href="contact">Contact</a>
                                         </li>
                                         <li class="nav-item">
                                             <a class="nav-link" href="#">Knowledge Base</a>
@@ -110,7 +110,7 @@
                                             <a class="nav-link" href="#">System Status</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="#">Support Team</a>
+                                            <a class="nav-link" href="contact">Support Team</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -126,9 +126,8 @@
         <div class="footer-bottom gray-light-bg py-3">
             <div class="container">
                 <div class="row align-items-center justify-content-between">
-                    <div class="col-md-5 col-lg-5">
-                        <p class="copyright-text pb-0 mb-0">© 2024 Service Key | Support with friendly.
-                            <!-- <a href="https://themeforest.net/user/themetags" target="_blank">Service Key</a> -->
+                    <div class="col-md-5 col-lg-5  col-f">
+                        <p class="copyright-text pb-0 mb-0 de-f">© 2024 Host Service | Super Fast Hosting Service.
                         </p>
                     </div>
                     <div class="col-md-7 col-lg-6">

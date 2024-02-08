@@ -21,37 +21,6 @@ export default {
 </script>
 
 <template>
-  <!--hero section start-->
-  <!-- <section class="hero-equal-height pt-165 pb-100 backgb gradient-overlay">
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-md-8 dser-media col-lg-7">
-          <div class="col-md-7 col-lg-7 media-lan ">
-            <div class="hero-content-wrap text-white position-relative">
-              <h1 class="text-brand media-lan ">Dedicated Server </h1>
-              <p class="lead">Build and grow the perfect Website dadicated Server.</p>
-              <ul class="list-unstyled tech-feature-list text-white">
-                <li class="py-1"><span class="ti-control-forward mr-2"></span>Flexible, Easy to Use Control Panel</li>
-                <li class="py-1"><span class="ti-control-forward mr-2"></span><strong>Unmetered</strong> Bandwidth</li>
-                <li class="py-1"><span class="ti-control-forward mr-2"></span><strong>Unmetered</strong> Sub Domains, FTP
-                  Accounts</li>
-                <li class="py-1"><span class="ti-control-forward mr-2"></span><strong>99%</strong> Uptime Guarantee</li>
-                <li class="py-1"><span class="ti-control-forward mr-2"></span><strong>45-Day</strong> Money-Back Guarantee
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 col-lg-5">
-          <div>
-            <label><img src="@/assets/img/v3.png" class="da-img body-landing" alt="ser"></label>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section> -->
-  <!--hero section end-->
-
     <section class="hero-equal-height ptb-100 gradient-overly-right:before backgb backmg gradient-overly-right">
           <div class="container">
             <div class="row align-items-center">
@@ -88,8 +57,8 @@ export default {
       <div class="row justify-content-center">
         <div class="col-md-7 col-lg-7 media-lan">
           <div class="section-heading text-center mb-5">
-            <h1 class="media-la text-brand">Dedicated Server Plan </h1>
-            <p class="h5 web-s">Reviving Open-Source Products with Enthusiastic Client Focus</p>
+            <h3 class="media-la text-brand">Dedicated Server Plan </h3>
+            <p class="h5 web-s">Open-Source Solutions with Client Focus</p>
           </div>
         </div>
       </div>
@@ -97,9 +66,9 @@ export default {
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
           <table class="table vps-hosting-pricing-table">
             <thead>
-              <tr>
+              <tr class="media-la text-brand"> 
                 <th>Packages</th>
-                <th>CPU</th>
+                <th>CPU </th>
                 <th>Processor</th>
                 <th>Ram</th>
                 <th>Storage</th>
@@ -128,7 +97,7 @@ export default {
                 </td>
 
                 <td>
-                  <a href="" class="btn primary-solid-btn">Order Now</a>
+                  <a href="" class="btn primary-solid-btn">Order</a>
                 </td>
 
               </tr>
@@ -146,7 +115,7 @@ export default {
                   </p>
                 </td>
                 <td>
-                  <a href="" class="btn primary-solid-btn">Order Now</a>
+                  <a href="" class="btn primary-solid-btn">Order</a>
                 </td>
               </tr>
               <tr class="vps-pricing-row border-orange-themes">
@@ -166,7 +135,7 @@ export default {
                   </p>
                 </td>
                 <td>
-                  <a href="" class="btn primary-solid-btn">Order Now</a>
+                  <a href="" class="btn primary-solid-btn">Order </a>
                 </td>
               </tr>
               <tr class="vps-pricing-row border-yellow-themes">
@@ -185,7 +154,7 @@ export default {
                   </p>
                 </td>
                 <td>
-                  <a href="" class="btn primary-solid-btn">Order Now</a>
+                  <a href="" class="btn primary-solid-btn">Order </a>
                 </td>
               </tr>
             </tbody>
@@ -194,25 +163,11 @@ export default {
       </div>
       <div class="row justify-content-center d-none d-md-block d-lg-block">
         <div class="col-md-10 col-lg-12">
-          <div class="payment-method text-center">
-            <ul class="list-inline">
-              <li class="list-inline-item">
-                <img src="@/assets/img/payment-amex.svg" alt="amex" width="50">
-              </li>
-              <li class="list-inline-item">
-                <img src="@/assets/img/payment-visa.svg" alt="visa" width="50">
-              </li>
-              <li class="list-inline-item">
-                <img src="@/assets/img/payment-mastercard.svg" alt="mastercard" width="50">
-              </li>
-              <li class="list-inline-item">
-                <img src="@/assets/img/payment-paypal.svg" alt="paypal" width="50">
-              </li>
-              <li class="list-inline-item">
-                <img src="@/assets/img/payment-bitcoin.svg" alt="bitcoin" width="50">
-              </li>
-            </ul>
-          </div>
+          <ul class="list-inline">
+                                  <li class=" mar-da payment-method text-center">
+                                      <img src="@/assets/img/footer-last.webp" alt="amex" width="300px" />
+                                  </li>
+                              </ul>
         </div>
       </div>
     </div>

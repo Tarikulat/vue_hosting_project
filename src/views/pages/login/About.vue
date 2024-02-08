@@ -159,8 +159,8 @@
                     </div>
                     <div class="features-box-content">
                         <h5>Expert Support</h5>
-                        <p>Our expert support team is always available to assist you via chat, phone, or ticket.
-                             We are here 24/7 to assist you with your hosting needs.</p>
+                        <p>Our dedicated support team is accessible round-the-clock via chat, phone, or ticket to address
+                             your hosting queries promptly. Whether you need assistance with setup, troubleshooting, or optimization.</p>
                     </div>
                 </div>
             </div>
@@ -169,7 +169,7 @@
 </section>
 
 <!--testimonial and review section start-->
-<section class="client-review-section ptb-100 gray-light-bg">
+<section class="client-review-section mr-abt ptb-100 gray-light-bg">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-9 col-lg-8">

@@ -10,8 +10,10 @@
             <div class="col-md-7 col-lg-6">
                 <div class="page-header-content text-white">
                     <h1 class="text-brand media-lan">Contact Us</h1>
-                    <p class="lead">Enthusiastically provide access to multidisciplinary communities
-                         and reliable quality vectors. Globally administrate robust.</p>
+                    <p class="lead">                       
+                   Gain access to vibrant multidisciplinary communities and dependable quality vectors with enthusiasm. We administer 
+                   robust solutions globally, fostering collaboration and excellence across diverse domains, promoting innovation, 
+                   inclusivity, and sustained growth for all involved.</p>
                 </div>
             </div>
         </div>

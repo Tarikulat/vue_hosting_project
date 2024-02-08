@@ -75,8 +75,7 @@ const isOpenModal = () => {
                                     </ul>
                                 </li>
                                 <!--hosting start-->
-                                <li class="nav-item hs-has-mega-menu custom-nav-item" data-max-width="700px"
-                                    data-position="right">
+                                <li class="nav-item hs-has-mega-menu custom-nav-item" data-max-width="700px" data-position="right">
                                     <a id="hostingMegaMenu" class="nav-link custom-nav-link main-link-toggle"
                                         href="JavaScript:Void(0);" aria-haspopup="true" aria-expanded="false">Hosting</a>
 
@@ -86,9 +85,11 @@ const isOpenModal = () => {
                                             <div class="col-md-6">
                                                 <!--menu title with subtitle and icon item start-->
                                                 <div class="title-with-icon-item">
-                                                    <router-link class="title-with-icon-link" :to="{ name: 'landing-page' }">
+                                                    <router-link class="title-with-icon-link"
+                                                        :to="{ name: 'landing-page' }">
                                                         <div class="media">
-                                                            <div class="menu-item-icon"><i class="fa-solid fa-microchip"></i></div>
+                                                            <div class="menu-item-icon"><i
+                                                                    class="fa-solid fa-microchip"></i></div>
                                                             <div class="media-body">
                                                                 <span class="u-header__promo-title" aria-expanded="false"
                                                                     aria-controls="navBar" data-toggle="collapse"
@@ -101,14 +102,16 @@ const isOpenModal = () => {
                                                 </div>
                                                 <!--menu title with subtitle and icon item start-->
                                                 <div class="title-with-icon-item">
-                                                    <router-link class="title-with-icon-link" :to="{ name: 'website-shared' }">
+                                                    <router-link class="title-with-icon-link"
+                                                        :to="{ name: 'website-shared' }">
                                                         <div class="media">
                                                             <div class="menu-item-icon"><i class="fas fa-box"></i></div>
                                                             <div class="media-body">
                                                                 <span class="u-header__promo-title" aria-expanded="false"
                                                                     aria-controls="navBar" data-toggle="collapse"
                                                                     data-target="#navBar">Website Shared Hosting</span>
-                                                                <small class="u-header__promo-text"> Pefficiently maintain</small>
+                                                                <small class="u-header__promo-text"> Pefficiently
+                                                                    maintain</small>
                                                             </div>
                                                         </div>
                                                     </router-link>
@@ -118,7 +121,8 @@ const isOpenModal = () => {
                                             <div class="col-md-6">
                                                 <!--menu title with subtitle and icon item start-->
                                                 <div class="title-with-icon-item">
-                                                    <router-link class="title-with-icon-link" :to="{ name: 'ecommerce-host' }">
+                                                    <router-link class="title-with-icon-link"
+                                                        :to="{ name: 'ecommerce-host' }">
                                                         <div class="media">
                                                             <div class="menu-item-icon"><i
                                                                     class="fas fa-tachometer-alt"></i></div>
@@ -127,14 +131,16 @@ const isOpenModal = () => {
                                                                     aria-controls="navBar" data-toggle="collapse"
                                                                     data-target="#navBar">E-commerce Hosting<span
                                                                         class="badge bgcolour ml-1">Advance</span></span>
-                                                                <small class="u-header__promo-text">Quickly build package</small>
+                                                                <small class="u-header__promo-text">Quickly build
+                                                                    package</small>
                                                             </div>
                                                         </div>
                                                     </router-link>
                                                 </div>
 
                                                 <div class="title-with-icon-item">
-                                                    <router-link class="title-with-icon-link" :to="{ name: 'reseller-host' }">
+                                                    <router-link class="title-with-icon-link"
+                                                        :to="{ name: 'reseller-host' }">
                                                         <div class="media">
                                                             <div class="menu-item-icon"><i class="fab fa-asymmetrik"></i>
                                                             </div>
@@ -142,7 +148,8 @@ const isOpenModal = () => {
                                                                 <span class="u-header__promo-title" aria-expanded="false"
                                                                     aria-controls="navBar" data-toggle="collapse"
                                                                     data-target="#navBar">Reseller Hosting</span>
-                                                                <small class="u-header__promo-text">Conveniently hosting</small>
+                                                                <small class="u-header__promo-text">Conveniently
+                                                                    hosting</small>
                                                             </div>
                                                         </div>
                                                     </router-link>
@@ -153,9 +160,8 @@ const isOpenModal = () => {
                                 </li>
                                 <!--hosting end-->
 
-                                <li class="nav-item hs-has-sub-menu custom-nav-item">
-                                    <a id="pagesMegaMenu" class="nav-link custom-nav-link main-link-toggle"
-                                        href="javascript:void(0);" aria-haspopup="true" aria-expanded="false"
+                                <li class="nav-item hs-has-sub-menu custom-nav-item" >
+                                    <a id="pagesMegaMenu" class="nav-link custom-nav-link main-link-toggle" href="javascript:void(0);" aria-haspopup="true" aria-expanded="false"
                                         aria-labelledby="pagesSubMenu">Server</a>
                                     <!-- Pages - Submenu -->
                                     <ul id="pagesSubMenu" class="hs-sub-menu main-sub-menu" aria-labelledby="pagesMegaMenu"
@@ -201,7 +207,8 @@ const isOpenModal = () => {
                                     data-position="right">
                                     <span aria-expanded="false" aria-controls="navBar" data-toggle="collapse"
                                         data-target="#navBar">
-                                        <router-link id="aboutMegaMenu" class="nav-link custom-nav-link " :to="{ name: 'about' }">About</router-link>
+                                        <router-link id="aboutMegaMenu" class="nav-link custom-nav-link "
+                                            :to="{ name: 'about' }">About</router-link>
                                     </span>
                                 </li>
 
@@ -209,19 +216,18 @@ const isOpenModal = () => {
                                     data-position="right">
                                     <span aria-expanded="false" aria-controls="navBar" data-toggle="collapse"
                                         data-target="#navBar">
-                                        <router-link id="aboutMegaMenu" class="nav-link custom-nav-link " :to="{ name: 'contact' }">Contact</router-link>
+                                        <router-link id="aboutMegaMenu" class="nav-link custom-nav-link "
+                                            :to="{ name: 'contact' }">Contact</router-link>
                                     </span>
                                 </li>
 
-                                <span aria-expanded="false" aria-controls="navBar" data-toggle="collapse"
-                                    data-target="#navBar">
-                                    <li class="nav-item hs-has-mega-menu custom-nav-item" data-max-width="250px"
-                                        data-position="right">
+                                <li class="nav-item hs-has-mega-menu custom-nav-item" data-max-width="250px" data-position="right">
+                                    <span aria-expanded="false" aria-controls="navBar" data-toggle="collapse" data-target="#navBar">
                                         <a href="javascript::void(0)" id="aboutMegaMenu" class="nav-link custom-nav-link "
                                             @click.prevent="isOpenModal">
                                             <i class="fa fa-search"></i> Domain Search</a>
-                                    </li>
-                                </span>
+                                    </span>
+                                </li>
                             </ul>
                         </div>
                         <!--main menu end-->
@@ -233,15 +239,15 @@ const isOpenModal = () => {
                     <div class="modal-content serar-b ">
                         <span class="close" @click.prevent="isOpenModal" id="closeModalBtn">&times;</span>
                         <div class="domain-search-cta-type ptb-100">
-                    
+
                             <div class="container">
                                 <div class="row align-items-center justify-content-center">
-                                    
                                     <div class="col-md-8 col-lg-10">
                                         <div class="d-flex justify-content-between">
                                             <div>
                                                 <div class="domain-search-content fin-d text-center mb-4">
-                                                    <h2>Find Your <span class="text-colour">Domain</span> Name</h2>
+                                                    <h2 class="sm-s">Find Your <span class="text-colour">Domain</span> Name
+                                                    </h2>
                                                 </div>
                                                 <div class="domain-search-wrap text-center">
                                                     <form class="domain-search-form">
@@ -265,7 +271,7 @@ const isOpenModal = () => {
                                                         <ul class="list-inline domain-search-list">
                                                             <li class="list-inline-item"><a href="#"><img
                                                                         src="@/assets/img/s5.png" alt="com" width="70"
-                                                                        class="img-fluid" /> <span>৳ 1250</span></a>
+                                                                        class="img-fluid" /> <span>৳ 1299</span></a>
                                                             </li>
                                                             <li class="list-inline-item"><a href="#"><img
                                                                         src="@/assets/img/s2.png" alt="com" width="70"
@@ -279,7 +285,7 @@ const isOpenModal = () => {
                                                                         src="@/assets/img/biz.png" alt="com" width="70"
                                                                         class="img-fluid" /> <span>৳ 1499</span></a>
                                                             </li>
-                                                            <li class="list-inline-item net "><a href="#"><img
+                                                            <li class="list-inline-item net net-g "><a href="#"><img
                                                                         src="@/assets/img/info1.png" alt="com" width="70"
                                                                         class="img-fluid" /> <span>৳ 799</span></a>
                                                             </li>
@@ -289,7 +295,8 @@ const isOpenModal = () => {
                                             </div>
                                             <div>
                                                 <div class="col-md-5 col-lg-3">
-                                                    <label><img src="@/assets/img/logod.png" class="sr-img" alt="ser"></label>
+                                                    <label><img src="@/assets/img/logod.png" class="sr-img"
+                                                            alt="ser"></label>
                                                 </div>
                                             </div>
                                         </div>
@@ -357,5 +364,4 @@ const isOpenModal = () => {
 
 .is-close {
     display: none;
-}
-</style>
+}</style>

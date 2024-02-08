@@ -15,10 +15,10 @@ const halfYear = ref();
 const yearly = ref();
 
 const monthlyPrice = () => {
-    monthly.value = '1,890';
-    theryMonth.value = '2,890';
-    halfYear.value = '3,890';
-    yearly.value = '4,890';
+    monthly.value = '1890';
+    theryMonth.value = '2890';
+    halfYear.value = '3890';
+    yearly.value = '4890';
 }
 const threeMonthPrice = () => {
     monthly.value = '17010';
@@ -51,34 +51,14 @@ onMounted(() => {
             <div class="row align-items-center justify-content-between">
                 <div class="col-lg-6 col-12 mar-e">
                     <div class="hero-content-wrap marg-tq text-white">
-                        <h1 class="text-brand media-eco">Ecommerce Hosting Services</h1>
+                        <h1 class="text-brand media-eco">Advance Ecommerce Hosting </h1>
                         <p class="lead">Globally through excellent intellectual capital.</p>
-                        <ul class="list-unstyled">
-                            <li class="py-1">
-                                <div class="d-flex align-items-center">
-                                    <span class="ti-check mr-2"></span>
-                                    <p class="mb-0">Easy to use no technical skills required</p>
-                                </div>
-                            </li>
-                            <li class="py-1">
-                                <div class="d-flex align-items-center">
-                                    <span class="ti-check mr-2"></span>
-                                    <p class="mb-0">Thousands of customizable design</p>
-                                </div>
-                            </li>
-                            <li class="py-1">
-                                <div class="d-flex align-items-center">
-                                    <span class="ti-check mr-2"></span>
-                                    <p class="mb-0">Zero-Risk Money-Back Guarantee</p>
-                                </div>
-                            </li>
-                            <li class="py-1">
-                                <div class="d-flex align-items-center">
-                                    <span class="ti-check mr-2"></span>
-                                    <p class="mb-0">Free domain with install</p>
-                                </div>
-                            </li>
-                        </ul>
+                <ul class="list-unstyled tech-feature-list text-white">
+                  <li class="py-1"><span class="ti-control-forward mr-2"></span>Easy to use technical required</li>
+                  <li class="py-1"><span class="ti-control-forward mr-2"></span>Thousands of customizable design</li>
+                  <li class="py-1"><span class="ti-control-forward mr-2"></span>Zero-Risk Money-Back Guarantee</li>
+                  <li class="py-1"><span class="ti-control-forward mr-2"></span>Free domain with install</li>
+                </ul>
                     </div>
                 </div>
                 <div class="col-lg-6 col-12">
@@ -98,19 +78,17 @@ onMounted(() => {
             <div class="row justify-content-center head">
                 <div class="col-md-12 col-lg-7">
                     <div class="section-heading  text-center">
-                        <h3 class="media-la text-brand bt-hj">Ecommerce Page Hosting :</h3>
-                        <h6 class="h5 med-w">
-                            6 month plan <strong class="text-brand">10%</strong> discount - <strong class="text-brand">
-                                hostgift6m
-                            </strong>
-                        </h6>
+                        <h3 class="media-la text-brand bt-hj">Advance Ecommerce Plan </h3>
+                       <h6 class="h5 med-w">
+                  6 month plan <span class="text-rd">5%</span> discount - <span class="text-rd"> hostgift6m
+                  </span>
+                </h6>
 
-                        <div>
-                            <h6 class="h5 med-w">
-                                1year plan <strong class="text-brand">25%</strong> discount - <strong class="text-brand">
-                                    hostgift1yr </strong>
-                            </h6>
-                        </div>
+                <div>
+                  <h6 class="h5 med-w ">
+                    1year plan <span class="text-rd"> 15% </span> discount -<span class="text-rd"> hostgift1yr</span>
+                  </h6>
+                </div>
 
                     </div>
                 </div>
@@ -133,7 +111,7 @@ onMounted(() => {
 
                         <div class="single-radio-box" @click="yearPrice">
                             <input name="billingPlan" id="triennial-plan" value="triennial" class="radio" type="radio">
-                            <label for="triennial-plan"><span class="custom-check"></span>1 Year</label>
+                            <label for="triennial-plan"><span class="custom-check"></span>1  Year</label>
                         </div>
 
                     </div>
@@ -168,7 +146,7 @@ onMounted(() => {
                                 <div class="card text-center align-items-center single-pricing-pack">
                                     <div class="pt-5">
                                         <h5 class="mb-0 text-brand">Advance Ecommerce Hosting</h5>
-                                        <p class="mb-0">Starter :</p>
+                                        <p class="mb-0">Starter </p>
                                     </div>
                                     <div class="card-header border-0 pricing-header">
                                         <div class="price text-center mb-0 monthly-price">৳ {{ monthly }}<span>/-BDT
@@ -209,7 +187,7 @@ onMounted(() => {
                                 <div class="card text-center align-items-center single-pricing-pack">
                                     <div class="pt-5">
                                     <h5 class="mb-0 text-brand">Advance Ecommerce Hosting</h5>
-                                        <p class="mb-0">Standard:</p>
+                                        <p class="mb-0">Standard </p>
                                     </div>
                                     <div class="card-header border-0 pricing-header">
                                         <div class="price text-center mb-0 monthly-price">৳ {{ theryMonth }}<span>/-BDT
@@ -250,7 +228,7 @@ onMounted(() => {
                                 <div class="card text-center align-items-center single-pricing-pack">
                                     <div class="pt-5">
                                       <h5 class="mb-0 text-brand">Advance Ecommerce Hosting</h5>
-                                        <p class="mb-0">Silver :</p>
+                                        <p class="mb-0">Silver </p>
                                     </div>
                                     <div class="card-header border-0 pricing-header">
                                         <div class="price text-center mb-0 monthly-price">৳ {{ halfYear }}<span>/-BDT
@@ -291,7 +269,7 @@ onMounted(() => {
                                 <div class="card text-center align-items-center single-pricing-pack">
                                     <div class="pt-5">
                                         <h5 class="mb-0 text-brand">Advance Ecommerce Hosting</h5>
-                                        <p class="mb-0">Gold :</p>
+                                        <p class="mb-0">Gold </p>
                                     </div>
                                     <div class="card-header border-0 pricing-header">
                                         <div class="price text-center mb-0 monthly-price">৳ {{ yearly }}<span>/-BDT
@@ -334,9 +312,9 @@ onMounted(() => {
             <div class="row justify-content-center">
                 <div class="col-md-12 col-lg-7 ">
                     <div class="section-heading  text-center mb-5">
-                        <h3 class="media-la text-brand bt-h">Web Hosting Resource :</h3>
+                        <h3 class="media-la text-brand bt-h">Advance Ecommerce Hosting Resource </h3>
                         <p class="h5 web-s bt-bl">
-                            Exclusive hosting resources
+                            Exclusive advance ecommerce hosting resource
                         </p>
                     </div>
                 </div>
@@ -369,19 +347,19 @@ onMounted(() => {
                                 <tbody class="comparision-table-body">
                                     <tr style="width: 20%; text-align: center">
                                         <td>
-                                            <h6 class="text-left">CPU Core Limit %</h6>
+                                            <h6 class="text-left">CPU Core Limit Pro</h6>
                                         </td>
                                         <td class="primary-bg">
-                                            <h6 class="text-white">0.5 core 50%</h6>
+                                            <h6 class="text-white">2 Core CPU 4.9 GHz </h6>
                                         </td>
                                         <td>
-                                            <h6>1 core 100%</h6>
+                                            <h6>3 Core CPU 4.9 GHz </h6>
                                         </td>
                                         <td>
-                                            <h6>1.5 core 150%</h6>
+                                            <h6>4 Core CPU 4.9 GHz </h6>
                                         </td>
                                         <td>
-                                            <h6>2 core 200%</h6>
+                                            <h6>5 Core CPU 4.9 GHz </h6>
                                         </td>
                                     </tr>
                                     <tr style="width: 20%; text-align: center">
@@ -389,34 +367,34 @@ onMounted(() => {
                                             <h6 class="text-left">Physical Memory</h6>
                                         </td>
                                         <td class="primary-bg">
-                                            <h6 class="text-white">1 GB</h6>
+                                            <h6 class="text-white">4 GB</h6>
                                         </td>
                                         <td>
-                                            <h6>2 GB</h6>
+                                            <h6>6 GB</h6>
                                         </td>
                                         <td>
-                                            <h6>3 GB</h6>
+                                            <h6>8 GB</h6>
                                         </td>
                                         <td>
-                                            <h6>4 GB</h6>
+                                            <h6>10 GB</h6>
                                         </td>
                                     </tr>
 
                                     <tr style="width: 20%; text-align: center">
                                         <td>
-                                            <h6 class="text-left">Virtual Memory</h6>
+                                            <h6 class="text-left">Virtual Storage</h6>
                                         </td>
                                         <td class="primary-bg">
-                                            <h6 class="text-white">1 GB</h6>
+                                            <h6 class="text-white">20 GB NVMe</h6>
                                         </td>
                                         <td>
-                                            <h6>1 GB</h6>
+                                            <h6>40 GB NVMe</h6>
                                         </td>
                                         <td>
-                                            <h6>1 GB</h6>
+                                            <h6>60 GB NVMe</h6>
                                         </td>
                                         <td>
-                                            <h6>1 GB</h6>
+                                            <h6>80 GB NVMe</h6>
                                         </td>
                                     </tr>
                                     <tr style="width: 20%; text-align: center">
@@ -424,16 +402,16 @@ onMounted(() => {
                                             <h6 class="text-left">I/O Speed</h6>
                                         </td>
                                         <td class="primary-bg">
-                                            <h6 class="text-white">20 MBs</h6>
+                                            <h6 class="text-white">50 MBs</h6>
                                         </td>
                                         <td>
-                                            <h6>30 MBs</h6>
+                                            <h6>100 MBs</h6>
                                         </td>
                                         <td>
-                                            <h6>40 MBs</h6>
+                                            <h6>150 MBs</h6>
                                         </td>
                                         <td>
-                                            <h6>50 MBs</h6>
+                                            <h6>200 MBs</h6>
                                         </td>
                                     </tr>
                                     <tr style="width: 20%; text-align: center">
@@ -458,16 +436,16 @@ onMounted(() => {
                                             <h6 class="text-left">Entry Process</h6>
                                         </td>
                                         <td class="primary-bg">
-                                            <h6 class="text-white">20</h6>
-                                        </td>
-                                        <td>
-                                            <h6>30</h6>
-                                        </td>
-                                        <td>
-                                            <h6>40</h6>
+                                            <h6 class="text-white">50</h6>
                                         </td>
                                         <td>
                                             <h6>50</h6>
+                                        </td>
+                                        <td>
+                                            <h6>80</h6>
+                                        </td>
+                                        <td>
+                                            <h6>100</h6>
                                         </td>
                                     </tr>
                                     <tr style="width: 20%; text-align: center">
@@ -475,33 +453,33 @@ onMounted(() => {
                                             <h6 class="text-left">Number of Process</h6>
                                         </td>
                                         <td class="primary-bg">
-                                            <h6 class="text-white">100</h6>
+                                            <h6 class="text-white">130</h6>
                                         </td>
                                         <td>
-                                            <h6>110</h6>
+                                            <h6>150</h6>
                                         </td>
                                         <td>
-                                            <h6>120</h6>
+                                            <h6>180</h6>
                                         </td>
                                         <td>
-                                            <h6>130</h6>
+                                            <h6>200</h6>
                                         </td>
                                     </tr>
                                     <tr style="width: 20%; text-align: center">
                                         <td>
-                                            <h6 class="text-left">INODES/File Limit</h6>
+                                            <h6 class="text-left">SSD Storage</h6>
                                         </td>
                                         <td class="primary-bg">
-                                            <h6 class="text-white">No File Limit</h6>
+                                            <h6 class="text-white">20 GB SSD</h6>
                                         </td>
                                         <td>
-                                            <h6>No File Limit</h6>
+                                            <h6>40 GB NVMe </h6>
                                         </td>
                                         <td>
-                                            <h6>No File Limit</h6>
+                                            <h6>60 GB NVMe </h6>
                                         </td>
                                         <td>
-                                            <h6>No File Limit</h6>
+                                            <h6>80 GB NVMe </h6>
                                         </td>
                                     </tr>
                                     <tr style="width: 20%; text-align: center">
@@ -509,18 +487,17 @@ onMounted(() => {
                                             <h6 class="text-left">Bandwidth Network</h6>
                                         </td>
                                         <td class="primary-bg">
-                                            <h6 class="text-white"></h6>
+                                            <h6 class="text-white">Unlimited</h6>
                                         </td>
                                         <td class="col-12">
-                                            <h6>1Gbps Global </h6>
+                                            <h6>Unlimited </h6>
                                         </td>
                                         <td class="col-12">
-                                            <h6>10Gbps Special </h6>
+                                            <h6>Unlimited </h6>
                                         </td>
                                         <td class="col-12">
-                                            <h6>Bandwidth Port</h6>
+                                            <h6>Unlimited</h6>
                                         </td>
-
                                     </tr>
                                 </tbody>
                             </table>
@@ -537,7 +514,7 @@ onMounted(() => {
             <div class="row justify-content-center">
                 <div class="col-md-9 col-lg-8">
                     <div class="section-heading text-center mb-sm-5 mb-md-0 mb-lg-0">
-                        <h3 class="media-la text-brand bt-h">Technical Specifications :</h3>
+                        <h3 class="media-la text-brand bt-h">Technical Specifications</h3>
                         <p class="h5 web-s">Transform high-quality users into effective</p>
                     </div>
                 </div>
@@ -680,7 +657,7 @@ onMounted(() => {
                             <div class="section-heading text-center mb-5">
                                 <h3 class="media-la text-brand bt-h">Why Choose This Package</h3>
                                 <p class="h5 web-s">
-                                   Enthusiastically facilitate accessibility.
+                                   Enthusiastically facilitate accessibility
                                 </p>
                             </div>
                         </div>
@@ -745,7 +722,7 @@ onMounted(() => {
                 <div class="col-md-9 col-lg-8">
                     <div class="section-heading text-center mb-5">
                         <h3 class="media-la text-brand bt-h">Easy, Hassle free Transfer</h3>
-                        <p class="h5 web-s bt-bl">Get Immediate Activation Express Transfer service.</p>
+                        <p class="h5 web-s bt-bl">Get Immediate Activation Express Transfer service</p>
                     </div>
                 </div>
             </div>

@@ -46,7 +46,7 @@ onMounted(() => {
 
 <template>
     <!--hero section start-->
-    <section class="hero-equal-height pt-165 backgrs pb-100 packge backgrs gradient-overly-right">
+    <section class="hero-equal-height ptb-100 backgrs pb-100 packge backgrs gradient-overly-right">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-md-7 col-lg-7">
@@ -86,14 +86,15 @@ onMounted(() => {
                 </div>
                 <div class="col-md-5 col-lg-5">
                     <div class="container">
+                         <div class="hover15 column">
                         <div>
-                            <label><img src="@/assets/img/v4.png" class="lan img-lan body-landing" alt="ser"></label>
+                            <figure><img src="@/assets/img/v4.png" class="lan img-lan body-landing" alt="ser"></figure>
+                        </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-
     </section>
     <!--hero section end-->
 
@@ -103,18 +104,17 @@ onMounted(() => {
             <div class="row justify-content-center head">
                 <div class="col-md-12 col-lg-7">
                     <div class="section-heading  text-center">
-                        <h3 class="media-la text-brand bt-hj">Reseller Page Hosting </h3>
+                        <h3 class="media-la text-brand bt-hj">Reseller Hosting Plan </h3>
                         <h6 class="h5 med-w">
-                            6 month plan <strong class="text-brand">10%</strong> discount - <strong class="text-brand">
-                                hostgift6m
-                            </strong>
-                        </h6>
-                        <div>
-                            <h6 class="h5 med-w">
-                                1year plan <strong class="text-brand">25%</strong> discount - <strong class="text-brand">
-                                    hostgift1yr </strong>
-                            </h6>
-                        </div>
+                  6 month plan <span class="text-rd">5%</span> discount - <span class="text-rd"> hostgift6m
+                  </span>
+                </h6>
+
+                <div>
+                  <h6 class="h5 med-w ">
+                    1year plan <span class="text-rd"> 15% </span> discount -<span class="text-rd"> hostgift1yr</span>
+                  </h6>
+                </div>
                     </div>
                 </div>
                 <div class="col-10 col-sm-8 col-md-7">
@@ -136,9 +136,8 @@ onMounted(() => {
 
                         <div class="single-radio-box" @click="yearPrice">
                             <input name="billingPlan" id="triennial-plan" value="triennial" class="radio" type="radio">
-                            <label for="triennial-plan"><span class="custom-check"></span>1 Year</label>
+                            <label for="triennial-plan"><span class="custom-check"></span>1  Year</label>
                         </div>
-
                     </div>
                 </div>
             </div>
@@ -171,7 +170,7 @@ onMounted(() => {
                                 <div class="card text-center align-items-center single-pricing-pack">
                                     <div class="pt-5">
                                         <h5 class="mb-0 text-brand">Reseller Page Hosting </h5>
-                                        <p class="mb-0">Starter :</p>
+                                        <p class="mb-0">Starter </p>
                                     </div>
                                     <div class="card-header border-0 pricing-header">
                                         <div class="price text-center mb-0 monthly-price">৳ {{ monthly }}<span>/-BDT
@@ -213,7 +212,7 @@ onMounted(() => {
                                 <div class="card text-center align-items-center single-pricing-pack">
                                     <div class="pt-5">
                                         <h5 class="mb-0 text-brand">Reseller Page Hosting </h5>
-                                        <p class="mb-0">Standard :</p>
+                                        <p class="mb-0">Standard </p>
                                     </div>
                                     <div class="card-header border-0 pricing-header">
                                         <div class="price text-center mb-0 monthly-price">৳ {{ theryMonth }}<span>/-BDT
@@ -255,7 +254,7 @@ onMounted(() => {
                                 <div class="card text-center align-items-center single-pricing-pack">
                                     <div class="pt-5">
                                          <h5 class="mb-0 text-brand">Reseller Page Hosting </h5>
-                                        <p class="mb-0">Silver :</p>
+                                        <p class="mb-0">Silver </p>
                                     </div>
                                     <div class="card-header border-0 pricing-header">
                                         <div class="price text-center mb-0 monthly-price">৳ {{ halfYear }}<span>/-BDT
@@ -297,7 +296,7 @@ onMounted(() => {
                                 <div class="card text-center align-items-center single-pricing-pack">
                                     <div class="pt-5">
                                        <h5 class="mb-0 text-brand">Reseller Page Hosting </h5>
-                                        <p class="mb-0">Gold :</p>
+                                        <p class="mb-0">Gold </p>
                                     </div>
                                     <div class="card-header border-0 pricing-header">
                                         <div class="price text-center mb-0 monthly-price">৳ {{ yearly }}<span>/-BDT
@@ -341,9 +340,9 @@ onMounted(() => {
             <div class="row justify-content-center">
                 <div class="col-md-12 col-lg-7 ">
                     <div class="section-heading  text-center mb-5">
-                        <h3 class="media-la text-brand">Web Hosting Resource :</h3>
+                        <h3 class="media-la text-brand">Reseller Page Hosting Resource </h3>
                         <p class="h5 web-s bt-bl">
-                           Exclusive hosting resources
+                           Exclusive reseller page hosting resource
                         </p>
                     </div>
                 </div>
@@ -544,7 +543,7 @@ onMounted(() => {
             <div class="row justify-content-center">
                 <div class="col-md-9 col-lg-8">
                     <div class="section-heading text-center mb-5">
-                        <h3 class="media-la text-brand">Hosting Features Idea :</h3>
+                        <h3 class="media-la text-brand">Hosting Feature Idea </h3>
                         <p class="h5 web-s">Standard Features Hosting</p>
                     </div>
                 </div>
