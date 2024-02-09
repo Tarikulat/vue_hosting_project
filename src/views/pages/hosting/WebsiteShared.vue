@@ -166,7 +166,7 @@ onMounted(() => {
                                             <li> 24/7 Regular Support</li>
                                             <li> Advanced Features</li>
                                         </ul>
-                                        <a href="https://account.hostservice.com.bd/index.php?rp=/store/shared-hosting/starter"
+                                        <a href="https://account.hostservice.com.bd/index.php?rp=/store/website-shared-hosting/starter"
                                             class="btn outline-btn mb-3" target="_blank">Purchase now</a>
                                     </div>
                                 </div>
@@ -205,7 +205,7 @@ onMounted(() => {
                                             <li> 24/7 Regular Support</li>
                                             <li> Advanced Features</li>
                                         </ul>
-                                        <a href="https://account.hostservice.com.bd/index.php?rp=/store/shared-hosting/standard"
+                                        <a href="https://account.hostservice.com.bd/index.php?rp=/store/website-shared-hosting/standard"
                                             class="btn outline-btn mb-3" target="_blank">Purchase now</a>
                                     </div>
                                 </div>
@@ -244,7 +244,7 @@ onMounted(() => {
                                             <li> 24/7 Regular Support</li>
                                             <li> Advanced Features</li>
                                         </ul>
-                                        <a href="https://account.hostservice.com.bd/index.php?rp=/store/shared-hosting/silver"
+                                        <a href="https://account.hostservice.com.bd/index.php?rp=/store/website-shared-hosting/silver"
                                             class="btn outline-btn mb-3" target="_blank">Purchase now</a>
                                     </div>
                                 </div>
@@ -283,7 +283,7 @@ onMounted(() => {
                                             <li> 24/7 Regular Support</li>
                                             <li> Advanced Features</li>
                                         </ul>
-                                        <a href="https://account.hostservice.com.bd/index.php?rp=/store/shared-hosting/gold"
+                                        <a href="https://account.hostservice.com.bd/index.php?rp=/store/website-shared-hosting/gold"
                                             class="btn outline-btn mb-3" target="_blank">Purchase now</a>
                                     </div>
                                 </div>

@@ -44,14 +44,14 @@ import { Service, Testimonial } from '@/views/common'
                                         href="https://account.hostservice.com.bd/cart.php?a=add&domain=register"><img
                                             src="@/assets/img/lg3.png" alt="com" width="75" class="img-fluid" /> <span>৳
                                             1499</span></a></li>
-                                <li class="list-inline-item"><a
+                                <!-- <li class="list-inline-item"><a
                                         href="https://account.hostservice.com.bd/cart.php?a=add&domain=register"><img
                                             src="@/assets/img/lg4.png" alt="com" width="75" class="img-fluid" /> <span>৳
-                                            1499</span></a></li>
-                                <li class="list-inline-item"><a
+                                            1499</span></a></li> -->
+                                <!-- <li class="list-inline-item"><a
                                         href="https://account.hostservice.com.bd/cart.php?a=add&domain=register"><img
                                             src="@/assets/img/lg4.png" alt="com" width="75" class="img-fluid" /> <span>৳
-                                            699</span></a></li>
+                                            699</span></a></li> -->
                             </ul>
                         </div>
                     </div>

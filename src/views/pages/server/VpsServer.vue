@@ -168,7 +168,7 @@ onMounted(() => {
                                             <li> Premium (paid) add-ons</li>
                                             <li> 99.9% Uptime Guarantee</li>
                                         </ul>
-                                        <a href="https://account.hostservice.com.bd/index.php?rp=/store/shared-hosting/starter"
+                                        <a href="https://account.hostservice.com.bd/index.php?rp=/store/vps-server/starte"
                                             class="btn outline-btn mb-3" target="_blank">Purchase now</a>
                                     </div>
                                 </div>
@@ -204,7 +204,7 @@ onMounted(() => {
                                             <li> Premium (paid) add-ons</li>
                                             <li> 99.9% Uptime Guarantee</li>
                                         </ul>
-                                        <a href="https://account.hostservice.com.bd/index.php?rp=/store/shared-hosting/standard"
+                                        <a href="https://account.hostservice.com.bd/cart.php?a=confproduct&i=1"
                                             class="btn outline-btn mb-3" target="_blank">Purchase now</a>
                                     </div>
                                 </div>
@@ -240,7 +240,7 @@ onMounted(() => {
                                             <li> Premium (paid) add-ons</li>
                                             <li> 99.9% Uptime Guarantee</li>
                                         </ul>
-                                        <a href="https://account.hostservice.com.bd/index.php?rp=/store/shared-hosting/silver"
+                                        <a href="https://account.hostservice.com.bd/cart.php?a=confproduct&i=2"
                                             class="btn outline-btn mb-3" target="_blank">Purchase now</a>
                                     </div>
                                 </div>
@@ -276,7 +276,7 @@ onMounted(() => {
                                             <li> Premium (paid) add-ons</li>
                                             <li> 99.9% Uptime Guarantee</li>
                                         </ul>
-                                        <a href="https://account.hostservice.com.bd/index.php?rp=/store/shared-hosting/gold"
+                                        <a href="https://account.hostservice.com.bd/index.php?rp=/store/business-hosting/vps-gold"
                                             class="btn outline-btn mb-3" target="_blank">Purchase now</a>
                                     </div>
                                 </div>

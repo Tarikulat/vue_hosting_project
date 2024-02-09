@@ -73,7 +73,7 @@ export default {
                 <th>Ram</th>
                 <th>Storage</th>
                 <th>Bandwidth DDoS</th>
-                <th colspan="2">Price And Delivered</th>
+                <th colspan="2">Price And Delivered in: 72h</th>
               </tr>
             </thead>
             <tbody>
@@ -97,7 +97,7 @@ export default {
                 </td>
 
                 <td>
-                  <a href="" class="btn primary-solid-btn">Order</a>
+                  <a href="https://account.hostservice.com.bd/index.php?rp=/store/vps/dedicated-starter" class="btn primary-solid-btn">Order</a>
                 </td>
 
               </tr>
@@ -115,7 +115,7 @@ export default {
                   </p>
                 </td>
                 <td>
-                  <a href="" class="btn primary-solid-btn">Order</a>
+                  <a href="https://account.hostservice.com.bd/index.php?rp=/store/vps/dedicated-standard" class="btn primary-solid-btn">Order</a>
                 </td>
               </tr>
               <tr class="vps-pricing-row border-orange-themes">
@@ -135,7 +135,7 @@ export default {
                   </p>
                 </td>
                 <td>
-                  <a href="" class="btn primary-solid-btn">Order </a>
+                  <a href="https://account.hostservice.com.bd/index.php?rp=/store/dedicated-server/silver" class="btn primary-solid-btn">Order </a>
                 </td>
               </tr>
               <tr class="vps-pricing-row border-yellow-themes">
@@ -154,7 +154,7 @@ export default {
                   </p>
                 </td>
                 <td>
-                  <a href="" class="btn primary-solid-btn">Order </a>
+                  <a href="https://account.hostservice.com.bd/index.php?rp=/store/vps/dedicated-silver" class="btn primary-solid-btn">Order </a>
                 </td>
               </tr>
             </tbody>

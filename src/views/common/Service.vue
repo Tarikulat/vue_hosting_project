@@ -59,7 +59,7 @@
                                 conversion.</p>
                         </div>
                         <div class="cart-home">
-                            <h4><small class="cl-b">Starting at </small>৳1500</h4>
+                            <h4><small class="cl-b">Starting at </small>৳1890</h4>
                             <a href="ecommerce-hosting" class="elementor-button-link elementor-button elementor-size-sm"
                                 role="button"><span class="btn outline-btn mb-3 cart-btn"><span
                                         class="elementor-button-text">Order Now</span></span></a>
@@ -107,7 +107,7 @@
                             <p>White-label hosting plans to sell hosting under your brand.</p>
                         </div>
                         <div class="cart-home">
-                            <h4><small class="cl-b">Starting at </small>৳1800</h4>
+                            <h4><small class="cl-b">Starting at </small>৳3890</h4>
                             <a href="reseller-hosting" class="elementor-button-link elementor-button elementor-size-sm"
                                 role="button"><span class="btn outline-btn mb-3 cart-btn"><span
                                         class="elementor-button-text">Order Now</span></span></a>

@@ -16,7 +16,7 @@ const yearly = ref();
 
 const monthlyPrice = () => {
     monthly.value = '3890';
-    theryMonth.value = '46890';
+    theryMonth.value = '6890';
     halfYear.value = '12390';
     yearly.value = '15490';
 }
@@ -196,7 +196,7 @@ onMounted(() => {
                                             <li> Jetbackup</li>
                                             <li> 99.9% Uptime</li>
                                         </ul>
-                                        <a href="https://account.hostservice.com.bd/index.php?rp=/store/shared-hosting/starter"
+                                        <a href="https://account.hostservice.com.bd/index.php?rp=/store/reseller-hosting/starter"
                                             class="btn outline-btn mb-3" target="_blank">Purchase now</a>
                                     </div>
                                 </div>
@@ -238,7 +238,7 @@ onMounted(() => {
                                             <li> Jetbackup</li>
                                             <li> 99.9% Uptime</li>
                                         </ul>
-                                        <a href="https://account.hostservice.com.bd/index.php?rp=/store/shared-hosting/standard"
+                                        <a href="https://account.hostservice.com.bd/index.php?rp=/store/reseller-hosting/standard"
                                             class="btn outline-btn mb-3" target="_blank">Purchase now</a>
                                     </div>
                                 </div>
@@ -270,7 +270,7 @@ onMounted(() => {
                                             <li> Private Nameserver</li>
                                             <li> White-label Server</li>
                                             <li> 1 Core (up to 4.9 GHz) per cP</li>
-                                            <li> 1 GB RAM (DDR4) Per cP</li>
+                                            <li> 2 GB RAM (DDR4) Per cP</li>
                                             <li> I/O 20 MBs Per cP</li>
                                             <li> 30 Entry Process Per cP</li>
                                             <li> 120 Number of Process Per cP</li>
@@ -280,7 +280,7 @@ onMounted(() => {
                                             <li> Jetbackup</li>
                                             <li> 99.9% Uptime</li>
                                         </ul>
-                                        <a href="https://account.hostservice.com.bd/index.php?rp=/store/shared-hosting/silver"
+                                        <a href="https://account.hostservice.com.bd/index.php?rp=/store/reseller-hosting/silver"
                                             class="btn outline-btn mb-3" target="_blank">Purchase now</a>
                                     </div>
                                 </div>
@@ -322,7 +322,7 @@ onMounted(() => {
                                             <li> Jetbackup</li>
                                             <li> 99.9% Uptime</li>
                                         </ul>
-                                        <a href="https://account.hostservice.com.bd/index.php?rp=/store/shared-hosting/gold"
+                                        <a href="https://account.hostservice.com.bd/index.php?rp=/store/reseller-hosting/gold"
                                             class="btn outline-btn mb-3" target="_blank">Purchase now</a>
                                     </div>
                                 </div>
@@ -375,42 +375,77 @@ onMounted(() => {
                                 <tbody class="comparision-table-body">
                                     <tr style="width: 20%; text-align: center">
                                         <td>
-                                            <h6 class="text-left">CPU Core Limit %</h6>
+                                            <h6 class="text-left">Core GHz per cP</h6>
                                         </td>
                                         <td class="primary-bg">
-                                            <h6 class="text-white">0.5 core 50%</h6>
+                                            <h6 class="text-white">1 Core (up to 4.9 )</h6>
                                         </td>
                                         <td>
-                                            <h6>1 core 100%</h6>
+                                            <h6>1 Core (up to 4.9 )</h6>
                                         </td>
                                         <td>
-                                            <h6>1.5 core 150%</h6>
+                                            <h6>1 Core (up to 4.9 )</h6>
                                         </td>
                                         <td>
-                                            <h6>2 core 200%</h6>
+                                            <h6>1 Core (up to 4.9 )</h6>
                                         </td>
                                     </tr>
                                     <tr style="width: 20%; text-align: center">
                                         <td>
-                                            <h6 class="text-left">Physical Memory</h6>
+                                            <h6 class="text-left">NVMe Disk Space</h6>
                                         </td>
                                         <td class="primary-bg">
-                                            <h6 class="text-white">1 GB</h6>
+                                            <h6 class="text-white">50 GB</h6>
                                         </td>
                                         <td>
-                                            <h6>2 GB</h6>
+                                            <h6>100 GB</h6>
                                         </td>
                                         <td>
-                                            <h6>3 GB</h6>
+                                            <h6>200 GB</h6>
                                         </td>
                                         <td>
-                                            <h6>4 GB</h6>
+                                            <h6>300 GB</h6>
                                         </td>
                                     </tr>
 
                                     <tr style="width: 20%; text-align: center">
                                         <td>
-                                            <h6 class="text-left">Virtual Memory</h6>
+                                            <h6 class="text-left">Bandwidth Monthly</h6>
+                                        </td>
+                                        <td class="primary-bg">
+                                            <h6 class="text-white">1 TB  </h6>
+                                        </td>
+                                        <td>
+                                            <h6>2 TB </h6>
+                                        </td>
+                                        <td>
+                                            <h6>3 TB</h6>
+                                        </td>
+                                        <td>
+                                            <h6>Unlimited </h6>
+                                        </td>
+                                    </tr>
+                                    <tr style="width: 20%; text-align: center">
+                                        <td>
+                                            <h6 class="text-left">cPanel Accounts</h6>
+                                        </td>
+                                        <td class="primary-bg">
+                                            <h6 class="text-white">20 </h6>
+                                        </td>
+                                        <td>
+                                            <h6>45</h6>
+                                        </td>
+                                        <td>
+                                            <h6>90</h6>
+                                        </td>
+                                        <td>
+                                            <h6>120</h6>
+                                        </td>
+                                    </tr>
+                                    <tr style="width: 20%; text-align: center">
+                                        <td>
+                                            <h6 class="text-left">RAM (DDR4) Per cP
+    </h6>
                                         </td>
                                         <td class="primary-bg">
                                             <h6 class="text-white">1 GB</h6>
@@ -419,112 +454,78 @@ onMounted(() => {
                                             <h6>1 GB</h6>
                                         </td>
                                         <td>
-                                            <h6>1 GB</h6>
+                                            <h6>2 GB</h6>
                                         </td>
                                         <td>
-                                            <h6>1 GB</h6>
+                                            <h6>2 GB</h6>
                                         </td>
                                     </tr>
                                     <tr style="width: 20%; text-align: center">
                                         <td>
-                                            <h6 class="text-left">I/O Speed</h6>
+                                            <h6 class="text-left">I/O Per cP</h6>
                                         </td>
                                         <td class="primary-bg">
-                                            <h6 class="text-white">20 MBs</h6>
+                                            <h6 class="text-white">20 MBs </h6>
                                         </td>
                                         <td>
-                                            <h6>30 MBs</h6>
+                                            <h6>20 MBs </h6>
                                         </td>
                                         <td>
-                                            <h6>40 MBs</h6>
+                                            <h6>20 MBs </h6>
                                         </td>
                                         <td>
-                                            <h6>50 MBs</h6>
+                                            <h6>20 MBs </h6>
                                         </td>
                                     </tr>
                                     <tr style="width: 20%; text-align: center">
                                         <td>
-                                            <h6 class="text-left">IOPS</h6>
-                                        </td>
-                                        <td class="primary-bg">
-                                            <h6 class="text-white">1024</h6>
-                                        </td>
-                                        <td>
-                                            <h6>1024</h6>
-                                        </td>
-                                        <td>
-                                            <h6>1024</h6>
-                                        </td>
-                                        <td>
-                                            <h6>1024</h6>
-                                        </td>
-                                    </tr>
-                                    <tr style="width: 20%; text-align: center">
-                                        <td>
-                                            <h6 class="text-left">Entry Process</h6>
+                                            <h6 class="text-left">Entry Process Per cP</h6>
                                         </td>
                                         <td class="primary-bg">
                                             <h6 class="text-white">20</h6>
                                         </td>
                                         <td>
+                                            <h6>20</h6>
+                                        </td>
+                                        <td>
                                             <h6>30</h6>
                                         </td>
                                         <td>
-                                            <h6>40</h6>
-                                        </td>
-                                        <td>
-                                            <h6>50</h6>
+                                            <h6>30</h6>
                                         </td>
                                     </tr>
                                     <tr style="width: 20%; text-align: center">
                                         <td>
-                                            <h6 class="text-left">Number of Process</h6>
+                                            <h6 class="text-left"> Uptime</h6>
                                         </td>
                                         <td class="primary-bg">
-                                            <h6 class="text-white">100</h6>
+                                            <h6 class="text-white">99.9% Uptime</h6>
                                         </td>
                                         <td>
-                                            <h6>110</h6>
+                                            <h6>99.9% Uptime</h6>
                                         </td>
                                         <td>
-                                            <h6>120</h6>
+                                            <h6>99.9% Uptime</h6>
                                         </td>
                                         <td>
-                                            <h6>130</h6>
+                                            <h6>99.9% Uptime</h6>
                                         </td>
                                     </tr>
                                     <tr style="width: 20%; text-align: center">
                                         <td>
-                                            <h6 class="text-left">INODES/File Limit</h6>
+                                            <h6 class="text-left">Speed</h6>
                                         </td>
                                         <td class="primary-bg">
-                                            <h6 class="text-white">No File Limit</h6>
-                                        </td>
-                                        <td>
-                                            <h6>No File Limit</h6>
-                                        </td>
-                                        <td>
-                                            <h6>No File Limit</h6>
-                                        </td>
-                                        <td>
-                                            <h6>No File Limit</h6>
-                                        </td>
-                                    </tr>
-                                    <tr style="width: 20%; text-align: center">
-                                        <td>
-                                            <h6 class="text-left">Bandwidth Network</h6>
-                                        </td>
-                                        <td class="primary-bg">
-                                            <h6 class="text-white"></h6>
+                                            <h6 class="text-white">LiteSpeed</h6>
                                         </td>
                                         <td class="col-12">
-                                            <h6>1Gbps Global </h6>
+                                            <h6>LiteSpeed </h6>
                                         </td>
                                         <td class="col-12">
-                                            <h6>10Gbps Special </h6>
+                                            <h6>LiteSpeed </h6>
                                         </td>
                                         <td class="col-12">
-                                            <h6>Bandwidth Port</h6>
+                                            <h6>LiteSpeed</h6>
                                         </td>
 
                                     </tr>
