@@ -736,13 +736,13 @@ onMounted(() => {
                             <li class="list-inline-item"><span class="fas fa-star"></span></li>
                         </ul>
                         <div class="ratting-content">
-                            <h5>Awesome support from technical</h5>
-                            <p>Objectively envisioneer magnetic manufactured products and dynamic models.
-                                Progressively maximize 2.0 relationships whereas process-centric.</p>
+                            <h5>Reliable Hosting with Stellar!</h5>
+                            <p>I've been using this hosting service for my personal site, I'm thoroughly impressed.
+                                  I've encountered were swiftly resolved by their knowledgeable support team.</p>
                         </div>
                         <div class="ratting-author mt-3">
-                            <h6>Alex Khamer</h6>
-                            <small class="text-right">6 days ago</small>
+                            <h6>David M.</h6>
+                            <small class="text-right">7 days ago</small>
                         </div>
                     </div>
                 </div>
@@ -756,13 +756,14 @@ onMounted(() => {
                             <li class="list-inline-item"><span class="fas fa-star"></span></li>
                         </ul>
                         <div class="ratting-content">
-                            <h5>Awesome Design Quality with Support</h5>
-                            <p>Objectively envisioneer magnetic manufactured products and dynamic
-                                models maximize 2.0 relationships whereas.</p>
+                            <h5>Exceptional Value Performance!</h5>
+                            <p>
+                                The value for the price is unbeatable, and the performance of my website has exceeded my expectations. 
+                                I highly recommend this hosting provider to anyone in need of reliable hosting.</p>
                         </div>
                         <div class="ratting-author mt-3">
-                            <h6>Peter Anderson</h6>
-                            <small class="text-right">3 days ago</small>
+                            <h6>Jennifer W.</h6>
+                            <small class="text-right">4 days ago</small>
                         </div>
                     </div>
                 </div>
@@ -776,13 +777,13 @@ onMounted(() => {
                             <li class="list-inline-item"><span class="fas fa-star"></span></li>
                         </ul>
                         <div class="ratting-content">
-                            <h5>Contacted support after Midnight</h5>
-                            <p>Objectively envisioneer magnetic manufactured products and dynamic models.
-                                Progressively maximize 2.0 relationships whereas process-centric.</p>
+                            <h5>Outstanding Hosting Provider!</h5>
+                            <p>Transitioning my business website to this hosting service.
+                                 The uptime is rock-solid, and the scalability options have allowed my website to grow alongside my business.</p>
                         </div>
                         <div class="ratting-author mt-3">
-                            <h6>Jolio Darix</h6>
-                            <small class="text-right">8 days ago</small>
+                            <h6>Daniel T.</h6>
+                            <small class="text-right">9 days ago</small>
                         </div>
                     </div>
                 </div>

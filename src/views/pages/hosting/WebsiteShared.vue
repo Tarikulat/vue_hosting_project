@@ -752,13 +752,14 @@ onMounted(() => {
                             <li class="list-inline-item"><span class="fas fa-star"></span></li>
                         </ul>
                         <div class="ratting-content">
-                            <h5>Awesome support from technical</h5>
-                            <p>Objectively envisioneer magnetic manufactured products and dynamic models. Progressively
-                                maximize 2.0 relationships whereas process-centric.</p>
+                            <h5>Exceptional Service and Support!</h5>
+                            <p>I've been with this hosting service for over a year now, and I couldn't be happier. The uptime is fantastic, 
+                                and whenever I've had questions or needed support,
+                                 their team has been incredibly responsive and helpful. Definitely recommend!</p>
                         </div>
                         <div class="ratting-author mt-3">
-                            <h6>Alex Khamer</h6>
-                            <small class="text-right">6 days ago</small>
+                            <h6>Sarah J.</h6>
+                            <small class="text-right">5 days ago</small>
                         </div>
                     </div>
                 </div>
@@ -772,13 +773,13 @@ onMounted(() => {
                             <li class="list-inline-item"><span class="fas fa-star"></span></li>
                         </ul>
                         <div class="ratting-content">
-                            <h5>Awesome Design Quality with Support</h5>
-                            <p>Objectively magnetic manufactured products and dynamic models maximize 2.0 relationships
-                                whereas methodologies.</p>
+                            <h5>A Game-Changer for My Business!</h5>
+                            <p>Switching to this hosting service was one of the best decisions I made for my business. The speed and reliability are top-notch,
+                                 and the pricing is very competitive. Plus, the user interface is intuitive and easy to navigate.</p>
                         </div>
                         <div class="ratting-author mt-3">
-                            <h6>Peter Anderson</h6>
-                            <small class="text-right">3 days ago</small>
+                            <h6>Michael R.</h6>
+                            <small class="text-right">2 days ago</small>
                         </div>
                     </div>
                 </div>
@@ -792,12 +793,13 @@ onMounted(() => {
                             <li class="list-inline-item"><span class="fas fa-star"></span></li>
                         </ul>
                         <div class="ratting-content">
-                            <h5>Contacted support after Midnight</h5>
-                            <p>Objectively envisioneer magnetic manufactured products and dynamic models. Progressively
-                                maximize 2.0 relationships whereas process-centric.</p>
+                            <h5>Top-Notch Support and Reliability!</h5>
+                            <p>
+                                Their customer support team goes above and beyond to assist with any issues, and their servers are lightning-fast. 
+                                It's a no-brainer for me – I'll be sticking with this hosting service for the long haul</p>
                         </div>
                         <div class="ratting-author mt-3">
-                            <h6>Jolio Darix</h6>
+                            <h6>Emily K.</h6>
                             <small class="text-right">8 days ago</small>
                         </div>
                     </div>

@@ -78,82 +78,68 @@ export default {
             </thead>
             <tbody>
               <tr class="vps-pricing-row border-accent-primary">
-                <td>Starter:</td>
-                <td><span class="cpu-core">Ryzen 5800X 8x3.80GHz</span></td>
-                <td><span class="cpu-core">Ryzen 5600X 6x3.70GHz</span></td>
-                <td><span class="cpu-core">64GB DDR4 Memory</span></td>
-                <td>
-                  <div>
-                    <span class="cpu-core">512GB NVMe Hard Drive</span>
-                  </div>
-                </td>
-                <td><span class="cpu-core">Protection included</span></td>
-                <td>
+                <td class="d-tex ds-crt">Starter:</td>
+                <td class="ds-crt"><span class="cpu-core">Ryzen 5800X 8x3.80GHz</span></td>
+                <td class="ds-crt"><span class="cpu-core">Ryzen 5600X 6x3.70GHz</span></td>
+                <td class="ds-crt"><span class="cpu-core">64GB DDR4 Memory</span></td>
+                <td class="ds-crt"><span class="cpu-core">512GB NVMe Hard Drive</span></td>
+                <td class="ds-crt"><span class="cpu-core">Protection included</span></td>
+                <td class="ds-crt">
                   <p>
                     <span class="rate">৳14390<span>/month</span></span><br>
-
-
                   </p>
                 </td>
 
-                <td>
+                <td class="ds-crt">
                   <a href="https://account.hostservice.com.bd/index.php?rp=/store/vps/dedicated-starter" class="btn primary-solid-btn">Order</a>
                 </td>
 
               </tr>
 
               <tr class="vps-pricing-row border-red-themes">
-                <td>Standard:</td>
-                <td><span class="cpu-core">Ryzen 5800X 8x3.80GHz</span></td>
-                <td> <span class="cpu-core">Ryzen 5800X Processor</span></td>
-                <td><span class="cpu-core">128GB DDR4 Memory</span></td>
-                <td><span class="cpu-core">1TB Hard Drive</span></td>
-                <td><span class="cpu-core"> Protection included</span></td>
-                <td >
+                <td class="d-tex ds-crt">Standard:</td>
+                <td class="ds-crt"><span class="cpu-core">Ryzen 5800X 8x3.80GHz</span></td>
+                <td class="ds-crt"> <span class="cpu-core">Ryzen 5800X Processor</span></td>
+                <td class="ds-crt"><span class="cpu-core">128GB DDR4 Memory</span></td>
+                <td class="ds-crt"><span class="cpu-core">1TB Hard Drive</span></td>
+                <td class="ds-crt"><span class="cpu-core"> Protection included</span></td>
+                <td class="ds-crt">
                   <p>
                     <span class="rate">৳20390<span>/month</span></span><br>
                   </p>
                 </td>
-                <td>
+                <td class="ds-crt">
                   <a href="https://account.hostservice.com.bd/index.php?rp=/store/vps/dedicated-standard" class="btn primary-solid-btn">Order</a>
                 </td>
               </tr>
               <tr class="vps-pricing-row border-orange-themes">
-                <td>Silver :</td>
-                <td><span class="cpu-core">Ryzen 5900X 12x3.70GHz</span> </td>
-                <td> <span class="cpu-core">Ryzen 5900X Processor</span></td>
-                <td><span class="cpu-core">128GB DDR4 Memory</span></td>
-                <td>
-                  <div class="score-bar-wrap">
-                    <span class="cpu-core">2TB Hard Drive</span>
-                  </div>
-                </td>
-                <td><span class="cpu-core"> Protection included</span></td>
-                <td>
+                <td class="d-tex ds-crt">Silver :</td>
+                <td class="ds-crt"><span class="cpu-core">Ryzen 5900X 12x3.70GHz</span> </td>
+                <td class="ds-crt"> <span class="cpu-core">Ryzen 5900X Processor</span></td>
+                <td class="ds-crt"><span class="cpu-core">128GB DDR4 Memory</span></td>
+                <td class="ds-crt"><span class="cpu-core">2TB Hard Drive</span></td>
+                <td class="ds-crt"><span class="cpu-core"> Protection included</span></td>
+                <td class="ds-crt">
                   <p>
                     <span class="rate">৳26590<span>/month</span></span><br>
                   </p>
                 </td>
-                <td>
+                <td class="ds-crt">
                   <a href="https://account.hostservice.com.bd/index.php?rp=/store/dedicated-server/silver" class="btn primary-solid-btn">Order </a>
                 </td>
               </tr>
               <tr class="vps-pricing-row border-yellow-themes">
-                <td>Gold :</td>
-                <td><span class="cpu-core">Ryzen 5950X 16x3.40GHz</span></td>
-                <td><span class="cpu-core">AMD Ryzen 5950X</span></td>
-                <td><span class="cpu-core">128GB DDR4 Memory</span></td>
-                <td>
-                  <div class="score-bar-wrap">
-                    <span class="cpu-core">2TB Hard Drive</span>
-                  </div>
-                </td>
-                <td><span class="cpu-core"> Protection included</span></td>
-                <td>
+                <td class="d-tex ds-crt">Gold :</td>
+                <td class="ds-crt"><span class="cpu-core">Ryzen 5950X 16x3.40GHz</span></td>
+                <td class="ds-crt"><span class="cpu-core">AMD Ryzen 5950X</span></td>
+                <td class="ds-crt"><span class="cpu-core">128GB DDR4 Memory</span></td>
+                <td class="ds-crt"><span class="cpu-core">2TB Hard Drive</span></td>
+                <td class="ds-crt"><span class="cpu-core"> Protection included</span></td>
+                <td class="ds-crt">
                   <p><span class="rate">৳32390<span>/month</span></span><br>
                   </p>
                 </td>
-                <td>
+                <td class="ds-crt">
                   <a href="https://account.hostservice.com.bd/index.php?rp=/store/vps/dedicated-silver" class="btn primary-solid-btn">Order </a>
                 </td>
               </tr>
@@ -493,15 +479,15 @@ export default {
               <li class="list-inline-item"><span class="fas fa-star"></span></li>
             </ul>
             <div class="ratting-content">
-              <h5>Awesome support from technical</h5>
+              <h5>Unmatched Performance Support!</h5>
               <p>
-                Objectively envisioneer magnetic manufactured products and dynamic models.
-                Progressively maximize 2.0 relationships whereas process-centric.
+                Choosing this dedicated server hosting provider was the best decision for my business. The server's performance is unmatched, and the uptime is impeccable. 
+                Their support team is responsive and knowledgeable, always ensuring that my website stays online and running smoothly
               </p>
             </div>
             <div class="ratting-author mt-3">
-              <h6>Alex Khamer</h6>
-              <small class="text-right">6 days ago</small>
+              <h6>Mark L.</h6>
+              <small class="text-right">2 days ago</small>
             </div>
           </div>
         </div>
@@ -515,15 +501,15 @@ export default {
               <li class="list-inline-item"><span class="fas fa-star"></span></li>
             </ul>
             <div class="ratting-content">
-              <h5>Awesome Design Quality with Support</h5>
+              <h5>Reliable Hosting Partner! </h5>
               <p>
-                Objectively envisioneer manufactured products and dynamic models
-                maximize 2.0 relationships whereas methodologies.
+                I've been with this dedicated server hosting company for several years now, and I continue to be impressed by their service.
+                 The server hardware is top-notch, and any technical issues are addressed promptly. I highly recommend them to anyone in need of reliable hosting.
               </p>
             </div>
             <div class="ratting-author mt-3">
-              <h6>Peter Anderson</h6>
-              <small class="text-right">3 days ago</small>
+              <h6>Jessica M</h6>
+              <small class="text-right">5 days ago</small>
             </div>
           </div>
         </div>
@@ -537,15 +523,15 @@ export default {
               <li class="list-inline-item"><span class="fas fa-star"></span></li>
             </ul>
             <div class="ratting-content">
-              <h5>Contacted support after Midnight</h5>
+              <h5>Exceptional Service! </h5>
               <p>
-                Objectively envisioneer magnetic manufactured products and dynamic models.
-                Progressively maximize 2.0 relationships whereas process-centric.
+                I've tried other dedicated server hosting services in the past, but none have come close to the level of service provided by this company.
+                 Their servers are fast, secure, and stable, and their support team is always available to assist with any questions or concerns. I'm a satisfied customer!
               </p>
             </div>
             <div class="ratting-author mt-3">
-              <h6>Jolio Darix</h6>
-              <small class="text-right">8 days ago</small>
+              <h6>Emily S</h6>
+              <small class="text-right">7 days ago</small>
             </div>
           </div>
         </div>

@@ -590,9 +590,9 @@ onMounted(() => {
                                 <li class="list-inline-item"><span class="fas fa-star"></span></li>
                             </ul>
                             <div class="ratting-content">
-                                <h5>Awesome support from technical</h5>
-                                <p>Objectively envisioneer magnetic manufactured products and dynamic models. Progressively
-                                    maximize 2.0 relationships whereas process-centric.</p>
+                                <h5>Exceptional VPS Hosting!</h5>
+                                <p>I've been using their VPS hosting for my e-commerce website, and the performance has been outstanding. 
+                                  The dedicated resources ensure consistent speed and reliability, even during peak traffic periods. </p>
                             </div>
                             <div class="ratting-author mt-3">
                                 <h6>Alex Khamer</h6>
@@ -610,12 +610,12 @@ onMounted(() => {
                                 <li class="list-inline-item"><span class="fas fa-star"></span></li>
                             </ul>
                             <div class="ratting-content">
-                                <h5>Awesome Design Quality with Support</h5>
-                                <p>Objectively envisioneer magnetic manufactured products and dynamic models maximize 2.0
-                                    relationships.</p>
+                                <h5>Top-Notch VPS Hosting Provider!</h5>
+                                <p>I switched to this VPS hosting provider after experiencing frequent downtime with my previous host. Since making the switch, 
+                                  I've been impressed by the stability and performance of their servers.</p>
                             </div>
                             <div class="ratting-author mt-3">
-                                <h6>Peter Anderson</h6>
+                                <h6>Ryan H.</h6>
                                 <small class="text-right">3 days ago</small>
                             </div>
                         </div>
@@ -630,9 +630,9 @@ onMounted(() => {
                                 <li class="list-inline-item"><span class="fas fa-star"></span></li>
                             </ul>
                             <div class="ratting-content">
-                                <h5>Contacted support after Midnight</h5>
-                                <p>Objectively envisioneer magnetic manufactured products and dynamic models. Progressively
-                                    maximize 2.0 relationships whereas process-centric.</p>
+                                <h5>Impressive VPS Performance!</h5>
+                                <p>As a developer, I require a reliable VPS solution for my projects, and this hosting service delivers exactly that. 
+                                  The VPS performance is impressive, and the support team is responsive and knowledgeable.</p>
                             </div>
                             <div class="ratting-author mt-3">
                                 <h6>Jolio Darix</h6>
@@ -662,58 +662,59 @@ onMounted(() => {
                             <div id="accordion-one" class="accordion accordion-faq">
                                 <div class="card mb-0">
                                     <a class="card-header collapsed" data-toggle="collapse" href="#collapseOne">
-                                        <h6 class="mb-0 d-inline-block">What exactly is web hosting?
+                                        <h6 class="mb-0 d-inline-block">What are the benefits of using VPS hosting for my website?
                                         </h6>
                                     </a>
                                     <div id="collapseOne" class="collapse" data-parent="#accordion-one">
                                         <div class="card-body">
-                                            <p>Web hosting provides the storage, servers, and technology to publish
-                                                your site on the internet so others can access it 24/7. We take care of
-                                                all technical issues, so you can focus on your site and business.
+                                            <p> VPS hosting offers several benefits, including dedicated resources, enhanced performance, scalability,
+                                               and improved security. With dedicated resources, your website's performance is less likely
+                                                to be affected by other users. Additionally, you can easily scale resources 
+                                                up or down as your website grows or experiences fluctuations in traffic.
                                             </p>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="card mb-0">
                                     <a class="card-header collapsed" data-toggle="collapse" href="#collapseTwo">
-                                        <h6 class="mb-0 d-inline-block">What types of hosting plans do we offer?</h6>
+                                        <h6 class="mb-0 d-inline-block">Can I manage my VPS hosting server independently?</h6>
                                     </a>
                                     <div id="collapseTwo" class="collapse" data-parent="#accordion-one">
                                         <div class="card-body">
-                                            <p>We offer shared hosting for new sites, cloud hosting for rapidly growing
-                                                sites,
-                                                and dedicated servers for large businesses. Each scales up in resources and
-                                                control.
-                                                Our team can suggest the ideal plan type for your needs.
+                                            <p>Yes, with VPS hosting, you typically have full root access or administrative control over your virtual server. 
+                                              This means you can install and configure software, customize server settings, and perform system administration
+                                               tasks according to your requirements. However, if you're not comfortable managing the server yourself,
+                                                many hosting providers offer managed VPS hosting options with additional support and assistance.
                                             </p>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="card mb-0">
                                     <a class="card-header collapsed" data-toggle="collapse" href="#collapseThree">
-                                        <h6 class="mb-0 d-inline-block">How can you get a domain from us?
+                                        <h6 class="mb-0 d-inline-block">How secure is VPS hosting compared to other hosting options?
                                         </h6>
                                     </a>
                                     <div id="collapseThree" class="collapse" data-parent="#accordion-one">
                                         <div class="card-body">
-                                            <p>Purchasing a domain name is easy and affordable. You can buy domains directly
-                                                from us when signing up for web hosting. We help you find available domain
-                                                names
-                                                that strengthen your brand.
+                                            <p>VPS hosting offers a higher level of security compared to shared hosting. Since each VPS operates in an isolated environment, 
+                                              the actions of other users on the server are less likely to impact the security of your website. Additionally,
+                                               you have more control over security measures such as firewall configurations, access controls,
+                                                and software updates, making it easier to implement robust security practices.
                                             </p>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="card mb-0">
                                     <a class="card-header collapsed" data-toggle="collapse" href="#collapseFour">
-                                        <h6 class="mb-0 d-inline-block">How do we optimize hosting for WordPress sites?
+                                        <h6 class="mb-0 d-inline-block">Can I upgrade or downgrade my VPS hosting plan as my needs change?
                                         </h6>
                                     </a>
                                     <div id="collapseFour" class="collapse" data-parent="#accordion-one">
                                         <div class="card-body">
-                                            <p>We optimize hosting for WordPress sites with automatic installs, custom
-                                                plugins, and built-in scaling.
-                                                So you get a secure, high-performance WordPress site with ease.
+                                            <p>Yes, most VPS hosting providers offer flexible scalability options that allow you to upgrade or
+                                               downgrade your hosting plan as needed. Whether you require additional CPU, RAM, or storage resources
+                                                to accommodate growth or wish to reduce your hosting costs, you can typically adjust your
+                                                 VPS hosting plan with minimal downtime or disruption to your website or application.
                                             </p>
                                         </div>
                                     </div>
