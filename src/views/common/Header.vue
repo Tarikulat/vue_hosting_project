@@ -74,91 +74,65 @@ const isOpenModal = () => {
                                         </div>
                                     </ul>
                                 </li>
-                                <!--hosting start-->
-                                <li class="nav-item hs-has-mega-menu custom-nav-item" data-max-width="700px" data-position="right">
-                                    <a id="hostingMegaMenu" class="nav-link custom-nav-link main-link-toggle"
-                                        href="" aria-haspopup="true" aria-expanded="false">Hosting</a>
+                               
+                                     <li class="nav-item hs-has-sub-menu custom-nav-item" >
+                                        <a id="pagesMegaMenu" class="nav-link custom-nav-link main-link-toggle" href="" aria-haspopup="true" aria-expanded="false"
+                                            aria-labelledby="pagesSubMenu">Hosting</a>
+                                        <!-- Pages - Submenu -->
+                                        <ul id="pagesSubMenu" class="hs-sub-menu main-sub-menu" aria-labelledby="pagesMegaMenu"
+                                            style="min-width: 330px;">
 
-                                    <!-- Demos - Mega Menu -->
-                                    <div class="hs-mega-menu w-65 main-sub-menu" aria-labelledby="hostingMegaMenu">
-                                        <div class="row no-gutters">
-                                            <div class="col-md-6">
-                                                <!--menu title with subtitle and icon item start-->
-                                                <div class="title-with-icon-item">
-                                                    <router-link class="title-with-icon-link"
-                                                        :to="{ name: 'landing-page' }">
-                                                        <div class="media">
-                                                            <div class="menu-item-icon"><i
-                                                                    class="fa-solid fa-microchip"></i></div>
-                                                            <div class="media-body">
-                                                                <span class="u-header__promo-title" aria-expanded="false"
-                                                                    aria-controls="navBar" data-toggle="collapse"
-                                                                    data-target="#navBar">Shared Hosting</span>
-                                                                <small class="u-header__promo-text">Innovate reliable
-                                                                    quality</small>
+                                              <div class="title-with-icon-item">
+                                                    <span aria-expanded="false" aria-controls="navBar" data-toggle="collapse"
+                                                        data-target="#navBar">
+                                                        <router-link class="title-with-icon-link" :to="{ name: 'landing-page' }">
+                                                            <div class="media">
+                                                                <!-- <img class="menu-titile-icon" src="@/assets/img/chat.svg" alt="SVG"> -->
+                                                                <div class="menu-item-icon"><i class="fa-solid fa-microchip"></i></div>
+                                                                <div class="media-body">
+                                                                    <span class="u-header__promo-title">Shared Hosting</span>
+                                                                    <small class="u-header__promo-text">Innovate reliable
+                                                                        quality </small>
+                                                                </div>
                                                             </div>
-                                                        </div>
-                                                    </router-link>
+                                                        </router-link>
+                                                    </span>
                                                 </div>
-                                                <!--menu title with subtitle and icon item start-->
-                                                <!-- <div class="title-with-icon-item">
-                                                    <router-link class="title-with-icon-link"
-                                                        :to="{ name: 'website-shared' }">
+                                            <div class="title-with-icon-item">
+                                                <span aria-expanded="false" aria-controls="navBar" data-toggle="collapse"
+                                                    data-target="#navBar">
+                                                    <router-link class="title-with-icon-link" :to="{ name: 'ecommerce-host' }">
                                                         <div class="media">
-                                                            <div class="menu-item-icon"><i class="fas fa-box"></i></div>
+                                                            <!-- <img class="menu-titile-icon" src="@/assets/img/chat.svg" alt="SVG"> -->
+                                                            <div class="menu-item-icon"><i class="fas fa-tachometer-alt"></i></div>
                                                             <div class="media-body">
-                                                                <span class="u-header__promo-title" aria-expanded="false"
-                                                                    aria-controls="navBar" data-toggle="collapse"
-                                                                    data-target="#navBar">Website Shared Hosting</span>
-                                                                <small class="u-header__promo-text"> Pefficiently
-                                                                    maintain</small>
-                                                            </div>
-                                                        </div>
-                                                    </router-link>
-                                                </div> -->
-                                            </div>
-
-                                            <div class="col-md-6">
-                                                <!--menu title with subtitle and icon item start-->
-                                                <div class="title-with-icon-item">
-                                                    <router-link class="title-with-icon-link"
-                                                        :to="{ name: 'ecommerce-host' }">
-                                                        <div class="media">
-                                                            <div class="menu-item-icon"><i
-                                                                    class="fas fa-tachometer-alt"></i></div>
-                                                            <div class="media-body">
-                                                                <span class="u-header__promo-title" aria-expanded="false"
-                                                                    aria-controls="navBar" data-toggle="collapse"
-                                                                    data-target="#navBar">E-commerce Hosting<span
-                                                                        class="badge bgcolour ml-1">Advance</span></span>
+                                                                <span class="u-header__promo-title">E-commerce Hosting<span
+                                                                            class="badge bgcolour ml-1">Advance</span></span>
                                                                 <small class="u-header__promo-text">Quickly build
-                                                                    package</small>
+                                                                        package </small>
                                                             </div>
                                                         </div>
                                                     </router-link>
-                                                </div>
-
-                                                <div class="title-with-icon-item">
-                                                    <router-link class="title-with-icon-link"
-                                                        :to="{ name: 'reseller-host' }">
-                                                        <div class="media">
-                                                            <div class="menu-item-icon"><i class="fab fa-asymmetrik"></i>
-                                                            </div>
-                                                            <div class="media-body">
-                                                                <span class="u-header__promo-title" aria-expanded="false"
-                                                                    aria-controls="navBar" data-toggle="collapse"
-                                                                    data-target="#navBar">Reseller Hosting</span>
-                                                                <small class="u-header__promo-text">Conveniently
-                                                                    hosting</small>
-                                                            </div>
-                                                        </div>
-                                                    </router-link>
-                                                </div>
+                                                </span>
                                             </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <!--hosting end-->
+
+                                            <div class="title-with-icon-item">
+                                                <span aria-expanded="false" aria-controls="navBar" data-toggle="collapse"
+                                                    data-target="#navBar">
+                                                    <router-link class="title-with-icon-link" :to="{ name: 'reseller-host' }">
+                                                        <div class="media">
+                                                            <div class="menu-item-icon"><i class="fab fa-asymmetrik"></i></div>
+                                                            <div class="media-body">
+                                                                <span class="u-header__promo-title">Reseller Hosting</span>
+                                                                <small class="u-header__promo-text">Innovate reliable
+                                                                            quality</small>
+                                                            </div>
+                                                        </div>
+                                                    </router-link>
+                                                </span>
+                                            </div>
+                                        </ul>
+                                    </li>
 
                                 <li class="nav-item hs-has-sub-menu custom-nav-item" >
                                     <a id="pagesMegaMenu" class="nav-link custom-nav-link main-link-toggle" href="" aria-haspopup="true" aria-expanded="false"

@@ -50,7 +50,7 @@ onMounted(() => {
       <div class="row align-items-center">
         <div class="col-md-7 col-lg-7 media-lan ">
           <div class="hero-content-wrap text-white position-relative">
-            <h1 class="text-brand media-lan">Rocket Server Hosting</h1>
+            <h1 class="text-brand media-lan">Rocket Cloud Server Hosting</h1>
             <p class="lead">Build and grow the perfect Website rocket server Hosting Pro.</p>
             <ul class="list-unstyled tech-feature-list text-white">
               <li class="py-1"><span class="ti-control-forward mr-2"></span>Flexible, Easy to Use Control Panel</li>
@@ -81,7 +81,7 @@ onMounted(() => {
       <div class="row justify-content-center head">
         <div class="col-md-12 col-lg-7">
           <div class="section-heading  text-center">
-            <h3 class="media-la text-brand bt-hj">Rocket Servers Plan </h3>
+            <h3 class="media-la text-brand bt-hj">Rocket Cloud Servers Plan </h3>
             <h6 class="h5 med-w">
               6 month plan <span class="text-rd">5%</span> discount - <span class="text-rd"> hostgift6m
               </span>
@@ -147,7 +147,7 @@ onMounted(() => {
               <div class="col-lg-12 col-md-12 col-12">
                 <div class="card text-center align-items-center single-pricing-pack">
                   <div class="pt-5">
-                    <h5 class="mb-0 text-brand">Rocket Servers Plan</h5>
+                    <h5 class="mb-0 text-brand">Rocket Cloud Servers Plan</h5>
                     <p class="mb-0">Starter </p>
                   </div>
                   <div class="card-header pb-4 border-0 pricing-header">
@@ -183,7 +183,7 @@ onMounted(() => {
               <div class="col-lg-12 col-md-12 col-12">
                 <div class="card text-center align-items-center single-pricing-pack">
                   <div class="pt-5">
-                    <h5 class="mb-0 text-brand">Rocket Servers Plan</h5>
+                    <h5 class="mb-0 text-brand">Rocket Cloud Servers Plan</h5>
                     <p class="mb-0"> Standard </p>
                   </div>
                   <div class="card-header pb-4 border-0 pricing-header">
@@ -219,7 +219,7 @@ onMounted(() => {
               <div class="col-lg-12 col-md-12 col-12">
                 <div class="card text-center align-items-center single-pricing-pack">
                   <div class="pt-5">
-                    <h5 class="mb-0 text-brand">VPS Servers Plan</h5>
+                    <h5 class="mb-0 text-brand">Rocket Cloud Servers Plan</h5>
                     <p class="mb-0"> Silver </p>
                   </div>
                   <div class="card-header pb-4 border-0 pricing-header">
@@ -255,7 +255,7 @@ onMounted(() => {
               <div class="col-lg-12 col-md-12 col-12">
                 <div class="card text-center align-items-center single-pricing-pack">
                   <div class="pt-5">
-                    <h5 class="mb-0 text-brand">Rocket Servers Plan</h5>
+                    <h5 class="mb-0 text-brand">Rocket Cloud Servers Plan</h5>
                     <p class="mb-0"> Gold </p>
                   </div>
                   <div class="card-header pb-4 border-0 pricing-header">
@@ -294,9 +294,9 @@ onMounted(() => {
       <div class="row justify-content-center">
         <div class="col-md-12 col-lg-7 ">
           <div class="section-heading  text-center mb-5">
-            <h3 class="media-la text-brand">Rocket Servers Hosting Resource</h3>
+            <h3 class="media-la text-brand">Rocket Cloud Servers Hosting Resource</h3>
             <p class="h5 web-s bt-bl">
-              Exclusive rocket servers hosting resource
+              Exclusive rocket cloud servers hosting resource
             </p>
           </div>
         </div>
@@ -497,7 +497,7 @@ onMounted(() => {
       <div class="row justify-content-center">
         <div class="col-md-12 col-lg-7 ">
           <div class="section-heading  text-center mb-5">
-            <h3 class="media-la text-brand">Rocket Host Service </h3>
+            <h3 class="media-la text-brand">Rocket Cloud Host Service </h3>
             <p class="h5 web-s">
               Live Monitoring rocket servers  
             </p>
@@ -509,9 +509,9 @@ onMounted(() => {
        
       </div>
        <div class="ro-mr mid-rk">
-               <a href="https://uptime.hostservice.com.bd/"
-                              class="btn outline-btn mb-3 bt-r" target="_blank">Live Monitoring</a>
-              </div> 
+          <a href="https://uptime.hostservice.com.bd/"
+          class="btn outline-btn mb-3 bt-r" target="_blank">Live Monitoring</a>
+    </div> 
     </div>
   </section>
 
@@ -749,6 +749,7 @@ onMounted(() => {
 </template>
 
 <style>
+
 .slider-demo-block {
   display: flex;
   align-items: center;
