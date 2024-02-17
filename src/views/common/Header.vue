@@ -40,7 +40,7 @@ const isOpenModal = () => {
 
                                 <li class="nav-item hs-has-sub-menu custom-nav-item">
                                     <a id="pagesMegaMenu" class="nav-link custom-nav-link main-link-toggle"
-                                        href="javascript:void(0);" aria-haspopup="true" aria-expanded="false"
+                                        href="" aria-haspopup="true" aria-expanded="false"
                                         aria-labelledby="pagesSubMenu">Domain</a>
                                     <!-- Pages - Submenu -->
                                     <ul id="pagesSubMenu" class="hs-sub-menu main-sub-menu" aria-labelledby="pagesMegaMenu"
@@ -77,7 +77,7 @@ const isOpenModal = () => {
                                 <!--hosting start-->
                                 <li class="nav-item hs-has-mega-menu custom-nav-item" data-max-width="700px" data-position="right">
                                     <a id="hostingMegaMenu" class="nav-link custom-nav-link main-link-toggle"
-                                        href="JavaScript:Void(0);" aria-haspopup="true" aria-expanded="false">Hosting</a>
+                                        href="" aria-haspopup="true" aria-expanded="false">Hosting</a>
 
                                     <!-- Demos - Mega Menu -->
                                     <div class="hs-mega-menu w-65 main-sub-menu" aria-labelledby="hostingMegaMenu">
@@ -93,7 +93,7 @@ const isOpenModal = () => {
                                                             <div class="media-body">
                                                                 <span class="u-header__promo-title" aria-expanded="false"
                                                                     aria-controls="navBar" data-toggle="collapse"
-                                                                    data-target="#navBar">Landing Page Hosting</span>
+                                                                    data-target="#navBar">Shared Hosting</span>
                                                                 <small class="u-header__promo-text">Innovate reliable
                                                                     quality</small>
                                                             </div>
@@ -101,7 +101,7 @@ const isOpenModal = () => {
                                                     </router-link>
                                                 </div>
                                                 <!--menu title with subtitle and icon item start-->
-                                                <div class="title-with-icon-item">
+                                                <!-- <div class="title-with-icon-item">
                                                     <router-link class="title-with-icon-link"
                                                         :to="{ name: 'website-shared' }">
                                                         <div class="media">
@@ -115,7 +115,7 @@ const isOpenModal = () => {
                                                             </div>
                                                         </div>
                                                     </router-link>
-                                                </div>
+                                                </div> -->
                                             </div>
 
                                             <div class="col-md-6">
@@ -161,11 +161,27 @@ const isOpenModal = () => {
                                 <!--hosting end-->
 
                                 <li class="nav-item hs-has-sub-menu custom-nav-item" >
-                                    <a id="pagesMegaMenu" class="nav-link custom-nav-link main-link-toggle" href="javascript:void(0);" aria-haspopup="true" aria-expanded="false"
+                                    <a id="pagesMegaMenu" class="nav-link custom-nav-link main-link-toggle" href="" aria-haspopup="true" aria-expanded="false"
                                         aria-labelledby="pagesSubMenu">Server</a>
                                     <!-- Pages - Submenu -->
                                     <ul id="pagesSubMenu" class="hs-sub-menu main-sub-menu" aria-labelledby="pagesMegaMenu"
                                         style="min-width: 330px;">
+
+                                          <div class="title-with-icon-item">
+                                                <span aria-expanded="false" aria-controls="navBar" data-toggle="collapse"
+                                                    data-target="#navBar">
+                                                    <router-link class="title-with-icon-link" :to="{ name: 'rocket-server' }">
+                                                        <div class="media">
+                                                            <!-- <img class="menu-titile-icon" src="@/assets/img/chat.svg" alt="SVG"> -->
+                                                            <div class="menu-item-icon"><i class="fa-solid fa-computer-classic"></i></div>
+                                                            <div class="media-body">
+                                                                <span class="u-header__promo-title">Rocket cloud Server</span>
+                                                                <small class="u-header__promo-text">Rapid Support Response </small>
+                                                            </div>
+                                                        </div>
+                                                    </router-link>
+                                                </span>
+                                            </div>
                                         <div class="title-with-icon-item">
                                             <span aria-expanded="false" aria-controls="navBar" data-toggle="collapse"
                                                 data-target="#navBar">
@@ -223,7 +239,7 @@ const isOpenModal = () => {
 
                                 <li class="nav-item hs-has-mega-menu custom-nav-item" data-max-width="250px" data-position="right">
                                     <span aria-expanded="false" aria-controls="navBar" data-toggle="collapse" data-target="#navBar">
-                                        <a href="javascript::void(0)" id="aboutMegaMenu" class="nav-link custom-nav-link "
+                                        <a href="" id="aboutMegaMenu" class="nav-link custom-nav-link "
                                             @click.prevent="isOpenModal">
                                             <i class="fa fa-search"></i> Domain Search</a>
                                     </span>

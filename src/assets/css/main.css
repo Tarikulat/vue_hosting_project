@@ -29,6 +29,44 @@
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
+.rocket {
+  background-image: url("@/assets/img/live.png");
+}
+
+.rocket {
+  text-align: center;
+}
+.ro-bg {
+  background-color: #ffffff;
+  padding-top: 10px;
+  padding-bottom: 90px;
+}
+
+.bt-r {
+  text-align: end;
+}
+.ro-mr {
+  margin-top: 30px;
+  text-align: end;
+}
+
+.rocket-ser {
+  position: relative;
+  min-height: 480px;
+  -js-display: flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: 40%;
+  width: 100%;
+}
 .text-rd {
   color: #ff0000;
 }
@@ -69,6 +107,10 @@
 }
 
 @media (max-width: 425px) {
+  .mid-rk {
+    width: 100%;
+    height: auto;
+  }
   .ds-crt {
     display: block !important;
     text-align: center;

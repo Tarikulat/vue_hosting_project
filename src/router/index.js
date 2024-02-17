@@ -12,6 +12,7 @@ import {
   EcommerceHost,
   ResellerHost,
   VpsServer,
+  RocketServer,
   DedicatedServer,
   Contact,
   About,
@@ -64,6 +65,11 @@ const router = createRouter({
       component: ResellerHost, 
     },
     //...server.....
+    {
+      path: '/rocket-server',  
+      name: 'rocket-server',   
+      component: RocketServer, 
+    },
     {
       path: '/vps-server',  
       name: 'vps-server',   
