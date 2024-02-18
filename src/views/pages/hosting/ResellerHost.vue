@@ -169,8 +169,8 @@ onMounted(() => {
                             <div class="col-lg-12 col-md-12 col-12">
                                 <div class="card text-center align-items-center single-pricing-pack">
                                     <div class="pt-5">
-                                        <h5 class="mb-0 text-brand">Reseller Page Hosting </h5>
-                                        <p class="mb-0">Starter </p>
+                                        <h5 class="mb-0 text-brand">Reseller Hosting Plan </h5>
+                                        <p class="mb-0">Reseller Starter </p>
                                     </div>
                                     <div class="card-header border-0 pricing-header">
                                         <div class="price text-center mb-0 monthly-price">৳ {{ monthly }}<span>/-BDT
@@ -181,15 +181,15 @@ onMounted(() => {
                                             <li> 50 GB NVMe Disk Space</li>
                                             <li> 1 TB Bandwidth Monthly</li>
                                             <li> 20 cPanel Accounts</li>
-                                            <li> WHM Accounts</li>
-                                            <li> Free SSL certificates</li>
-                                            <li> Private Nameserver</li>
-                                            <li> White-label Server</li>
                                             <li> 1 Core (up to 4.9 GHz) per cP</li>
                                             <li> 1 GB RAM (DDR4) Per cP</li>
                                             <li> I/O 20 MBs Per cP</li>
                                             <li> 20 Entry Process Per cP</li>
                                             <li> 100 Number of Process Per cP</li>
+                                            <li> WHM Accounts</li>
+                                            <li> Free SSL certificates</li>
+                                            <li> Private Nameserver</li>
+                                            <li> White-label Server</li>
                                             <li> Cloud Linux</li>
                                             <li> LiteSpeed</li>
                                             <li> imunify360</li>
@@ -211,8 +211,8 @@ onMounted(() => {
                             <div class="col-lg-12 col-md-12 col-12">
                                 <div class="card text-center align-items-center single-pricing-pack">
                                     <div class="pt-5">
-                                        <h5 class="mb-0 text-brand">Reseller Page Hosting </h5>
-                                        <p class="mb-0">Standard </p>
+                                        <h5 class="mb-0 text-brand">Reseller Hosting Plan </h5>
+                                        <p class="mb-0">Reseller Standard </p>
                                     </div>
                                     <div class="card-header border-0 pricing-header">
                                         <div class="price text-center mb-0 monthly-price">৳ {{ theryMonth }}<span>/-BDT
@@ -220,23 +220,24 @@ onMounted(() => {
                                     </div>
                                     <div class="card-body">
                                         <ul class="list-unstyled mb-4 pricing-feature-list">
-                                            <li> 100 GB NVMe Disk Space</li>
-                                            <li> 2 TB Bandwidth Monthly</li>
-                                            <li> 45 cPanel Accounts</li>
-                                            <li> WHM Accounts</li>
-                                            <li> Free SSL certificates</li>
-                                            <li> Private Nameserver</li>
-                                            <li> White-label Server</li>
-                                            <li> 1 Core (up to 4.9 GHz) per cP</li>
-                                            <li> 1 GB RAM (DDR4) Per cP</li>
-                                            <li> I/O 20 MBs Per cP</li>
-                                            <li> 20 Entry Process Per cP</li>
-                                            <li> 100 Number of Process Per cP</li>
-                                            <li> Cloud Linux</li>
-                                            <li> LiteSpeed</li>
-                                            <li> imunify360</li>
-                                            <li> Jetbackup</li>
-                                            <li> 99.9% Uptime</li>
+                                            
+                                                <li> 100 GB NVMe Disk Space</li>
+                                                <li> 2 TB Bandwidth Monthly</li>
+                                                <li> 45 cPanel Accounts</li>
+                                                <li> 1 Core (up to 4.9 GHz) per cP</li>
+                                                <li> 1 GB RAM (DDR4) Per cP</li>
+                                                <li> I/O 20 MBs Per cP</li>
+                                                <li> 20 Entry Process Per cP</li>
+                                                <li> 100 Number of Process Per cP</li>
+                                                <li> WHM Accounts</li>
+                                                <li> Free SSL certificates</li>
+                                                <li> Private Nameserver</li>
+                                                <li> White-label Server</li>
+                                                <li> Cloud Linux</li>
+                                                <li> LiteSpeed</li>
+                                                <li> imunify360</li>
+                                                <li> Jetbackup</li>
+                                                <li> 99.9% Uptime</li>
                                         </ul>
                                         <a href="https://account.hostservice.com.bd/index.php?rp=/store/reseller-hosting/standard"
                                             class="btn outline-btn mb-3" target="_blank">Purchase now</a>
@@ -253,8 +254,8 @@ onMounted(() => {
                             <div class="col-lg-12 col-md-12 col-12">
                                 <div class="card text-center align-items-center single-pricing-pack">
                                     <div class="pt-5">
-                                         <h5 class="mb-0 text-brand">Reseller Page Hosting </h5>
-                                        <p class="mb-0">Silver </p>
+                                         <h5 class="mb-0 text-brand">Reseller Hosting Plan </h5>
+                                        <p class="mb-0">Reseller Silver </p>
                                     </div>
                                     <div class="card-header border-0 pricing-header">
                                         <div class="price text-center mb-0 monthly-price">৳ {{ halfYear }}<span>/-BDT
@@ -262,23 +263,24 @@ onMounted(() => {
                                     </div>
                                     <div class="card-body">
                                         <ul class="list-unstyled mb-4 pricing-feature-list">
-                                            <li> 200 GB NVMe Disk Space</li>
-                                            <li> 3 TB Bandwidth Monthly</li>
-                                            <li> 90 cPanel Accounts</li>
-                                            <li> WHM Accounts</li>
-                                            <li> Free SSL certificates</li>
-                                            <li> Private Nameserver</li>
-                                            <li> White-label Server</li>
-                                            <li> 1 Core (up to 4.9 GHz) per cP</li>
-                                            <li> 2 GB RAM (DDR4) Per cP</li>
-                                            <li> I/O 20 MBs Per cP</li>
-                                            <li> 30 Entry Process Per cP</li>
-                                            <li> 120 Number of Process Per cP</li>
-                                            <li> Cloud Linux</li>
-                                            <li> LiteSpeed</li>
-                                            <li> imunify360</li>
-                                            <li> Jetbackup</li>
-                                            <li> 99.9% Uptime</li>
+
+                                                    <li> 200 GB NVMe Disk Space</li>
+                                                    <li> 3 TB Bandwidth Monthly</li>
+                                                    <li> 90 cPanel Accounts</li>
+                                                    <li> 1 Core (up to 4.9 GHz) per cP</li>
+                                                    <li> 2 GB RAM (DDR4) Per cP</li>
+                                                    <li> I/O 20 MBs Per cP</li>
+                                                    <li> 30 Entry Process Per cP</li>
+                                                    <li> 120 Number of Process Per cP</li>
+                                                    <li> WHM Accounts</li>
+                                                    <li> Free SSL certificates</li>
+                                                    <li> Private Nameserver</li>
+                                                    <li> White-label Server</li>
+                                                    <li> Cloud Linux</li>
+                                                    <li> LiteSpeed</li>
+                                                    <li> imunify360</li>
+                                                    <li> Jetbackup</li>
+                                                    <li> 99.9% Uptime</li>
                                         </ul>
                                         <a href="https://account.hostservice.com.bd/index.php?rp=/store/reseller-hosting/silver"
                                             class="btn outline-btn mb-3" target="_blank">Purchase now</a>
@@ -295,8 +297,8 @@ onMounted(() => {
                             <div class="col-lg-12 col-md-12 col-12">
                                 <div class="card text-center align-items-center single-pricing-pack">
                                     <div class="pt-5">
-                                       <h5 class="mb-0 text-brand">Reseller Page Hosting </h5>
-                                        <p class="mb-0">Gold </p>
+                                       <h5 class="mb-0 text-brand">Reseller Hosting Plan </h5>
+                                        <p class="mb-0">Reseller Gold </p>
                                     </div>
                                     <div class="card-header border-0 pricing-header">
                                         <div class="price text-center mb-0 monthly-price">৳ {{ yearly }}<span>/-BDT
@@ -304,23 +306,24 @@ onMounted(() => {
                                     </div>
                                     <div class="card-body">
                                         <ul class="list-unstyled mb-4 pricing-feature-list">
-                                            <li> 300 GB NVMe Disk Space</li>
-                                            <li> Unlimited Bandwidth</li>
-                                            <li> 120 cPanel Accounts</li>
-                                            <li> 3 WHM Accounts</li>
-                                            <li> Free SSL certificates</li>
-                                            <li> Private Nameserver</li>
-                                            <li> White-label Server</li>
-                                            <li> 1 Core (up to 4.9 GHz) per cP</li>
-                                            <li> 2 GB RAM (DDR4) Per cP</li>
-                                            <li> I/O 20 MBs Per cP</li>
-                                            <li> 30 Entry Process Per cP</li>
-                                            <li> 120 Number of Process Per cP</li>
-                                            <li> Cloud Linux</li>
-                                            <li> LiteSpeed</li>
-                                            <li> imunify360</li>
-                                            <li> Jetbackup</li>
-                                            <li> 99.9% Uptime</li>
+
+                                                        <li> 300 GB NVMe Disk Space</li>
+                                                        <li> Unlimited Bandwidth</li>
+                                                        <li> 120 cPanel Accounts</li>
+                                                        <li> 3 WHM Accounts</li>
+                                                        <li> 1 Core (up to 4.9 GHz) per cP</li>
+                                                        <li> 2 GB RAM (DDR4) Per cP</li>
+                                                        <li> I/O 20 MBs Per cP</li>
+                                                        <li> 30 Entry Process Per cP</li>
+                                                        <li> 120 Number of Process Per cP</li>
+                                                        <li> Free SSL certificates</li>
+                                                        <li> Private Nameserver</li>
+                                                        <li> White-label Server</li>
+                                                        <li> Cloud Linux</li>
+                                                        <li> LiteSpeed</li>
+                                                        <li> imunify360</li>
+                                                        <li> Jetbackup</li>
+                                                        <li> 99.9% Uptime</li>
                                         </ul>
                                         <a href="https://account.hostservice.com.bd/index.php?rp=/store/reseller-hosting/gold"
                                             class="btn outline-btn mb-3" target="_blank">Purchase now</a>
