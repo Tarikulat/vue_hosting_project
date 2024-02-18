@@ -24,13 +24,13 @@ const halfYearPrice = () => {
   monthly.value = '1500';
   theryMonth.value = '3000';
   halfYear.value = '5000';
-  yearly.value = '10000';
+  yearly.value = '7500';
 }
 const yearPrice = () => {
   monthly.value = '3000';
   theryMonth.value = '6000';
   halfYear.value = '10000';
-  yearly.value = '20000';
+  yearly.value = '15000';
 }
 
 onMounted(() => {
@@ -44,8 +44,8 @@ onMounted(() => {
       <div class="row align-items-center">
         <div class="col-md-7 col-lg-7 media-lan ">
           <div class="hero-content-wrap text-white position-relative">
-            <h1 class="text-brand media-lan">Landing Page Hosting</h1>
-            <p class="lead">Build and grow the perfect Website Landing Hosting Pro.</p>
+            <h1 class="text-brand media-lan">Shared Hosting Platforms</h1>
+            <p class="lead">Build and grow the perfect Website Shared Hosting Pro.</p>
             <ul class="list-unstyled tech-feature-list text-white">
               <li class="py-1"><span class="ti-control-forward mr-2"></span>Flexible, Easy to Use Control Panel</li>
               <li class="py-1"><span class="ti-control-forward mr-2"></span><strong>Unmetered</strong> Bandwidth</li>
@@ -75,15 +75,15 @@ onMounted(() => {
       <div class="row justify-content-center head">
         <div class="col-md-12 col-lg-7">
           <div class="section-heading  text-center">
-            <h3 class="media-la text-brand bt-hj">Landing Page Hosting </h3>
+            <h3 class="media-la text-brand bt-hj">Shared Hosting Plan </h3>
             <h6 class="h5 med-w">
-              6 month plan <span class="text-rd">5%</span> discount - <span class="text-rd"> hostgift6m
+              6 month purchase <span class="text-rd">5%</span> discount - <span class="text-rd"> hostgift6m
               </span>
             </h6>
 
             <div>
               <h6 class="h5 med-w ">
-                1year plan <span class="text-rd"> 15% </span> discount -<span class="text-rd"> hostgift1yr</span>
+                1year purchase <span class="text-rd"> 15% </span> discount -<span class="text-rd"> hostgift1yr</span>
               </h6>
             </div>
 
@@ -138,8 +138,8 @@ onMounted(() => {
               <div class="col-lg-12 col-md-12 col-12">
                 <div class="card text-center align-items-center single-pricing-pack">
                   <div class="pt-5">
-                    <h5 class="mb-0 text-brand">Landing Page Hosting</h5>
-                    <p class="mb-0">Starte </p>
+                    <h5 class="mb-0 text-brand">Shared Hosting Plan</h5>
+                    <p class="mb-0">Starter </p>
                   </div>
                   <div class="card-header border-0 pricing-header">
                     <div class="price text-center mb-0 ">৳ {{ monthly }}<span>/-BDT Only.</span></div>
@@ -153,9 +153,12 @@ onMounted(() => {
                       <li> 1 Core CPU 4.7 GHz Pro</li>
                       <li> 2 GB Physical Memory</li>
                       <li> 50 MBs I/O Speed </li>
-                      <li> 1024 IOPS</li>
+                      <li> 1024 IOPS </li>
                       <li> 30 Entry Process</li>
                       <li> 120 Number of Process</li>
+                      <li> Anti-DDoS Protection</li>
+                      <li> Free SSL Certificate</li>
+                      <li> 2x7 Days Backup</li>
                       <li> LiteSpeed with LSCache</li>
                       <li> cPanel Control Panel</li>
                       <li> 24/7 Regular Support</li>
@@ -176,7 +179,7 @@ onMounted(() => {
               <div class="col-lg-12 col-md-12 col-12">
                 <div class="card text-center align-items-center single-pricing-pack">
                   <div class="pt-5">
-                  <h5 class="mb-0 text-brand">Landing Page Hosting</h5>
+                  <h5 class="mb-0 text-brand">Shared Hosting Plan</h5>
                     <p class="mb-0">Standard </p>
                   </div>
                   <div class="card-header border-0 pricing-header">
@@ -184,20 +187,23 @@ onMounted(() => {
                   </div>
                   <div class="card-body">
                     <ul class="list-unstyled mb-4 pricing-feature-list">
-                      <li> 7 GB SSD Storage</li>
-                      <li> 750 GB Bandwidth</li>
-                      <li> 3 Domain</li>
-                      <li> Unlimited sub-domains</li>
-                      <li> 1 Core CPU 4.7 GHz Pro</li>
-                      <li> 2 GB Physical Memory</li>
-                      <li> 50 MBs I/O Speed</li>
-                      <li> 1024 IOPS</li>
-                      <li> 30 Entry Process</li>
-                      <li> 120 Number of Process</li>
-                      <li> LiteSpeed with LSCache</li>
-                      <li> cPanel Control Panel</li>
-                      <li> 24/7 Regular Support</li>
-                      <li> Advanced Features</li>
+                        <li> 7 GB SSD Storage</li>
+                        <li> 750 GB Bandwidth</li>
+                        <li> 3 Domain</li>
+                        <li> Unlimited sub-domains</li>
+                        <li> 1 Core CPU 4.7 GHz Pro</li>
+                        <li> 2 GB Physical Memory</li>
+                        <li> 50 MBs I/O Speed </li>
+                        <li> 1024 IOPS </li>
+                        <li> 30 Entry Process</li>
+                        <li> 120 Number of Process</li>
+                        <li> Anti-DDoS Protection</li>
+                        <li> Free SSL Certificate</li>
+                        <li> 2x7 Days Backup</li>
+                        <li> LiteSpeed with LSCache</li>
+                        <li> cPanel Control Panel</li>
+                        <li> 24/7 Regular Support</li>
+                        <li> Advanced Features</li>
                     </ul>
                     <a href="https://account.hostservice.com.bd/index.php?rp=/store/shared-hosting/standard"
                       class="btn outline-btn mb-3" target="_blank">Purchase now</a>
@@ -214,7 +220,7 @@ onMounted(() => {
               <div class="col-lg-12 col-md-12 col-12">
                 <div class="card text-center align-items-center single-pricing-pack">
                   <div class="pt-5">
-                   <h5 class="mb-0 text-brand">Landing Page Hosting</h5>
+                   <h5 class="mb-0 text-brand">Shared Hosting Plan</h5>
                     <p class="mb-0">Silver </p>
                   </div>
                   <div class="card-header border-0 pricing-header">
@@ -222,20 +228,23 @@ onMounted(() => {
                   </div>
                   <div class="card-body">
                     <ul class="list-unstyled mb-4 pricing-feature-list">
-                      <li> 10 GB SSD Storage</li>
-                      <li> 1500 GB Bandwidth</li>
-                      <li> 5 Domain</li>
-                      <li> Unlimited sub-domains</li>
-                      <li> 1 Core CPU 4.7 GHz Pro</li>
-                      <li> 2 GB Physical Memory</li>
-                      <li> 50 MBs I/O Speed</li>
-                      <li> 1024 IOPS </li>
-                      <li> 30 Entry Process</li>
-                      <li> 120 Number of Process</li>
-                      <li> LiteSpeed with LSCache</li>
-                      <li> cPanel Control Panel</li>
-                      <li> 24/7 Regular Support</li>
-                      <li> Advanced Features</li>
+                          <li> 10 GB SSD Storage</li>
+                          <li> 1500 GB Bandwidth</li>
+                          <li> 5 Domain</li>
+                          <li> Unlimited sub-domains</li>
+                          <li> 1 Core CPU 4.7 GHz Pro</li>
+                          <li> 2 GB Physical Memory</li>
+                          <li> 50 MBs I/O Speed </li>
+                          <li> 1024 IOPS </li>
+                          <li> 30 Entry Process</li>
+                          <li> 120 Number of Process</li>
+                          <li> Anti-DDoS Protection</li>
+                          <li> Free SSL Certificate</li>
+                          <li> 2x7 Days Backup</li>
+                          <li> LiteSpeed with LSCache</li>
+                          <li> cPanel Control Panel</li>
+                          <li> 24/7 Regular Support</li>
+                          <li> Advanced Features</li>
                     </ul>
                     <a href="https://account.hostservice.com.bd/index.php?rp=/store/shared-hosting/silver"
                       class="btn outline-btn mb-3" target="_blank">Purchase now</a>
@@ -252,7 +261,7 @@ onMounted(() => {
               <div class="col-lg-12 col-md-12 col-12">
                 <div class="card text-center align-items-center single-pricing-pack">
                   <div class="pt-5">
-                   <h5 class="mb-0 text-brand">Landing Page Hosting</h5>
+                   <h5 class="mb-0 text-brand">Shared Hosting Plan</h5>
                     <p class="mb-0">Gold </p>
                   </div>
                   <div class="card-header border-0 pricing-header">
@@ -260,20 +269,24 @@ onMounted(() => {
                   </div>
                   <div class="card-body">
                     <ul class="list-unstyled mb-4 pricing-feature-list">
-                      <li> 15 GB SSD Storage</li>
-                      <li> 2000 GB Bandwidth</li>
-                      <li> 7 Domain</li>
-                      <li> Unlimited sub-domains</li>
-                      <li> 1 Core CPU 4.7 GHz Pro</li>
-                      <li> 2 GB Physical Memory</li>
-                      <li> 50 MBs I/O Speed </li>
-                      <li> 1024 IOPS</li>
-                      <li> 30 Entry Process</li>
-                      <li> 120 Number of Process</li>
-                      <li> LiteSpeed with LSCache</li>
-                      <li> cPanel Control Panel</li>
-                      <li> 24/7 Regular Support</li>
-                      <li> Advanced Features</li>
+
+                            <li> 15 GB SSD Storage</li>
+                            <li> 2000 GB Bandwidth</li>
+                            <li> 7 Domain</li>
+                            <li> Unlimited sub-domains</li>
+                            <li> 1 Core CPU 4.7 GHz Pro</li>
+                            <li> 2 GB Physical Memory</li>
+                            <li> 50 MBs I/O Speed </li>
+                            <li> 1024 IOPS </li>
+                            <li> 30 Entry Process</li>
+                            <li> 120 Number of Process</li>
+                            <li> Anti-DDoS Protection</li>
+                            <li> Free SSL Certificate</li>
+                            <li> 2x7 Days Backup</li>
+                            <li> LiteSpeed with LSCache</li>
+                            <li> cPanel Control Panel</li>
+                            <li> 24/7 Regular Support</li>
+                            <li> Advanced Features</li>
                     </ul>
                     <a href="https://account.hostservice.com.bd/index.php?rp=/store/shared-hosting/gold"
                       class="btn outline-btn mb-3" target="_blank">Purchase now</a>
@@ -293,9 +306,9 @@ onMounted(() => {
       <div class="row justify-content-center">
         <div class="col-md-12 col-lg-7 ">
           <div class="section-heading  text-center mb-5">
-            <h3 class="media-la text-brand">Landing Page Hosting Resource </h3>
+            <h3 class="media-la text-brand">Shared Hosting Package Resource </h3>
             <p class="h5 web-s bt-bl">
-              Exclusive landing hosting resources
+              Exclusive Shared Hosting resources
             </p>
           </div>
         </div>

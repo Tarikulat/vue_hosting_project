@@ -107,6 +107,12 @@
 }
 
 @media (max-width: 425px) {
+  .med-f {
+    text-align: center;
+  }
+  .ro-mr {
+    text-align: center;
+  }
   .mid-rk {
     width: 100%;
     height: auto;

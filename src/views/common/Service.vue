@@ -22,31 +22,15 @@
                     <div class="single-service-plane text-center rounded white-bg shadow-sm p-5 mt-md-4 mt-lg-4">
                         <img src="@/assets/img/h1.png" alt="shared hosting" class="img-fluid images mb-4" width="45" />
                         <div class="service-plane-content serve">
-                            <h1 class="h5">Landing Page Hosting </h1>
-                            <p>Promote your product or service with fast, focused landing pages
-                                designed to convert visitors.</p>
+                            <h1 class="h5">Shared Hosting </h1>
+                            <p>Affordable shared hosting plan offering reliable performance, scalable resources,
+                                and comprehensive support for website.</p>
                         </div>
                         <div class="cart-home">
                             <h4><small class="cl-b">Starting at </small>৳750</h4>
-                            <a href="landing-page" class="btn outline-btn mb-3 cart-btn"><span
+                            <a href="shared-host" class="btn outline-btn mb-3 cart-btn"><span
                                     class="elementor-button-content-wrapper"><span class="elementor-button-text">Order
                                         Now</span></span></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 host-h col-lg-4">
-                    <div class="single-service-plane text-center rounded white-bg shadow-sm p-5 mt-md-4 mt-lg-4">
-                        <img src="@/assets/img/h2.png" alt="shared hosting" class="img-fluid mb-4" width="45" />
-                        <div class="service-plane-content serve">
-                            <h3 class="h5">Website Shared Hosting</h3>
-                            <p>Reliable, affordable shared hosting for personal websites
-                                and small business sites. Scale up as your traffic grows. </p>
-                        </div>
-                        <div class="cart-home">
-                            <h4><small class="cl-b">Starting at </small>৳1500</h4>
-                            <a href="share-hosting" class="elementor-button-link elementor-button elementor-size-sm"
-                                role="button"><span class="btn outline-btn mb-3 cart-btn"><span
-                                        class="elementor-button-text">Order Now</span></span></a>
                         </div>
                     </div>
                 </div>
@@ -55,8 +39,8 @@
                         <img src="@/assets/img/h3.png" alt="shared hosting" class="img-fluid mb-4" width="45" />
                         <div class="service-plane-content serve">
                             <h3 class="h5">E-commerce Hosting</h3>
-                            <p>Powerful e-commerce hosting is optimized for security, performance, and high sales
-                                conversion.</p>
+                            <p>Specialized e-commerce hosting optimized for online stores, ensuring security, scalability,
+                                and seamless customer transactions.</p>
                         </div>
                         <div class="cart-home">
                             <h4><small class="cl-b">Starting at </small>৳1890</h4>
@@ -66,6 +50,23 @@
                         </div>
                     </div>
                 </div>
+                <div class="col-md-6 host-h col-lg-4">
+                    <div class="single-service-plane text-center rounded white-bg shadow-sm p-5 mt-md-4 mt-lg-4">
+                        <img src="@/assets/img/h2.png" alt="shared hosting" class="img-fluid mb-4" width="45" />
+                        <div class="service-plane-content serve">
+                            <h3 class="h5">Rocket Cloud Server</h3>
+                            <p>High-performance, scalable cloud solutions for rapid deployment and seamless management of
+                                your digital infrastructure. </p>
+                        </div>
+                        <div class="cart-home">
+                            <h4><small class="cl-b">Starting at </small>৳3500</h4>
+                            <a href="rocket-server" class="elementor-button-link elementor-button elementor-size-sm"
+                                role="button"><span class="btn outline-btn mb-3 cart-btn"><span
+                                        class="elementor-button-text">Order Now</span></span></a>
+                        </div>
+                    </div>
+                </div>
+
                 <div class="col-md-6 host-h col-lg-4">
                     <div class="single-service-plane text-center rounded white-bg shadow-sm p-5 mt-md-4 mt-lg-4">
                         <img src="@/assets/img/h4.png" alt="shared hosting" class="img-fluid mb-4" width="45" />
@@ -114,6 +115,7 @@
                         </div>
                     </div>
                 </div>
+
             </div>
         </div>
     </section>
@@ -229,32 +231,35 @@
                             <li class="py-1"><span class="ti-control-forward mr-2 color-primary"></span>Speed-optimized
                                 services</li>
                             <li class="py-1"><span class="ti-control-forward mr-2 color-primary"></span>Auto-scaling for
-                            traffic variations</li>
-                        <li class="py-1"><span class="ti-control-forward mr-2 color-primary"></span>Caching and content
-                            delivery network</li>
-                        <li class="py-1"><span class="ti-control-forward mr-2 color-primary"></span>Extra security
-                            protection available</li>
-                        <li class="py-1"><span class="ti-control-forward mr-2 color-primary"></span>Customizable server
-                            configuration</li>
-                    </ul>
+                                traffic variations</li>
+                            <li class="py-1"><span class="ti-control-forward mr-2 color-primary"></span>Caching and content
+                                delivery network</li>
+                            <li class="py-1"><span class="ti-control-forward mr-2 color-primary"></span>Extra security
+                                protection available</li>
+                            <li class="py-1"><span class="ti-control-forward mr-2 color-primary"></span>Customizable server
+                                configuration</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 </template>
 
 <style>
-        @media (min-width: 320px) and (max-width: 962px) {
-        .respons {
-            padding: 54px 0;
-        }
+@media (min-width: 320px) and (max-width: 962px) {
+    .respons {
+        padding: 54px 0;
     }
-    .images {
-        text-align: center;
-        max-width : 100%;
-        height    : auto;
-    }
-    .serve {
-        text-align: center;
-}</style>
+}
+
+.images {
+    text-align: center;
+    max-width: 100%;
+    height: auto;
+}
+
+.serve {
+    text-align: center;
+}
+</style>

@@ -21,19 +21,19 @@ const monthlyPrice = () => {
     yearly.value = '4890';
 }
 const threeMonthPrice = () => {
-    monthly.value = '17010';
+    monthly.value = '5670';
     theryMonth.value = '8670';
     halfYear.value = '11670';
     yearly.value = '14670';
 }
 const halfYearPrice = () => {
-    monthly.value = '34020';
+    monthly.value = '11340';
     theryMonth.value = '17340';
     halfYear.value = '23340';
     yearly.value = '29340';
 }
 const yearPrice = () => {
-    monthly.value = '68040';
+    monthly.value = '22680';
     theryMonth.value = '34680';
     halfYear.value = '46680';
     yearly.value = '58680';
@@ -80,13 +80,13 @@ onMounted(() => {
                     <div class="section-heading  text-center">
                         <h3 class="media-la text-brand bt-hj">Advance Ecommerce Plan </h3>
                        <h6 class="h5 med-w">
-                  6 month plan <span class="text-rd">5%</span> discount - <span class="text-rd"> hostgift6m
+                 6 month purchase <span class="text-rd">5%</span> discount - <span class="text-rd"> hostgift6m
                   </span>
                 </h6>
 
                 <div>
                   <h6 class="h5 med-w ">
-                    1year plan <span class="text-rd"> 15% </span> discount -<span class="text-rd"> hostgift1yr</span>
+                    1year purchase <span class="text-rd"> 15% </span> discount -<span class="text-rd"> hostgift1yr</span>
                   </h6>
                 </div>
 
@@ -145,8 +145,8 @@ onMounted(() => {
                             <div class="col-lg-12 col-md-12 col-12">
                                 <div class="card text-center align-items-center single-pricing-pack">
                                     <div class="pt-5">
-                                        <h5 class="mb-0 text-brand">Advance Ecommerce Hosting</h5>
-                                        <p class="mb-0">Starter </p>
+                                        <h5 class="mb-0 text-brand">Advance Ecommerce Hosting </h5>
+                                        <p class="mb-0">Ecom Starter </p>
                                     </div>
                                     <div class="card-header border-0 pricing-header">
                                         <div class="price text-center mb-0 monthly-price">৳ {{ monthly }}<span>/-BDT
@@ -154,18 +154,19 @@ onMounted(() => {
                                     </div>
                                     <div class="card-body">
                                         <ul class="list-unstyled mb-4 pricing-feature-list">
+
                                             <li> 20 GB SSD Storage</li>
                                             <li> Unlimited Bandwidth</li>
                                             <li> Unlimited Website</li>
-                                            <li> Free SSL Certificate</li>
-                                            <li> 2x7 Days Backup</li>
                                             <li> 2 Core CPU 4.9 GHz Pro</li>
-                                            <li> 4 GB Physical Memory</li>
-                                            <li> 1 GB Virtual Memory</li>
+                                            <li> 4 GB DDR5 Ram, 3800 MHz</li>
                                             <li> 50 MBs I/O Speed</li>
-                                            <li> 1024 IOPS</li>
+                                            <li> 1024 IOPS </li>
                                             <li> 50 Entry Process</li>
                                             <li> 130 Number of Process</li>
+                                            <li> Anti-DDoS Protection</li>
+                                            <li> Free SSL Certificate</li>
+                                            <li> 2x7 Days Backup</li>
                                             <li> LiteSpeed with LSCache</li>
                                             <li> cPanel Control Panel</li>
                                             <li> 24/7 Regular Support</li>
@@ -187,7 +188,7 @@ onMounted(() => {
                                 <div class="card text-center align-items-center single-pricing-pack">
                                     <div class="pt-5">
                                     <h5 class="mb-0 text-brand">Advance Ecommerce Hosting</h5>
-                                        <p class="mb-0">Standard </p>
+                                        <p class="mb-0">Ecom Standard </p>
                                     </div>
                                     <div class="card-header border-0 pricing-header">
                                         <div class="price text-center mb-0 monthly-price">৳ {{ theryMonth }}<span>/-BDT
@@ -195,22 +196,22 @@ onMounted(() => {
                                     </div>
                                     <div class="card-body">
                                         <ul class="list-unstyled mb-4 pricing-feature-list">
-                                            <li> 40 GB NVMe Storage</li>
-                                            <li> Unlimited Bandwidth</li>
-                                            <li> Unlimited Website</li>
-                                            <li> Free SSL Certificate</li>
-                                            <li> 2x7 Days Backup</li>
-                                            <li> 3 Core CPU 4.9 GHz Pro</li>
-                                            <li> 6 GB Physical Memory</li>
-                                            <li> 2 GB Virtual Memory</li>
-                                            <li> 100 MBs I/O Speed</li>
-                                            <li> 200 IOPS</li>
-                                            <li> 50 Entry Process</li>
-                                            <li> 150 Number of Process</li>
-                                            <li> LiteSpeed with LSCache</li>
-                                            <li> cPanel Control Panel</li>
-                                            <li> 24/7 Regular Support</li>
-                                            <li> Advanced Features</li>
+                                                <li> 40 GB SSD Storage</li>
+                                                <li> Unlimited Bandwidth</li>
+                                                <li> Unlimited Website</li>
+                                                <li> 3 Core CPU 5.7 GHz Pro</li>
+                                                <li> 6 GB DDR5 Ram, 3800 MHz</li>
+                                                <li> 100 MBs I/O Speed </li>
+                                                <li> 200 IOPS </li>
+                                                <li> 50 Entry Process</li>
+                                                <li> 150 Number of Process</li>
+                                                <li> Anti-DDoS Protection</li>
+                                                <li> Free SSL Certificate</li>
+                                                <li> 2x7 Days Backup</li>
+                                                <li> LiteSpeed with LSCache</li>
+                                                <li> cPanel Control Panel</li>
+                                                <li> 24/7 Regular Support</li>
+                                                <li> Advanced Features</li>
                                         </ul>
                                         <a href="https://account.hostservice.com.bd/index.php?rp=/store/ecommerce-hosting/ecom-standard"
                                             class="btn outline-btn mb-3" target="_blank">Purchase now</a>
@@ -228,7 +229,7 @@ onMounted(() => {
                                 <div class="card text-center align-items-center single-pricing-pack">
                                     <div class="pt-5">
                                       <h5 class="mb-0 text-brand">Advance Ecommerce Hosting</h5>
-                                        <p class="mb-0">Silver </p>
+                                        <p class="mb-0">Ecom Silver </p>
                                     </div>
                                     <div class="card-header border-0 pricing-header">
                                         <div class="price text-center mb-0 monthly-price">৳ {{ halfYear }}<span>/-BDT
@@ -236,22 +237,23 @@ onMounted(() => {
                                     </div>
                                     <div class="card-body">
                                         <ul class="list-unstyled mb-4 pricing-feature-list">
-                                            <li> 60 GB NVMe Storage</li>
-                                            <li> Unlimited Bandwidth</li>
-                                            <li> Unlimited Website</li>
-                                            <li> Free SSL Certificate</li>
-                                            <li> 2x7 Days Backup</li>
-                                            <li> 4 Core CPU 4.9 GHz Pro</li>
-                                            <li> 8 GB Physical Memory</li>
-                                            <li> 2 GB Virtual Memory</li>
-                                            <li> 150 MBs I/O Speed</li>
-                                            <li> 2500 IOPS </li>
-                                            <li> 80 Entry Process</li>
-                                            <li> 180 Number of Process</li>
-                                            <li> LiteSpeed with LSCache</li>
-                                            <li> cPanel Control Panel</li>
-                                            <li> 24/7 Regular Support</li>
-                                            <li> Advanced Features</li>
+
+                                                    <li> 60 GB NVMe Storage</li>
+                                                    <li> Unlimited Bandwidth</li>
+                                                    <li> Unlimited Website</li>
+                                                    <li> 4 Core CPU 5.7 GHz Pro</li>
+                                                    <li> 8 GB DDR5 Ram, 3800 MHz</li>
+                                                    <li> 150 MBs I/O Speed </li>
+                                                    <li> 2500 IOPS </li>
+                                                    <li> 80 Entry Process</li>
+                                                    <li> 180 Number of Process</li>
+                                                    <li> Anti-DDoS Protection</li>
+                                                    <li> Free SSL Certificate</li>
+                                                    <li> 2x7 Days Backup</li>
+                                                    <li> LiteSpeed with LSCache</li>
+                                                    <li> cPanel Control Panel</li>
+                                                    <li> 24/7 Regular Support</li>
+                                                    <li> Advanced Features</li>
                                         </ul>
                                         <a href="https://account.hostservice.com.bd/index.php?rp=/store/ecommerce-hosting/ecom-silver"
                                             class="btn outline-btn mb-3" target="_blank">Purchase now</a>
@@ -269,7 +271,7 @@ onMounted(() => {
                                 <div class="card text-center align-items-center single-pricing-pack">
                                     <div class="pt-5">
                                         <h5 class="mb-0 text-brand">Advance Ecommerce Hosting</h5>
-                                        <p class="mb-0">Gold </p>
+                                        <p class="mb-0">Ecom Gold </p>
                                     </div>
                                     <div class="card-header border-0 pricing-header">
                                         <div class="price text-center mb-0 monthly-price">৳ {{ yearly }}<span>/-BDT
@@ -277,22 +279,23 @@ onMounted(() => {
                                     </div>
                                     <div class="card-body">
                                         <ul class="list-unstyled mb-4 pricing-feature-list">
-                                            <li> 80 GB NVMe Storage</li>
-                                            <li> Unlimited Bandwidth</li>
-                                            <li> Unlimited Website</li>
-                                            <li> Free SSL Certificate</li>
-                                            <li> 2x7 Days Backup</li>
-                                            <li> 5 Core CPU 4.9 GHz Pro</li>
-                                            <li> 10 GB Physical Memory</li>
-                                            <li> 2 GB Virtual Memory</li>
-                                            <li> 200 MBs I/O Speed</li>
-                                            <li> 3000 IOPS </li>
-                                            <li> 100 Entry Process</li>
-                                            <li> 200 Number of Process</li>
-                                            <li> LiteSpeed with LSCache</li>
-                                            <li> cPanel Control Panel</li>
-                                            <li> 24/7 Regular Support</li>
-                                            <li> Advanced Features</li>
+
+                                                        <li> 80 GB NVMe Storage</li>
+                                                        <li> Unlimited Bandwidth</li>
+                                                        <li> Unlimited Website</li>
+                                                        <li> 5 Core CPU 5.7 GHz Pro</li>
+                                                        <li> 10 GB DDR5 Ram, 3800 MHz</li>
+                                                        <li> 200 MBs I/O Speed </li>
+                                                        <li> 3000 IOPS </li>
+                                                        <li> 100 Entry Process</li>
+                                                        <li> 200 Number of Process</li>
+                                                        <li> Anti-DDoS Protection</li>
+                                                        <li> Free SSL Certificate</li>
+                                                        <li> 2x7 Days Backup</li>
+                                                        <li> LiteSpeed with LSCache</li>
+                                                        <li> cPanel Control Panel</li>
+                                                        <li> 24/7 Regular Support</li>
+                                                        <li> Advanced Features</li>
                                         </ul>
                                         <a href="https://account.hostservice.com.bd/index.php?rp=/store/ecommerce-hosting/ecom-gold"
                                             class="btn outline-btn mb-3" target="_blank">Purchase now</a>

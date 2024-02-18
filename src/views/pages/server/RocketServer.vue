@@ -67,7 +67,7 @@ onMounted(() => {
 
           <div class="hover15 column">
             <div>
-              <figure><img src="@/assets/img/rocket.png" class="lan img-lan body-landing" /></figure>
+              <figure><img src="@/assets/img/rocket.gif" class="lan img-lan body-landing" /></figure>
             </div>
           </div>
         </div>
@@ -495,7 +495,7 @@ onMounted(() => {
   <section class="compare-provider-table gray-light-bg-n ro-bg">
     <div class="container">
       <div class="row justify-content-center">
-        <div class="col-md-12 col-lg-7 ">
+        <div class="col-md-12 col-lg-12">
           <div class="section-heading  text-center mb-5">
             <h3 class="media-la text-brand">Rocket Cloud Host Service </h3>
             <p class="h5 web-s">
@@ -615,8 +615,8 @@ onMounted(() => {
               <li class="list-inline-item"><span class="fas fa-star"></span></li>
             </ul>
             <div class="ratting-content">
-              <h5>Exceptional VPS Hosting!</h5>
-              <p>I've been using their VPS hosting for my e-commerce website, and the performance has been outstanding.
+              <h5>Exceptional Rocket Cloud Hosting!</h5>
+              <p>I've been using their Rocket Cloud hosting for my e-commerce website, and the performance has been outstanding.
                 The dedicated resources ensure consistent speed and reliability, even during peak traffic periods. </p>
             </div>
             <div class="ratting-author mt-3">
@@ -635,8 +635,8 @@ onMounted(() => {
               <li class="list-inline-item"><span class="fas fa-star"></span></li>
             </ul>
             <div class="ratting-content">
-              <h5>Top-Notch VPS Hosting Provider!</h5>
-              <p>I switched to this VPS hosting provider after experiencing frequent downtime with my previous host. Since
+              <h5>Top-Notch Rocket Cloud Hosting Provider!</h5>
+              <p>I switched to this Rocket Cloud hosting provider after experiencing frequent downtime with my previous host. Since
                 making the switch,
                 I've been impressed by the stability and performance of their servers.</p>
             </div>
@@ -656,10 +656,10 @@ onMounted(() => {
               <li class="list-inline-item"><span class="fas fa-star"></span></li>
             </ul>
             <div class="ratting-content">
-              <h5>Impressive VPS Performance!</h5>
-              <p>As a developer, I require a reliable VPS solution for my projects, and this hosting service delivers
+              <h5>Impressive Rocket Cloud Performance!</h5>
+              <p>As a developer, I require a reliable Rocket Cloud solution for my projects, and this hosting service delivers
                 exactly that.
-                The VPS performance is impressive, and the support team is responsive and knowledgeable.</p>
+                The Rocket Cloud performance is impressive, The support team is responsive.</p>
             </div>
             <div class="ratting-author mt-3">
               <h6>Jolio Darix</h6>

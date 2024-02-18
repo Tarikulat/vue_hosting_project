@@ -7,7 +7,7 @@ import {
  import { 
   domainRegister,
   domainTransfer,
-  LandingPage,
+  SharedHost,
   WebsiteShared,
   EcommerceHost,
   ResellerHost,
@@ -45,9 +45,9 @@ const router = createRouter({
     },
     //...hosting......
     {
-      path: '/landing-page',  
-      name: 'landing-page',   
-      component: LandingPage, 
+      path: '/shared-host',  
+      name: 'shared-host',   
+      component: SharedHost, 
     },
     {
       path: '/share-hosting',  

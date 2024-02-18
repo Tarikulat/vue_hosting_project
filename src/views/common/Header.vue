@@ -85,7 +85,7 @@ const isOpenModal = () => {
                                               <div class="title-with-icon-item">
                                                     <span aria-expanded="false" aria-controls="navBar" data-toggle="collapse"
                                                         data-target="#navBar">
-                                                        <router-link class="title-with-icon-link" :to="{ name: 'landing-page' }">
+                                                        <router-link class="title-with-icon-link" :to="{ name: 'shared-host' }">
                                                             <div class="media">
                                                                 <!-- <img class="menu-titile-icon" src="@/assets/img/chat.svg" alt="SVG"> -->
                                                                 <div class="menu-item-icon"><i class="fa-solid fa-microchip"></i></div>
@@ -109,7 +109,7 @@ const isOpenModal = () => {
                                                                 <span class="u-header__promo-title">E-commerce Hosting<span
                                                                             class="badge bgcolour ml-1">Advance</span></span>
                                                                 <small class="u-header__promo-text">Quickly build
-                                                                        package </small>
+                                                                        packages </small>
                                                             </div>
                                                         </div>
                                                     </router-link>
@@ -124,8 +124,7 @@ const isOpenModal = () => {
                                                             <div class="menu-item-icon"><i class="fab fa-asymmetrik"></i></div>
                                                             <div class="media-body">
                                                                 <span class="u-header__promo-title">Reseller Hosting</span>
-                                                                <small class="u-header__promo-text">Innovate reliable
-                                                                            quality</small>
+                                                                <small class="u-header__promo-text">Assisted hosting packages</small>
                                                             </div>
                                                         </div>
                                                     </router-link>
