@@ -202,7 +202,7 @@ onMounted(() => {
                                                 <li> 3 Core CPU 5.7 GHz Pro</li>
                                                 <li> 6 GB DDR5 Ram, 3800 MHz</li>
                                                 <li> 100 MBs I/O Speed </li>
-                                                <li> 200 IOPS </li>
+                                                <li> 2000 IOPS </li>
                                                 <li> 50 Entry Process</li>
                                                 <li> 150 Number of Process</li>
                                                 <li> Anti-DDoS Protection</li>
@@ -327,25 +327,25 @@ onMounted(() => {
                             <table
                                 class="table w-100 table-hover table-bordered table-striped comparision-table text-center">
                                 <thead class="comparision-table-head">
-                                    <tr>
+                                   
                                     <tr>
                                         <td style="width: 20%; text-align: center">
                                             <h5>Resource Type</h5>
                                         </td>
                                         <td class="primary-bg" style="width: 20%; text-align: center;">
-                                            <h5 class="text-white">Starter</h5>
+                                            <h5 class="text-white">Ecom Starter</h5>
                                         </td>
                                         <td style="width: 20%; text-align: center;">
-                                            <h5>Standard</h5>
+                                            <h5>Ecom Standard</h5>
                                         </td>
                                         <td style="width: 20%; text-align: center;">
-                                            <h5>Silver</h5>
+                                            <h5>Ecom Silver</h5>
                                         </td>
                                         <td style="width: 20%; text-align: center;">
-                                            <h5>Gold</h5>
+                                            <h5>Ecom Gold</h5>
                                         </td>
                                     </tr>
-                                    </tr>
+                                   
                                 </thead>
                                 <tbody class="comparision-table-body">
                                     <tr style="width: 20%; text-align: center">
@@ -356,42 +356,42 @@ onMounted(() => {
                                             <h6 class="text-white">2 Core CPU 4.9 GHz </h6>
                                         </td>
                                         <td>
-                                            <h6>3 Core CPU 4.9 GHz </h6>
+                                            <h6>3 Core CPU 5.7 GHz </h6>
                                         </td>
                                         <td>
-                                            <h6>4 Core CPU 4.9 GHz </h6>
+                                            <h6>4 Core CPU 5.7 GHz </h6>
                                         </td>
                                         <td>
-                                            <h6>5 Core CPU 4.9 GHz </h6>
+                                            <h6>5 Core CPU 5.7 GHz </h6>
                                         </td>
                                     </tr>
                                     <tr style="width: 20%; text-align: center">
                                         <td>
-                                            <h6 class="text-left">Physical Memory</h6>
+                                            <h6 class="text-left">DDR5 Ram</h6>
                                         </td>
                                         <td class="primary-bg">
-                                            <h6 class="text-white">4 GB</h6>
+                                            <h6 class="text-white">4 GB, 3800 MHz</h6>
                                         </td>
                                         <td>
-                                            <h6>6 GB</h6>
+                                            <h6>6 GB, 3800 MHz</h6>
                                         </td>
                                         <td>
-                                            <h6>8 GB</h6>
+                                            <h6>8 GB, 3800 MHz</h6>
                                         </td>
                                         <td>
-                                            <h6>10 GB</h6>
+                                            <h6>10 GB, 3800 MHz</h6>
                                         </td>
                                     </tr>
 
                                     <tr style="width: 20%; text-align: center">
                                         <td>
-                                            <h6 class="text-left">Virtual Storage</h6>
+                                            <h6 class="text-left">Storage</h6>
                                         </td>
                                         <td class="primary-bg">
-                                            <h6 class="text-white">20 GB NVMe</h6>
+                                            <h6 class="text-white">20 GB SSD</h6>
                                         </td>
                                         <td>
-                                            <h6>40 GB NVMe</h6>
+                                            <h6>40 GB SSD</h6>
                                         </td>
                                         <td>
                                             <h6>60 GB NVMe</h6>
@@ -425,13 +425,13 @@ onMounted(() => {
                                             <h6 class="text-white">1024</h6>
                                         </td>
                                         <td>
-                                            <h6>1024</h6>
+                                            <h6>2000</h6>
                                         </td>
                                         <td>
-                                            <h6>1024</h6>
+                                            <h6>2500</h6>
                                         </td>
                                         <td>
-                                            <h6>1024</h6>
+                                            <h6>3000</h6>
                                         </td>
                                     </tr>
                                     <tr style="width: 20%; text-align: center">
@@ -470,13 +470,13 @@ onMounted(() => {
                                     </tr>
                                     <tr style="width: 20%; text-align: center">
                                         <td>
-                                            <h6 class="text-left">SSD Storage</h6>
+                                            <h6 class="text-left">SSD/NVMe Storage</h6>
                                         </td>
                                         <td class="primary-bg">
                                             <h6 class="text-white">20 GB SSD</h6>
                                         </td>
                                         <td>
-                                            <h6>40 GB NVMe </h6>
+                                            <h6>40 GB SSD </h6>
                                         </td>
                                         <td>
                                             <h6>60 GB NVMe </h6>
@@ -487,7 +487,7 @@ onMounted(() => {
                                     </tr>
                                     <tr style="width: 20%; text-align: center">
                                         <td>
-                                            <h6 class="text-left">Bandwidth Network</h6>
+                                            <h6 class="text-left"> Website</h6>
                                         </td>
                                         <td class="primary-bg">
                                             <h6 class="text-white">Unlimited</h6>
@@ -510,6 +510,27 @@ onMounted(() => {
             </div>
         </div>
     </section>
+
+      <section class="compare-provider-table gray-light-bg-n ro-bg">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-md-12 col-lg-12">
+              <div class="section-heading  text-center mb-5">
+                <h3 class="media-la text-brand">Advance Ecommerce Host Service </h3>
+                <p class="h5 web-s">
+                  Real-Time Server Monitoring System
+                </p>
+              </div>
+            </div>
+            <div class="r-img">
+              <img src="@/assets/img/live.png" />
+            </div>
+          </div>
+          <div class="ro-mr mid-rk">
+            <a href="https://uptime.hostservice.com.bd/" class="btn outline-btn mb-3 bt-r" target="_blank">Live Monitoring</a>
+          </div>
+        </div>
+      </section>
 
     <!--technical specifications start-->
     <section class="technical-specification ptb-100 ">

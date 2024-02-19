@@ -15,28 +15,28 @@ const halfYear = ref();
 const yearly = ref();
 
 const monthlyPrice = () => {
-  monthly.value = '3190';
-  theryMonth.value = '5290';
-  halfYear.value = '9390';
-  yearly.value = '11890';
+  monthly.value = '10490';
+  theryMonth.value = '15490';
+  halfYear.value = '20490';
+  yearly.value = '25490';
 }
 const threeMonthPrice = () => {
-  monthly.value = '9570';
-  theryMonth.value = '15870';
-  halfYear.value = '28170';
-  yearly.value = '35670';
+  monthly.value = '31470';
+  theryMonth.value = '46470';
+  halfYear.value = '61470';
+  yearly.value = '76470';
 }
 const halfYearPrice = () => {
-  monthly.value = '19140';
-  theryMonth.value = '31740';
-  halfYear.value = '56340';
-  yearly.value = '71340';
+  monthly.value = '62940';
+  theryMonth.value = '92940';
+  halfYear.value = '122940';
+  yearly.value = '152940';
 }
 const yearPrice = () => {
-  monthly.value = '38280';
-  theryMonth.value = '63480';
-  halfYear.value = '112680';
-  yearly.value = '142680';
+  monthly.value = '125880';
+  theryMonth.value = '185880';
+  halfYear.value = '245880';
+  yearly.value = '305880';
 }
 
 onMounted(() => {
@@ -50,8 +50,8 @@ onMounted(() => {
       <div class="row align-items-center">
         <div class="col-md-7 col-lg-7 media-lan ">
           <div class="hero-content-wrap text-white position-relative">
-            <h1 class="text-brand media-lan">Rocket Cloud Server Hosting</h1>
-            <p class="lead">Build and grow the perfect Website rocket server Hosting Pro.</p>
+            <h1 class="text-brand media-lan">Rocket Cloud Server </h1>
+            <p class="lead">Build and grow the perfect Website rocket cloud server Pro.</p>
             <ul class="list-unstyled tech-feature-list text-white">
               <li class="py-1"><span class="ti-control-forward mr-2"></span>Flexible, Easy to Use Control Panel</li>
               <li class="py-1"><span class="ti-control-forward mr-2"></span><strong>Unmetered</strong> Bandwidth</li>
@@ -81,15 +81,15 @@ onMounted(() => {
       <div class="row justify-content-center head">
         <div class="col-md-12 col-lg-7">
           <div class="section-heading  text-center">
-            <h3 class="media-la text-brand bt-hj">Rocket Cloud Servers Plan </h3>
+            <h3 class="media-la text-brand bt-hj">Rocket Cloud Server Plan </h3>
             <h6 class="h5 med-w">
-              6 month plan <span class="text-rd">5%</span> discount - <span class="text-rd"> hostgift6m
+              6 month purchase <span class="text-rd">5%</span> discount - <span class="text-rd"> hostgift6m
               </span>
             </h6>
 
             <div>
               <h6 class="h5 med-w ">
-                1year plan <span class="text-rd"> 15% </span> discount -<span class="text-rd"> hostgift1yr</span>
+                1year purchase <span class="text-rd"> 15% </span> discount -<span class="text-rd"> hostgift1yr</span>
               </h6>
             </div>
           </div>
@@ -147,28 +147,33 @@ onMounted(() => {
               <div class="col-lg-12 col-md-12 col-12">
                 <div class="card text-center align-items-center single-pricing-pack">
                   <div class="pt-5">
-                    <h5 class="mb-0 text-brand">Rocket Cloud Servers Plan</h5>
-                    <p class="mb-0">Starter </p>
+                    <h5 class="mb-0 text-brand">Rocket cloud server</h5>
+                    <p class="mb-0">Rocket Starter </p>
                   </div>
-                  <div class="card-header pb-4 border-0 pricing-header">
+                  <div class="card-header border-0 pricing-header">
                     <div class="price text-center mb-0 ">৳ {{ monthly }}<span>/-BDT Only.</span></div>
                   </div>
                   <div class="card-body">
                     <ul class="list-unstyled mb-4 pricing-feature-list">
-                      <li> 4 Core 4.7 GHz Processor</li>
-                      <li> 8 GB Memory DDR-4</li>
-                      <li> 100 GB NVMe PCI Gen 4.0</li>
-                      <li> 1 IPv4 Address</li>
-                      <li> 1 - upto 10 Gbps Port </li>
-                      <li> 5 TB Transfer</li>
-                      <li> DDoS Protection included </li>
-                      <li> KVM Technology</li>
-                      <li> Linux distribution / Windows</li>
-                      <li> Auto Control + Root access</li>
-                      <li> Premium (paid) add-ons</li>
-                      <li> 99.9% Uptime Guarantee</li>
+
+                      <li> 150 GB NVMe Storage</li>
+                      <li> Unlimited Bandwidth</li>
+                      <li> Unlimited Website</li>
+                      <li> 6 Core CPU 5.7 GHz Pro</li>
+                      <li> 16 GB DDR5 Ram, 3800 MHz </li>
+                      <li> 350 MBs I/O Speed</li>
+                      <li> 4120 IOPS </li>
+                      <li> 150 Entry Process</li>
+                      <li> 300 Number of Process</li>
+                      <li> Anti-DDoS Protection</li>
+                      <li> Free SSL Certificate</li>
+                      <li> 2x7 Days Backup</li>
+                      <li> LiteSpeed with LSCache</li>
+                      <li> cPanel Control Panel</li>
+                      <li> 24/7 Regular Support</li>
+                      <li> Advanced Features</li>
                     </ul>
-                    <a href="https://account.hostservice.com.bd/index.php?rp=/store/vps-server/starte"
+                    <a href="https://account.hostservice.com.bd/index.php?rp=/store/rocket-cloud"
                       class="btn outline-btn mb-3" target="_blank">Purchase now</a>
                   </div>
                 </div>
@@ -183,28 +188,33 @@ onMounted(() => {
               <div class="col-lg-12 col-md-12 col-12">
                 <div class="card text-center align-items-center single-pricing-pack">
                   <div class="pt-5">
-                    <h5 class="mb-0 text-brand">Rocket Cloud Servers Plan</h5>
-                    <p class="mb-0"> Standard </p>
+                    <h5 class="mb-0 text-brand">Rocket cloud server</h5>
+                    <p class="mb-0"> Rocket Standard </p>
                   </div>
-                  <div class="card-header pb-4 border-0 pricing-header">
+                  <div class="card-header border-0 pricing-header">
                     <div class="price text-center mb-0">৳ {{ theryMonth }}<span>/-BDT Only.</span></div>
                   </div>
                   <div class="card-body">
                     <ul class="list-unstyled mb-4 pricing-feature-list">
-                      <li> 6 Core 4.7 GHz Processor</li>
-                      <li> 16 GB Memory DDR-4</li>
-                      <li> 200 GB NVMe PCI Gen 4.0</li>
-                      <li> 1 IPv4 Address</li>
-                      <li> 1 - upto 10 Gbps Port </li>
-                      <li> 8 TB Transfer</li>
-                      <li> DDoS Protection included</li>
-                      <li> KVM Technology</li>
-                      <li> Linux distribution / Windows</li>
-                      <li> Auto Control + Root access</li>
-                      <li> Premium (paid) add-ons</li>
-                      <li> 99.9% Uptime Guarantee</li>
+
+                      <li> 350 GB NVMe Storage</li>
+                      <li> Unlimited Bandwidth</li>
+                      <li> Unlimited Website</li>
+                      <li> 8 Core CPU 5.7 GHz Pro</li>
+                      <li> 18 GB DDR5 Ram, 3800 MHz </li>
+                      <li> 500 MBs I/O Speed</li>
+                      <li> 5120 IOPS </li>
+                      <li> 200 Entry Process</li>
+                      <li> 500 Number of Process</li>
+                      <li> Anti-DDoS Protection</li>
+                      <li> Free SSL Certificate</li>
+                      <li> 2x7 Days Backup</li>
+                      <li> LiteSpeed with LSCache</li>
+                      <li> cPanel Control Panel</li>
+                      <li> 24/7 Regular Support</li>
+                      <li> Advanced Features</li>
                     </ul>
-                    <a href="https://account.hostservice.com.bd/cart.php?a=confproduct&i=1" class="btn outline-btn mb-3"
+                    <a href="https://account.hostservice.com.bd/index.php?rp=/store/rocket-cloud" class="btn outline-btn mb-3"
                       target="_blank">Purchase now</a>
                   </div>
                 </div>
@@ -219,28 +229,33 @@ onMounted(() => {
               <div class="col-lg-12 col-md-12 col-12">
                 <div class="card text-center align-items-center single-pricing-pack">
                   <div class="pt-5">
-                    <h5 class="mb-0 text-brand">Rocket Cloud Servers Plan</h5>
-                    <p class="mb-0"> Silver </p>
+                    <h5 class="mb-0 text-brand">Rocket cloud server</h5>
+                    <p class="mb-0"> Rocket Silver </p>
                   </div>
-                  <div class="card-header pb-4 border-0 pricing-header">
+                  <div class="card-header border-0 pricing-header">
                     <div class="price text-center mb-0">৳ {{ halfYear }}<span>/-BDT Only.</span></div>
                   </div>
                   <div class="card-body">
                     <ul class="list-unstyled mb-4 pricing-feature-list">
-                      <li> 8 Core 4.7 GHz Processor</li>
-                      <li> 32 GB Memory DDR-4</li>
-                      <li> 400 GB NVMe PCI Gen 4.0</li>
-                      <li> 1 IPv4 Address</li>
-                      <li> 1 - upto 10 Gbps Port </li>
-                      <li> Unlimited Transfer</li>
-                      <li> DDoS Protection included</li>
-                      <li> KVM Technology </li>
-                      <li> Linux distribution / Windows</li>
-                      <li> Auto Control + Root access</li>
-                      <li> Premium (paid) add-ons</li>
-                      <li> 99.9% Uptime Guarantee</li>
+
+                      <li> 500 GB NVMe Storage</li>
+                      <li> Unlimited Bandwidth</li>
+                      <li> Unlimited Website</li>
+                      <li> 10 Core CPU 5.7 GHz Pro</li>
+                      <li> 20 GB DDR5 Ram, 3800 MHz </li>
+                      <li> 700 MBs I/O Speed</li>
+                      <li> 6500 IOPS </li>
+                      <li> 300 Entry Process</li>
+                      <li> 400 Number of Process</li>
+                      <li> Anti-DDoS Protection</li>
+                      <li> Free SSL Certificate</li>
+                      <li> 2x7 Days Backup</li>
+                      <li> LiteSpeed with LSCache</li>
+                      <li> cPanel Control Panel</li>
+                      <li> 24/7 Regular Support</li>
+                      <li> Advanced Features</li>
                     </ul>
-                    <a href="https://account.hostservice.com.bd/cart.php?a=confproduct&i=2" class="btn outline-btn mb-3"
+                    <a href="https://account.hostservice.com.bd/index.php?rp=/store/rocket-cloud" class="btn outline-btn mb-3"
                       target="_blank">Purchase now</a>
                   </div>
                 </div>
@@ -255,28 +270,33 @@ onMounted(() => {
               <div class="col-lg-12 col-md-12 col-12">
                 <div class="card text-center align-items-center single-pricing-pack">
                   <div class="pt-5">
-                    <h5 class="mb-0 text-brand">Rocket Cloud Servers Plan</h5>
-                    <p class="mb-0"> Gold </p>
+                    <h5 class="mb-0 text-brand">Rocket cloud server</h5>
+                    <p class="mb-0"> Rocket Gold </p>
                   </div>
-                  <div class="card-header pb-4 border-0 pricing-header">
+                  <div class="card-header border-0 pricing-header">
                     <div class="price text-center mb-0">৳ {{ yearly }}<span>/-BDT Only.</span></div>
                   </div>
                   <div class="card-body">
                     <ul class="list-unstyled mb-4 pricing-feature-list">
-                      <li> 10 Core 4.7 GHz Processor</li>
-                      <li> 48 GB Memory DDR-4</li>
-                      <li> 600 GB NVMe PCI Gen 4.0</li>
-                      <li> 1 IPv4 Address</li>
-                      <li> 1 - upto 10 Gbps Port </li>
-                      <li> Unlimited Transfer </li>
-                      <li> DDoS Protection included </li>
-                      <li> KVM Technology</li>
-                      <li> Linux distribution / Windows</li>
-                      <li> Auto Control + Root access</li>
-                      <li> Premium (paid) add-ons</li>
-                      <li> 99.9% Uptime Guarantee</li>
+
+                      <li> 750 GB NVMe Storage</li>
+                      <li> Unlimited Bandwidth</li>
+                      <li> Unlimited Website</li>
+                      <li> 12 Core CPU 5.7 GHz Pro</li>
+                      <li> 22 GB DDR5 Ram, 3800 MHz </li>
+                      <li> 700 MBs I/O Speed</li>
+                      <li> 7110 IOPS </li>
+                      <li> 300 Entry Process</li>
+                      <li> 400 Number of Process</li>
+                      <li> Anti-DDoS Protection</li>
+                      <li> Free SSL Certificate</li>
+                      <li> 2x7 Days Backup</li>
+                      <li> LiteSpeed with LSCache</li>
+                      <li> cPanel Control Panel</li>
+                      <li> 24/7 Regular Support</li>
+                      <li> Advanced Features</li>
                     </ul>
-                    <a href="https://account.hostservice.com.bd/index.php?rp=/store/business-hosting/vps-gold"
+                    <a href="https://account.hostservice.com.bd/index.php?rp=/store/rocket-cloud"
                       class="btn outline-btn mb-3" target="_blank">Purchase now</a>
                   </div>
                 </div>
@@ -294,9 +314,9 @@ onMounted(() => {
       <div class="row justify-content-center">
         <div class="col-md-12 col-lg-7 ">
           <div class="section-heading  text-center mb-5">
-            <h3 class="media-la text-brand">Rocket Cloud Servers Hosting Resource</h3>
+            <h3 class="media-la text-brand">Rocket Cloud Server Resource</h3>
             <p class="h5 web-s bt-bl">
-              Exclusive rocket cloud servers hosting resource
+              Exclusive rocket cloud server resource
             </p>
           </div>
         </div>
@@ -305,181 +325,180 @@ onMounted(() => {
             <div class="table-responsive">
               <table class="table w-100 table-res table-hover table-bordered table-striped comparision-table text-center">
                 <thead class="comparision-table-head">
-                  <tr>
+
                   <tr>
                     <td style="width: 20%; text-align: center">
                       <h5>Resource Type</h5>
                     </td>
                     <td class="primary-bg" style="width: 20%; text-align: center;">
-                      <h5 class="text-white">Starter </h5>
+                      <h5 class="text-white">Rocket Starter </h5>
                     </td>
                     <td style="width: 20%; text-align: center;">
-                      <h5>Standard </h5>
+                      <h5>Rocket Standard </h5>
                     </td>
                     <td style="width: 20%; text-align: center;">
-                      <h5>Silver </h5>
+                      <h5>Rocket Silver </h5>
                     </td>
                     <td style="width: 20%; text-align: center;">
-                      <h5>Gold </h5>
+                      <h5>Rocket Gold </h5>
                     </td>
                   </tr>
-                  </tr>
+
                 </thead>
                 <tbody class="comparision-table-body">
                   <tr style="width: 20%; text-align: center">
                     <td>
-                      <h6 class="text-left">Core Processor</h6>
+                      <h6 class="text-left">CPU Core Pro </h6>
                     </td>
                     <td class="primary-bg">
-                      <h6 class="text-white">4 Core 4.7 GHz </h6>
+                      <h6 class="text-white">6 Core CPU 5.7 GHz </h6>
                     </td>
                     <td>
-                      <h6>6 Core 4.7 GHz </h6>
+                      <h6>8 Core CPU 5.7 GHz </h6>
                     </td>
                     <td>
-                      <h6>8 Core 4.7 GHz </h6>
+                      <h6>10 Core CPU 5.7 GHz </h6>
                     </td>
                     <td>
-                      <h6>10 Core 4.7 GHz </h6>
+                      <h6>12 Core CPU 5.7 GHz </h6>
                     </td>
                   </tr>
                   <tr style="width: 20%; text-align: center">
                     <td>
-                      <h6 class="text-left"> Memory DDR-4</h6>
+                      <h6 class="text-left">DDR5 Ram</h6>
                     </td>
                     <td class="primary-bg">
-                      <h6 class="text-white">8 GB </h6>
+                      <h6 class="text-white">16 GB, 3800 MHz</h6>
                     </td>
                     <td>
-                      <h6>16 GB </h6>
+                      <h6>18 GB, 3800 MHz</h6>
                     </td>
                     <td>
-                      <h6>32 GB </h6>
+                      <h6>20 GB, 3800 MHz</h6>
                     </td>
                     <td>
-                      <h6>48 GB </h6>
+                      <h6>22 GB, 3800 MHz </h6>
                     </td>
                   </tr>
 
                   <tr style="width: 20%; text-align: center">
                     <td>
-                      <h6 class="text-left">NVMe PCI Gen 4.0</h6>
+                      <h6 class="text-left">NVMe Storage</h6>
                     </td>
                     <td class="primary-bg">
-                      <h6 class="text-white">100 GB </h6>
+                      <h6 class="text-white">150 GB </h6>
                     </td>
                     <td>
-                      <h6>200 GB </h6>
+                      <h6>350 GB </h6>
                     </td>
                     <td>
-                      <h6>400 GB </h6>
+                      <h6>500 GB </h6>
                     </td>
                     <td>
-                      <h6>600 GB </h6>
+                      <h6>750 GB </h6>
                     </td>
                   </tr>
                   <tr style="width: 20%; text-align: center">
                     <td>
-                      <h6 class="text-left">Transfer</h6>
+                      <h6 class="text-left">I/O Speed</h6>
                     </td>
                     <td class="primary-bg">
-                      <h6 class="text-white">5 TB Transfer</h6>
+                      <h6 class="text-white">350 MBs</h6>
                     </td>
                     <td>
-                      <h6>8 TB Transfer</h6>
+                      <h6>500 MBs</h6>
                     </td>
                     <td>
-                      <h6>Unlimited Transfer</h6>
+                      <h6>700 MBs</h6>
                     </td>
                     <td>
-                      <h6>Unlimited Transfer</h6>
+                      <h6>700 MBs</h6>
                     </td>
                   </tr>
                   <tr style="width: 20%; text-align: center">
                     <td>
-                      <h6 class="text-left"> Address</h6>
+                      <h6 class="text-left"> Bandwidth</h6>
                     </td>
                     <td class="primary-bg">
-                      <h6 class="text-white">1 IPv4 Address</h6>
+                      <h6 class="text-white">Unlimited</h6>
                     </td>
                     <td>
-                      <h6>1 IPv4 Address</h6>
+                      <h6>Unlimited</h6>
                     </td>
                     <td>
-                      <h6>1 IPv4 Address</h6>
+                      <h6>Unlimited</h6>
                     </td>
                     <td>
-                      <h6>1 IPv4 Address</h6>
+                      <h6>Unlimited</h6>
                     </td>
                   </tr>
                   <tr style="width: 20%; text-align: center">
                     <td>
-                      <h6 class="text-left">Gbps Port</h6>
+                      <h6 class="text-left">IOPS</h6>
                     </td>
                     <td class="primary-bg">
-                      <h6 class="text-white">1 - upto 10 </h6>
+                      <h6 class="text-white">4120 </h6>
                     </td>
                     <td>
-                      <h6>1 - upto 10 </h6>
+                      <h6>5120</h6>
                     </td>
                     <td>
-                      <h6>1 - upto 10 </h6>
+                      <h6>6500</h6>
                     </td>
                     <td>
-                      <h6>1 - upto 10 </h6>
+                      <h6>7110</h6>
                     </td>
                   </tr>
                   <tr style="width: 20%; text-align: center">
                     <td>
-                      <h6 class="text-left"> Protection </h6>
+                      <h6 class="text-left">Entry Process </h6>
                     </td>
                     <td class="primary-bg">
-                      <h6 class="text-white">DDoS included</h6>
+                      <h6 class="text-white">150 </h6>
                     </td>
                     <td>
-                      <h6>DDoS included</h6>
+                      <h6>200</h6>
                     </td>
                     <td>
-                      <h6>DDoS included</h6>
+                      <h6>300</h6>
                     </td>
                     <td>
-                      <h6>DDoS included</h6>
+                      <h6>300</h6>
                     </td>
                   </tr>
                   <tr style="width: 20%; text-align: center">
                     <td>
-                      <h6 class="text-left"> Technology</h6>
+                      <h6 class="text-left"> Website</h6>
                     </td>
                     <td class="primary-bg">
-                      <h6 class="text-white">KVM </h6>
+                      <h6 class="text-white">Unlimited</h6>
                     </td>
                     <td>
-                      <h6>KVM </h6>
+                      <h6>Unlimited</h6>
                     </td>
                     <td>
-                      <h6>KVM </h6>
+                      <h6>Unlimited</h6>
                     </td>
                     <td>
-                      <h6>KVM </h6>
+                      <h6>Unlimited</h6>
                     </td>
                   </tr>
                   <tr style="width: 20%; text-align: center">
                     <td>
-                      <h6 class="text-left">Guarantee</h6>
+                      <h6 class="text-left">Number of Process</h6>
                     </td>
                     <td class="primary-bg">
-                      <h6 class="text-white">99.9% Uptime</h6>
+                      <h6 class="text-white">300</h6>
                     </td>
                     <td class="col-12">
-                      <h6>99.9% Uptime </h6>
+                      <h6>500</h6>
                     </td>
                     <td class="col-12">
-                      <h6>99.9% Uptime </h6>
+                      <h6>400</h6>
                     </td>
                     <td class="col-12">
-                      <h6>99.9% Uptime </h6>
+                      <h6>400</h6>
                     </td>
-
                   </tr>
                 </tbody>
               </table>
@@ -497,21 +516,19 @@ onMounted(() => {
       <div class="row justify-content-center">
         <div class="col-md-12 col-lg-12">
           <div class="section-heading  text-center mb-5">
-            <h3 class="media-la text-brand">Rocket Cloud Host Service </h3>
+            <h3 class="media-la text-brand">Rocket Cloud Server Monitoring </h3>
             <p class="h5 web-s">
-              Live Monitoring rocket servers  
+              Real-Time Server Monitoring System
             </p>
-            
           </div>
         </div>
-        <div class="rocket-ser ptb-100 gradient-overly-right:before ro-med rocket ">
+        <div class="r-img">
+          <img src="@/assets/img/live.png" />
         </div>
-       
       </div>
-       <div class="ro-mr mid-rk">
-          <a href="https://uptime.hostservice.com.bd/"
-          class="btn outline-btn mb-3 bt-r" target="_blank">Live Monitoring</a>
-    </div> 
+      <div class="ro-mr mid-rk">
+        <a href="https://uptime.hostservice.com.bd/" class="btn outline-btn mb-3 bt-r" target="_blank">Live Monitoring</a>
+      </div>
     </div>
   </section>
 
@@ -521,8 +538,8 @@ onMounted(() => {
       <div class="row justify-content-center">
         <div class="col-md-9 col-lg-8">
           <div class="section-heading text-center mb-5">
-            <h3 class="media-la text-brand">Server Hosting Platform Features</h3>
-            <p class="h5 web-s">Standard Hosting Features: Dynamic Open-Source Expansion.</p>
+            <h3 class="media-la text-brand">Server Platform Features</h3>
+            <p class="h5 web-s">Standard Features: Dynamic Open-Source Expansion.</p>
           </div>
         </div>
       </div>
@@ -552,21 +569,21 @@ onMounted(() => {
           <div class="feature-feature-list p-4 text-center">
             <span class="ti-world icon-sm d-block color-primary mb-3"></span>
             <h5 class="mb-2">Dedicated IP</h5>
-            <p>One of many premium features is a dedicated IP cheapest VPS hosting plan</p>
+            <p>One of many premium features is a dedicated IP cheapest rocket cloud server plan</p>
           </div>
         </div>
         <div class="col-md-6 col-lg-4">
           <div class="feature-feature-list p-4 text-center">
             <span class="ti-location-pin icon-sm d-block color-primary mb-3"></span>
             <h5 class="mb-2">IPv6 Support</h5>
-            <p>Our VPS hosting plan is fully packed with dedicated IPv6 Internet protocol IP</p>
+            <p>Our rocket cloud server plan is fully packed with dedicated IPv6 Internet protocol IP</p>
           </div>
         </div>
         <div class="col-md-6 col-lg-4">
           <div class="feature-feature-list p-4 text-center">
             <span class="ti-wallet icon-sm d-block color-primary mb-3"></span>
             <h5 class="mb-2">Money-back Guarantee</h5>
-            <p>If you’re not 100% satisfied with Hostlar, we’ll refund your payment no risk</p>
+            <p>If you’re not 100% satisfied with Host service, we’ll refund your payment no risk</p>
           </div>
         </div>
       </div>
@@ -615,8 +632,9 @@ onMounted(() => {
               <li class="list-inline-item"><span class="fas fa-star"></span></li>
             </ul>
             <div class="ratting-content">
-              <h5>Exceptional Rocket Cloud Hosting!</h5>
-              <p>I've been using their Rocket Cloud hosting for my e-commerce website, and the performance has been outstanding.
+              <h5>Exceptional Rocket Cloud server!</h5>
+              <p>I've been using their Rocket Cloud server for my e-commerce website, and the performance has been
+                outstanding.
                 The dedicated resources ensure consistent speed and reliability, even during peak traffic periods. </p>
             </div>
             <div class="ratting-author mt-3">
@@ -635,8 +653,9 @@ onMounted(() => {
               <li class="list-inline-item"><span class="fas fa-star"></span></li>
             </ul>
             <div class="ratting-content">
-              <h5>Top-Notch Rocket Cloud Hosting Provider!</h5>
-              <p>I switched to this Rocket Cloud hosting provider after experiencing frequent downtime with my previous host. Since
+              <h5>Rocket Cloud server Provider!</h5>
+              <p>I switched to this Rocket Cloud server provider after experiencing frequent downtime with my previous
+                host. Since
                 making the switch,
                 I've been impressed by the stability and performance of their servers.</p>
             </div>
@@ -656,8 +675,9 @@ onMounted(() => {
               <li class="list-inline-item"><span class="fas fa-star"></span></li>
             </ul>
             <div class="ratting-content">
-              <h5>Impressive Rocket Cloud Performance!</h5>
-              <p>As a developer, I require a reliable Rocket Cloud solution for my projects, and this hosting service delivers
+              <h5>Impressive Performance Server!</h5>
+              <p>As a developer, I require a reliable Rocket Cloud solution for my projects, and this server service
+                delivers
                 exactly that.
                 The Rocket Cloud performance is impressive, The support team is responsive.</p>
             </div>
@@ -680,7 +700,7 @@ onMounted(() => {
             <div class="col-md-9 col-lg-8">
               <div class="section-heading mb-5">
                 <h3 class="media-la text-brand">Frequently Asked Queries</h3>
-                <p class="h5 web-s">Hosting Made Simple: Ask Us Anything ! <a href="contact" class="page-scroll"> Contact
+                <p class="h5 web-s">Server Made Simple: Ask Us Anything ! <a href="contact" class="page-scroll"> Contact
                     us</a></p>
               </div>
             </div>
@@ -690,12 +710,13 @@ onMounted(() => {
               <div id="accordion-one" class="accordion accordion-faq">
                 <div class="card mb-0">
                   <a class="card-header collapsed" data-toggle="collapse" href="#collapseOne">
-                    <h6 class="mb-0 d-inline-block">What is Rocket server hosting?
+                    <h6 class="mb-0 d-inline-block">What is Rocket Cloud Server?
                     </h6>
                   </a>
                   <div id="collapseOne" class="collapse" data-parent="#accordion-one">
                     <div class="card-body">
-                      <p> Rocket server hosting is a high-performance hosting solution designed to deliver exceptional speed, security, 
+                      <p> Rocket cloud server is a high-performance solution designed to deliver exceptional speed,
+                        security,
                         and scalability for websites and applications.
                       </p>
                     </div>
@@ -703,24 +724,25 @@ onMounted(() => {
                 </div>
                 <div class="card mb-0">
                   <a class="card-header collapsed" data-toggle="collapse" href="#collapseTwo">
-                    <h6 class="mb-0 d-inline-block">What makes Rocket server hosting stand out from other hosting options?</h6>
+                    <h6 class="mb-0 d-inline-block">What makes rocket cloud server stand out from other options?</h6>
                   </a>
                   <div id="collapseTwo" class="collapse" data-parent="#accordion-one">
                     <div class="card-body">
-                      <p>Rocket server hosting utilizes advanced optimization techniques and server configurations to ensure
-                         blazing-fast performance and seamless scalability for online projects of all sizes.
+                      <p>Rocket cloud server utilizes advanced optimization techniques and server configurations to ensure
+                        blazing-fast performance and seamless scalability for online projects of all sizes.
                       </p>
                     </div>
                   </div>
                 </div>
                 <div class="card mb-0">
                   <a class="card-header collapsed" data-toggle="collapse" href="#collapseThree">
-                    <h6 class="mb-0 d-inline-block">Which types of websites or applications are best suited for Rocket server hosting?
+                    <h6 class="mb-0 d-inline-block">Which types of websites or applications are best suited for rocket
+                      cloud server?
                     </h6>
                   </a>
                   <div id="collapseThree" class="collapse" data-parent="#accordion-one">
                     <div class="card-body">
-                      <p>Rocket server hosting is ideal for websites and applications that require high-speed performance, 
+                      <p>Rocket cloud server is ideal for websites and applications that require high-speed performance,
                         such as e-commerce platforms, content-heavy websites, and media streaming services.
                       </p>
                     </div>
@@ -728,12 +750,13 @@ onMounted(() => {
                 </div>
                 <div class="card mb-0">
                   <a class="card-header collapsed" data-toggle="collapse" href="#collapseFour">
-                    <h6 class="mb-0 d-inline-block">Does Rocket server hosting offer security features to protect my website or application?
+                    <h6 class="mb-0 d-inline-block">Does rocket cloud server offer security features to protect my website
+                      or application?
                     </h6>
                   </a>
                   <div id="collapseFour" class="collapse" data-parent="#accordion-one">
                     <div class="card-body">
-                      <p>Yes, Rocket server hosting includes robust security measures such as DDoS protection, firewalls, 
+                      <p>Yes, Rocket cloud server includes robust security measures such as DDoS protection, firewalls,
                         malware scanning, and SSL encryption to safeguard your online assets from threats.
                       </p>
                     </div>
@@ -749,7 +772,6 @@ onMounted(() => {
 </template>
 
 <style>
-
 .slider-demo-block {
   display: flex;
   align-items: center;
@@ -810,5 +832,4 @@ body {
   width: 600%;
   height: 60%;
   object-fit: cover;
-}
-</style>
+}</style>

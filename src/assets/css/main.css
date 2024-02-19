@@ -28,13 +28,28 @@
   --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
-
-.rocket {
-  background-image: url("@/assets/img/live.png");
+.r-img {
+  width: 100%;
+  overflow: scroll;
 }
 
-.rocket {
+.rocket-img {
   text-align: center;
+  
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+.liv-h {
+  background-color: #ffffff;
+  padding-top: 85px;
+  padding-bottom: 0px;
+}
+.ro-b {
+  background-color: #ffffff;
+  padding-top: 10px;
+  padding-bottom: 90px;
 }
 .ro-bg {
   background-color: #ffffff;
@@ -107,6 +122,18 @@
 }
 
 @media (max-width: 425px) {
+  .ro-bg {
+    padding-top: 10px;
+    padding-bottom: 50px; 
+  }
+  .ro-mr {
+    margin-top: 7px !important;
+    text-align: end;
+  }
+  .r-img {
+    width: 100%;
+    overflow: scroll;
+  }
   .med-f {
     text-align: center;
   }
@@ -55063,7 +55090,7 @@ select.form-control.has-value {
 
   /* line 786, src/assets/scss/custom/_style.scss */
   .navbar-expand-md .main-navbar-nav .main-sub-menu {
-    border-top: 2px solid #035ded;
+    border-top: 2px solid #f64f00;
     border-radius: 0.5rem;
     -webkit-box-shadow: 0 12px 20px 0 rgba(23, 28, 33, 0.16);
     box-shadow: 0 12px 20px 0 rgba(23, 28, 33, 0.16);

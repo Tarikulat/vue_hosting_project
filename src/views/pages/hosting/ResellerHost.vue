@@ -106,13 +106,13 @@ onMounted(() => {
                     <div class="section-heading  text-center">
                         <h3 class="media-la text-brand bt-hj">Reseller Hosting Plan </h3>
                         <h6 class="h5 med-w">
-                  6 month plan <span class="text-rd">5%</span> discount - <span class="text-rd"> hostgift6m
+                 6 month purchase<span class="text-rd">5%</span> discount - <span class="text-rd"> hostgift6m
                   </span>
                 </h6>
 
                 <div>
                   <h6 class="h5 med-w ">
-                    1year plan <span class="text-rd"> 15% </span> discount -<span class="text-rd"> hostgift1yr</span>
+                    1year purchase <span class="text-rd"> 15% </span> discount -<span class="text-rd"> hostgift1yr</span>
                   </h6>
                 </div>
                     </div>
@@ -343,9 +343,9 @@ onMounted(() => {
             <div class="row justify-content-center">
                 <div class="col-md-12 col-lg-7 ">
                     <div class="section-heading  text-center mb-5">
-                        <h3 class="media-la text-brand">Reseller Page Hosting Resource </h3>
+                        <h3 class="media-la text-brand">Reseller Hosting Resource </h3>
                         <p class="h5 web-s bt-bl">
-                           Exclusive reseller page hosting resource
+                           Exclusive reseller hosting resource
                         </p>
                     </div>
                 </div>
@@ -355,25 +355,23 @@ onMounted(() => {
                             <table
                                 class="table w-100 table-hover table-bordered table-striped comparision-table text-center">
                                 <thead class="comparision-table-head">
-                                    <tr>
-                                    <tr>
+                                      <tr>
                                         <td style="width: 20%; text-align: center">
                                             <h5>Resource Type</h5>
                                         </td>
                                         <td class="primary-bg" style="width: 20%; text-align: center;">
-                                            <h5 class="text-white">Starter</h5>
+                                            <h5 class="text-white">Reseller Starter</h5>
                                         </td>
                                         <td style="width: 20%; text-align: center;">
-                                            <h5>Standard</h5>
+                                            <h5>Reseller Standard</h5>
                                         </td>
                                         <td style="width: 20%; text-align: center;">
-                                            <h5>Silver</h5>
+                                            <h5>Reseller Silver</h5>
                                         </td>
                                         <td style="width: 20%; text-align: center;">
-                                            <h5>Gold</h5>
+                                            <h5>Reseller Gold</h5>
                                         </td>
-                                    </tr>
-                                    </tr>
+                                      </tr>
                                 </thead>
                                 <tbody class="comparision-table-body">
                                     <tr style="width: 20%; text-align: center">
@@ -447,8 +445,7 @@ onMounted(() => {
                                     </tr>
                                     <tr style="width: 20%; text-align: center">
                                         <td>
-                                            <h6 class="text-left">RAM (DDR4) Per cP
-    </h6>
+                                            <h6 class="text-left">RAM (DDR4) Per cP</h6>
                                         </td>
                                         <td class="primary-bg">
                                             <h6 class="text-white">1 GB</h6>
@@ -540,6 +537,28 @@ onMounted(() => {
             </div>
         </div>
     </section>
+
+     <section class="compare-provider-table gray-light-bg-n ro-bg">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-md-12 col-lg-12">
+              <div class="section-heading  text-center mb-5">
+                <h3 class="media-la text-brand">Reseller Host Service </h3>
+                <p class="h5 web-s">
+                    Real-Time Server Monitoring System
+
+                </p>
+              </div>
+            </div>
+            <div class="r-img">
+              <img src="@/assets/img/live.png" />
+            </div>
+          </div>
+          <div class="ro-mr mid-rk">
+            <a href="https://uptime.hostservice.com.bd/" class="btn outline-btn mb-3 bt-r" target="_blank">Live Monitoring</a>
+          </div>
+        </div>
+      </section>
 
     <!--feature section start-->
     <section class="feature-section ptb-100  gray-light-bg">

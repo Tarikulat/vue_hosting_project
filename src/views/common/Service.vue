@@ -120,6 +120,7 @@
         </div>
     </section>
 
+  
     <!--technical specifications start-->
     <section class="technical-specification respons bg-c ptb-100 ">
         <div class="container">
@@ -244,6 +245,26 @@
             </div>
         </div>
     </section>
+    <section class="compare-provider-table gray-light-bg-n ro-bg">
+                  <div class="container">
+                    <div class="row justify-content-center">
+                      <div class="col-md-12 col-lg-12">
+                        <div class="section-heading  text-center mb-5">
+                          <h3 class="media-la text-brand">Live Monitoring All Server</h3>
+                          <p class="h5 web-s">
+                            Real-Time Server Monitoring System
+                          </p>
+                        </div>
+                      </div>
+                      <div class="r-img">
+                        <img src="@/assets/img/live.png" />
+                      </div>
+                    </div>
+                    <div class="ro-mr mid-rk">
+                      <a href="https://uptime.hostservice.com.bd/" class="btn outline-btn mb-3 bt-r" target="_blank">Live Monitoring</a>
+                    </div>
+                  </div>
+                </section>
 </template>
 
 <style>

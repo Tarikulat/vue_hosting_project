@@ -148,7 +148,8 @@ const isOpenModal = () => {
                                                             <!-- <img class="menu-titile-icon" src="@/assets/img/chat.svg" alt="SVG"> -->
                                                             <div class="menu-item-icon"><i class="fa-solid fa-computer-classic"></i></div>
                                                             <div class="media-body">
-                                                                <span class="u-header__promo-title">Rocket cloud Server</span>
+                                                                <span class="u-header__promo-title">Rocket Server<span
+                                                                                class="badge bgcolour ml-1"> Cloud </span></span>
                                                                 <small class="u-header__promo-text">Rapid Support Response </small>
                                                             </div>
                                                         </div>

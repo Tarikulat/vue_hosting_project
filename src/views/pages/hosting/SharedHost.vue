@@ -306,9 +306,9 @@ onMounted(() => {
       <div class="row justify-content-center">
         <div class="col-md-12 col-lg-7 ">
           <div class="section-heading  text-center mb-5">
-            <h3 class="media-la text-brand">Shared Hosting Package Resource </h3>
+            <h3 class="media-la text-brand">Shared Hosting Plan Resource </h3>
             <p class="h5 web-s bt-bl">
-              Exclusive Shared Hosting resources
+              Exclusive Shared Hosting Resources
             </p>
           </div>
         </div>
@@ -317,7 +317,7 @@ onMounted(() => {
             <div class="table-responsive">
               <table class="table w-100 table-res table-hover table-bordered table-striped comparision-table text-center">
                 <thead class="comparision-table-head">
-                  <tr>
+                 
                   <tr>
                     <td style="width: 20%; text-align: center">
                       <h5>Resource Type</h5>
@@ -335,7 +335,7 @@ onMounted(() => {
                       <h5>Gold</h5>
                     </td>
                   </tr>
-                  </tr>
+                 
                 </thead>
                 <tbody class="comparision-table-body">
                   <tr style="width: 20%; text-align: center">
@@ -375,7 +375,7 @@ onMounted(() => {
 
                   <tr style="width: 20%; text-align: center">
                     <td>
-                      <h6 class="text-left">Virtual Storage</h6>
+                      <h6 class="text-left">SSD Storage</h6>
                     </td>
                     <td class="primary-bg">
                       <h6 class="text-white">5 GB SSD </h6>
@@ -501,6 +501,27 @@ onMounted(() => {
       </div>
     </div>
   </section>
+
+   <section class="compare-provider-table gray-light-bg-n ro-bg">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-12 col-lg-12">
+            <div class="section-heading  text-center mb-5">
+              <h3 class="media-la text-brand">Shared Host Monitoring  </h3>
+              <p class="h5 web-s">
+                Real-Time Server Monitoring System
+              </p>
+            </div>
+          </div>
+          <div class="r-img">
+            <img src="@/assets/img/live.png" />
+          </div>
+        </div>
+        <div class="ro-mr mid-rk">
+          <a href="https://uptime.hostservice.com.bd/" class="btn outline-btn mb-3 bt-r" target="_blank">Live Monitoring</a>
+        </div>
+      </div>
+    </section>
 
   <!--feature section start(1add)-->
   <section class="feature-section gray-light-bg sm-p">

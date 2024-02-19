@@ -313,7 +313,7 @@ onMounted(() => {
                             <table
                                 class="table w-100 table-hover table-bordered table-striped comparision-table text-center">
                                 <thead class="comparision-table-head">
-                                    <tr>
+                                  
                                     <tr>
                                         <td style="width: 20%; text-align: center">
                                             <h5>Resource Type</h5>
@@ -331,7 +331,7 @@ onMounted(() => {
                                             <h5>Gold</h5>
                                         </td>
                                     </tr>
-                                    </tr>
+                                    
                                 </thead>
                                 <tbody class="comparision-table-body">
                                     <tr style="width: 20%; text-align: center">

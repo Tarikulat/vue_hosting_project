@@ -68,22 +68,23 @@ export default {
             <thead>
               <tr class="media-la text-brand"> 
                 <th>Packages</th>
-                <th>CPU </th>
-                <th>Processor</th>
-                <th>Ram</th>
-                <th>Storage</th>
-                <th>Bandwidth DDoS</th>
+
+                <th>Processor </th>
+                <th>CPU</th>
+                <th>Memory</th>
+                <th>Hard Drive</th>
+                <th>Protection </th>
                 <th colspan="2">Price And Delivered in: 72h</th>
               </tr>
             </thead>
             <tbody>
               <tr class="vps-pricing-row border-accent-primary">
-                <td class="d-tex ds-crt">Starter:</td>
-                <td class="ds-crt"><span class="cpu-core">Ryzen 5800X 8x3.80GHz</span></td>
-                <td class="ds-crt"><span class="cpu-core">Ryzen 5600X 6x3.70GHz</span></td>
+                <td class="d-tex ds-crt"> Starter:</td>
+                <td class="ds-crt"><span class="cpu-core">AMD Ryzen 5600X Processor</span></td>
+                <td class="ds-crt"><span class="cpu-core">CPU: Ryzen 5600X 6x3.70GHz</span></td>
                 <td class="ds-crt"><span class="cpu-core">64GB DDR4 Memory</span></td>
                 <td class="ds-crt"><span class="cpu-core">512GB NVMe Hard Drive</span></td>
-                <td class="ds-crt"><span class="cpu-core">Protection included</span></td>
+                <td class="ds-crt"><span class="cpu-core">DDoS Protection included</span></td>
                 <td class="ds-crt">
                   <p>
                     <span class="rate">৳14390<span>/month</span></span><br>
@@ -97,12 +98,12 @@ export default {
               </tr>
 
               <tr class="vps-pricing-row border-red-themes">
-                <td class="d-tex ds-crt">Standard:</td>
-                <td class="ds-crt"><span class="cpu-core">Ryzen 5800X 8x3.80GHz</span></td>
-                <td class="ds-crt"> <span class="cpu-core">Ryzen 5800X Processor</span></td>
+                <td class="d-tex ds-crt">  Standard:</td>
+                <td class="ds-crt"><span class="cpu-core">AMD Ryzen 5800X Processor</span></td>
+                <td class="ds-crt"> <span class="cpu-core">CPU: Ryzen 5800X 8x3.80GHz</span></td>
                 <td class="ds-crt"><span class="cpu-core">128GB DDR4 Memory</span></td>
                 <td class="ds-crt"><span class="cpu-core">1TB Hard Drive</span></td>
-                <td class="ds-crt"><span class="cpu-core"> Protection included</span></td>
+                <td class="ds-crt"><span class="cpu-core"> DDoS Protection included</span></td>
                 <td class="ds-crt">
                   <p>
                     <span class="rate">৳20390<span>/month</span></span><br>
@@ -113,12 +114,12 @@ export default {
                 </td>
               </tr>
               <tr class="vps-pricing-row border-orange-themes">
-                <td class="d-tex ds-crt">Silver :</td>
-                <td class="ds-crt"><span class="cpu-core">Ryzen 5900X 12x3.70GHz</span> </td>
-                <td class="ds-crt"> <span class="cpu-core">Ryzen 5900X Processor</span></td>
+                <td class="d-tex ds-crt">  Silver :</td>
+                <td class="ds-crt"><span class="cpu-core">AMD Ryzen 5900X Processor</span> </td>
+                <td class="ds-crt"> <span class="cpu-core">CPU: Ryzen 5900X 12x3.70GHz</span></td>
                 <td class="ds-crt"><span class="cpu-core">128GB DDR4 Memory</span></td>
                 <td class="ds-crt"><span class="cpu-core">2TB Hard Drive</span></td>
-                <td class="ds-crt"><span class="cpu-core"> Protection included</span></td>
+                <td class="ds-crt"><span class="cpu-core"> DDoS Protection included</span></td>
                 <td class="ds-crt">
                   <p>
                     <span class="rate">৳26590<span>/month</span></span><br>
@@ -129,12 +130,12 @@ export default {
                 </td>
               </tr>
               <tr class="vps-pricing-row border-yellow-themes">
-                <td class="d-tex ds-crt">Gold :</td>
-                <td class="ds-crt"><span class="cpu-core">Ryzen 5950X 16x3.40GHz</span></td>
-                <td class="ds-crt"><span class="cpu-core">AMD Ryzen 5950X</span></td>
+                <td class="d-tex ds-crt">  Gold :</td>
+                <td class="ds-crt"><span class="cpu-core">AMD Ryzen 5950X Processor </span></td>
+                <td class="ds-crt"><span class="cpu-core">CPU: Ryzen 5950X 16x3.40GHz</span></td>
                 <td class="ds-crt"><span class="cpu-core">128GB DDR4 Memory</span></td>
                 <td class="ds-crt"><span class="cpu-core">2TB Hard Drive</span></td>
-                <td class="ds-crt"><span class="cpu-core"> Protection included</span></td>
+                <td class="ds-crt"><span class="cpu-core">DDoS Protection included</span></td>
                 <td class="ds-crt">
                   <p><span class="rate">৳32390<span>/month</span></span><br>
                   </p>
@@ -158,6 +159,8 @@ export default {
       </div>
     </div>
   </section>
+
+ 
   <!--vps hosting pricing plane end-->
   <!--feature section start-->
   <section class="feature-section ptb-100 vps-bg">
@@ -217,6 +220,26 @@ export default {
     </div>
   </section>
   <!--feature section end-->
+    <section class="compare-provider-table gray-light-bg-n ro-bg">
+            <div class="container">
+              <div class="row justify-content-center">
+                <div class="col-md-12 col-lg-12">
+                  <div class="section-heading  text-center mb-5">
+                    <h3 class="media-la text-brand">Dedicated Server Live </h3>
+                    <p class="h5 web-s">
+                      Real-Time Server Monitoring System
+                    </p>
+                  </div>
+                </div>
+                <div class="r-img">
+                  <img src="@/assets/img/live.png" />
+                </div>
+              </div>
+              <div class="ro-mr mid-rk">
+                <a href="https://uptime.hostservice.com.bd/" class="btn outline-btn mb-3 bt-r" target="_blank">Live Monitoring</a>
+              </div>
+            </div>
+          </section>
 
   <!--call to action new section start (add2)-->
   <section class="call-to-action backgm ptb-100 gradient-overlay ">
