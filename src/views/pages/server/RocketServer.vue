@@ -156,15 +156,15 @@ onMounted(() => {
                   <div class="card-body">
                     <ul class="list-unstyled mb-4 pricing-feature-list">
 
-                      <li> 150 GB NVMe Storage</li>
+                      <li> 150 GB Gen4 NVMe Storage</li>
                       <li> Unlimited Bandwidth</li>
                       <li> Unlimited Website</li>
-                      <li> 6 Core CPU 5.7 GHz Pro</li>
-                      <li> 16 GB DDR5 Ram, 3800 MHz </li>
-                      <li> 350 MBs I/O Speed</li>
-                      <li> 4120 IOPS </li>
-                      <li> 150 Entry Process</li>
-                      <li> 300 Number of Process</li>
+                      <li> 7 Core CPU 5.7 GHz 3D Pro</li>
+                      <li> 16 GB DDR5 Ram 3800 MHz </li>
+                      <li> 200 MBs I/O Speed</li>
+                      <li> 4096 IOPS </li>
+                      <li> 250 Entry Process</li>
+                      <li> 490 Number of Process</li>
                       <li> Anti-DDoS Protection</li>
                       <li> Free SSL Certificate</li>
                       <li> 2x7 Days Backup</li>
@@ -173,7 +173,7 @@ onMounted(() => {
                       <li> 24/7 Regular Support</li>
                       <li> Advanced Features</li>
                     </ul>
-                    <a href="https://account.hostservice.com.bd/index.php?rp=/store/rocket-cloud"
+                    <a href="https://account.hostservice.com.bd/cart.php?a=confproduct&i=1"
                       class="btn outline-btn mb-3" target="_blank">Purchase now</a>
                   </div>
                 </div>
@@ -197,15 +197,15 @@ onMounted(() => {
                   <div class="card-body">
                     <ul class="list-unstyled mb-4 pricing-feature-list">
 
-                      <li> 350 GB NVMe Storage</li>
+                      <li> 350 GB Gen4 NVMe Storage</li>
                       <li> Unlimited Bandwidth</li>
                       <li> Unlimited Website</li>
-                      <li> 8 Core CPU 5.7 GHz Pro</li>
-                      <li> 18 GB DDR5 Ram, 3800 MHz </li>
-                      <li> 500 MBs I/O Speed</li>
-                      <li> 5120 IOPS </li>
-                      <li> 200 Entry Process</li>
-                      <li> 500 Number of Process</li>
+                      <li> 8 Core CPU 5.7 GHz 3D Pro</li>
+                      <li> 18 GB DDR5 Ram 3800 MHz </li>
+                      <li> 250 MBs I/O Speed</li>
+                      <li> 4096 IOPS</li>
+                      <li> 300 Entry Process</li>
+                      <li> 590 Number of Process</li>
                       <li> Anti-DDoS Protection</li>
                       <li> Free SSL Certificate</li>
                       <li> 2x7 Days Backup</li>
@@ -214,7 +214,7 @@ onMounted(() => {
                       <li> 24/7 Regular Support</li>
                       <li> Advanced Features</li>
                     </ul>
-                    <a href="https://account.hostservice.com.bd/index.php?rp=/store/rocket-cloud" class="btn outline-btn mb-3"
+                    <a href="https://account.hostservice.com.bd/cart.php?a=confproduct&i=3" class="btn outline-btn mb-3"
                       target="_blank">Purchase now</a>
                   </div>
                 </div>
@@ -238,15 +238,15 @@ onMounted(() => {
                   <div class="card-body">
                     <ul class="list-unstyled mb-4 pricing-feature-list">
 
-                      <li> 500 GB NVMe Storage</li>
+                      <li> 500 GB Gen4 NVMe Storage</li>
                       <li> Unlimited Bandwidth</li>
                       <li> Unlimited Website</li>
-                      <li> 10 Core CPU 5.7 GHz Pro</li>
-                      <li> 20 GB DDR5 Ram, 3800 MHz </li>
-                      <li> 700 MBs I/O Speed</li>
-                      <li> 6500 IOPS </li>
-                      <li> 300 Entry Process</li>
-                      <li> 400 Number of Process</li>
+                      <li> 10 Core CPU 5.7 GHz 3D Pro</li>
+                      <li> 20 GB DDR5 Ram 3800 MHz </li>
+                      <li> 300 MBs I/O Speed</li>
+                      <li> 6144 IOPS </li>
+                      <li> 350 Entry Process</li>
+                      <li> 690 Number of Process</li>
                       <li> Anti-DDoS Protection</li>
                       <li> Free SSL Certificate</li>
                       <li> 2x7 Days Backup</li>
@@ -255,7 +255,7 @@ onMounted(() => {
                       <li> 24/7 Regular Support</li>
                       <li> Advanced Features</li>
                     </ul>
-                    <a href="https://account.hostservice.com.bd/index.php?rp=/store/rocket-cloud" class="btn outline-btn mb-3"
+                    <a href="https://account.hostservice.com.bd/cart.php?a=confproduct&i=4" class="btn outline-btn mb-3"
                       target="_blank">Purchase now</a>
                   </div>
                 </div>
@@ -282,12 +282,12 @@ onMounted(() => {
                       <li> 750 GB NVMe Storage</li>
                       <li> Unlimited Bandwidth</li>
                       <li> Unlimited Website</li>
-                      <li> 12 Core CPU 5.7 GHz Pro</li>
-                      <li> 22 GB DDR5 Ram, 3800 MHz </li>
-                      <li> 700 MBs I/O Speed</li>
-                      <li> 7110 IOPS </li>
-                      <li> 300 Entry Process</li>
-                      <li> 400 Number of Process</li>
+                      <li> 12 Core CPU 5.7 GHz 3D Pro</li>
+                      <li> 22 GB DDR5 Ram 3800 MHz </li>
+                      <li> 350 MBs I/O Speed</li>
+                      <li> 6144 IOPS </li>
+                      <li> 400 Entry Process</li>
+                      <li> 790 Number of Process</li>
                       <li> Anti-DDoS Protection</li>
                       <li> Free SSL Certificate</li>
                       <li> 2x7 Days Backup</li>
@@ -296,7 +296,7 @@ onMounted(() => {
                       <li> 24/7 Regular Support</li>
                       <li> Advanced Features</li>
                     </ul>
-                    <a href="https://account.hostservice.com.bd/index.php?rp=/store/rocket-cloud"
+                    <a href="https://account.hostservice.com.bd/cart.php?a=confproduct&i=5"
                       class="btn outline-btn mb-3" target="_blank">Purchase now</a>
                   </div>
                 </div>
@@ -523,7 +523,7 @@ onMounted(() => {
           </div>
         </div>
         <div class="r-img">
-          <img src="@/assets/img/live.png" />
+          <img src="@/assets/img/ser_img.png" />
         </div>
       </div>
       <div class="ro-mr mid-rk">

@@ -126,7 +126,7 @@
         <div class="footer-bottom gray-light-bg py-3">
             <div class="container">
                 <div class="row align-items-center justify-content-between">
-                    <div class="col-md-5 col-lg-5  col-f">
+                    <div class="col-md-5 col-lg-5  col-f pd-fl">
                         <p class="copyright-text pb-0 mb-0 de-f med-f">© 2024 Host Service | Super Fast Hosting Service.
                         </p>
                     </div>

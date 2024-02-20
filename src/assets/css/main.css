@@ -28,6 +28,50 @@
   --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
+
+@media (max-width: 425px) {
+  .res-lv {
+    padding-top: 0px !important;
+  }
+  .ic-l {
+    left: 10% !important;
+    
+  }
+
+  .ic-i {
+    left: 55% !important;
+  }
+
+}
+
+
+.pd-th {
+  padding-top: 50px;
+}
+.tx-s {
+  font-size: 20px;
+}
+.fht {
+  font-size: 50px;
+}
+/* .mr-lft {
+  margin-left: 50px;
+} */
+.rt-m {
+ margin-left: 120px;
+} 
+
+.mi-l {
+  padding-bottom: 25px;
+}
+.res-lv {
+  padding-top: 45px;
+}
+.ro-bh {
+  /* background-color: #ffffff; */
+  padding-top: 80px;
+  padding-bottom: 90px;
+}
 .r-img {
   width: 100%;
   overflow: scroll;
@@ -61,7 +105,8 @@
   text-align: end;
 }
 .ro-mr {
-  margin-top: 30px;
+  margin-top: 23px;
+  margin-bottom: 10px;
   text-align: end;
 }
 
@@ -120,16 +165,35 @@
     opacity: 1;
   }
 }
-
+.ptb-ab {
+  /* margin-top: 70px; */
+  margin-bottom: 40px;
+}
+.pd-fl {
+  padding-top: 12px;
+}
 @media (max-width: 425px) {
+  .ptb-ab {
+    /* margin-top: 70px; */
+    margin-bottom: 54px;
+  }
+  .mi-l {
+    padding-bottom: 20px;
+  }
+  .mid-hr {
+        padding-top: 120px;
+  }
+  .mid-hrv {
+    /* padding-top: 70px; */
+  }
   .ro-bg {
     padding-top: 10px;
     padding-bottom: 50px; 
   }
-  .ro-mr {
+  /* .ro-mr {
     margin-top: 7px !important;
     text-align: end;
-  }
+  } */
   .r-img {
     width: 100%;
     overflow: scroll;
@@ -626,6 +690,25 @@ margin-top: 20px;
     text-align: center;
     margin-top: 75px;
   }
+
+  .med-hm {
+    font-size: 20px;
+    padding: 0px;
+    text-align: center;
+    margin-top: 40px;
+  }
+  .med-hmm {
+    font-size: 20px;
+    padding: 0px;
+    text-align: center;
+    /* margin-top: 40px; */
+  }
+   .med-hmt {
+     font-size: 20px;
+     padding: 0px;
+     text-align: center;
+     margin-top: 110px;
+   }
 
   .med-k {
     font-size: 20px;
@@ -55702,13 +55785,13 @@ svg.promo-bg {
 
 /* line 1318, src/assets/scss/custom/_style.scss */
 .animation-icon-img.animation-icon-1 {
-  left: 10%;
+  left: 36%;
   top: 30%;
 }
 
 /* line 1323, src/assets/scss/custom/_style.scss */
 .animation-icon-img.animation-icon-2 {
-  left: 163px;
+  left: 280px;
   right: 59%;
   top: 0px;
   -webkit-animation-delay: .4s;
@@ -55718,14 +55801,14 @@ svg.promo-bg {
 /* line 1331, src/assets/scss/custom/_style.scss */
 .animation-icon-img.animation-icon-3 {
   top: 30%;
-  left: 56%;
+  left: 80%;
   -webkit-animation-delay: .6s;
   animation-delay: .6s;
 }
 
 /* line 1338, src/assets/scss/custom/_style.scss */
 .animation-icon-img.animation-icon-4 {
-  left: 162px;
+  left: 285px;
   right: 58%;
   top: 65%;
   -webkit-animation-delay: .8s;
@@ -59232,9 +59315,10 @@ button.scroll-top:focus {
   text-decoration: none;
 }
 
-/* line 4081, src/assets/scss/custom/_style.scss */
+/* line 4081, src/assets/scss/custom/_style.scss */  
 .payment-method ul {
   padding-top: 6px;
+  padding-bottom: 10px;
 }
 
 /* line 4085, src/assets/scss/custom/_style.scss */

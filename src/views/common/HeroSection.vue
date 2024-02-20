@@ -12,10 +12,10 @@ import { Service, Testimonial } from '@/views/common'
 
         <div class="container">
             <div class="row align-items-center cho-p justify-content-center">
-                <div class="col-lg-6 col-12">
+                <div class="col-lg-6 col-12 mr-lft">
                     <div class="hero-content-left text-center">
-                        <h1 class="text-brand testing">Host Your Online Business with Host Service</h1>
-                        <p class="lead">Host Service's hosting provides the performance to power
+                        <h1 class="text-brand testing fht">Host Your Online Business with Host Service</h1>
+                        <p class="lead tx-s">Host Service's hosting provides the performance to power
                             the website you wish for, and our builder makes it simple to develop.</p>
                         <form class="domain-search-form mt-3  mx-auto">
                             <a href="https://account.hostservice.com.bd/cart.php?a=add&domain=register">
@@ -44,10 +44,6 @@ import { Service, Testimonial } from '@/views/common'
                                         href="https://account.hostservice.com.bd/cart.php?a=add&domain=register"><img
                                             src="@/assets/img/lg3.png" alt="com" width="75" class="img-fluid" /> <span>৳
                                             1499</span></a></li>
-                                <!-- <li class="list-inline-item"><a
-                                        href="https://account.hostservice.com.bd/cart.php?a=add&domain=register"><img
-                                            src="@/assets/img/lg4.png" alt="com" width="75" class="img-fluid" /> <span>৳
-                                            1499</span></a></li> -->
                                 <li class="list-inline-item"><a
                                         href="https://account.hostservice.com.bd/cart.php?a=add&domain=register"><img
                                             src="@/assets/img/info-s.png" alt="com" width="75" class="img-fluid" /> <span>৳
@@ -58,13 +54,13 @@ import { Service, Testimonial } from '@/views/common'
                 </div>
                 <div class="col-lg-5 col-12">
                     <div class="animation-image-wrap">
-                        <img src="@/assets/img/d.webp" alt="wp hosting" class="img-fluid down-img" />
+                        <img src="@/assets/img/d.webp" alt="wp hosting" class="img-fluid down-img rt-m" />
                         <img src="@/assets/img/an1.png" alt="wp hosting"
-                            class="animation-icon-img animation-icon-1 down-icon" />
+                            class="animation-icon-img animation-icon-1 down-icon ic-l" />
                         <img src="@/assets/img/an2.png" alt="wp hosting"
                             class="animation-icon-img animation-icon-2 down-icon-u" />
                         <img src="@/assets/img/an3.png" alt="wp hosting"
-                            class="animation-icon-img animation-icon-3 down-icon" />
+                            class="animation-icon-img animation-icon-3 down-icon ic-i" />
                         <img src="@/assets/img/an4.png" alt="wp hosting"
                             class="animation-icon-img animation-icon-4 down-icon-u" />
                     </div>

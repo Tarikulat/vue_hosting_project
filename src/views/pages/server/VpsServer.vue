@@ -506,7 +506,7 @@ onMounted(() => {
           </div>
         </div>
         <div class="r-img">
-          <img src="@/assets/img/live.png" />
+          <img src="@/assets/img/ser_img.png" />
         </div>
       </div>
       <div class="ro-mr mid-rk">

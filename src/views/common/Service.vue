@@ -3,13 +3,14 @@
 </script>
 
 <template>
+   
     <!--services section start-->
-    <section class="our-services ptb-a gray-light-bg">
-        <div class="container">
+    <section class="our-services ptb-ab gray-light-bg">
+        <div class="container pd-th">
             <div class="row justify-content-center">
                 <div class="col-md-9 col-lg-8">
                     <div class="section-heading text-center mb-5 mb-sm-5 mb-md-3 mb-lg-3">
-                        <h3 class="med-h cl-b">Hosting Plan That Fits Your Needs</h3>
+                        <h3 class="med-hmt cl-b">Hosting Plan That Fits Your Needs</h3>
                         <div>
                             <h1 class=" h5 med-w">Scalable Hosting for Your Growing Success</h1>
                         </div>
@@ -120,7 +121,29 @@
         </div>
     </section>
 
-  
+       <section class="compare-provider-table res-lv">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-12 col-lg-12 mid-hrv">
+                    <div class="section-heading  text-center mb-5">
+                        <h3 class="med-hmm cl-b">Live Monitoring All Server</h3>
+                        <h1 class="h5 med-w">
+                            Real-Time Server Monitoring System
+                        </h1>
+                    </div>
+                </div>
+                <div class="r-img">
+                    <img src="@/assets/img/ser_img.png" />
+                </div>
+            </div>
+            <div class="ro-mr mid-rk toolbar">
+                <a href="https://uptime.hostservice.com.bd/" class="btn outline-btn mb-3 bt-r " target="_blank">Live
+                    Monitoring</a>
+            </div>
+        </div>
+    </section>
+
+
     <!--technical specifications start-->
     <section class="technical-specification respons bg-c ptb-100 ">
         <div class="container">
@@ -245,26 +268,6 @@
             </div>
         </div>
     </section>
-    <section class="compare-provider-table gray-light-bg-n ro-bg">
-                  <div class="container">
-                    <div class="row justify-content-center">
-                      <div class="col-md-12 col-lg-12">
-                        <div class="section-heading  text-center mb-5">
-                          <h3 class="media-la text-brand">Live Monitoring All Server</h3>
-                          <p class="h5 web-s">
-                            Real-Time Server Monitoring System
-                          </p>
-                        </div>
-                      </div>
-                      <div class="r-img">
-                        <img src="@/assets/img/live.png" />
-                      </div>
-                    </div>
-                    <div class="ro-mr mid-rk">
-                      <a href="https://uptime.hostservice.com.bd/" class="btn outline-btn mb-3 bt-r" target="_blank">Live Monitoring</a>
-                    </div>
-                  </div>
-                </section>
 </template>
 
 <style>

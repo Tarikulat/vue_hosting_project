@@ -155,15 +155,15 @@ onMounted(() => {
                                     <div class="card-body">
                                         <ul class="list-unstyled mb-4 pricing-feature-list">
 
-                                            <li> 20 GB SSD Storage</li>
+                                            <li> 20 GB Gen4 NVMe Storage</li>
                                             <li> Unlimited Bandwidth</li>
                                             <li> Unlimited Website</li>
-                                            <li> 2 Core CPU 4.9 GHz Pro</li>
-                                            <li> 4 GB DDR5 Ram, 3800 MHz</li>
-                                            <li> 50 MBs I/O Speed</li>
+                                            <li> 2 Core CPU 5.7 GHz 3D Pro</li>
+                                            <li> 4 GB DDR5 Ram 3800 MHz</li>
+                                            <li> 80 MBs I/O Speed</li>
                                             <li> 1024 IOPS </li>
-                                            <li> 50 Entry Process</li>
-                                            <li> 130 Number of Process</li>
+                                            <li> 130 Entry Process</li>
+                                            <li> 250 Number of Process</li>
                                             <li> Anti-DDoS Protection</li>
                                             <li> Free SSL Certificate</li>
                                             <li> 2x7 Days Backup</li>
@@ -196,15 +196,15 @@ onMounted(() => {
                                     </div>
                                     <div class="card-body">
                                         <ul class="list-unstyled mb-4 pricing-feature-list">
-                                                <li> 40 GB SSD Storage</li>
+                                                <li> 40 GB Gen4 NVMe Storage</li>
                                                 <li> Unlimited Bandwidth</li>
                                                 <li> Unlimited Website</li>
-                                                <li> 3 Core CPU 5.7 GHz Pro</li>
-                                                <li> 6 GB DDR5 Ram, 3800 MHz</li>
+                                                <li> 3 Core CPU 5.7 GHz 3D Pro</li>
+                                                <li> 6 GB DDR5 Ram 3800 MHz</li>
                                                 <li> 100 MBs I/O Speed </li>
-                                                <li> 2000 IOPS </li>
-                                                <li> 50 Entry Process</li>
-                                                <li> 150 Number of Process</li>
+                                                <li> 1024 IOPS </li>
+                                                <li> 150 Entry Process</li>
+                                                <li> 290 Number of Process</li>
                                                 <li> Anti-DDoS Protection</li>
                                                 <li> Free SSL Certificate</li>
                                                 <li> 2x7 Days Backup</li>
@@ -238,23 +238,23 @@ onMounted(() => {
                                     <div class="card-body">
                                         <ul class="list-unstyled mb-4 pricing-feature-list">
 
-                                                    <li> 60 GB NVMe Storage</li>
+                                                    <li> 60 GB Gen4 NVMe Storage</li>
                                                     <li> Unlimited Bandwidth</li>
                                                     <li> Unlimited Website</li>
-                                                    <li> 4 Core CPU 5.7 GHz Pro</li>
-                                                    <li> 8 GB DDR5 Ram, 3800 MHz</li>
-                                                    <li> 150 MBs I/O Speed </li>
-                                                    <li> 2500 IOPS </li>
-                                                    <li> 80 Entry Process</li>
-                                                    <li> 180 Number of Process</li>
-                                                    <li> Anti-DDoS Protection</li>
+                                                    <li> 4 Core CPU 5.7 GHz 3D Pro</li>
+                                                    <li> 8 GB DDR5 Ram 3800 MHz</li>
+                                                    <li> 130 MBs I/O Speed </li>    
+                                                    <li> 2048 IOPS</li>                     
+                                                    <li> 180 Entry Process</li>  
+                                                    <li> 350 Number of Process</li>     
+                                                    <li> Anti-DDoS Protection</li>  
                                                     <li> Free SSL Certificate</li>
                                                     <li> 2x7 Days Backup</li>
                                                     <li> LiteSpeed with LSCache</li>
                                                     <li> cPanel Control Panel</li>
-                                                    <li> 24/7 Regular Support</li>
-                                                    <li> Advanced Features</li>
-                                        </ul>
+                                                    <li> 24/7 Regular Support</li> 
+                                                    <li> Advanced Features</li> 
+                                        </ul> 
                                         <a href="https://account.hostservice.com.bd/index.php?rp=/store/ecommerce-hosting/ecom-silver"
                                             class="btn outline-btn mb-3" target="_blank">Purchase now</a>
                                     </div>
@@ -280,27 +280,27 @@ onMounted(() => {
                                     <div class="card-body">
                                         <ul class="list-unstyled mb-4 pricing-feature-list">
 
-                                                        <li> 80 GB NVMe Storage</li>
+                                                        <li> 80 GB Gen4 NVMe Storage</li> 
                                                         <li> Unlimited Bandwidth</li>
                                                         <li> Unlimited Website</li>
-                                                        <li> 5 Core CPU 5.7 GHz Pro</li>
-                                                        <li> 10 GB DDR5 Ram, 3800 MHz</li>
-                                                        <li> 200 MBs I/O Speed </li>
-                                                        <li> 3000 IOPS </li>
-                                                        <li> 100 Entry Process</li>
-                                                        <li> 200 Number of Process</li>
+                                                        <li> 5 Core CPU 5.7 GHz 3D Pro</li>
+                                                        <li> 10 GB DDR5 Ram 3800 MHz</li> 
+                                                        <li> 150 MBs I/O Speed </li>
+                                                        <li> 2048 IOPS </li>
+                                                        <li> 200 Entry Process</li>
+                                                        <li> 390 Number of Process</li> 
                                                         <li> Anti-DDoS Protection</li>
                                                         <li> Free SSL Certificate</li>
                                                         <li> 2x7 Days Backup</li>
                                                         <li> LiteSpeed with LSCache</li>
                                                         <li> cPanel Control Panel</li>
-                                                        <li> 24/7 Regular Support</li>
+                                                        <li> 24/7 Regular Support</li> 
                                                         <li> Advanced Features</li>
                                         </ul>
                                         <a href="https://account.hostservice.com.bd/index.php?rp=/store/ecommerce-hosting/ecom-gold"
                                             class="btn outline-btn mb-3" target="_blank">Purchase now</a>
                                     </div>
-                                </div>
+                                </div>   
                             </div>
                         </div>
                     </div>
@@ -523,7 +523,7 @@ onMounted(() => {
               </div>
             </div>
             <div class="r-img">
-              <img src="@/assets/img/live.png" />
+              <img src="@/assets/img/ser_img.png" />
             </div>
           </div>
           <div class="ro-mr mid-rk">
