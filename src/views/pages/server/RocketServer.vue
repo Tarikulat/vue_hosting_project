@@ -214,7 +214,7 @@ onMounted(() => {
                       <li> 24/7 Regular Support</li>
                       <li> Advanced Features</li>
                     </ul>
-                    <a href="https://account.hostservice.com.bd/cart.php?a=confproduct&i=3" class="btn outline-btn mb-3"
+                    <a href="https://account.hostservice.com.bd/cart.php?a=confproduct&i=2" class="btn outline-btn mb-3"
                       target="_blank">Purchase now</a>
                   </div>
                 </div>
@@ -255,7 +255,7 @@ onMounted(() => {
                       <li> 24/7 Regular Support</li>
                       <li> Advanced Features</li>
                     </ul>
-                    <a href="https://account.hostservice.com.bd/cart.php?a=confproduct&i=4" class="btn outline-btn mb-3"
+                    <a href="https://account.hostservice.com.bd/cart.php?a=confproduct&i=3" class="btn outline-btn mb-3"
                       target="_blank">Purchase now</a>
                   </div>
                 </div>
@@ -296,7 +296,7 @@ onMounted(() => {
                       <li> 24/7 Regular Support</li>
                       <li> Advanced Features</li>
                     </ul>
-                    <a href="https://account.hostservice.com.bd/cart.php?a=confproduct&i=5"
+                    <a href="https://account.hostservice.com.bd/cart.php?a=confproduct&i=4"
                       class="btn outline-btn mb-3" target="_blank">Purchase now</a>
                   </div>
                 </div>
@@ -348,10 +348,10 @@ onMounted(() => {
                 <tbody class="comparision-table-body">
                   <tr style="width: 20%; text-align: center">
                     <td>
-                      <h6 class="text-left">CPU Core Pro </h6>
+                      <h6 class="text-left">CPU Core 3D Pro </h6>
                     </td>
                     <td class="primary-bg">
-                      <h6 class="text-white">6 Core CPU 5.7 GHz </h6>
+                      <h6 class="text-white">7 Core CPU 5.7 GHz </h6>
                     </td>
                     <td>
                       <h6>8 Core CPU 5.7 GHz </h6>
@@ -383,7 +383,7 @@ onMounted(() => {
 
                   <tr style="width: 20%; text-align: center">
                     <td>
-                      <h6 class="text-left">NVMe Storage</h6>
+                      <h6 class="text-left"> Gen4 NVMe Storage</h6>
                     </td>
                     <td class="primary-bg">
                       <h6 class="text-white">150 GB </h6>
@@ -403,16 +403,16 @@ onMounted(() => {
                       <h6 class="text-left">I/O Speed</h6>
                     </td>
                     <td class="primary-bg">
-                      <h6 class="text-white">350 MBs</h6>
+                      <h6 class="text-white">200 MBs</h6>
                     </td>
                     <td>
-                      <h6>500 MBs</h6>
+                      <h6>250 MBs</h6>
                     </td>
                     <td>
-                      <h6>700 MBs</h6>
+                      <h6>300 MBs</h6>
                     </td>
                     <td>
-                      <h6>700 MBs</h6>
+                      <h6>350 MBs</h6>
                     </td>
                   </tr>
                   <tr style="width: 20%; text-align: center">
@@ -437,16 +437,16 @@ onMounted(() => {
                       <h6 class="text-left">IOPS</h6>
                     </td>
                     <td class="primary-bg">
-                      <h6 class="text-white">4120 </h6>
+                      <h6 class="text-white">4096 </h6>
                     </td>
                     <td>
-                      <h6>5120</h6>
+                      <h6>4096</h6>
                     </td>
                     <td>
-                      <h6>6500</h6>
+                      <h6>6144 </h6>
                     </td>
                     <td>
-                      <h6>7110</h6>
+                      <h6>6144</h6>
                     </td>
                   </tr>
                   <tr style="width: 20%; text-align: center">
@@ -454,16 +454,16 @@ onMounted(() => {
                       <h6 class="text-left">Entry Process </h6>
                     </td>
                     <td class="primary-bg">
-                      <h6 class="text-white">150 </h6>
+                      <h6 class="text-white">250 </h6>
                     </td>
                     <td>
-                      <h6>200</h6>
+                      <h6>300 </h6>
                     </td>
                     <td>
-                      <h6>300</h6>
+                      <h6>350 </h6>
                     </td>
                     <td>
-                      <h6>300</h6>
+                      <h6>400 </h6>
                     </td>
                   </tr>
                   <tr style="width: 20%; text-align: center">
@@ -488,16 +488,16 @@ onMounted(() => {
                       <h6 class="text-left">Number of Process</h6>
                     </td>
                     <td class="primary-bg">
-                      <h6 class="text-white">300</h6>
+                      <h6 class="text-white">490 </h6>
                     </td>
                     <td class="col-12">
-                      <h6>500</h6>
+                      <h6>590 </h6>
                     </td>
                     <td class="col-12">
-                      <h6>400</h6>
+                      <h6>690 </h6>
                     </td>
                     <td class="col-12">
-                      <h6>400</h6>
+                      <h6>790 </h6>
                     </td>
                   </tr>
                 </tbody>
@@ -527,7 +527,7 @@ onMounted(() => {
         </div>
       </div>
       <div class="ro-mr mid-rk">
-        <a href="https://uptime.hostservice.com.bd/" class="btn outline-btn mb-3 bt-r" target="_blank">Live Monitoring</a>
+        <a href="https://uptime.hostservice.com.bd/" class="btn outline-btn mb-3 bt-r glow-on-hover" target="_blank">Live Monitoring</a>
       </div>
     </div>
   </section>

@@ -123,7 +123,7 @@
         <!--footer top end-->
 
         <!--footer copyright start-->
-        <div class="footer-bottom gray-light-bg py-3">
+        <div class="footer-bottom gray-light-bg">
             <div class="container">
                 <div class="row align-items-center justify-content-between">
                     <div class="col-md-5 col-lg-5  col-f pd-fl">

@@ -236,7 +236,7 @@ export default {
                 </div>
               </div>
               <div class="ro-mr mid-rk">
-                <a href="https://uptime.hostservice.com.bd/" class="btn outline-btn mb-3 bt-r" target="_blank">Live Monitoring</a>
+                <a href="https://uptime.hostservice.com.bd/" class="btn outline-btn mb-3 bt-r glow-on-hover" target="_blank">Live Monitoring</a>
               </div>
             </div>
           </section>

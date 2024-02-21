@@ -21,7 +21,7 @@
 
                 <div class="col-md-6 host-h col-lg-4">
                     <div class="single-service-plane text-center rounded white-bg shadow-sm p-5 mt-md-4 mt-lg-4">
-                        <img src="@/assets/img/h1.png" alt="shared hosting" class="img-fluid images mb-4" width="45" />
+                        <img src="@/assets/img/1hos.png" alt="shared hosting" class="img-fluid images mb-4" width="45" />
                         <div class="service-plane-content serve">
                             <h1 class="h5">Shared Hosting </h1>
                             <p>Affordable shared hosting plan offering reliable performance, scalable resources,
@@ -37,7 +37,7 @@
                 </div>
                 <div class="col-md-6 host-h col-lg-4">
                     <div class="single-service-plane text-center rounded white-bg shadow-sm p-5 mt-md-4 mt-lg-4">
-                        <img src="@/assets/img/h3.png" alt="shared hosting" class="img-fluid mb-4" width="45" />
+                        <img src="@/assets/img/2hos.png" alt="shared hosting" class="img-fluid mb-4" width="45" />
                         <div class="service-plane-content serve">
                             <h3 class="h5">E-commerce Hosting</h3>
                             <p>Specialized e-commerce hosting optimized for online stores, ensuring security, scalability,
@@ -53,7 +53,7 @@
                 </div>
                 <div class="col-md-6 host-h col-lg-4">
                     <div class="single-service-plane text-center rounded white-bg shadow-sm p-5 mt-md-4 mt-lg-4">
-                        <img src="@/assets/img/h2.png" alt="shared hosting" class="img-fluid mb-4" width="45" />
+                        <img src="@/assets/img/3hos.png" alt="shared hosting" class="img-fluid mb-4" width="45" />
                         <div class="service-plane-content serve">
                             <h3 class="h5">Rocket Cloud Server</h3>
                             <p>High-performance, scalable cloud solutions for rapid deployment and seamless management of
@@ -70,7 +70,7 @@
 
                 <div class="col-md-6 host-h col-lg-4">
                     <div class="single-service-plane text-center rounded white-bg shadow-sm p-5 mt-md-4 mt-lg-4">
-                        <img src="@/assets/img/h4.png" alt="shared hosting" class="img-fluid mb-4" width="45" />
+                        <img src="@/assets/img/4hos.png" alt="shared hosting" class="img-fluid mb-4" width="45" />
                         <div class="service-plane-content serve">
                             <h3 class="h5">VPS Server </h3>
                             <p>Increased speed and resources with our virtual private servers are perfect for developers and
@@ -86,7 +86,7 @@
                 </div>
                 <div class="col-md-6 host-h col-lg-4">
                     <div class="single-service-plane text-center rounded white-bg shadow-sm p-5 mt-md-4 mt-lg-4">
-                        <img src="@/assets/img/h5.png" alt="shared hosting" class="img-fluid mb-4" width="45" />
+                        <img src="@/assets/img/5hos.png" alt="shared hosting" class="img-fluid mb-4" width="45" />
                         <div class="service-plane-content serve">
                             <h3 class="h5">Dedicated Server</h3>
                             <p>Manage your site on your own dedicated server for maximum control, traffic capacity, and
@@ -102,7 +102,7 @@
                 </div>
                 <div class="col-md-6 host-h col-lg-4">
                     <div class="single-service-plane text-center rounded white-bg shadow-sm p-5 mt-md-4 mt-lg-4">
-                        <img src="@/assets/img/h6.png" alt="shared hosting" class="img-fluid mb-4" width="45" />
+                        <img src="@/assets/img/6hos.png" alt="shared hosting" class="img-fluid mb-4" width="45" />
                         <div class="service-plane-content serve">
                             <h3 class="h5">Reseller Hosting</h3>
                             <h6>Become a Hosting Provider</h6>
@@ -137,7 +137,7 @@
                 </div>
             </div>
             <div class="ro-mr mid-rk toolbar">
-                <a href="https://uptime.hostservice.com.bd/" class="btn outline-btn mb-3 bt-r " target="_blank">Live
+                <a href="https://uptime.hostservice.com.bd/" class="btn outline-btn mb-3 bt-r glow-on-hover" target="_blank">Live
                     Monitoring</a>
             </div>
         </div>

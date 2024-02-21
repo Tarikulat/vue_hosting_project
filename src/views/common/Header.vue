@@ -87,8 +87,8 @@ const isOpenModal = () => {
                                                         data-target="#navBar">
                                                         <router-link class="title-with-icon-link" :to="{ name: 'shared-host' }">
                                                             <div class="media">
-                                                                <!-- <img class="menu-titile-icon" src="@/assets/img/chat.svg" alt="SVG"> -->
-                                                                <div class="menu-item-icon"><i class="fa-solid fa-microchip"></i></div>
+                                                                <img class="menu-titile-icon" src="@/assets/img/1hos.png" alt="SVG">
+                                                                <!-- <div class="menu-item-icon"><i class="fa-solid fa-microchip"></i></div> -->
                                                                 <div class="media-body">
                                                                     <span class="u-header__promo-title">Shared Hosting</span>
                                                                     <small class="u-header__promo-text">Innovate reliable
@@ -103,8 +103,8 @@ const isOpenModal = () => {
                                                     data-target="#navBar">
                                                     <router-link class="title-with-icon-link" :to="{ name: 'ecommerce-host' }">
                                                         <div class="media">
-                                                            <!-- <img class="menu-titile-icon" src="@/assets/img/chat.svg" alt="SVG"> -->
-                                                            <div class="menu-item-icon"><i class="fas fa-tachometer-alt"></i></div>
+                                                            <img class="menu-titile-icon" src="@/assets/img/2hos.png" alt="SVG">
+                                                            <!-- <div class="menu-item-icon"><i class="fas fa-tachometer-alt"></i></div> -->
                                                             <div class="media-body">
                                                                 <span class="u-header__promo-title">E-commerce Hosting<span
                                                                             class="badge bgcolour ml-1">Advance</span></span>
@@ -121,7 +121,9 @@ const isOpenModal = () => {
                                                     data-target="#navBar">
                                                     <router-link class="title-with-icon-link" :to="{ name: 'reseller-host' }">
                                                         <div class="media">
-                                                            <div class="menu-item-icon"><i class="fab fa-asymmetrik"></i></div>
+                                                            <img class="menu-titile-icon" src="@/assets/img/6hos.png" alt="SVG">
+
+                                                            <!-- <div class="menu-item-icon"><i class="fab fa-asymmetrik"></i></div> -->
                                                             <div class="media-body">
                                                                 <span class="u-header__promo-title">Reseller Hosting</span>
                                                                 <small class="u-header__promo-text">Assisted hosting packages</small>
@@ -145,11 +147,11 @@ const isOpenModal = () => {
                                                     data-target="#navBar">
                                                     <router-link class="title-with-icon-link" :to="{ name: 'rocket-server' }">
                                                         <div class="media">
-                                                            <!-- <img class="menu-titile-icon" src="@/assets/img/chat.svg" alt="SVG"> -->
-                                                            <div class="menu-item-icon"><i class="fa-solid fa-computer-classic"></i></div>
+                                                            <img class="menu-titile-icon" src="@/assets/img/3hos.png" alt="SVG">
+                                                            <!-- <div class="menu-item-icon"><i class="fa-solid fa-computer-classic"></i></div> -->
                                                             <div class="media-body">
-                                                                <span class="u-header__promo-title">Rocket Server<span
-                                                                                class="badge bgcolour ml-1"> Cloud </span></span>
+                                                                <span class="u-header__promo-title">Rocket Cloud <span
+                                                                                class="badge bgcolour ml-1"> Server </span></span>
                                                                 <small class="u-header__promo-text">Rapid Support Response </small>
                                                             </div>
                                                         </div>
@@ -161,8 +163,8 @@ const isOpenModal = () => {
                                                 data-target="#navBar">
                                                 <router-link class="title-with-icon-link" :to="{ name: 'vps-server' }">
                                                     <div class="media">
-                                                        <!-- <img class="menu-titile-icon" src="@/assets/img/chat.svg" alt="SVG"> -->
-                                                        <div class="menu-item-icon"><i class="fas fa-database"></i></div>
+                                                        <img class="menu-titile-icon" src="@/assets/img/4hos.png" alt="SVG">
+                                                        <!-- <div class="menu-item-icon"><i class="fas fa-database"></i></div> -->
                                                         <div class="media-body">
                                                             <span class="u-header__promo-title">VPS Server</span>
                                                             <small class="u-header__promo-text">Support team quickly
@@ -178,7 +180,9 @@ const isOpenModal = () => {
                                                 data-target="#navBar">
                                                 <router-link class="title-with-icon-link" :to="{ name: 'DedicatedServer' }">
                                                     <div class="media">
-                                                        <div class="menu-item-icon"><i class="fas fa-server"></i></div>
+                                                        <img class="menu-titile-icon" src="@/assets/img/5hos.png" alt="SVG">
+
+                                                        <!-- <div class="menu-item-icon"><i class="fas fa-server"></i></div> -->
                                                         <div class="media-body">
                                                             <span class="u-header__promo-title">Dedicated Server</span>
                                                             <small class="u-header__promo-text">24 Data center

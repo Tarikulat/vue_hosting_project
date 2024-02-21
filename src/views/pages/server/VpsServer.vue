@@ -15,28 +15,28 @@ const halfYear = ref();
 const yearly = ref();
 
 const monthlyPrice = () => {
-  monthly.value = '3190';
-  theryMonth.value = '5290';
-  halfYear.value = '9390';
-  yearly.value = '11890';
+  monthly.value = '5190';
+  theryMonth.value = '9990';
+  halfYear.value = '16490';
+  yearly.value = '25590';
 }
 const threeMonthPrice = () => {
-  monthly.value = '9570';
-  theryMonth.value = '15870';
-  halfYear.value = '28170';
-  yearly.value = '35670';
+  monthly.value = '15570 ';
+  theryMonth.value = '29970';
+  halfYear.value = '49470';
+  yearly.value = '76770 ';
 }
 const halfYearPrice = () => {
-  monthly.value = '19140';
-  theryMonth.value = '31740';
-  halfYear.value = '56340';
-  yearly.value = '71340';
+  monthly.value = '31140';
+  theryMonth.value = '59940';
+  halfYear.value = '98940 ';
+  yearly.value = '153540 ';
 }
 const yearPrice = () => {
-  monthly.value = '38280';
-  theryMonth.value = '63480';
-  halfYear.value = '112680';
-  yearly.value = '142680';
+  monthly.value = '62280';
+  theryMonth.value = '119880';
+  halfYear.value = '197880 ';
+  yearly.value = '307080 ';
 }
 
 onMounted(() => {
@@ -510,7 +510,7 @@ onMounted(() => {
         </div>
       </div>
       <div class="ro-mr mid-rk">
-        <a href="https://uptime.hostservice.com.bd/" class="btn outline-btn mb-3 bt-r" target="_blank">Live Monitoring</a>
+        <a href="https://uptime.hostservice.com.bd/" class="btn outline-btn mb-3 bt-r glow-on-hover" target="_blank">Live Monitoring</a>
       </div>
     </div>
   </section>

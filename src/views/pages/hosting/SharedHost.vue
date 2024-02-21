@@ -228,6 +228,7 @@ onMounted(() => {
                   </div>
                   <div class="card-body">
                     <ul class="list-unstyled mb-4 pricing-feature-list">
+                      
                           <li> 10 GB SSD Storage</li>
                           <li> 1500 GB Bandwidth</li>
                           <li> 5 Domain</li>
@@ -518,7 +519,7 @@ onMounted(() => {
           </div>
         </div>
         <div class="ro-mr mid-rk">
-          <a href="https://uptime.hostservice.com.bd/" class="btn outline-btn mb-3 bt-r" target="_blank">Live Monitoring</a>
+          <a href="https://uptime.hostservice.com.bd/" class="btn outline-btn mb-3 bt-r glow-on-hover" target="_blank">Live Monitoring</a>
         </div>
       </div>
     </section>

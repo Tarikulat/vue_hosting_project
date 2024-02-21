@@ -350,10 +350,10 @@ onMounted(() => {
                                 <tbody class="comparision-table-body">
                                     <tr style="width: 20%; text-align: center">
                                         <td>
-                                            <h6 class="text-left">CPU Core Limit Pro</h6>
+                                            <h6 class="text-left">CPU Core Limit 3D Pro</h6>
                                         </td>
                                         <td class="primary-bg">
-                                            <h6 class="text-white">2 Core CPU 4.9 GHz </h6>
+                                            <h6 class="text-white">2 Core CPU 5.7 GHz </h6>
                                         </td>
                                         <td>
                                             <h6>3 Core CPU 5.7 GHz </h6>
@@ -370,34 +370,34 @@ onMounted(() => {
                                             <h6 class="text-left">DDR5 Ram</h6>
                                         </td>
                                         <td class="primary-bg">
-                                            <h6 class="text-white">4 GB, 3800 MHz</h6>
+                                            <h6 class="text-white">4 GB 3800 MHz</h6>
                                         </td>
                                         <td>
-                                            <h6>6 GB, 3800 MHz</h6>
+                                            <h6>6 GB 3800 MHz</h6>
                                         </td>
                                         <td>
-                                            <h6>8 GB, 3800 MHz</h6>
+                                            <h6>8 GB 3800 MHz</h6>
                                         </td>
                                         <td>
-                                            <h6>10 GB, 3800 MHz</h6>
+                                            <h6>10 GB 3800 MHz</h6>
                                         </td>
                                     </tr>
 
                                     <tr style="width: 20%; text-align: center">
                                         <td>
-                                            <h6 class="text-left">Storage</h6>
+                                            <h6 class="text-left">Gen4 NVMe Storage</h6>
                                         </td>
                                         <td class="primary-bg">
-                                            <h6 class="text-white">20 GB SSD</h6>
+                                            <h6 class="text-white">20 GB</h6>
                                         </td>
                                         <td>
-                                            <h6>40 GB SSD</h6>
+                                            <h6>40 GB </h6>
                                         </td>
                                         <td>
-                                            <h6>60 GB NVMe</h6>
+                                            <h6>60 GB </h6>
                                         </td>
                                         <td>
-                                            <h6>80 GB NVMe</h6>
+                                            <h6>80 GB </h6>
                                         </td>
                                     </tr>
                                     <tr style="width: 20%; text-align: center">
@@ -405,16 +405,16 @@ onMounted(() => {
                                             <h6 class="text-left">I/O Speed</h6>
                                         </td>
                                         <td class="primary-bg">
-                                            <h6 class="text-white">50 MBs</h6>
+                                            <h6 class="text-white">80 MBs</h6>
                                         </td>
                                         <td>
                                             <h6>100 MBs</h6>
                                         </td>
                                         <td>
-                                            <h6>150 MBs</h6>
+                                            <h6>130 MBs</h6>
                                         </td>
                                         <td>
-                                            <h6>200 MBs</h6>
+                                            <h6>150 MBs</h6>
                                         </td>
                                     </tr>
                                     <tr style="width: 20%; text-align: center">
@@ -425,35 +425,18 @@ onMounted(() => {
                                             <h6 class="text-white">1024</h6>
                                         </td>
                                         <td>
-                                            <h6>2000</h6>
+                                            <h6>1024</h6>
                                         </td>
                                         <td>
-                                            <h6>2500</h6>
+                                            <h6>2048</h6>
                                         </td>
                                         <td>
-                                            <h6>3000</h6>
+                                            <h6>2048</h6>
                                         </td>
                                     </tr>
                                     <tr style="width: 20%; text-align: center">
                                         <td>
                                             <h6 class="text-left">Entry Process</h6>
-                                        </td>
-                                        <td class="primary-bg">
-                                            <h6 class="text-white">50</h6>
-                                        </td>
-                                        <td>
-                                            <h6>50</h6>
-                                        </td>
-                                        <td>
-                                            <h6>80</h6>
-                                        </td>
-                                        <td>
-                                            <h6>100</h6>
-                                        </td>
-                                    </tr>
-                                    <tr style="width: 20%; text-align: center">
-                                        <td>
-                                            <h6 class="text-left">Number of Process</h6>
                                         </td>
                                         <td class="primary-bg">
                                             <h6 class="text-white">130</h6>
@@ -462,27 +445,44 @@ onMounted(() => {
                                             <h6>150</h6>
                                         </td>
                                         <td>
-                                            <h6>180</h6>
+                                            <h6>180 </h6>
                                         </td>
                                         <td>
-                                            <h6>200</h6>
+                                            <h6>200 </h6>
                                         </td>
                                     </tr>
                                     <tr style="width: 20%; text-align: center">
                                         <td>
-                                            <h6 class="text-left">SSD/NVMe Storage</h6>
+                                            <h6 class="text-left">Number of Process</h6>
                                         </td>
                                         <td class="primary-bg">
-                                            <h6 class="text-white">20 GB SSD</h6>
+                                            <h6 class="text-white">250 </h6>
                                         </td>
                                         <td>
-                                            <h6>40 GB SSD </h6>
+                                            <h6>290 </h6>
                                         </td>
                                         <td>
-                                            <h6>60 GB NVMe </h6>
+                                            <h6>350 </h6>
                                         </td>
                                         <td>
-                                            <h6>80 GB NVMe </h6>
+                                            <h6>390 </h6>
+                                        </td>
+                                    </tr>
+                                    <tr style="width: 20%; text-align: center">
+                                        <td>
+                                            <h6 class="text-left">Bandwidth</h6>
+                                        </td>
+                                        <td class="primary-bg">
+                                            <h6 class="text-white">Unlimited</h6>
+                                        </td>
+                                        <td>
+                                            <h6>Unlimited</h6>
+                                        </td>
+                                        <td>
+                                            <h6>Unlimited</h6>
+                                        </td>
+                                        <td>
+                                            <h6>Unlimited</h6>
                                         </td>
                                     </tr>
                                     <tr style="width: 20%; text-align: center">
@@ -527,7 +527,7 @@ onMounted(() => {
             </div>
           </div>
           <div class="ro-mr mid-rk">
-            <a href="https://uptime.hostservice.com.bd/" class="btn outline-btn mb-3 bt-r" target="_blank">Live Monitoring</a>
+            <a href="https://uptime.hostservice.com.bd/" class="btn outline-btn mb-3 bt-r glow-on-hover" target="_blank">Live Monitoring</a>
           </div>
         </div>
       </section>
