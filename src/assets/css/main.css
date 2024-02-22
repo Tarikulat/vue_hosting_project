@@ -529,8 +529,12 @@
 }
 
 @media (max-width: 2562px) {
+  .p-sh {
+    padding-left: 55px !important;
+    padding-right: 2px !important;
+  }
   .p-srbb {
-    padding-bottom: 35px;
+    padding-bottom: 20px;
   }
   .mr-by {
     margin-bottom: 50px;
@@ -55904,13 +55908,13 @@ svg.promo-bg {
 
 /* line 1318, src/assets/scss/custom/_style.scss */
 .animation-icon-img.animation-icon-1 {
-  left: 36%;
+  left: 30%;
   top: 30%;
 }
 
 /* line 1323, src/assets/scss/custom/_style.scss */
 .animation-icon-img.animation-icon-2 {
-  left: 280px;
+  left: 256px;
   right: 59%;
   top: 0px;
   -webkit-animation-delay: .4s;
@@ -55920,14 +55924,14 @@ svg.promo-bg {
 /* line 1331, src/assets/scss/custom/_style.scss */
 .animation-icon-img.animation-icon-3 {
   top: 30%;
-  left: 80%;
+  left: 75%;
   -webkit-animation-delay: .6s;
   animation-delay: .6s;
 }
 
 /* line 1338, src/assets/scss/custom/_style.scss */
 .animation-icon-img.animation-icon-4 {
-  left: 285px;
+  left: 261px;
   right: 58%;
   top: 65%;
   -webkit-animation-delay: .8s;

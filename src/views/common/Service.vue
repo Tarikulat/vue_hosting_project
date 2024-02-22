@@ -60,7 +60,7 @@
                                 your digital infrastructure. </p>
                         </div>
                         <div class="cart-home">
-                            <h4><small class="cl-b">Starting at </small>৳3500</h4>
+                            <h4><small class="cl-b">Starting at </small>৳10490</h4>
                             <a href="rocket-server" class="elementor-button-link elementor-button elementor-size-sm"
                                 role="button"><span class="btn outline-btn mb-3 cart-btn"><span
                                         class="elementor-button-text">Order Now</span></span></a>
