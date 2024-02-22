@@ -249,7 +249,7 @@
 
 <style>
 .backge-a {
-    background-image: url("@/assets/img/bb.webp");
+    background-image: url("@/assets/img/bbb.webp");
   }
   .packgr {
     background-image: url("@/assets/img/z2.webp");

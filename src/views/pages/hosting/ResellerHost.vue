@@ -106,7 +106,7 @@ onMounted(() => {
                     <div class="section-heading  text-center">
                         <h3 class="media-la text-brand bt-hj">Reseller Hosting Plan </h3>
                         <h6 class="h5 med-w">
-                 6 month purchase<span class="text-rd">5%</span> discount - <span class="text-rd"> hostgift6m
+                 6 month purchase<span class="text-rd"> 5%</span> discount - <span class="text-rd"> hostgift6m
                   </span>
                 </h6>
 
@@ -817,7 +817,7 @@ onMounted(() => {
 
 <style>
 .backgrs {
-    background-image: url("@/assets/img/resel.webp");
+    background-image: url("@/assets/img/res_up.webp");
 }
 
 

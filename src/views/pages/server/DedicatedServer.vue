@@ -502,7 +502,7 @@ export default {
               <li class="list-inline-item"><span class="fas fa-star"></span></li>
             </ul>
             <div class="ratting-content">
-              <h5>Unmatched Performance Support!</h5>
+              <h5> Performance Support!</h5>
               <p>
                 Choosing this dedicated server hosting provider was the best decision for my business. The server's performance is unmatched, and the uptime is impeccable. 
                 Their support team is responsive and knowledgeable, always ensuring that my website stays online and running smoothly
@@ -581,7 +581,7 @@ export default {
 }
 
 .backgb {
-  background-image: url("@/assets/img/nzz.webp");
+  background-image: url("@/assets/img/dade_up.webp");
 }
 
 .backgm {

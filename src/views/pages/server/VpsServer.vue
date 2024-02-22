@@ -45,7 +45,7 @@ onMounted(() => {
 </script>
 
 <template>
-  <section class="hero-equal-height ptb-100 gradient-overly-right:before backvp gradient-overly-right">
+  <section class="hero-equal-height ptb-100 gradient-overly-right:before vps_img gradient-overly-right">
     <div class="container">
       <div class="row align-items-center">
         <div class="col-md-7 col-lg-7 media-lan ">
@@ -774,8 +774,8 @@ onMounted(() => {
   margin-left: 12px;
 }
 
-.backvp {
-  background-image: url("@/assets/img/bbb.webp");
+.vps_img {
+  background-image: url("@/assets/img/vps_baner.webp") !important;
 }
 
 .backvps {

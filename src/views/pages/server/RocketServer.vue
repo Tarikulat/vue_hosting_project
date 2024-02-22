@@ -65,9 +65,9 @@ onMounted(() => {
         </div>
         <div class="col-md-5 col-lg-5">
 
-          <div class="hover15 column">
+          <div class="hover14 column">
             <div>
-              <figure><img src="@/assets/img/rocket.gif" class="lan img-lan body-landing" /></figure>
+              <figure><img src="@/assets/img/rocket_img.png" class="lan img-lan body-landing" /></figure>
             </div>
           </div>
         </div>
@@ -783,7 +783,7 @@ onMounted(() => {
 }
 
 .backvp {
-  background-image: url("@/assets/img/bbb.webp");
+  background-image: url("@/assets/img/baner2.webp");
 }
 
 .backvps {

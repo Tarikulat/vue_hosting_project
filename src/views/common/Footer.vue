@@ -12,8 +12,8 @@
                     <div class="col-md-3">
                         <div class="row footer-top-wrap">
                             <div class="col-">
-                                <div class="footer-nav-wrap text-white">
-                                    <img src="@/assets/img/logo_host.png" width="150px" alt="logo" class="img-fluid" />
+                                <div class="footer-nav-wrap text-white ">
+                                    <img src="@/assets/img/foterlogo.png" width="150px" alt="logo" class=" lo-p img-fluid" />
                                     
                                     <ul class="list-inline security-icon-list">
                                        <p> Supercharge your online success with our superfast hosting service, ensuring rapid website 

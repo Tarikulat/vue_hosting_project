@@ -977,7 +977,7 @@ onMounted(() => {
 }
 
 .backgek {
-    background-image: url("@/assets/img/ecom.webp");
+    background-image: url("@/assets/img/ecom_baner.webp");
     height: 500px;
 }
 

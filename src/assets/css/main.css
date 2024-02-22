@@ -529,6 +529,9 @@
 }
 
 @media (max-width: 2562px) {
+   .lo-p {
+     padding-bottom: 20px;
+   }
   .p-sh {
     padding-left: 55px !important;
     padding-right: 2px !important;
@@ -607,6 +610,13 @@
 }
 
 @media (max-width: 425px) {
+  .lo-p {
+    padding-bottom: 15px;
+  }
+  .p-sh {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
   .m-flb {
     margin-bottom: 2px;
   }
@@ -1031,7 +1041,7 @@ margin-top: 20px;
 
 
 .gradient-overly-right:before {
-  background: -webkit-gradient(linear, left top, right top, from(#031974), to(rgba(25, 52, 167, 0.5)));
+  background: -webkit-gradient(linear, left top, right top, from(#000000d6), to(#000000e8));
   /* background: linear-gradient(90deg, #031974, rgba(25, 52, 167, 0.5)); */
 }
 
@@ -56062,10 +56072,9 @@ svg.promo-bg {
 /*video background css*/
 /* line 1449, src/assets/scss/custom/_style.scss */
 .background-video-overly {
-  /* background-image: linear-gradient(90deg, #f64f00e6, rgb(246 79 0 / 88%)); */
-  /* background-image: -webkit-gradient(linear, left top, right top, from(rgba(3, 25, 116, 0.45)), to(rgba(25, 52, 167, 0.4))); */
-  /* background-image: -webkit-gradient(linear, left top, right top, from(#000000c2), to(#000000d4)); */
-  /* background-image: -webkit-gradient(linear,left top,right top,from(rgb(0 0 0 / 4%)),to(rgb(0 0 0 / 0%))); */
+  
+  background-image: -webkit-gradient(linear, left top, right top, from(#000000b8), to(#000000b8));
+  
 
 }
 
@@ -56113,7 +56122,7 @@ svg.promo-bg {
 .gradient-overly-right:before {
   /* background: -webkit-gradient(linear, left top, right top, from(#031974), to(rgba(25, 52, 167, 0.5)));
   background: linear-gradient(to bottom, rgb(246 79 0), rgb(246 79 0)); */
-  background: linear-gradient(90deg, #000, rgb(34 35 39 / 81%));
+  background: -webkit-gradient(linear, left top, right top, from(#000000b8), to(#000000b8));
 }
 
 /* line 1486, src/assets/scss/custom/_style.scss */

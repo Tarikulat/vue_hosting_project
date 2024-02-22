@@ -741,7 +741,7 @@ onMounted(() => {
 }
 
 .backmg {
-  background-image: url("@/assets/img/landing.webp");
+  background-image: url("@/assets/img/home_up.webp");
 }
 
 .backges {

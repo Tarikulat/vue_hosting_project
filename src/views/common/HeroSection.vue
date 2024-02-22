@@ -9,7 +9,7 @@ import { Service, Testimonial } from '@/views/common'
         <!-- <video class="fit-cover w-100 h-100 position-absolute z--1" autoplay muted loop id="myVideo">
             <source src="@/assets/img/video-sr.mp4" type="video/mp4">
         </video> -->
-        <img class="fit-cover w-100 h-100 position-absolute z--1" src="@/assets/img/home.jpg" autoplay muted loop id="myVideo">
+        <img class="fit-cover w-100 h-100 position-absolute z--1" src="@/assets/img/home2.webp" autoplay muted loop id="myVideo">
                 
             
 
