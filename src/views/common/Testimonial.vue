@@ -86,7 +86,7 @@
 
     <section>
         <div class="container">
-            <div id="faq" class="mr-b">
+            <div id="faq" class="mr-by">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-9 col-lg-8">

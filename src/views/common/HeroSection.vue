@@ -15,10 +15,10 @@ import { Service, Testimonial } from '@/views/common'
 
         <div class="container">
             <div class="row align-items-center cho-p justify-content-center">
-                <div class="col-lg-6 col-12 mr-lft mr-bh">
+                <div class="col-lg-7 col-12 mr-lft mr-bh">
                     <div class="hero-content-left text-center">
-                        <h1 class="text-brand testing fht">Host Your Online Business with Host Service</h1>
-                        <p class="lead tx-s">Host Service's hosting provides the performance to power
+                        <h1 class="text-brand testing fht sm-fz">Host Your Online Business with Host Service</h1>
+                        <p class="lead tx-s ft-s p-srbb f-sbth">Host Service's hosting provides the performance to power
                             the website you wish for, and our builder makes it simple to develop.</p>
                         <form class="domain-search-form mt-3  mx-auto">
                             <a href="https://account.hostservice.com.bd/cart.php?a=add&domain=register">

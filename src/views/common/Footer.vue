@@ -127,13 +127,13 @@
             <div class="container">
                 <div class="row align-items-center justify-content-between">
                     <div class="col-md-5 col-lg-5  col-f pd-fl">
-                        <p class="copyright-text pb-0 mb-0 de-f med-f">© 2024 Host Service | Super Fast Hosting Service.
+                        <p class="copyright-text pb-0  de-f med-f m-flb">© 2024 Host Service | Super Fast Hosting Service.
                         </p>
                     </div>
                     <div class="col-md-7 col-lg-6">
                         <div class="payment-method text-right">
                             <ul class="list-inline">
-                                <li class="list-inline-item">
+                                <li class="list-inline-item p-tfp">
                                     <img src="@/assets/img/footer-last.webp" alt="amex" width="300px" />
                                 </li>
                             </ul>
