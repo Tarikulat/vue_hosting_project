@@ -15,7 +15,7 @@ import { Service, Testimonial } from '@/views/common'
 
         <div class="container">
             <div class="row align-items-center cho-p justify-content-center">
-                <div class="col-lg-6 col-12 mr-lft">
+                <div class="col-lg-6 col-12 mr-lft mr-bh">
                     <div class="hero-content-left text-center">
                         <h1 class="text-brand testing fht">Host Your Online Business with Host Service</h1>
                         <p class="lead tx-s">Host Service's hosting provides the performance to power
