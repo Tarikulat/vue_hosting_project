@@ -56189,7 +56189,6 @@ background: linear-gradient(to bottom, rgb(246 79 0), rgb(246 79 0)); */
   animation-delay: 0.3s;
 }
 
-/* line 1529, src/assets/scss/custom/_style.scss */
 .hero-slider-one .owl-item.active .action-btns {
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
@@ -56201,7 +56200,6 @@ background: linear-gradient(to bottom, rgb(246 79 0), rgb(246 79 0)); */
   animation-delay: 0.3s;
 }
 
-/* line 1537, src/assets/scss/custom/_style.scss */
 .hero-slider-one .owl-item.active .line {
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
@@ -56219,7 +56217,6 @@ background: linear-gradient(to bottom, rgb(246 79 0), rgb(246 79 0)); */
   transition-delay: 100ms;
 }
 
-/* line 1550, src/assets/scss/custom/_style.scss */
 .hero-slider-one .owl-carousel .cros-animation {
   -webkit-transform: translateY(70%);
   transform: translateY(70%);
@@ -56240,7 +56237,6 @@ background: linear-gradient(to bottom, rgb(246 79 0), rgb(246 79 0)); */
   margin-bottom: 5px;
 }
 
-/*custom dot style*/
 /* line 1569, src/assets/scss/custom/_style.scss */
 .custom-dot.owl-theme .owl-dots {
   position: absolute;
