@@ -53,12 +53,15 @@ onMounted(() => {
                     <div class="hero-content-wrap marg-tq text-white">
                         <h1 class="text-brand media-eco">Advance Ecommerce Hosting </h1>
                         <p class="lead">Globally through excellent intellectual capital.</p>
-                <ul class="list-unstyled tech-feature-list text-white">
-                  <li class="py-1"><span class="ti-control-forward mr-2"></span>Easy to use technical required</li>
-                  <li class="py-1"><span class="ti-control-forward mr-2"></span>Thousands of customizable design</li>
-                  <li class="py-1"><span class="ti-control-forward mr-2"></span>Zero-Risk Money-Back Guarantee</li>
-                  <li class="py-1"><span class="ti-control-forward mr-2"></span>Free domain with install</li>
-                </ul>
+                        <ul class="list-unstyled tech-feature-list text-white">
+                            <li class="py-1"><span class="ti-control-forward mr-2"></span>Easy to use technical required
+                            </li>
+                            <li class="py-1"><span class="ti-control-forward mr-2"></span>Thousands of customizable
+                                design</li>
+                            <li class="py-1"><span class="ti-control-forward mr-2"></span>Zero-Risk Money-Back Guarantee
+                            </li>
+                            <li class="py-1"><span class="ti-control-forward mr-2"></span>Free domain with install</li>
+                        </ul>
                     </div>
                 </div>
                 <div class="col-lg-6 col-12">
@@ -79,16 +82,18 @@ onMounted(() => {
                 <div class="col-md-12 col-lg-7">
                     <div class="section-heading  text-center">
                         <h3 class="media-la text-brand bt-hj">Advance Ecommerce Plan </h3>
-                       <h6 class="h5 med-w">
-                 6 month purchase <span class="text-rd">5%</span> discount - <span class="text-rd"> hostgift6m
-                  </span>
-                </h6>
+                        <h6 class="h5 med-w">
+                            6 month purchase <span class="text-rd">5%</span> discount - <span class="text-rd">
+                                hostgift6m
+                            </span>
+                        </h6>
 
-                <div>
-                  <h6 class="h5 med-w ">
-                    1year purchase <span class="text-rd"> 15% </span> discount -<span class="text-rd"> hostgift1yr</span>
-                  </h6>
-                </div>
+                        <div>
+                            <h6 class="h5 med-w ">
+                                1year purchase <span class="text-rd"> 10% </span> discount -<span class="text-rd">
+                                    hostgift1yr</span>
+                            </h6>
+                        </div>
 
                     </div>
                 </div>
@@ -97,7 +102,8 @@ onMounted(() => {
                     <div class="text-center mb-2 radio-box-wrap billingCycle">
 
                         <div class="single-radio-box" @click="monthlyPrice">
-                            <input name="billingPlan" id="monthly-plan" value="monthly" class="radio" type="radio" checked>
+                            <input name="billingPlan" id="monthly-plan" value="monthly" class="radio" type="radio"
+                                checked>
                             <label for="monthly-plan"><span class="custom-check"></span>1 Month</label>
                         </div>
                         <div class="single-radio-box" @click="threeMonthPrice">
@@ -111,7 +117,7 @@ onMounted(() => {
 
                         <div class="single-radio-box" @click="yearPrice">
                             <input name="billingPlan" id="triennial-plan" value="triennial" class="radio" type="radio">
-                            <label for="triennial-plan"><span class="custom-check"></span>1  Year</label>
+                            <label for="triennial-plan"><span class="custom-check"></span>1 Year</label>
                         </div>
 
                     </div>
@@ -159,7 +165,7 @@ onMounted(() => {
                                             <li> Unlimited Bandwidth</li>
                                             <li> Unlimited Website</li>
                                             <li> 2 Core CPU 5.7 GHz 3D Pro</li>
-                                            <li> 4 GB DDR5 Ram 3800 MHz</li>
+                                            <li> 4 GB DDR5 Ram 4800 MHg</li>
                                             <li> 80 MBs I/O Speed</li>
                                             <li> 1024 IOPS </li>
                                             <li> 130 Entry Process</li>
@@ -187,7 +193,7 @@ onMounted(() => {
                             <div class="col-lg-12 col-md-12 col-12">
                                 <div class="card text-center align-items-center single-pricing-pack">
                                     <div class="pt-5">
-                                    <h5 class="mb-0 text-brand">Advance Ecommerce Hosting</h5>
+                                        <h5 class="mb-0 text-brand">Advance Ecommerce Hosting</h5>
                                         <p class="mb-0">Ecom Standard </p>
                                     </div>
                                     <div class="card-header border-0 pricing-header">
@@ -196,22 +202,22 @@ onMounted(() => {
                                     </div>
                                     <div class="card-body">
                                         <ul class="list-unstyled mb-4 pricing-feature-list">
-                                                <li> 40 GB Gen4 NVMe Storage</li>
-                                                <li> Unlimited Bandwidth</li>
-                                                <li> Unlimited Website</li>
-                                                <li> 3 Core CPU 5.7 GHz 3D Pro</li>
-                                                <li> 6 GB DDR5 Ram 3800 MHz</li>
-                                                <li> 100 MBs I/O Speed </li>
-                                                <li> 1024 IOPS </li>
-                                                <li> 150 Entry Process</li>
-                                                <li> 290 Number of Process</li>
-                                                <li> Anti-DDoS Protection</li>
-                                                <li> Free SSL Certificate</li>
-                                                <li> 2x7 Days Backup</li>
-                                                <li> LiteSpeed with LSCache</li>
-                                                <li> cPanel Control Panel</li>
-                                                <li> 24/7 Regular Support</li>
-                                                <li> Advanced Features</li>
+                                            <li> 40 GB Gen4 NVMe Storage</li>
+                                            <li> Unlimited Bandwidth</li>
+                                            <li> Unlimited Website</li>
+                                            <li> 3 Core CPU 5.7 GHz 3D Pro</li>
+                                            <li> 6 GB DDR5 Ram 4800 MHg</li>
+                                            <li> 100 MBs I/O Speed </li>
+                                            <li> 1024 IOPS </li>
+                                            <li> 150 Entry Process</li>
+                                            <li> 290 Number of Process</li>
+                                            <li> Anti-DDoS Protection</li>
+                                            <li> Free SSL Certificate</li>
+                                            <li> 2x7 Days Backup</li>
+                                            <li> LiteSpeed with LSCache</li>
+                                            <li> cPanel Control Panel</li>
+                                            <li> 24/7 Regular Support</li>
+                                            <li> Advanced Features</li>
                                         </ul>
                                         <a href="https://account.hostservice.com.bd/index.php?rp=/store/ecommerce-hosting/ecom-standard"
                                             class="btn outline-btn mb-3" target="_blank">Purchase now</a>
@@ -228,7 +234,7 @@ onMounted(() => {
                             <div class="col-lg-12 col-md-12 col-12">
                                 <div class="card text-center align-items-center single-pricing-pack">
                                     <div class="pt-5">
-                                      <h5 class="mb-0 text-brand">Advance Ecommerce Hosting</h5>
+                                        <h5 class="mb-0 text-brand">Advance Ecommerce Hosting</h5>
                                         <p class="mb-0">Ecom Silver </p>
                                     </div>
                                     <div class="card-header border-0 pricing-header">
@@ -238,23 +244,23 @@ onMounted(() => {
                                     <div class="card-body">
                                         <ul class="list-unstyled mb-4 pricing-feature-list">
 
-                                                    <li> 60 GB Gen4 NVMe Storage</li>
-                                                    <li> Unlimited Bandwidth</li>
-                                                    <li> Unlimited Website</li>
-                                                    <li> 4 Core CPU 5.7 GHz 3D Pro</li>
-                                                    <li> 8 GB DDR5 Ram 3800 MHz</li>
-                                                    <li> 130 MBs I/O Speed </li>    
-                                                    <li> 2048 IOPS</li>                     
-                                                    <li> 180 Entry Process</li>  
-                                                    <li> 350 Number of Process</li>     
-                                                    <li> Anti-DDoS Protection</li>  
-                                                    <li> Free SSL Certificate</li>
-                                                    <li> 2x7 Days Backup</li>
-                                                    <li> LiteSpeed with LSCache</li>
-                                                    <li> cPanel Control Panel</li>
-                                                    <li> 24/7 Regular Support</li> 
-                                                    <li> Advanced Features</li> 
-                                        </ul> 
+                                            <li> 60 GB Gen4 NVMe Storage</li>
+                                            <li> Unlimited Bandwidth</li>
+                                            <li> Unlimited Website</li>
+                                            <li> 4 Core CPU 5.7 GHz 3D Pro</li>
+                                            <li> 8 GB DDR5 Ram 4800 MHg</li>
+                                            <li> 130 MBs I/O Speed </li>
+                                            <li> 2048 IOPS</li>
+                                            <li> 180 Entry Process</li>
+                                            <li> 350 Number of Process</li>
+                                            <li> Anti-DDoS Protection</li>
+                                            <li> Free SSL Certificate</li>
+                                            <li> 2x7 Days Backup</li>
+                                            <li> LiteSpeed with LSCache</li>
+                                            <li> cPanel Control Panel</li>
+                                            <li> 24/7 Regular Support</li>
+                                            <li> Advanced Features</li>
+                                        </ul>
                                         <a href="https://account.hostservice.com.bd/index.php?rp=/store/ecommerce-hosting/ecom-silver"
                                             class="btn outline-btn mb-3" target="_blank">Purchase now</a>
                                     </div>
@@ -280,27 +286,27 @@ onMounted(() => {
                                     <div class="card-body">
                                         <ul class="list-unstyled mb-4 pricing-feature-list">
 
-                                                        <li> 80 GB Gen4 NVMe Storage</li> 
-                                                        <li> Unlimited Bandwidth</li>
-                                                        <li> Unlimited Website</li>
-                                                        <li> 5 Core CPU 5.7 GHz 3D Pro</li>
-                                                        <li> 10 GB DDR5 Ram 3800 MHz</li> 
-                                                        <li> 150 MBs I/O Speed </li>
-                                                        <li> 2048 IOPS </li>
-                                                        <li> 200 Entry Process</li>
-                                                        <li> 390 Number of Process</li> 
-                                                        <li> Anti-DDoS Protection</li>
-                                                        <li> Free SSL Certificate</li>
-                                                        <li> 2x7 Days Backup</li>
-                                                        <li> LiteSpeed with LSCache</li>
-                                                        <li> cPanel Control Panel</li>
-                                                        <li> 24/7 Regular Support</li> 
-                                                        <li> Advanced Features</li>
+                                            <li> 80 GB Gen4 NVMe Storage</li>
+                                            <li> Unlimited Bandwidth</li>
+                                            <li> Unlimited Website</li>
+                                            <li> 5 Core CPU 5.7 GHz 3D Pro</li>
+                                            <li> 10 GB DDR5 Ram 4800 MHg</li>
+                                            <li> 150 MBs I/O Speed </li>
+                                            <li> 2048 IOPS </li>
+                                            <li> 200 Entry Process</li>
+                                            <li> 390 Number of Process</li>
+                                            <li> Anti-DDoS Protection</li>
+                                            <li> Free SSL Certificate</li>
+                                            <li> 2x7 Days Backup</li>
+                                            <li> LiteSpeed with LSCache</li>
+                                            <li> cPanel Control Panel</li>
+                                            <li> 24/7 Regular Support</li>
+                                            <li> Advanced Features</li>
                                         </ul>
                                         <a href="https://account.hostservice.com.bd/index.php?rp=/store/ecommerce-hosting/ecom-gold"
                                             class="btn outline-btn mb-3" target="_blank">Purchase now</a>
                                     </div>
-                                </div>   
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -327,7 +333,7 @@ onMounted(() => {
                             <table
                                 class="table w-100 table-hover table-bordered table-striped comparision-table text-center">
                                 <thead class="comparision-table-head">
-                                   
+
                                     <tr>
                                         <td style="width: 20%; text-align: center">
                                             <h5>Resource Type</h5>
@@ -345,7 +351,7 @@ onMounted(() => {
                                             <h5>Ecom Gold</h5>
                                         </td>
                                     </tr>
-                                   
+
                                 </thead>
                                 <tbody class="comparision-table-body">
                                     <tr style="width: 20%; text-align: center">
@@ -370,16 +376,16 @@ onMounted(() => {
                                             <h6 class="text-left">DDR5 Ram</h6>
                                         </td>
                                         <td class="primary-bg">
-                                            <h6 class="text-white">4 GB 3800 MHz</h6>
+                                            <h6 class="text-white">4 GB 4800 MHg</h6>
                                         </td>
                                         <td>
-                                            <h6>6 GB 3800 MHz</h6>
+                                            <h6>6 GB 4800 MHg</h6>
                                         </td>
                                         <td>
-                                            <h6>8 GB 3800 MHz</h6>
+                                            <h6>8 GB 4800 MHg</h6>
                                         </td>
                                         <td>
-                                            <h6>10 GB 3800 MHz</h6>
+                                            <h6>10 GB 4800 MHg</h6>
                                         </td>
                                     </tr>
 
@@ -511,26 +517,27 @@ onMounted(() => {
         </div>
     </section>
 
-      <section class="compare-provider-table gray-light-bg-n ro-bg">
+    <section class="compare-provider-table gray-light-bg-n ro-bg">
         <div class="container">
-          <div class="row justify-content-center">
-            <div class="col-md-12 col-lg-12">
-              <div class="section-heading  text-center mb-5">
-                <h3 class="media-la text-brand">Advance Ecommerce Host Service </h3>
-                <p class="h5 web-s">
-                  Real-Time Server Monitoring System
-                </p>
-              </div>
+            <div class="row justify-content-center">
+                <div class="col-md-12 col-lg-12">
+                    <div class="section-heading  text-center mb-5">
+                        <h3 class="media-la text-brand">Advance Ecommerce Host Service </h3>
+                        <p class="h5 web-s">
+                            Real-Time Server Monitoring System
+                        </p>
+                    </div>
+                </div>
+                <div class="r-img">
+                    <img src="@/assets/img/ser_img.png" />
+                </div>
             </div>
-            <div class="r-img">
-              <img src="@/assets/img/ser_img.png" />
+            <div class="ro-mr mid-rk">
+                <a href="https://uptime.hostservice.com.bd/" class="btn outline-btn mb-3 bt-r glow-on-hover"
+                    target="_blank">Live Monitoring</a>
             </div>
-          </div>
-          <div class="ro-mr mid-rk">
-            <a href="https://uptime.hostservice.com.bd/" class="btn outline-btn mb-3 bt-r glow-on-hover" target="_blank">Live Monitoring</a>
-          </div>
         </div>
-      </section>
+    </section>
 
     <!--technical specifications start-->
     <section class="technical-specification ptb-100 ">
@@ -549,7 +556,8 @@ onMounted(() => {
                         <span class="ti-harddrives icon-md color-primary d-block mb-4"></span>
                         <h5>Web Hosting Features</h5>
                         <ul class="list-unstyled tech-feature-list">
-                            <li class="py-1"><span class="ti-control-forward mr-2 color-primary"></span>Flexible, Easy to
+                            <li class="py-1"><span class="ti-control-forward mr-2 color-primary"></span>Flexible, Easy
+                                to
                                 Use Control Panel</li>
                             <li class="py-1"><span
                                     class="ti-control-forward mr-2 color-primary"></span><strong>Unmetered</strong>
@@ -557,10 +565,12 @@ onMounted(() => {
                             <li class="py-1"><span
                                     class="ti-control-forward mr-2 color-primary"></span><strong>Unmetered</strong> Sub
                                 Domains, FTP Accounts</li>
-                            <li class="py-1"><span class="ti-control-forward mr-2 color-primary"></span><strong>99%</strong>
+                            <li class="py-1"><span
+                                    class="ti-control-forward mr-2 color-primary"></span><strong>99%</strong>
                                 Uptime Guarantee</li>
                             <li class="py-1"><span
-                                    class="ti-control-forward mr-2 color-primary"></span><strong>45-Day</strong> Money-Back
+                                    class="ti-control-forward mr-2 color-primary"></span><strong>45-Day</strong>
+                                Money-Back
                                 Guarantee</li>
                         </ul>
                     </div>
@@ -571,14 +581,17 @@ onMounted(() => {
                         <h5>cPanel Control Panel</h5>
                         <ul class="list-unstyled tech-feature-list">
                             <li class="py-1"><span
-                                    class="ti-control-forward mr-2 color-primary"></span><strong>Latest</strong> cPanel Web
+                                    class="ti-control-forward mr-2 color-primary"></span><strong>Latest</strong> cPanel
+                                Web
                                 Hosting Control Panel</li>
-                            <li class="py-1"><span class="ti-control-forward mr-2 color-primary"></span>Webalizer, Raw Log
+                            <li class="py-1"><span class="ti-control-forward mr-2 color-primary"></span>Webalizer, Raw
+                                Log
                                 Manager with Error Logs</li>
                             <li class="py-1"><span class="ti-control-forward mr-2 color-primary"></span>Instant Shopping
                                 Carts, Blogs, Portals</li>
                             <li class="py-1"><span
-                                    class="ti-control-forward mr-2 color-primary"></span><strong>Password</strong> Protected
+                                    class="ti-control-forward mr-2 color-primary"></span><strong>Password</strong>
+                                Protected
                                 Directories Error Pages</li>
                             <li class="py-1"><span class="ti-control-forward mr-2 color-primary"></span>Web Based File
                                 Manager, Hotlink Protection</li>
@@ -592,16 +605,20 @@ onMounted(() => {
                         <h5>Programming & Databases</h5>
                         <ul class="list-unstyled tech-feature-list">
                             <li class="py-1"><span
-                                    class="ti-control-forward mr-2 color-primary"></span><strong>MySQL</strong> Databases
+                                    class="ti-control-forward mr-2 color-primary"></span><strong>MySQL</strong>
+                                Databases
                                 with phpMyAdmin Access</li>
                             <li class="py-1"><span class="ti-control-forward mr-2 color-primary"></span>Fast CGI, PHP 7,
                                 Ruby on Rails, Python</li>
                             <li class="py-1"><span
-                                    class="ti-control-forward mr-2 color-primary"></span><strong>ImageMagick</strong> Curl,
+                                    class="ti-control-forward mr-2 color-primary"></span><strong>ImageMagick</strong>
+                                Curl,
                                 CPAN, GD Library</li>
-                            <li class="py-1"><span class="ti-control-forward mr-2 color-primary"></span><strong>SSH</strong>
+                            <li class="py-1"><span
+                                    class="ti-control-forward mr-2 color-primary"></span><strong>SSH</strong>
                                 Access and Cron Job Scheduling</li>
-                            <li class="py-1"><span class="ti-control-forward mr-2 color-primary"></span>SSL Certification
+                            <li class="py-1"><span class="ti-control-forward mr-2 color-primary"></span>SSL
+                                Certification
                             </li>
                         </ul>
                     </div>
@@ -616,12 +633,15 @@ onMounted(() => {
                                 Email Accounts with SMTP</li>
                             <li class="py-1"><span class="ti-control-forward mr-2 color-primary"></span>WebMail Access:
                                 Horde, RoundCube</li>
-                            <li class="py-1"><span class="ti-control-forward mr-2 color-primary"></span>Receive your email
+                            <li class="py-1"><span class="ti-control-forward mr-2 color-primary"></span>Receive your
+                                email
                                 to your phone via IMAP</li>
-                            <li class="py-1"><span class="ti-control-forward mr-2 color-primary"></span>Prevent spam with
+                            <li class="py-1"><span class="ti-control-forward mr-2 color-primary"></span>Prevent spam
+                                with
                                 SpamAssassin</li>
                             <li class="py-1"><span
-                                    class="ti-control-forward mr-2 color-primary"></span><strong>Unlimited</strong> Email
+                                    class="ti-control-forward mr-2 color-primary"></span><strong>Unlimited</strong>
+                                Email
                                 Aliases, Autoresponders</li>
                         </ul>
                     </div>
@@ -632,13 +652,16 @@ onMounted(() => {
                         <h5>Award-Winning Support</h5>
                         <ul class="list-unstyled tech-feature-list">
                             <li class="py-1"><span
-                                    class="ti-control-forward mr-2 color-primary"></span><strong>24/7/365</strong> Premium
+                                    class="ti-control-forward mr-2 color-primary"></span><strong>24/7/365</strong>
+                                Premium
                                 Support with Live Chat</li>
                             <li class="py-1"><span
-                                    class="ti-control-forward mr-2 color-primary"></span><strong>Automatic</strong> Weekly
+                                    class="ti-control-forward mr-2 color-primary"></span><strong>Automatic</strong>
+                                Weekly
                                 Off-Site Data Backups</li>
                             <li class="py-1"><span
-                                    class="ti-control-forward mr-2 color-primary"></span><strong>24/7/365</strong> Hosting
+                                    class="ti-control-forward mr-2 color-primary"></span><strong>24/7/365</strong>
+                                Hosting
                                 Server Monitoring</li>
                             <li class="py-1"><span class="ti-control-forward mr-2 color-primary"></span>Online Support
                                 Portal</li>
@@ -675,49 +698,49 @@ onMounted(() => {
     </section>
 
     <section class="promo-feature ptb-100 bg-mz gray-light-bg">
-                <div class="container">
-                    <div class="row justify-content-center">
-                        <div class="col-md-9 col-lg-8">
-                            <div class="section-heading text-center mb-5">
-                                <h3 class="media-la text-brand bt-h">Why Choose This Package</h3>
-                                <p class="h5 web-s">
-                                   Enthusiastically facilitate accessibility
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-6 col-lg-3">
-                            <div class="feature-feature-list p-3 text-center">
-                                <span class="ti-thumb-up icon-md d-block color-primary mb-3"></span>
-                                <h5 class="mb-2">100% Network Uptime</h5>
-                                <p>Holisticly whiteboard seamless ideas rather than cross</p>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-3">
-                            <div class="feature-feature-list p-3 text-center">
-                                <span class="ti-headphone-alt icon-md d-block color-primary mb-3"></span>
-                                <h5 class="mb-2">24x7 Tech Support</h5>
-                                <p>Collaboratively architect sustainable e-services</p>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-3">
-                            <div class="feature-feature-list p-3 text-center">
-                                <span class="ti-lock icon-md d-block color-primary mb-3"></span>
-                                <h5 class="mb-2">DDoS Protection</h5>
-                                <p>Professionally envisioneer adaptive materials schemas</p>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-3">
-                            <div class="feature-feature-list p-3 text-center">
-                                <span class="ti-user icon-md d-block color-primary mb-3"></span>
-                                <h5 class="mb-2">Trusted by Millions</h5>
-                                <p>Seamlessly pontificate business best practices systems</p>
-                            </div>
-                        </div>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-9 col-lg-8">
+                    <div class="section-heading text-center mb-5">
+                        <h3 class="media-la text-brand bt-h">Why Choose This Package</h3>
+                        <p class="h5 web-s">
+                            Enthusiastically facilitate accessibility
+                        </p>
                     </div>
                 </div>
-            </section>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-lg-3">
+                    <div class="feature-feature-list p-3 text-center">
+                        <span class="ti-thumb-up icon-md d-block color-primary mb-3"></span>
+                        <h5 class="mb-2">100% Network Uptime</h5>
+                        <p>Holisticly whiteboard seamless ideas rather than cross</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="feature-feature-list p-3 text-center">
+                        <span class="ti-headphone-alt icon-md d-block color-primary mb-3"></span>
+                        <h5 class="mb-2">24x7 Tech Support</h5>
+                        <p>Collaboratively architect sustainable e-services</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="feature-feature-list p-3 text-center">
+                        <span class="ti-lock icon-md d-block color-primary mb-3"></span>
+                        <h5 class="mb-2">DDoS Protection</h5>
+                        <p>Professionally envisioneer adaptive materials schemas</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="feature-feature-list p-3 text-center">
+                        <span class="ti-user icon-md d-block color-primary mb-3"></span>
+                        <h5 class="mb-2">Trusted by Millions</h5>
+                        <p>Seamlessly pontificate business best practices systems</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!--call to action new style start-->
     <section class="call-to-action ptb-100 backgr gradient-overly-bottom">
@@ -738,7 +761,7 @@ onMounted(() => {
         </div>
     </section>
     <!--call to action new style end-->
-     
+
     <!--start and transfer section start-->
     <section class="start-transfer ptb-100 gray-light-bg">
         <div class="container">
@@ -755,7 +778,8 @@ onMounted(() => {
                     <div class="left-box white-bg">
                         <div class="d-flex align-items-center mb-4">
                             <span class="ti-vector icon-sm text-white primary-bg p-2 rounded mr-3"></span>
-                            <h5 class="mb-0">Start a New Website <span class="badge color-1 color-1-bg">Easy to start</span>
+                            <h5 class="mb-0">Start a New Website <span class="badge color-1 color-1-bg">Easy to
+                                    start</span>
                             </h5>
                         </div>
                         <ul>
@@ -955,7 +979,8 @@ onMounted(() => {
                                 <div class="ratting-content">
                                     <h5>People and services that care</h5>
                                     <p>Objectively envisioneer magnetic manufactured products and
-                                        dynamic models maximize 2.0 relationships whereas process-centric methodologies.</p>
+                                        dynamic models maximize 2.0 relationships whereas process-centric methodologies.
+                                    </p>
                                 </div>
                                 <div class="ratting-author mt-3">
                                     <h6>Sir Rainbo </h6>

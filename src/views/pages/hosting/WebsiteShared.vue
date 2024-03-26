@@ -88,7 +88,7 @@ onMounted(() => {
                 </h6>
                 <div>
                   <h6 class="h5 med-w ">
-                    1year plan <span class="text-rd"> 15% </span> discount -<span class="text-rd"> hostgift1yr</span>
+                    1year plan <span class="text-rd"> 10% </span> discount -<span class="text-rd"> hostgift1yr</span>
                   </h6>
                 </div>
                     </div>

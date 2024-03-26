@@ -89,7 +89,7 @@ onMounted(() => {
 
             <div>
               <h6 class="h5 med-w ">
-                1year purchase <span class="text-rd"> 15% </span> discount -<span class="text-rd"> hostgift1yr</span>
+                1year purchase <span class="text-rd"> 10% </span> discount -<span class="text-rd"> hostgift1yr</span>
               </h6>
             </div>
           </div>
@@ -160,7 +160,7 @@ onMounted(() => {
                       <li> Unlimited Bandwidth</li>
                       <li> Unlimited Website</li>
                       <li> 7 Core CPU 5.7 GHz 3D Pro</li>
-                      <li> 16 GB DDR5 Ram 3800 MHz </li>
+                      <li> 16 GB DDR5 Ram 4800 MHg </li>
                       <li> 200 MBs I/O Speed</li>
                       <li> 4096 IOPS </li>
                       <li> 250 Entry Process</li>
@@ -173,7 +173,7 @@ onMounted(() => {
                       <li> 24/7 Regular Support</li>
                       <li> Advanced Features</li>
                     </ul>
-                    <a href="https://account.hostservice.com.bd/cart.php?a=confproduct&i=1"
+                    <a href="https://account.hostservice.com.bd/index.php?rp=/store/rocket-cloud/rocket-starter"
                       class="btn outline-btn mb-3" target="_blank">Purchase now</a>
                   </div>
                 </div>
@@ -201,7 +201,7 @@ onMounted(() => {
                       <li> Unlimited Bandwidth</li>
                       <li> Unlimited Website</li>
                       <li> 8 Core CPU 5.7 GHz 3D Pro</li>
-                      <li> 18 GB DDR5 Ram 3800 MHz </li>
+                      <li> 18 GB DDR5 Ram 4800 MHg </li>
                       <li> 250 MBs I/O Speed</li>
                       <li> 4096 IOPS</li>
                       <li> 300 Entry Process</li>
@@ -214,8 +214,8 @@ onMounted(() => {
                       <li> 24/7 Regular Support</li>
                       <li> Advanced Features</li>
                     </ul>
-                    <a href="https://account.hostservice.com.bd/cart.php?a=confproduct&i=2" class="btn outline-btn mb-3"
-                      target="_blank">Purchase now</a>
+                    <a href="https://account.hostservice.com.bd/index.php?rp=/store/rocket-cloud/rocket-standard"
+                      class="btn outline-btn mb-3" target="_blank">Purchase now</a>
                   </div>
                 </div>
               </div>
@@ -242,7 +242,7 @@ onMounted(() => {
                       <li> Unlimited Bandwidth</li>
                       <li> Unlimited Website</li>
                       <li> 10 Core CPU 5.7 GHz 3D Pro</li>
-                      <li> 20 GB DDR5 Ram 3800 MHz </li>
+                      <li> 20 GB DDR5 Ram 4800 MHg </li>
                       <li> 300 MBs I/O Speed</li>
                       <li> 6144 IOPS </li>
                       <li> 350 Entry Process</li>
@@ -255,8 +255,8 @@ onMounted(() => {
                       <li> 24/7 Regular Support</li>
                       <li> Advanced Features</li>
                     </ul>
-                    <a href="https://account.hostservice.com.bd/cart.php?a=confproduct&i=3" class="btn outline-btn mb-3"
-                      target="_blank">Purchase now</a>
+                    <a href="https://account.hostservice.com.bd/index.php?rp=/store/rocket-cloud/rocket-silver"
+                      class="btn outline-btn mb-3" target="_blank">Purchase now</a>
                   </div>
                 </div>
               </div>
@@ -283,7 +283,7 @@ onMounted(() => {
                       <li> Unlimited Bandwidth</li>
                       <li> Unlimited Website</li>
                       <li> 12 Core CPU 5.7 GHz 3D Pro</li>
-                      <li> 22 GB DDR5 Ram 3800 MHz </li>
+                      <li> 22 GB DDR5 Ram 4800 MHg </li>
                       <li> 350 MBs I/O Speed</li>
                       <li> 6144 IOPS </li>
                       <li> 400 Entry Process</li>
@@ -296,7 +296,7 @@ onMounted(() => {
                       <li> 24/7 Regular Support</li>
                       <li> Advanced Features</li>
                     </ul>
-                    <a href="https://account.hostservice.com.bd/cart.php?a=confproduct&i=4"
+                    <a href="https://account.hostservice.com.bd/index.php?rp=/store/rocket-cloud/rocket-gold"
                       class="btn outline-btn mb-3" target="_blank">Purchase now</a>
                   </div>
                 </div>
@@ -323,7 +323,8 @@ onMounted(() => {
         <div class="row table">
           <div class="col-md-12 col-lg-12">
             <div class="table-responsive">
-              <table class="table w-100 table-res table-hover table-bordered table-striped comparision-table text-center">
+              <table
+                class="table w-100 table-res table-hover table-bordered table-striped comparision-table text-center">
                 <thead class="comparision-table-head">
 
                   <tr>
@@ -368,16 +369,16 @@ onMounted(() => {
                       <h6 class="text-left">DDR5 Ram</h6>
                     </td>
                     <td class="primary-bg">
-                      <h6 class="text-white">16 GB, 3800 MHz</h6>
+                      <h6 class="text-white">16 GB, 4800 MHg</h6>
                     </td>
                     <td>
-                      <h6>18 GB, 3800 MHz</h6>
+                      <h6>18 GB, 4800 MHg</h6>
                     </td>
                     <td>
-                      <h6>20 GB, 3800 MHz</h6>
+                      <h6>20 GB, 4800 MHg</h6>
                     </td>
                     <td>
-                      <h6>22 GB, 3800 MHz </h6>
+                      <h6>22 GB, 4800 MHg </h6>
                     </td>
                   </tr>
 
@@ -527,7 +528,8 @@ onMounted(() => {
         </div>
       </div>
       <div class="ro-mr mid-rk">
-        <a href="https://uptime.hostservice.com.bd/" class="btn outline-btn mb-3 bt-r glow-on-hover" target="_blank">Live Monitoring</a>
+        <a href="https://uptime.hostservice.com.bd/" class="btn outline-btn mb-3 bt-r glow-on-hover"
+          target="_blank">Live Monitoring</a>
       </div>
     </div>
   </section>
@@ -728,7 +730,8 @@ onMounted(() => {
                   </a>
                   <div id="collapseTwo" class="collapse" data-parent="#accordion-one">
                     <div class="card-body">
-                      <p>Rocket cloud server utilizes advanced optimization techniques and server configurations to ensure
+                      <p>Rocket cloud server utilizes advanced optimization techniques and server configurations to
+                        ensure
                         blazing-fast performance and seamless scalability for online projects of all sizes.
                       </p>
                     </div>
@@ -750,7 +753,8 @@ onMounted(() => {
                 </div>
                 <div class="card mb-0">
                   <a class="card-header collapsed" data-toggle="collapse" href="#collapseFour">
-                    <h6 class="mb-0 d-inline-block">Does rocket cloud server offer security features to protect my website
+                    <h6 class="mb-0 d-inline-block">Does rocket cloud server offer security features to protect my
+                      website
                       or application?
                     </h6>
                   </a>

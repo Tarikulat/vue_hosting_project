@@ -3,8 +3,8 @@
 </script>
 
 <template>
-<!--footer section start-->
-<footer class="footer-section">
+    <!--footer section start-->
+    <footer class="footer-section">
         <!--footer top start-->
         <div class="footer-top gradient-bg">
             <div class="container">
@@ -13,11 +13,13 @@
                         <div class="row footer-top-wrap">
                             <div class="col-">
                                 <div class="footer-nav-wrap text-white ">
-                                    <img src="@/assets/img/foterlogo.png" width="150px" alt="logo" class=" lo-p img-fluid" />
-                                    
+                                    <img src="@/assets/img/foterlogo.png" width="150px" alt="logo"
+                                        class=" lo-p img-fluid" />
+
                                     <ul class="list-inline security-icon-list">
-                                       <p> Supercharge your online success with our superfast hosting service, ensuring rapid website 
-                                        load times for an exceptional user experience.e – Host Service.</p> 
+                                        <p> Supercharge your online success with our superfast hosting service, ensuring
+                                            rapid website
+                                            load times for an exceptional user experience.e – Host Service.</p>
                                     </ul>
                                 </div>
                             </div>
@@ -31,19 +33,19 @@
                                     <h4 class="text-white">PRODUCTS</h4>
                                     <ul class="nav flex-column">
                                         <li class="nav-item">
-                                            <a class="nav-link" href="landing-page">Landing Page Hosting</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="share-hosting">Website Shared Hosting</a>
+                                            <a class="nav-link" href="shared-host">Shared Hosting</a>
                                         </li>
                                         <li class="nav-item">
                                             <a class="nav-link" href="ecommerce-hosting">E-commerce Hosting</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="dadicated-server">Dedicated Server</a>
+                                            <a class="nav-link" href="rocket-server">Rocket Cloud Server</a>
                                         </li>
                                         <li class="nav-item">
                                             <a class="nav-link" href="vps-server">VPS Server</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="dadicated-server">Dedicated Server</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -127,7 +129,8 @@
             <div class="container">
                 <div class="row align-items-center justify-content-between">
                     <div class="col-md-5 col-lg-5  col-f pd-fl">
-                        <p class="copyright-text pb-0  de-f med-f m-flb">© 2024 Host Service | Super Fast Hosting Service.
+                        <p class="copyright-text pb-0  de-f med-f m-flb">© 2024 Host Service | Super Fast Hosting
+                            Service.
                         </p>
                     </div>
                     <div class="col-md-7 col-lg-6">

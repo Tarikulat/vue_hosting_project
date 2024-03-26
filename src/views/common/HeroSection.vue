@@ -5,19 +5,20 @@ import { Service, Testimonial } from '@/views/common'
 <template>
     <section
         class="hero-equal-height hig-h section-xl section-header background-video-overly text-white flex-column d-flex justify-content-center">
-        
+
         <!-- <video class="fit-cover w-100 h-100 position-absolute z--1" autoplay muted loop id="myVideo">
             <source src="@/assets/img/video-sr.mp4" type="video/mp4">
         </video> -->
-        <img class="fit-cover w-100 h-100 position-absolute z--1" src="@/assets/img/home2.webp" autoplay muted loop id="myVideo">
-                
-            
+        <img class="fit-cover w-100 h-100 position-absolute z--1" src="@/assets/img/home2.webp" autoplay muted loop
+            id="myVideo">
+
+
 
         <div class="container">
             <div class="row align-items-center cho-p justify-content-center">
                 <div class="col-lg-7 col-12 mr-lft p-sh mr-bh">
                     <div class="hero-content-left text-center">
-                        <h1 class="text-brand testing fht sm-fz">Host Your Online Business with Host Service</h1>
+                        <h1 class="text-brand testing fht sm-fz">Host Your Business <br> with Host Service</h1>
                         <p class="lead tx-s ft-s p-srbb f-sbth">Host Service's hosting provides the performance to power
                             the website you wish for, and our builder makes it simple to develop.</p>
                         <form class="domain-search-form mt-3  mx-auto">
@@ -26,7 +27,8 @@ import { Service, Testimonial } from '@/views/common'
                                     <input type="text" name="domain" id="domain" class="form-control"
                                         placeholder="example.com" />
                                     <div class="input-group-append">
-                                        <button class="btn search-btn btn-hover d-flex align-items-center" type="submit">
+                                        <button class="btn search-btn btn-hover d-flex align-items-center"
+                                            type="submit">
                                             <span class="ti-search mr-2"></span> Search
                                         </button>
                                     </div>
@@ -38,18 +40,19 @@ import { Service, Testimonial } from '@/views/common'
                                 <li class="list-inline-item"><a
                                         href="https://account.hostservice.com.bd/cart.php?a=add&domain=register"><img
                                             src="@/assets/img/lg1.png" alt="com" width="75" class="img-fluid" /> <span>৳
-                                            1299</span></a></li>
+                                            1390</span></a></li>
                                 <li class="list-inline-item"><a
                                         href="https://account.hostservice.com.bd/cart.php?a=add&domain=register"><img
                                             src="@/assets/img/lg2.png" alt="com" width="75" class="img-fluid" /> <span>৳
-                                            1550</span></a></li>
+                                            1600</span></a></li>
                                 <li class="list-inline-item"><a
                                         href="https://account.hostservice.com.bd/cart.php?a=add&domain=register"><img
                                             src="@/assets/img/lg3.png" alt="com" width="75" class="img-fluid" /> <span>৳
                                             1499</span></a></li>
                                 <li class="list-inline-item"><a
                                         href="https://account.hostservice.com.bd/cart.php?a=add&domain=register"><img
-                                            src="@/assets/img/info-s.png" alt="com" width="75" class="img-fluid" /> <span>৳
+                                            src="@/assets/img/info-s.png" alt="com" width="75" class="img-fluid" />
+                                        <span>৳
                                             799</span></a></li>
                             </ul>
                         </div>
@@ -83,9 +86,9 @@ import { Service, Testimonial } from '@/views/common'
                                 <div class="single-domain">
                                     <img src="@/assets/img/s5.png" alt="domain" class="img-fluid" />
                                     <div class="domain-price">
-                                        <h6 class="sell-price">৳ 1299 <span
+                                        <h6 class="sell-price">৳ 1390 <span
                                                 class="badge badge-danger text-uppercase">Sell</span></h6>
-                                        <span class="old-price">৳1350</span>
+                                        <span class="old-price">৳1450</span>
                                     </div>
                                 </div>
                             </a>
@@ -95,9 +98,9 @@ import { Service, Testimonial } from '@/views/common'
                                 <div class="single-domain">
                                     <img src="@/assets/img/s3.png" alt="domain" class="img-fluid" />
                                     <div class="domain-price">
-                                        <h6 class="sell-price">৳ 1550<span
+                                        <h6 class="sell-price">৳ 1600 <span
                                                 class="badge badge-danger text-uppercase">Sell</span></h6>
-                                        <span class="old-price">৳1650</span>
+                                        <span class="old-price">৳1750</span>
                                     </div>
                                 </div>
                             </a>
@@ -107,9 +110,9 @@ import { Service, Testimonial } from '@/views/common'
                                 <div class="single-domain">
                                     <img src="@/assets/img/xyz.png" alt="domain" class="img-fluid" />
                                     <div class="domain-price">
-                                        <h6 class="sell-price">৳ 350 <span
+                                        <h6 class="sell-price">৳ 450 <span
                                                 class="badge badge-danger text-uppercase">Sell</span></h6>
-                                        <span class="old-price">৳450</span>
+                                        <span class="old-price">৳550</span>
                                     </div>
                                 </div>
                             </a>
