@@ -5,6 +5,8 @@ import { Service, Testimonial } from '@/views/common'
 <template>
     <section
         class="hero-equal-height hig-h section-xl section-header background-video-overly text-white flex-column d-flex justify-content-center">
+        
+        <!-- video section start -->
 
         <!-- <video class="fit-cover w-100 h-100 position-absolute z--1" autoplay muted loop id="myVideo">
             <source src="@/assets/img/video-sr.mp4" type="video/mp4">
